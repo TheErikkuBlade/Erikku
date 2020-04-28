@@ -26,11 +26,10 @@
 			"subclassFeatures": [
 				[
 					{
-						"type": "entries",
 						"name": "Way of the Lightning Fist",
 						"entries": [
-							"You follow a monastic tradition that teaches you to harness the power of the storm. When you focus your ki, you can align yourself with the inside you and bend them to your will, using them as an extension of your body.,
-							"Many monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as elder tempests."
+							"You follow a monastic tradition that teaches you to harness the power of the storm. When you focus your ki, you can align yourself with the inside you and bend them to your will, using them as an extension of your body.",
+							"Many monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as elder tempests.",
 							{
 								"type": "entries",
 								"name": "Lightning Body",
@@ -62,6 +61,7 @@
 									"See chapter 10 of the Player's Handbook for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don't need to provide material components for it. When you cast a spell with a discipline, it is cast at the spell's lowest level unless otherwise specified. You use Wisdom for your Spellcasting Ability.",
 									"Once you reach 11th level in this class, you can spend additional ki points to increase the level of a discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as lightning bolt does. The spell's level increases by 1 for each additional ki point you spend. For example, if you are a 11th-level monk and use Chariot of the Elder Tempest to cast lightning bolt, you can spend 4 ki points to cast it as a 4th-level spell (the discipline's base cost of 3 ki point plus 1).",
 									"The maximum number of ki points (its base ki point cost plus any additional points) that you can spend on the spell is 6, unless a discipline specifies otherwise."
+							]
 							},		
 							{
 								"type": "entries",
@@ -138,7 +138,7 @@
 						"entries": [
 							{
 								"type": "entries",
-								"name": "Aura of Lightning"
+								"name": "Aura of Lightning",
 								"entries": [
 									"At 11th Level you can as a bonus action spend 3 ki points to channel your lightning into a protective aura. You gain an amount of temporary hit points equal to twice your Wisdom Modifier at the start of each of your turns for 1 minute, you also gain these temporary hit points when you use this ability. While you have this temporary hit points, you gain the following benefits :",
 									"Creatures that hit you with melee attacks while within 5 ft of you takes lightning damage equal to twice your Wisdom Modifier.",
@@ -146,8 +146,9 @@
 									"Whenever you deal lightning damage, whether by a spell, weapon attack, or magical effect: you add an amount to the roll equal to your Wisdom Modifier.",
 									"Once your Aura of Lightning ends you cannot do so again until you have completed a long rest. In addition, you gain one level of exhaustion which can be restored after a short rest.",
 									"Your aura of lightning can be ended early if a Dispel Magic spell of 5th level or higher, or by similar magical effects is used on you targeting the Aura of Lightning effect. You can also end it early as a bonus action, doing so does not give you a level of exhaustion as long as half the duration or more did not pass."
-					},				
-					{
+					    ]
+							},
+							{
 						"entries": [
 							{
 								"type": "entries",
@@ -197,15 +198,7 @@
 												"entries": [
 													"You rub your hands together to generate a large amount of electric energy that you can use in a pinch to resurrect a dead comrade. You can spend 6 ki points to cast {@spell revivify}, however in order for the spell to succeed you must make a dc 16 wisdom ability check. On a failed check, the spell fails and you lose the ki points used to cast the spell. The dc decreases by 2 for each successful death save the target had prior to dying."
 												]
-											}
-										]
-									}
-								]
-							}
-						]
-					}
-				],
-				[
+											},
 					{
 						"entries": [
 							{
@@ -215,13 +208,15 @@
 									"Starting at 17th level your lightning has become so powerful, it has become effective against those who resist it. You ignore damage resistances and immunities to lightning. Creatures that were immune to lightning damage instead take half damage.",
 									"When you deal lightning damage to a creature with the Lightning Absorption feature, you can spend 4 ki points to ignore the absorption effect for that damage. ",
 									"You can also spend additional ki points on your weapon attacks to add 1 extra martial arts die of lightning damage to your attacks per point spent to a maximum of 5."
-							},
+										]
+									}
+								]
+							}
 						]
 					}
-				]
-			],
-			"source": "WotLF",
-			"shortName": "Lightning Fist"
-		}
-	]
+				],
+			  "source": "WotLF",
+			  "shortName": "Lightning Fist"
+		   }
+  	]
 }
