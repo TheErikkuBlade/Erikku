@@ -1,0 +1,310 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GodsoftheDawnofWar",
+				"abbreviation": "GDW",
+				"full": "Gods of the Dawn of War",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1588838527,
+		"dateLastModified": 1588838527
+	},
+	"monster": [
+		{
+			"name": "Zehir",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "GodsoftheDawnofWar",
+			"size": "G",
+			"type": {
+				"type": "celestial",
+				"tags": [
+					"titan"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 25,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "50d20 + 500",
+				"average": 1025
+			},
+			"speed": {
+				"walk": 60,
+				"fly": 120,
+				"climb": 60,
+				"swim": 60
+			},
+			"str": 30,
+			"dex": 24,
+			"con": 30,
+			"int": 26,
+			"wis": 26,
+			"cha": 28,
+			"save": {
+				"str": "+19",
+				"dex": "+16",
+				"wis": "+17",
+				"cha": "+18",
+				"con": "+19",
+				"int": "+17"
+			},
+			"skill": {
+				"arcana": "+17",
+				"perception": "+26",
+				"religion": "+17"
+			},
+			"senses": [
+				"darkvision 240 ft.",
+				"truesight 120 ft."
+			],
+			"passive": 36,
+			"resist": [
+				"force",
+				"necrotic",
+				"psychic",
+				"radiant",
+				"thunder"
+			],
+			"immune": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Infernal",
+				"Celestial"
+			],
+			"cr": "30",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Zehir can innately cast the following spell, her spellcasting ability is Charisma (spell save {@dc 26}):"
+					],
+					"will": [
+						"{@spell bestow curse|PHB}",
+						"{@spell blight|PHB}",
+						"{@spell conjure animals|PHB}",
+						"{@spell conjure celestial|PHB}",
+						"{@spell contagion|PHB}",
+						"{@spell control weather|PHB}",
+						"{@spell dark star|EGW}",
+						"{@spell darkvision|PHB}",
+						"{@spell divine word|PHB}",
+						"{@spell harm|PHB}",
+						"{@spell maddening darkness|XGE}",
+						"{@spell remove curse|PHB}",
+						"{@spell storm of vengeance|PHB}",
+						"{@spell true polymorph|PHB}",
+						"{@spell true resurrection|PHB}"
+					],
+					"constant": [
+						"{@spell shadow of moil|XGE}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Discorporation",
+					"entries": [
+						"When Zehir drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the Towers of Night, and she is unable to take physical form for a time."
+					]
+				},
+				{
+					"name": "Legendary Resistance (5/Day)",
+					"entries": [
+						"If Zehir fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Unless she wishes to be affected, Zehir is immune to spells of 6th level or lower. She has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Zehir's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"Zehir regains 30 hit points at the start of her turn."
+					]
+				},
+				{
+					"name": "Ethereal Jaunt",
+					"entries": [
+						"As a bonus action, the Zehir can magically shift from the Material Plane to the Ethereal Plane, or vice versa."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"The Zehir doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If the Zehir is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Divine Awareness",
+					"entries": [
+						"The Zehir knows if it hears a lie."
+					]
+				},
+				{
+					"name": "Fear Aura",
+					"entries": [
+						"Any creature hostile to the Zehir that starts its turn within 20 feet of the Zehir must make a {@dc 21} Wisdom saving throw, unless the Zehir is {@condition incapacitated}. On a failed save, the creature is {@condition frightened} until the start of its next turn. If a creature's saving throw is successful, the creature is immune to the Zehir's Fear Aura for the next 24 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Zehir can use her Divine Presence. She then makes three attacks: two with her bite and one with her tail."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 25 ft., one target. {@h}28 ({@damage 4d8 + 10}) piercing damage."
+					]
+				},
+				{
+					"name": "Divine Presence",
+					"entries": [
+						"Each creature within 120 ft of Zehir must make a {@dc 25} Wisdom saving throw. On a failed save, they have disadvantage on attack rolls, ability checks, and saving throws made against Zehir and in addition they cannot gain advantage on attack rolls, ability checks, or saving throws against Zehir. These effects end when they stay out of range of this effect for more than 10 minutes. On a successful save, they are immune to this effect for the next hour. If they fail the saving throw by 10 or more, attack rolls that are less than a 20 on the {@dice d20} automatically miss, dealing no damage. Saving throws and ability checks that are less than a 20 on the {@dice d20} automatically fail. A creature can repeat their save at the end of each of their turns."
+					]
+				}
+			],
+			"legendaryActions": 5,
+			"legendary": [
+				{
+					"name": "Divine Regeneration",
+					"entries": [
+						"Zehir regains 50 hit points."
+					]
+				},
+				{
+					"name": "Serpentine's Ferocity",
+					"entries": [
+						"Zehir makes one bite attack and one tail attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"Zehir moves up to half its movement without provoking attacks of opportunity."
+					]
+				},
+				{
+					"name": "Eternal Darkness",
+					"entries": [
+						"Zehir casts maddening darkness, centered on itself. This darkness covers the entirety of Zehir's domain if she is in it."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Arch-wraith",
+				"source": "BoBH"
+			},
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/VxH5YdR.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/VxH5YdR.png",
+			"traitTags": [
+				"Flyby",
+				"Legendary Resistances",
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"DR",
+				"I"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"incapacitated"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"deafened",
+				"stunned"
+			],
+			"uniqueId": "8da63659a99265c759397d64176d7280"
+		}
+	]
+}
