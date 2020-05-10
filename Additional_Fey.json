@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1589075754,
-		"dateLastModified": 1589075754
+		"dateAdded": 1589078720,
+		"dateLastModified": 1589078720
 	},
 	"monster": [
 		{
@@ -251,6 +251,176 @@
 				"RW"
 			],
 			"uniqueId": "a6e31347d9f7ec94013f17c716388b09"
+		},
+		{
+			"name": "Faenix",
+			"source": "AdditionalFey",
+			"page": 1,
+			"size": "H",
+			"type": "fey",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d12 + 50",
+				"average": 115
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 120
+			},
+			"str": 11,
+			"dex": 24,
+			"con": 20,
+			"int": 8,
+			"wis": 19,
+			"cha": 16,
+			"save": {
+				"wis": "+7",
+				"cha": "+6"
+			},
+			"skill": {
+				"perception": "+10",
+				"stealth": "+10"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 20,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				},
+				{
+					"resist": [
+						"cold"
+					]
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"stunned"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Fiery Death and Rebirth",
+					"entries": [
+						"When the faenix dies, it explodes. Each creature within 60-feet of it must make a {@dc 15} Dexterity saving throw, taking 22 ({@damage 4d10}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't worn or carried.",
+						"The explosion destroys the faenix's body and leaves behind an egg-shaped seed that weighs 5 pounds. The seed is burningly cold, dealing 21 ({@damage 6d6}) fire damage to any creature that touches it, though no more than once per round. The seed is immune to all damage, and after {@dice 2d6} days, it hatches a new faenix."
+					]
+				},
+				{
+					"name": "Fire Form",
+					"entries": [
+						"The faenix can move through a space as narrow as 1 inch wide without squeezing. Any creature that touches the faenix or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 1d8}) fire damage. In addition, the faenix can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 ({@damage 1d8}) fire damage. With a touch, the faenix can also ignite flammable objects that aren't worn or carried (no action required)."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"The faenix doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Illumination",
+					"entries": [
+						"The faenix sheds bright light in a 60-foot radius and dim light for an additional 30 feet."
+					]
+				},
+				{
+					"name": "Feywild Flames",
+					"entries": [
+						"The faenix ignores any damage resistances or immunity to fire damage."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The faenix has advantage on saving throws against being {@condition charmed}, and magic can't put the faenix to sleep."
+					]
+				},
+				{
+					"name": "Cold Flames",
+					"entries": [
+						"The faenix can replace its fire damage with cold damage if it so chooses."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The faenix makes two attacks: one with its beak and one with its fiery talons."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d6 + 7}) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 ({@damage 1d10}) fire damage at the start of each of its turns."
+					]
+				},
+				{
+					"name": "Fiery Talons",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d8 + 7}) fire damage."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"mountain"
+			],
+			"fluff": {
+				"entries": [
+					"The Faenix is an Elemental birthed from the Feywild, a response to the Elementals during the Planar War. The Faenix was a fierce weapon from the Feywild as its fire burned coldly. It is said that its fire could harm any creature, including those who were supposed to be naturally resistant to fire. Though it is indeed a powerful recreation of the Elemental Phoenix, it is not a perfect replica."
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/yal5bM4.png",
+			"soundClip": "https://cdn.discordapp.com/attachments/451126814077616140/708869782358851694/Faenix.mp3",
+			"traitTags": [
+				"Fey Ancestry",
+				"Flyby",
+				"Illumination"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"F"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"uniqueId": "1840d7d9e89b7b9e696dfe416cdd7007"
 		}
 	]
 }
