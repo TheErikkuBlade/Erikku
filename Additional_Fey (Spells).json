@@ -1,0 +1,125 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AdditionalFey",
+				"abbreviation": "AF",
+				"full": "Additional Fey",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1589075852,
+		"dateLastModified": 1589075852
+	},
+	"spell": [
+		{
+			"name": "Influence of the Feywild",
+			"source": "AdditionalFey",
+			"page": 2,
+			"level": 5,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "petrified wood or plant from the feywild"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You attempt to influence a creature to become friendly toward you and your companions by using the ancient magics of the Feywild. You target one creature within range of the spell, if they are unwilling that target makes a wisdom saving throw. On a failed save, the creature is {@condition charmed} by you. While {@condition charmed} by you, they become very friendly toward you and follow your commands to the best of their ability. A creature {@condition charmed} in this way will not do anything that may seem harmful to them, outside of fighting another creature. In addition, at the start of each of their turns they regain {@dice 1d6} hit points as long as they have at least 1 hit point.",
+				"The spell ends if you or any of your allies do anything harmful to that creature, if they fall to 0 hit points, or if they are {@condition incapacitated}. The spell also ends early if you attempt to cast the spell on another creature."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 7th level or higher, the healing increases by {@dice 1d6} for every two slot levels above 5th and the duration lasts for 24 hours."
+					]
+				}
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"HL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Fate Weaver",
+						"source": "fateweaver"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Ancients",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"uniqueId": "ba6413cc2bfb4c557c5c5119430c9f5d"
+		}
+	]
+}
