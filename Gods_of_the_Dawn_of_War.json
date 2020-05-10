@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1588838527,
-		"dateLastModified": 1588838527
+		"dateAdded": 1589070657,
+		"dateLastModified": 1589070657
 	},
 	"monster": [
 		{
@@ -305,6 +305,327 @@
 				"stunned"
 			],
 			"uniqueId": "8da63659a99265c759397d64176d7280"
+		},
+		{
+			"name": "Lolth",
+			"shortName": "Lolth",
+			"source": "GodsoftheDawnofWar",
+			"page": 0,
+			"size": "H",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 23,
+					"from": [
+						"natural armor"
+					],
+					"condition": "25 while in Domain",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "40d20 + 400",
+				"average": 820
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 24,
+			"dex": 23,
+			"con": 30,
+			"int": 26,
+			"wis": 26,
+			"cha": 30,
+			"save": {
+				"dex": "+14",
+				"int": "+16",
+				"wis": "+16",
+				"str": "+15",
+				"con": "+18",
+				"cha": "+18"
+			},
+			"skill": {
+				"deception": "+18",
+				"perception": "+16",
+				"stealth": "+14"
+			},
+			"senses": [
+				"darkvision 240 ft.",
+				"truesight 120 ft."
+			],
+			"passive": 26,
+			"resist": [
+				{
+					"resist": [
+						"cold",
+						"fire",
+						"lightning"
+					]
+				},
+				{
+					"resist": [
+						"acid",
+						"force",
+						"lightning",
+						"necrotic",
+						"psychic",
+						"radiant",
+						"thunder"
+					],
+					"note": "while in Domain"
+				}
+			],
+			"immune": [
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Elvish",
+				"telepathy 120 ft."
+			],
+			"cr": "28",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Lolth's spellcasting ability is Charisma (spell save {@dc 26}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self} (can become a Medium female Drow when changing her appearance)",
+						"{@spell detect magic}",
+						"{@spell poison spray} ({@damage 4d12} damage)",
+						"{@spell web}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell confusion}",
+							"{@spell dispel magic}",
+							"{@spell dominate person}",
+							"{@spell fly}",
+							"{@spell teleport}"
+						],
+						"1e": [
+							"{@spell divine word}",
+							"{@spell maddening darkness|XGE}",
+							"{@spell psychic scream|XGE}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Discorporation",
+					"entries": [
+						"When Lolth drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the Abyss, and she is unable to take physical form for a time."
+					]
+				},
+				{
+					"name": "Legendary Resistance (5/Day)",
+					"entries": [
+						"If Lolth fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Unless she wishes to be affected, Lolth is immune to spells of 6th level or lower. She has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Lolth's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Noxious Webs",
+					"entries": [
+						"A creature that starts its turn in a space flled with or {@condition restrained} by webbing created by Lolth (either by her Web attack or her spell) takes 7 ({@damage 2d6}) acid damage."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"If Lolth has at least 1 hit point, she regains 30 hit points at the start of her turn."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"Lolth can climb difcult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Web Sense",
+					"entries": [
+						"While in contact with a web, Lolth knows the exact location of any creature in contact with the same web."
+					]
+				},
+				{
+					"name": "Web Walker",
+					"entries": [
+						"Lolth ignores movement restrictions caused by webbing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Lolth uses her Divine Presence and Web, she then makes four attacks: one with her bite, one with her whip, and two with her Impaling Forelegs."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) piercing damage, and if the target is a creature, it must succeed on a {@dc 22} Constitution saving throw. If the saving throw fails by 5 or more, the creature is reduced to 0 hit points, unless it is immune to poison damage. Otherwise, a creature takes 22 ({@damage 4d10}) poison damage and is {@condition poisoned} for 1 minute on a failed save. While {@condition poisoned}, a creature takes 22 ({@damage 4d10}) poison damage at the end of each of its turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Pain Whip",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 30 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage plus 14 ({@damage 4d6}) necrotic damage and the target has disadvantage to attack rolls and saving throw rolls until the end of Lolth's next turn. In addition, the target must succeed on a {@dc 25} Strength saving throw or be pulled up to 25 feet toward Lolth."
+					]
+				},
+				{
+					"name": "Impaling Foreleg",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 15 ft., one target. {@h}17 ({@damage 3d6 + 7}) piercing damage, and if the target is a creature, it is {@condition grappled} (escape {@dc 17}). While {@condition grappled}, the target is {@condition restrained}, takes 7 ({@damage 2d6}) necrotic damage at the start of each of Lolth's turns, and Lolth can't use one of her Impaling Legs on another target."
+					]
+				},
+				{
+					"name": "Web",
+					"entries": [
+						"{@atk rw} {@hit 15} to hit, range 60/120 ft., one Huge or smaller creature. {@h}The creature is {@condition restrained} by webbing. As an action, the {@condition restrained} creature can make a {@dc 22} Strength check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 15, 20 hit points, resistance to bludgeoning damage, and immunity to acid, poison, and psychic damage."
+					]
+				},
+				{
+					"name": "Divine Presence",
+					"entries": [
+						"Each creature within 120 ft of Lolth must make a {@dc 25} Wisdom saving throw. On a failed save, they have disadvantage on attack rolls, ability checks, and saving throws made against Lolth and in addition they cannot gain advantage on attack rolls, ability checks, or saving throws against Lolth. These effects end when they stay out of range of this effect for more than 10 minutes. On a successful save, they are immune to this effect for the next hour. If they fail the saving throw by 10 or more, attack rolls that are less than a 20 on the {@dice d20} automatically miss, dealing no damage. Saving throws and ability checks that are less than a 20 on the {@dice d20} automatically fail. A creature can repeat their save at the end of each of their turns."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Insidious Poison",
+					"entries": [
+						"Lolth chooses one creature within 30 feet that she has {@condition poisoned}. The target must make a {@dc 25} Wisdom saving throw. On a failed save, the creature uses its reaction to make a melee weapon attack against a creature of Lolth's choice that Lolth can see."
+					]
+				},
+				{
+					"name": "Web",
+					"entries": [
+						"Lolth uses Web."
+					]
+				},
+				{
+					"name": "Web Crawl",
+					"entries": [
+						"While on webbed surfaces, Lolth moves up to half her speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Whip (Costs 2 Actions)",
+					"entries": [
+						"Lolth makes an Pain Whip attack."
+					]
+				},
+				{
+					"name": "Impale (Costs 2 Actions)",
+					"entries": [
+						"Lolth uses her Impaling Foreleg attack."
+					]
+				},
+				{
+					"name": "Summon Handmaiden (Costs 3 Actions)",
+					"entries": [
+						"Lolth magically summons a yochlol. The yochlol appears in an unoccupied space within 60 feet of Lolth and acts as Lolth's ally. The yochlol remain until Lolth dies or until she dismisses it as an action."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/uBZjvog.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Weapons",
+				"Regeneration",
+				"Spider Climb",
+				"Web Sense",
+				"Web Walker"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"E",
+				"TP"
+			],
+			"damageTags": [
+				"A",
+				"I",
+				"N",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"poisoned",
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"restrained",
+				"stunned"
+			],
+			"conditionInflicted": [
+				"poisoned",
+				"restrained",
+				"grappled"
+			],
+			"uniqueId": "f604166b5adbdeae7e00ed4077ad00b5"
 		}
 	]
 }
