@@ -1,0 +1,256 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AdditionalFey",
+				"abbreviation": "AF",
+				"full": "Additional Fey",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1589075754,
+		"dateLastModified": 1589075754
+	},
+	"monster": [
+		{
+			"name": "Fey Champion",
+			"source": "AdditionalFey",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "fey",
+				"tags": [
+					"wood elf"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"{@item elven chain}",
+						"{@item shield, +1}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "27d8 + 135",
+				"average": 256
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 17,
+			"dex": 22,
+			"con": 20,
+			"int": 13,
+			"wis": 17,
+			"cha": 12,
+			"save": {
+				"con": "+11",
+				"wis": "+9",
+				"cha": "+7",
+				"dex": "+12"
+			},
+			"skill": {
+				"perception": "+15",
+				"arcana": "+7",
+				"acrobatics": "+12",
+				"nature": "+7",
+				"stealth": "+12",
+				"survival": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 25,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical attacks"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Sylvan",
+				"Elvish"
+			],
+			"cr": "20",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Fey Champion's innate spellcasting ability is Wisdom (spell save {@dc 17}, spell attack +9). They can innately cast the following spells, requiring no material components:"
+					],
+					"constant": [
+						"{@spell aura of life|PHB}",
+						"{@spell aura of vitality|PHB}"
+					],
+					"will": [
+						"{@spell animal friendship|PHB}",
+						"{@spell charm person|PHB}",
+						"{@spell druidcraft|PHB}",
+						"{@spell hunter's mark|PHB}",
+						"{@spell speak with animals|PHB}",
+						"{@spell speak with plants|PHB}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell animal messenger|PHB}",
+							"{@spell charm monster|XGE}",
+							"{@spell conjure animals|PHB}",
+							"{@spell conjure woodland beings|PHB}",
+							"{@spell flame arrows|XGE}",
+							"{@spell lightning arrow|PHB}",
+							"{@spell Melf's acid arrow|PHB}",
+							"{@spell staggering smite|PHB}",
+							"{@spell summon fey spirit|UA2020SpellsAndMagicTattoos}"
+						],
+						"1e": [
+							"{@spell animal shapes|PHB}",
+							"{@spell conjure elemental|PHB}",
+							"{@spell conjure fey|PHB}",
+							"{@spell influence of the feywild|AdditionalFey}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Indomitable (2/Day)",
+					"entries": [
+						"The champion rerolls a failed saving throw."
+					]
+				},
+				{
+					"name": "Second Wind (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, the champion can regain 20 hit points."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The fey champion has advantage on saving throws against being {@condition charmed}, and magic can't put the fey champion to sleep."
+					]
+				},
+				{
+					"name": "Chameleon Skin",
+					"entries": [
+						"The fey champion has advantage on Dexterity ({@skill Stealth}) checks made to hide."
+					]
+				},
+				{
+					"name": "Sure-Footed",
+					"entries": [
+						"The fey champion has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+					]
+				},
+				{
+					"name": "Freedom of Movement",
+					"entries": [
+						"The fey champion ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The champion makes three attacks with its shortsword or its shortbow."
+					]
+				},
+				{
+					"name": "Shortsword of the Feywild",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 7}) slashing damage, plus 10 ({@damage 2d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Shortbow of the Feywild",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 6}) piercing damage, plus 10 ({@damage 2d6}) psychic damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The Fey Champion adds a +6 to its AC against a single melee attack."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Fey Champions are mighty warriors who honed their fighting skills in the feywild. To elves and other fey who fight to protect themselves or even their homes, champions fight for the Feywild as a whole."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/6zRlgUJ.png",
+			"soundClip": "https://cdn.discordapp.com/attachments/451126814077616140/708859086342455296/Fey_Champion.mp3",
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"uniqueId": "a6e31347d9f7ec94013f17c716388b09"
+		}
+	]
+}
