@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1589254605,
-		"dateLastModified": 1589254605
+		"dateAdded": 1589360468,
+		"dateLastModified": 1589360468
 	},
 	"monster": [
 		{
@@ -421,6 +421,184 @@
 				"RW"
 			],
 			"uniqueId": "1612dac1155e59a29dadf096860a6962"
+		},
+		{
+			"name": "Orc Juggernaut (possessed by Dybbuk)",
+			"isNpc": true,
+			"source": "DrownedStudiesMonsters",
+			"page": 1,
+			"size": "L",
+			"type": {
+				"type": "undead",
+				"tags": [
+					"orc"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"unarmored defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d10 + 68",
+				"average": 161
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 18,
+			"con": 18,
+			"int": 16,
+			"wis": 15,
+			"cha": 14,
+			"save": {
+				"wis": "+5",
+				"cha": "+5"
+			},
+			"skill": {
+				"athletics": "+8",
+				"intimidation": "+5",
+				"stealth": "+7",
+				"survival": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "while raging"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Orc",
+				"telepathy 120 ft"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the orc juggernaut can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Berserk",
+					"entries": [
+						"Whenever the orc juggernaut starts its turn with 40 hit points or fewer, roll a {@dice d6}. On a 6, the orc juggernaut goes berserk. On each of its turns while berserk, the orc juggernaut attacks the nearest creature it can see. If no creature is near enough to move to and attack, the orc juggernaut attacks an object, with preference for an object smaller than itself. Once the orc juggernaut goes berserk, it continues to do so until it is destroyed or regains all its hit points."
+					]
+				},
+				{
+					"name": "Rage",
+					"entries": [
+						"As a bonus action, the orc juggernaut can enter a relentless rage that lasts until the orc juggernaut is killed. While raging, the orc has resistance to bludgeoning, piercing, and slashing damage."
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the orc juggernaut hits with it. (included in attack)"
+					]
+				},
+				{
+					"name": "Enraged Strikes (Only while raging)",
+					"entries": [
+						"The orc juggernaut can make weapon attacks at advantage, but attacks against the orc juggernaut are also at advantage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The orc juggernaut makes three attacks with his oversized greataxe or with his oversized longbow."
+					]
+				},
+				{
+					"name": "Oversized Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d12 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Oversized Longbow",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}11 ({@damage 3d6 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Dreadful Aspect (Recharges after a Short or Long Rest)",
+					"entries": [
+						"Ziraj exudes magical menace. Each enemy within 30 feet of him must succeed on a {@dc 13} Wisdom saving throw or be {@condition frightened} for 1 minute of Ziraj. If a {@condition frightened} enemy ends its turn more than 30 feet away from Ziraj, the enemy can repeat the saving throw, ending the effect on itself on a success."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://noads.5e.tools/img/bestiary/WDH/Ziraj the Hunter.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/WDH/Ziraj the Hunter.png?v=1.105.0",
+			"traitTags": [
+				"Aggressive",
+				"Brute"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"O",
+				"TP"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"prone"
+			],
+			"uniqueId": "1c0e8f3844ec6e359aeec2bc7041c824"
 		}
 	]
 }
