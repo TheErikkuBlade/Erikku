@@ -25,9 +25,9 @@
       "source": "ErikkusHeroicFeats",
       "prerequisite": [
         {
-          "alignment": [
+          "other": [
             {
-              "name": "any good"
+              "name": "any good alignment"
             }
           ]
         }
@@ -65,9 +65,9 @@
       "source": "ErikkusHeroicFeats",
       "prerequisite": [
         {
-          "alignment": [
+          "other": [
             {
-              "name": "any good"
+              "name": "any good alignment"
             }
           ]
         }
@@ -94,7 +94,7 @@
         {
           "alignment": [
             {
-              "name": "any good"
+              "name": "any good alignment"
             }
           ]
         }
