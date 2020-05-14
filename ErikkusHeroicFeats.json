@@ -99,16 +99,6 @@
           ]
         }
       ],
-      "entries": [
-        "Whenever you would fall to 0 hit points, but are not outright killed, you can do one of the following:",
-        {
-          "type": "list",
-          "items": [
-            "You can spend your reaction to remain at 1 hit point instead. Once you do so, you cannot do so again until you finish a short or long rest.",
-            "You can expend any of your remaining hit dice, you gain an amount of temporary hit points equal to the result."
-          ]
-        }
-      ],
       "ability": [
         {
           "choose": {
@@ -118,6 +108,16 @@
             ],
             "amount": 1
           }
+        }
+      ],
+      "entries": [
+        "Whenever you would fall to 0 hit points, but are not outright killed, you can do one of the following:",
+        {
+          "type": "list",
+          "items": [
+            "You can spend your reaction to remain at 1 hit point instead. Once you do so, you cannot do so again until you finish a short or long rest.",
+            "You can expend any of your remaining hit dice, you gain an amount of temporary hit points equal to the result."
+          ]
         }
       ]
     }
