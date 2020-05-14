@@ -92,7 +92,7 @@
       "source": "ErikkusHeroicFeats",
       "prerequisite": [
         {
-          "alignment": [
+          "other": [
             {
               "name": "any good alignment"
             }
