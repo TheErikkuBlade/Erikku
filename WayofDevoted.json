@@ -103,10 +103,10 @@
             }
           ],
           "colLabels": [
-            "{@filter 1st|spells|level=1|class=Wizard}",
-            "{@filter 2nd|spells|level=2|class=Wizard}",
-            "{@filter 3rd|spells|level=3|class=Wizard}",
-            "{@filter 4th|spells|level=4|class=Wizard}"
+            "{@filter 1st|spells|level=1|class=Cleric}",
+            "{@filter 2nd|spells|level=2|class=Cleric}",
+            "{@filter 3rd|spells|level=3|class=Cleric}",
+            "{@filter 4th|spells|level=4|class=Cleric}"
           ],
           "rows": [
             [
@@ -248,7 +248,6 @@
                   "For example, if you know the 1st-level spell shield of faith and have a 1st-level and a 2nd-level spell slot available, you can cast shield of faith using either slot.",
                   "You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your proficiency bonus (minimum of one spell). The spells must be of a level for which you have spell slots.",
                   "For example, if you are a 7th-level monk, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include 6 spells of 1st and 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-                  "Starting at 8th level, the spells you can prepare can come from any school of magic.",
                   "Spellcasting Ability. Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.",
                   "Spell save DC = 8 + your proficiency bonus + your Wisdom modifier",
                   "Spell attack modifier = your proficiency bonus + your Wisdom modifier"
