@@ -110,19 +110,17 @@
                     ]
                   }
                 ]
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "entries": [
+              },
               {
-                "type": "entries",
-                "name": "Temporal Curse",
                 "entries": [
-                  "Beginning at 1st level as a bonus action you choose one creature that you can see within 120ft of you. That creature becomes paralyzed until the end of your next turn. Additionally once they are freed from this effect they receive a -2 to AC and disadvantage on all Dexterity Saving Throws and attacks made against them have advantage. Attacks they make have disadvantage. These effects last for 1 minute. Once the curse wears off time speeds up for the target, adding a +2 to their AC and all attacks they make have advantage and attacks made against them have disadvantage. They also have advantage on all their dexterity saving throws. These effects last for 1 minute. While under any of the above effects you have the “Temporal Fluctuation” condition. If the creature is immune to being paralyzed they make a Wisdom Saving throw equal to your spell save DC, on a success the Temporal Curse has no effect and the usage is wasted. On a failed save they are paralyzed regardless of their immunities.",
-                  "You can use this curse a number of times equal to your charisma modifier but can only use it on 1 target at a time. You regain all uses of this curse after a short or long rest."
+                  {
+                    "type": "entries",
+                    "name": "Temporal Curse",
+                    "entries": [
+                      "Beginning at 1st level as a bonus action you choose one creature that you can see within 120ft of you. That creature becomes paralyzed until the end of your next turn. Additionally once they are freed from this effect they receive a -2 to AC and disadvantage on all Dexterity Saving Throws and attacks made against them have advantage. Attacks they make have disadvantage. These effects last for 1 minute. Once the curse wears off time speeds up for the target, adding a +2 to their AC and all attacks they make have advantage and attacks made against them have disadvantage. They also have advantage on all their dexterity saving throws. These effects last for 1 minute. While under any of the above effects you have the “Temporal Fluctuation” condition. If the creature is immune to being paralyzed they make a Wisdom Saving throw equal to your spell save DC, on a success the Temporal Curse has no effect and the usage is wasted. On a failed save they are paralyzed regardless of their immunities.",
+                      "You can use this curse a number of times equal to your charisma modifier but can only use it on 1 target at a time. You regain all uses of this curse after a short or long rest."
+                    ]
+                  }
                 ]
               }
             ]
