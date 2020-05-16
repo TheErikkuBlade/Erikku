@@ -240,7 +240,7 @@
               "Some monastic icons are gods, their monasteries doubling as a church for other followers. Much like clerics, these monks can call upon powers from their deity by using ki. Devoted Monks typically follow under the Order or Life domains, but you can flavor your monk however you wish.",
               {
                 "type": "entries",
-                "name": "Devoted Spellcasting",
+                "name": "Spellcasting",
                 "entries": [
                   "When you reach 3rd level, you can call upon the divine magic of your deity and gain the ability to cast spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and chapter 11 for the {@filter cleric spell list|spells|class=cleric}.",
                   {
