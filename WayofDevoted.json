@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.json",
   "_meta": {
     "sources": [
       {
@@ -9,8 +10,7 @@
           "Erikku Blade"
         ],
         "version": "1.0",
-        "url": "",
-        "targetSchema": "1.0.0"
+        "url": ""
       }
     ],
     "dateAdded": 1589613177,
