@@ -1,0 +1,1373 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TheAdventuresofIchult",
+				"abbreviation": "TAoI",
+				"full": "The Adventures of Ichult",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1591187839,
+		"dateLastModified": 1591187839
+	},
+	"monster": [
+		{
+			"name": "Slumber",
+			"isNamedCreature": true,
+			"source": "TheAdventuresofIchult",
+			"page": 1,
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "15d10 + 60",
+				"average": 210
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 20
+			},
+			"str": 20,
+			"dex": 17,
+			"con": 18,
+			"int": 16,
+			"wis": 10,
+			"cha": 10,
+			"save": {
+				"int": "+7",
+				"wis": "+4"
+			},
+			"skill": {
+				"perception": "+8",
+				"survival": "+8",
+				"arcana": "+7",
+				"history": "+7",
+				"investigation": "+11",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 18,
+			"resist": [
+				{
+					"special": "damage against spells"
+				}
+			],
+			"languages": [
+				"Umber Hulk",
+				"Common",
+				"Dwarvish",
+				"Giant"
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Slumber's innate spellcasting ability is Intelligence (spell save {@dc 15}, +7 to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell calm emotions}",
+						"{@spell confusion}",
+						"{@spell friends}",
+						"{@spell hex}",
+						"{@spell misty step}",
+						"{@spell sleep}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell charm monster|XGE}",
+							"{@spell enemies abound|XGE}",
+							"{@spell geas}",
+							"{@spell mind thrust|UA2020PsionicOptionsRevisited}",
+							"{@spell synaptic static|XGE}"
+						],
+						"1e": [
+							"{@spell confusion}",
+							"{@spell dominate beast}",
+							"{@spell dominate person}",
+							"{@spell hold monster}",
+							"{@spell psychic scream|XGE}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Confusing Gaze",
+					"entries": [
+						"When a creature starts its turn within 30 feet of the umber hulk and is able to see the umber hulk's eyes, the umber hulk can magically force it to make a {@dc 16} Charisma saving throw, unless the umber hulk is {@condition incapacitated}.",
+						"On a failed saving throw, the creature can't take reactions until the start of its next turn and rolls a {@dice d8} to determine what it does during that turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action but uses all its movement to move in a random direction. On a 7 or 8, the creature makes one melee attack against a random creature, or it does nothing if no creature is within reach.",
+						"Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the umber hulk until the start of its next turn, when it can avert its eyes again. If the creature looks at the umber hulk in the meantime, it must immediately make the save."
+					]
+				},
+				{
+					"name": "Tunneler",
+					"entries": [
+						"The umber hulk can burrow through solid rock at half its burrowing speed and leaves a 5 foot-wide, 8-foot-high tunnel in its wake."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Slumber has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Slumber's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Sense Magic",
+					"entries": [
+						"Slumber senses magic within 120 feet of it at will. This trait otherwise works like the detect magic spell but isn't itself magical"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The umber hulk makes three attacks: two with its claws and one with its mandibles. Alternatively, the umber hulk can replace one of its claw attacks to cast a spell."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}18 ({@damage 3d8 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Mandibles",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}23 ({@damage 4d8 + 5}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Slumber is an Umber Hulk that has grown adept with various enchantment magics, even going as far as casting some of these spells at will. Slumber doesn't particularly hunt every living creature for food, in fact he prefers to eat other monstrosities that lives down in the Underdark, as opposed to their typical diets of humanoids. He goes scavenging for various minerals and precious gems.",
+									{
+										"name": "Devious Delvers",
+										"type": "entries",
+										"entries": [
+											"Umber hulks can burrow through solid rock, forming new tunnels in their wake. The steel-hard chitin of its body can withstand the cave-ins, tunnel collapses, and rock falls that commonly follow it.",
+											"Burrowing into the wall of a cavern or passageway, an umber hulk lies in wait for creatures to pass by on the other side, its hair-like feelers sensing any movement around it. When it explodes out in a shower of earth and rock, its unsuspecting quarry turns to face the oncoming threat-and is entranced by the umber hulk's bewildering eyes, forced to stand helpless as its mandibles snap shut."
+										]
+									},
+									{
+										"name": "Mind Scrambler",
+										"type": "entries",
+										"entries": [
+											"Many survivors of an umber hulk encounter recollect little about the attack, because the monster's confusing gaze scrambles their memory of the event. Those who have fought and killed umber hulks recognize the signs. For other denizens of the Underdark, grisly tales of vanished explorers and wanton destruction speak of an unknown foe. Umber hulks take on supernatural status in these harrowing stories, many of which convey the same warning: once an umber hulk has been spotted, it is already too late to escape it."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://noads.5e.tools/img/bestiary/MM/Umber Hulk.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Umber Hulk.png?v=1.105.3",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/umber-hulk.mp3?v=1.105.3"
+			},
+			"traitTags": [
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"SD",
+				"T"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"GI",
+				"OTH"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Warren Malqir",
+			"isNamedCreature": true,
+			"source": "TheAdventuresofIchult",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"unarmored defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "31d8 + 155",
+				"average": 294
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40,
+				"swim": 40
+			},
+			"str": 24,
+			"dex": 19,
+			"con": 20,
+			"int": 16,
+			"wis": 18,
+			"cha": 17,
+			"save": {
+				"str": "+11",
+				"con": "+9",
+				"wis": "+8",
+				"dex": "+8"
+			},
+			"skill": {
+				"athletics": "+15",
+				"intimidation": "+7",
+				"perception": "+8",
+				"stealth": "+8",
+				"survival": "+8",
+				"acrobatics": "+8",
+				"history": "+7",
+				"medicine": "+8"
+			},
+			"passive": 18,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"preNote": "non-magical"
+				}
+			],
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Indomitable (2/Day)",
+					"entries": [
+						"The champion rerolls a failed saving throw."
+					]
+				},
+				{
+					"name": "Second Wind (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, the champion can regain 20 hit points."
+					]
+				},
+				{
+					"name": "Rampage",
+					"entries": [
+						"When Warren Malqir reduces a creature to 0 hit points with a melee attack on its turn, Warren Malqir can take a bonus action to move up to half its speed and make another attack."
+					]
+				},
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, Warren Malqir can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the Warren Malqir is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the Warren Malqir instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The champion makes three attacks with its greatsword or its shortbow."
+					]
+				},
+				{
+					"name": "Great Katana",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d8 + 7}) slashing damage, or 18 ({@damage 2d10 + 7}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					"Warren has trained his entire life to guard his home, Port Cattamoly. One day, he failed his people and the port was destroyed. He returned to his training after being rescued and trained in a dimension where time flowed quicker."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/aN1YvY2.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/jU9wNed.png",
+			"traitTags": [
+				"Aggressive",
+				"Rampage"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Prince Korvis Maxwell",
+			"isNamedCreature": true,
+			"source": "TheAdventuresofIchult",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Human"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"{@item plate armor +3|dmg}"
+					]
+				}
+			],
+			"hp": {
+				"average": 162,
+				"formula": "25d8 + 50"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 22,
+			"dex": 17,
+			"con": 14,
+			"int": 16,
+			"wis": 14,
+			"cha": 18,
+			"save": {
+				"str": "+10",
+				"con": "+6",
+				"cha": "+8",
+				"wis": "+6"
+			},
+			"skill": {
+				"athletics": "+10",
+				"intimidation": "+8",
+				"perception": "+6",
+				"persuasion": "+8",
+				"history": "+11"
+			},
+			"passive": 16,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Dwarvish"
+			],
+			"cr": "11",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Krovis is a 10th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 16}, +8 to hit with spell attacks). It has the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell command}",
+								"{@spell compelled duel}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell branding smite}",
+								"{@spell enthrall}",
+								"{@spell find steed}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell blinding smite}",
+								"{@spell dispel magic}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Indomitable (2/Day)",
+					"entries": [
+						"The champion rerolls a failed saving throw."
+					]
+				},
+				{
+					"name": "Second Wind (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, the champion can regain 20 hit points."
+					]
+				},
+				{
+					"name": "Brave",
+					"entries": [
+						"The Champion has advantage on saving throws against being {@condition frightened}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The champion makes three attacks with its greatsword or its shortbow."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}13 ({@damage 1d8 + 9}) slashing damage, or 14 ({@damage 1d10 + 9}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 6}) damage."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					"Korvis Maxwell is a young prince from a faraway land. He has come to pay respects to the great hero Erikku Blade during his wedding day, but seems to be stuck on Ishland since the incident in Port Cattamoly happened, and the ports in Western Ishland have closed."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/fojHKzV.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/OpTj49q.png",
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Eldak Gladomain",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "TheAdventuresofIchult",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"aasimar"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"unarmored defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d8 + 110",
+				"average": 209
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 80,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 16,
+			"dex": 20,
+			"con": 20,
+			"int": 18,
+			"wis": 20,
+			"cha": 28,
+			"save": {
+				"wis": "+12",
+				"cha": "+16",
+				"con": "+12",
+				"dex": "+12"
+			},
+			"skill": {
+				"arcana": "+18",
+				"history": "+18",
+				"perception": "+12",
+				"persuasion": "+16",
+				"religion": "+18"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"truesight 60 ft."
+			],
+			"passive": 22,
+			"resist": [
+				{
+					"resist": [
+						{
+							"special": "damage from spells"
+						}
+					]
+				},
+				{
+					"resist": [
+						"necrotic"
+					]
+				}
+			],
+			"immune": [
+				"fire",
+				"radiant"
+			],
+			"conditionImmune": [
+				"blinded",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"Celestial",
+				"Common",
+				"Draconic",
+				"Elvish",
+				"Primordial",
+				"Sylvan",
+				"telepathy"
+			],
+			"cr": "24",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Eldak is a 20th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 21}, {@hit 13} to hit with spell attacks) He can cast {@spell burning hands} and {@spell continual flame} at will and has the following spells prepared:"
+					],
+					"will": [
+						"{@spell burning hands}",
+						"{@spell continual flame}"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell guidance}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell command}",
+								"{@spell detect magic}",
+								"{@spell guiding bolt}",
+								"{@spell healing word}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell detect thoughts}",
+								"{@spell flaming sphere}",
+								"{@spell healing spirit|XGE}",
+								"{@spell misty step}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell aura of vitality}",
+								"{@spell counterspell}",
+								"{@spell daylight}",
+								"{@spell fireball}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell death ward}*",
+								"{@spell fire shield}*"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell circle of power}",
+								"{@spell scrying}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell heal}",
+								"{@spell otherworldly form|UA2020SpellsAndMagicTattoos}*"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell divine word}",
+								"{@spell teleport}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell holy aura}",
+								"{@spell sunburst}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell invulnerability|XGE}*",
+								"{@spell mass heal}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The archmage has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Angelic Weapons (Solar)",
+					"entries": [
+						"Eldak Gladomain's weapon attacks are magical. When Eldak Gladomain hits with any weapon, the weapon deals an extra {@damage 6d8} radiant damage."
+					]
+				},
+				{
+					"name": "Fire Aura",
+					"entries": [
+						"At the start of each of Eldak Gladomain's turns, each creature within 5 feet of him takes 10 ({@damage 3d6}) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches Eldak Gladomain or hits him with a melee attack while within 5 feet of it takes 10 ({@damage 3d6}) fire damage."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"Eldak Gladomain doesn't provoke opportunity attacks when he flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Illumination",
+					"entries": [
+						"Eldak Gladomain sheds bright light in a 30-foot radius and dim light for an additional 30 feet."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Eldak Gladomain fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Eldak Gladomain's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Eldak makes three attacks using his Fiery Talons."
+					]
+				},
+				{
+					"name": "Fiery Talons",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d8 + 5}) fire damage, plus 32 ({@damage 6d8 + 5}) radiant damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Blessing of the Phoenix",
+					"entries": [
+						"Eldak regains an expended spell slot."
+					]
+				},
+				{
+					"name": "Flames of the Phoenix",
+					"entries": [
+						"Eldak uses his fiery talons."
+					]
+				},
+				{
+					"name": "Fly",
+					"entries": [
+						"Eldak moves half of his flying speed."
+					]
+				},
+				{
+					"name": "Cast a spell (Costs 2 Actions)",
+					"entries": [
+						"Eldak casts a spell of 6th level or lower with a casting time of 1 action."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Eldak Gladomain is a powerful Aasimar that has ascended past his mortal form, and has evolved into a Solar. He rules the Floating City of Angels with his awesome power, mostly unquestioned."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/ngeMC2o.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/5oRTOzi.png",
+			"traitTags": [
+				"Flyby",
+				"Illumination",
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"DR",
+				"E",
+				"P",
+				"S",
+				"TP"
+			],
+			"damageTags": [
+				"F",
+				"R"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Eilcaryn Gladomain",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "TheAdventuresofIchult",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"aasimar"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"unarmored defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d8 + 85",
+				"average": 161
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 80,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 24,
+			"dex": 18,
+			"con": 20,
+			"int": 18,
+			"wis": 20,
+			"cha": 24,
+			"save": {
+				"wis": "+11",
+				"cha": "+15",
+				"con": "+11",
+				"dex": "+10"
+			},
+			"skill": {
+				"arcana": "+10",
+				"history": "+10",
+				"persuasion": "+19",
+				"religion": "+16",
+				"performance": "+13"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"truesight 60 ft."
+			],
+			"passive": 15,
+			"resist": [
+				{
+					"resist": [
+						{
+							"special": "damage from spells"
+						}
+					]
+				},
+				{
+					"resist": [
+						"necrotic"
+					]
+				}
+			],
+			"immune": [
+				"fire",
+				"radiant"
+			],
+			"conditionImmune": [
+				"blinded",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"Celestial",
+				"Common",
+				"Draconic",
+				"Elvish",
+				"Primordial",
+				"Sylvan",
+				"telepathy"
+			],
+			"cr": "20",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Eilcaryn is a 20th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 19}, {@hit 11} to hit with spell attacks) He can cast {@spell cure wounds} and {@spell continual flame} at will and has the following spells prepared:"
+					],
+					"will": [
+						"{@spell cure wounds}",
+						"{@spell continual flame}"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell detect magic}",
+								"{@spell guiding bolt}",
+								"{@spell healing word}",
+								"{@spell sanctuary}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell calm emotions}",
+								"{@spell detect thoughts}",
+								"{@spell healing spirit|XGE}",
+								"{@spell misty step}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell aura of vitality}",
+								"{@spell daylight}",
+								"{@spell fireball}",
+								"{@spell mass healing word}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell death ward}*",
+								"{@spell fire shield}*"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell mass cure wounds}",
+								"{@spell reincarnate}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell heal}",
+								"{@spell otherworldly form|UA2020SpellsAndMagicTattoos}*"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell divine word}",
+								"{@spell teleport}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell holy aura}",
+								"{@spell sunburst}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell gate}",
+								"{@spell mass heal}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The archmage has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Angelic Weapons (Solar)",
+					"entries": [
+						"Eilcaryn's weapon attacks are magical. When Eilcaryn hits with any weapon, the weapon deals an extra {@damage 6d8} radiant damage."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"Eilcaryn doesn't provoke opportunity attacks when she flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Illumination",
+					"entries": [
+						"Eilcaryn sheds bright light in a 30-foot radius and dim light for an additional 30 feet."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Eilcaryn fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Eilcaryn's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Eilcaryn makes three attacks using her angelic longsword."
+					]
+				},
+				{
+					"name": "Angelic Longsword",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}11 ({@damage 1d8 + 7}) slashing damage, or 12 ({@damage 1d10 + 7}) slashing damage if used with both hands, plus 34 ({@damage 6d8 + 7}) radiant damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Fly",
+					"entries": [
+						"Eilcaryn moves half of his flying speed."
+					]
+				},
+				{
+					"name": "Cast a spell (Costs 2 Actions)",
+					"entries": [
+						"Eilcaryn casts a spell of 6th level or lower with a casting time of 1 action."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Eilcaryn Gladomain is the queen of the Floating City of Angels. She is kind and passionate, unlike her husband who is ruling and power driven. She supposedly married Eldak Gladomain to keep him in check."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/8ZSIum5.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/onCFrWk.png",
+			"traitTags": [
+				"Flyby",
+				"Illumination",
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"DR",
+				"E",
+				"P",
+				"S",
+				"TP"
+			],
+			"damageTags": [
+				"R",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Esk",
+			"source": "TheAdventuresofIchult",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				19
+			],
+			"hp": {
+				"average": 112,
+				"formula": "15d8 + 45"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 14,
+			"dex": 19,
+			"con": 16,
+			"int": 18,
+			"wis": 20,
+			"cha": 13,
+			"save": {
+				"str": "+6",
+				"dex": "+8",
+				"int": "+8",
+				"wis": "+9"
+			},
+			"skill": {
+				"arcana": "+8",
+				"insight": "+13",
+				"perception": "+13",
+				"stealth": "+8",
+				"persuasion": "+5",
+				"history": "+8"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 23,
+			"languages": [
+				"Common",
+				"Elvish",
+				"telepathy"
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"headerEntries": [
+						"The githzerai's innate spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell gift of alacrity|EGW}",
+						"{@spell mage hand} (the hand is invisible)",
+						"{@spell sapping sting|EGW}",
+						"{@spell wristpocket|EGW}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell blur}",
+							"{@spell expeditious retreat}",
+							"{@spell feather fall}",
+							"{@spell jump}",
+							"{@spell pulse wave|EGW}",
+							"{@spell see invisibility}",
+							"{@spell shield}"
+						],
+						"1e": [
+							"{@spell haste}",
+							"{@spell plane shift}",
+							"{@spell reality break|EGW}",
+							"{@spell teleport}",
+							"{@spell temporal shunt|EGW}",
+							"{@spell tether essence|EGW}",
+							"{@spell time ravage|EGW}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Psychic Defense",
+					"entries": [
+						"While esk is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Esk makes three unarmed strikes."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage plus 13 ({@damage 3d8}) psychic damage."
+					]
+				},
+				{
+					"name": "Temporal Strike {@recharge}",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one creature. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage plus 52 ({@damage 8d12}) psychic damage. The target must succeed on a {@dc 17} Wisdom saving throw or move 1 round forward in time. A target moved forward in time vanishes for the duration. When the effect ends, the target reappears in the space it left or in an unoccupied space nearest to that space if it's occupied."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"mountain",
+				"urban"
+			],
+			"tokenUrl": "https://i.imgur.com/9skJaUZ.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}
