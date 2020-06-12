@@ -79,22 +79,6 @@
                   },
                   "Once your Astral Self takes damage, it is thrusted back into the Astral Plane, leaving your physical body in its space. You can also return your body as a bonus action, which sends your astral self back to the astral plane. You have a number of uses of this feature equal to your Wisdom Modifier and you regain all expended uses after a long rest."
                 ]
-              },
-              {
-                "type": "entries",
-                "name": "Velocity",
-                "entries": [
-                  "At 3rd level, you can leap to incredible heights. You can expend your entire movement to leap into the air, up to a height of 10 feet per two fighter levels you possess, and land within 20 feet of where you originated.",
-                  "Additionally, as long as you are conscious and wielding a melee weapon, all damage taken from falling is halved and you always land on your feet."
-                ]
-              },
-              {
-                "type": "entries",
-                "name": "Jump",
-                "entries": [
-                  "Beginning at 3rd level, when you leap into the air, you may use your action to strike a target beneath you. While falling to a location adjacent to a target, make a melee weapon attack with advantage against it. On a hit, the target takes an additional 1d6 damage of the same type as your weapon for every 10 feet you fall. Additionally, if you hit, you take no falling damage.",
-                  "Once you use this feature, you must finish a short or long rest before you can use it again. You can use this feature twice between rests starting at 5th level, three times between rests starting at 10th level, and four times between rests starting at 15th level."
-                ]
               }
             ]
           }
