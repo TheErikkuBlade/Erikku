@@ -22,7 +22,7 @@
   "subclass": [
     {
       "class": "Fighter",
-      "name": "Astral Warrior",
+      "name": "AstralWarrior",
       "subclassFeatures": [
         [
           {
