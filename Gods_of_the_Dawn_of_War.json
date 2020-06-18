@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1592512870,
-		"dateLastModified": 1592512870
+		"dateAdded": 1592514359,
+		"dateLastModified": 1592514359
 	},
 	"monster": [
 		{
@@ -984,7 +984,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Mystra uses her Divine Presence and Call of the Wild if its available, she then makes three attacks."
+						"Melora uses her Divine Presence and Call of the Wild if its available, she then makes three attacks."
 					]
 				},
 				{
@@ -1058,7 +1058,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://i.imgur.com/cMDNSq7.png",
+			"tokenUrl": "https://i.imgur.com/glON4y3.png",
 			"traitTags": [
 				"Legendary Resistances",
 				"Magic Weapons",
@@ -1274,25 +1274,25 @@
 				{
 					"name": "Discorporation",
 					"entries": [
-						"When Melora drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the , and she is unable to take physical form for a time."
+						"When Avandra drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the , and she is unable to take physical form for a time."
 					]
 				},
 				{
 					"name": "Legendary Resistance (5/Day)",
 					"entries": [
-						"If Melora fails a saving throw, she can choose to succeed instead."
+						"If Avandra fails a saving throw, she can choose to succeed instead."
 					]
 				},
 				{
 					"name": "Magic Weapons",
 					"entries": [
-						"Melora's weapon attacks are magical."
+						"Avandra's weapon attacks are magical."
 					]
 				},
 				{
 					"name": "Regeneration",
 					"entries": [
-						"If Melora has at least 1 hit point, she regains 30 hit points at the start of her turn."
+						"If Avandra has at least 1 hit point, she regains 30 hit points at the start of her turn."
 					]
 				},
 				{
@@ -1324,7 +1324,7 @@
 				{
 					"name": "Limited Magic Immunity",
 					"entries": [
-						"Melora can't be affected or detected by spells of 6th level or lower unless she wishes to be. She has advantage on saving throws against all other spells and magical effects."
+						"Avandra can't be affected or detected by spells of 6th level or lower unless she wishes to be. She has advantage on saving throws against all other spells and magical effects."
 					]
 				},
 				{
@@ -1338,7 +1338,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Mystra uses her Divine Presence and Call of the Wild if its available, she then makes three attacks."
+						"Avandra uses her Divine Presence, she then makes three attacks."
 					]
 				},
 				{
@@ -1452,7 +1452,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://i.imgur.com/jqDLpv8.png",
+			"tokenUrl": "https://i.imgur.com/zJtKWd8.png",
 			"traitTags": [
 				"Legendary Resistances",
 				"Magic Weapons",
@@ -3059,23 +3059,17 @@
 				}
 			],
 			"fluff": {
-				"entries": [
-					"\"Time is irrelevant to those who are not bound by it, and yet you mortals yearn for it. I envy those who can run out of time.\"",
-					"An endless wanderer throughout space and time, a creature not bound by the laws of mortals or gods. He is supposedly the being that represents time, or perhaps even the concept of it.",
-					"His travels allow him to gain an assortment of items from throughout the multiverse and throughout all of time, if it has existed he can get his palms on it. While he could learn whatever he wants at any given time, he prefers to take his time learning about adventurers, learning through mere conversation instead.",
-					"He rewards adventurers with interesting tales with magical items, though the items in question are random."
-				],
 				"images": [
 					{
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/sFT2Rny.jpg"
+							"url": "https://i.imgur.com/gXn3pOY.png"
 						}
 					}
 				]
 			},
-			"tokenUrl": "https://i.imgur.com/xSZjylB.png",
+			"tokenUrl": "https://i.imgur.com/gXn3pOY.png",
 			"traitTags": [
 				"Legendary Resistances",
 				"Magic Weapons",
