@@ -12,305 +12,10 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1592412722,
-		"dateLastModified": 1592412722
+		"dateAdded": 1592512870,
+		"dateLastModified": 1592512870
 	},
 	"monster": [
-		{
-			"name": "Zehir",
-			"isNpc": true,
-			"isNamedCreature": true,
-			"source": "GodsoftheDawnofWar",
-			"size": "G",
-			"type": {
-				"type": "celestial",
-				"tags": [
-					"titan"
-				]
-			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 25,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"formula": "50d20 + 500",
-				"average": 1025
-			},
-			"speed": {
-				"walk": 60,
-				"fly": 120,
-				"climb": 60,
-				"swim": 60
-			},
-			"str": 30,
-			"dex": 24,
-			"con": 30,
-			"int": 26,
-			"wis": 26,
-			"cha": 28,
-			"save": {
-				"str": "+19",
-				"dex": "+16",
-				"wis": "+17",
-				"cha": "+18",
-				"con": "+19",
-				"int": "+17"
-			},
-			"skill": {
-				"arcana": "+17",
-				"perception": "+26",
-				"religion": "+17"
-			},
-			"senses": [
-				"darkvision 240 ft.",
-				"truesight 120 ft."
-			],
-			"passive": 36,
-			"resist": [
-				"force",
-				"necrotic",
-				"psychic",
-				"radiant",
-				"thunder"
-			],
-			"immune": [
-				"acid",
-				"cold",
-				"fire",
-				"lightning",
-				"poison",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"conditionImmune": [
-				"blinded",
-				"charmed",
-				"deafened",
-				"frightened",
-				"poisoned",
-				"stunned"
-			],
-			"languages": [
-				"Common",
-				"Draconic",
-				"Infernal",
-				"Celestial"
-			],
-			"cr": "30",
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"Zehir can innately cast the following spell, her spellcasting ability is Charisma (spell save {@dc 26}):"
-					],
-					"will": [
-						"{@spell bestow curse|PHB}",
-						"{@spell blight|PHB}",
-						"{@spell conjure animals|PHB}",
-						"{@spell conjure celestial|PHB}",
-						"{@spell contagion|PHB}",
-						"{@spell control weather|PHB}",
-						"{@spell dark star|EGW}",
-						"{@spell darkvision|PHB}",
-						"{@spell divine word|PHB}",
-						"{@spell harm|PHB}",
-						"{@spell maddening darkness|XGE}",
-						"{@spell remove curse|PHB}",
-						"{@spell storm of vengeance|PHB}",
-						"{@spell true polymorph|PHB}",
-						"{@spell true resurrection|PHB}"
-					],
-					"constant": [
-						"{@spell shadow of moil|XGE}"
-					],
-					"ability": "cha",
-					"type": "spellcasting"
-				}
-			],
-			"trait": [
-				{
-					"name": "Discorporation",
-					"entries": [
-						"When Zehir drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the Towers of Night, and she is unable to take physical form for a time."
-					]
-				},
-				{
-					"name": "Legendary Resistance (5/Day)",
-					"entries": [
-						"If Zehir fails a saving throw, she can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Limited Magic Immunity",
-					"entries": [
-						"Unless she wishes to be affected, Zehir is immune to spells of 6th level or lower. She has advantage on saving throws against all other spells and magical effects."
-					]
-				},
-				{
-					"name": "Magic Weapons",
-					"entries": [
-						"Zehir's weapon attacks are magical."
-					]
-				},
-				{
-					"name": "Regeneration",
-					"entries": [
-						"Zehir regains 30 hit points at the start of her turn."
-					]
-				},
-				{
-					"name": "Ethereal Jaunt",
-					"entries": [
-						"As a bonus action, the Zehir can magically shift from the Material Plane to the Ethereal Plane, or vice versa."
-					]
-				},
-				{
-					"name": "Flyby",
-					"entries": [
-						"The Zehir doesn't provoke opportunity attacks when it flies out of an enemy's reach."
-					]
-				},
-				{
-					"name": "Avoidance",
-					"entries": [
-						"If the Zehir is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
-					]
-				},
-				{
-					"name": "Divine Awareness",
-					"entries": [
-						"The Zehir knows if it hears a lie."
-					]
-				},
-				{
-					"name": "Fear Aura",
-					"entries": [
-						"Any creature hostile to the Zehir that starts its turn within 20 feet of the Zehir must make a {@dc 21} Wisdom saving throw, unless the Zehir is {@condition incapacitated}. On a failed save, the creature is {@condition frightened} until the start of its next turn. If a creature's saving throw is successful, the creature is immune to the Zehir's Fear Aura for the next 24 hours."
-					]
-				},
-				{
-					"name": "Divine Might",
-					"entries": [
-						"A greater god's attacks and effects ignore the resistances and immunities of creatures CR 25 and below. A greater god's attacks and effects targeting creatures of CR 26-35 ignore resistances and treat immunities as resistance (condition immunities provide advantage in lieu of immunity)"
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"Zehir can use her Divine Presence. She then makes three attacks: two with her bite and one with her tail."
-					]
-				},
-				{
-					"name": "Tail",
-					"entries": [
-						"{@atk mw} {@hit 19} to hit, reach 25 ft., one target. {@h}28 ({@damage 4d8 + 10}) piercing damage."
-					]
-				},
-				{
-					"name": "Divine Presence",
-					"entries": [
-						"Each creature within 120 ft of Zehir must make a {@dc 25} Wisdom saving throw. On a failed save, they have disadvantage on attack rolls, ability checks, and saving throws made against Zehir and in addition they cannot gain advantage on attack rolls, ability checks, or saving throws against Zehir. These effects end when they stay out of range of this effect for more than 10 minutes. On a successful save, they are immune to this effect for the next hour. If they fail the saving throw by 10 or more, attack rolls that are less than a 20 on the {@dice d20} automatically miss, dealing no damage. Saving throws and ability checks that are less than a 20 on the {@dice d20} automatically fail. A creature can repeat their save at the end of each of their turns."
-					]
-				}
-			],
-			"legendaryActions": 5,
-			"legendary": [
-				{
-					"name": "Divine Regeneration",
-					"entries": [
-						"Zehir regains 50 hit points."
-					]
-				},
-				{
-					"name": "Serpentine's Ferocity",
-					"entries": [
-						"Zehir makes one bite attack and one tail attack."
-					]
-				},
-				{
-					"name": "Move",
-					"entries": [
-						"Zehir moves up to half its movement without provoking attacks of opportunity."
-					]
-				},
-				{
-					"name": "Eternal Darkness",
-					"entries": [
-						"Zehir casts maddening darkness, centered on itself. This darkness covers the entirety of Zehir's domain if she is in it."
-					]
-				}
-			],
-			"legendaryGroup": {
-				"name": "Arch-wraith",
-				"source": "BoBH"
-			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://i.imgur.com/VxH5YdR.png"
-						}
-					}
-				]
-			},
-			"tokenUrl": "https://i.imgur.com/VxH5YdR.png",
-			"traitTags": [
-				"Flyby",
-				"Legendary Resistances",
-				"Magic Weapons",
-				"Regeneration"
-			],
-			"senseTags": [
-				"SD",
-				"U"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"CE",
-				"DR",
-				"I"
-			],
-			"damageTags": [
-				"P"
-			],
-			"spellcastingTags": [
-				"I"
-			],
-			"miscTags": [
-				"MW",
-				"RCH"
-			],
-			"conditionInflict": [
-				"frightened",
-				"incapacitated"
-			],
-			"conditionInflictSpell": [
-				"blinded",
-				"deafened",
-				"stunned"
-			]
-		},
 		{
 			"name": "Lolth",
 			"shortName": "Lolth",
@@ -2813,6 +2518,929 @@
 			],
 			"conditionInflict": [
 				"frightened"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"deafened",
+				"stunned"
+			]
+		},
+		{
+			"name": "The Traveling Merchant",
+			"shortName": "Merchant",
+			"isNamedCreature": true,
+			"source": "GodsoftheDawnofWar",
+			"page": 0,
+			"level": 60,
+			"size": "M",
+			"type": "celestial",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 46,
+					"from": [
+						"Temporal Shift"
+					]
+				}
+			],
+			"hp": {
+				"formula": "234d20 + 2340",
+				"average": 7020
+			},
+			"speed": {
+				"walk": 300,
+				"fly": {
+					"number": 1200,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 34,
+			"dex": 42,
+			"con": 30,
+			"int": 42,
+			"wis": 40,
+			"cha": 50,
+			"save": {
+				"int": "+30",
+				"wis": "+29",
+				"con": "+24",
+				"cha": "+34",
+				"dex": "+30",
+				"str": "+26"
+			},
+			"skill": {
+				"history": "+44",
+				"insight": "+43",
+				"arcana": "+44",
+				"acrobatics": "+30",
+				"animal handling": "+29",
+				"athletics": "+26",
+				"deception": "+34",
+				"intimidation": "+34",
+				"investigation": "+30",
+				"medicine": "+29",
+				"nature": "+30",
+				"performance": "+34",
+				"persuasion": "+34",
+				"religion": "+30",
+				"stealth": "+30",
+				"sleight of hand": "+30",
+				"survival": "+29",
+				"perception": "+43"
+			},
+			"senses": [
+				"truesight 240 ft."
+			],
+			"passive": 53,
+			"resist": [
+				{
+					"special": "all damage"
+				}
+			],
+			"conditionImmune": [
+				{
+					"special": "all conditions"
+				}
+			],
+			"languages": [
+				"all",
+				"telepathy (no range limit)"
+			],
+			"cr": "30",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Traveling Merchant’s spellcasting ability is Charisma (spell save {@dc 42}, +34 to hit with attack spells). The Traveling Merchant can innately cast the following spells, requiring no components:"
+					],
+					"constant": [
+						"{@spell comprehend languages}",
+						"{@spell foresight}",
+						"{@spell mind blank}",
+						"{@spell nondetection}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Temporal Spellcasting",
+					"headerEntries": [
+						"The Traveling Merchant knows all spells available to clerics, sorcerers, warlocks, and wizards and can cast each five times per day at 9th level."
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Discorporation",
+					"entries": [
+						"When The Traveling Merchant drops to 0 hit points or dies, his body is destroyed but his essence travels back to his realm of paradox, and he is unable to take physical form for a time."
+					]
+				},
+				{
+					"name": "Legendary Resistance (10/Day)",
+					"entries": [
+						"If The Traveling Merchant fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The Traveling Merchant's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"If The Traveling Merchant has at least 1 hit point, he regains 100 hit points at the start of his turn."
+					]
+				},
+				{
+					"name": "Luck of the Timelord",
+					"entries": [
+						"The Traveling Merchant has advantage on all of his attack rolls and saving throws, and targets have disadvantage on saving throws against his spells and attacks. The Traveling Merchant rolls a critical hit on a roll of 18-20 and he rolls the damage dice three times instead of twice."
+					]
+				},
+				{
+					"name": "Timely Fortune",
+					"entries": [
+						"The Traveling Merchant has 20 luck points he can use at any time (lucky feat, PHB p. 167). He regains these points at dawn."
+					]
+				},
+				{
+					"name": "Divine Might",
+					"entries": [
+						"A greater god's attacks and effects ignore the resistances and immunities of creatures CR 30 and below. A greater god's attacks and effects targeting creatures of CR 31-40 ignore resistances and treat immunities as resistance (condition immunities provide advantage in lieu of immunity)"
+					]
+				},
+				{
+					"name": "Epic Magic Immunity",
+					"entries": [
+						"The Traveling Merchant can't be affected or detected by spells of 12th level or lower unless he wishes to be. He has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If The Traveling Merchant is subjected to an effect that allows him to make a saving throw to only take half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails."
+					]
+				},
+				{
+					"name": "Beyond Reality",
+					"entries": [
+						"The Traveling Merchant exists beyond the bounds of the multiverse, allowing him to cast magic normally through his own source of power rather than the bounding restrictions of any god or goddess of magic."
+					]
+				},
+				{
+					"name": "Reality Breaker",
+					"entries": [
+						"The Traveling Merchant has a dagger that can rip through the fabric of reality.",
+						"Reality Breaker is a +5 artifact dagger with a range of 600/1200 and when thrown immediately flies back into its wielder's hand.",
+						"As an action, The Traveling Merchant can make an attack action as normal, but with one or multiple attacks he rips open rifts into other planes. Each of these rifts operate as per the Gate spell, and can lead to any plane including the domains of Gods.",
+						"Each time a creature is hit with this dagger, a piece of their soul is damaged as well. A creature hit with this dagger cannot gain the benefits of any healing until they finish a long rest. In addition, a creature reduced to 0 hit points is instantly killed and their soul is destroyed. They cannot be resurrected by any means short of a {@spell wish} spell, and only if The Traveling Merchant allows it.",
+						"A deity or similar being slain by this dagger is destroyed permanently."
+					]
+				},
+				{
+					"name": "Temporal Shift",
+					"entries": [
+						"The Traveling Merchant adds his Charisma modifier to his AC."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Traveling Merchant uses his Divine Presence and Temporal Shatter if its available, he then makes five attacks."
+					]
+				},
+				{
+					"name": "Divine Presence",
+					"entries": [
+						"Each creature within 120 ft of The Traveling Merchant must make a {@dc 42} Wisdom saving throw. On a failed save, they have disadvantage on attack rolls, ability checks, and saving throws made against The Traveling Merchant and in addition, they cannot gain advantage on attack rolls, ability checks, or saving throws against The Traveling Merchant. These effects end when they stay out of range of this effect for more than 10 minutes. On a successful save, they are immune to this effect for the next hour. If they fail the saving throw by 10 or more, attack rolls that are less than a 20 on the {@dice d20} automatically miss, dealing no damage. Saving throws and ability checks that are less than a 20 on the {@dice d20} automatically fail. A creature can repeat their save at the end of each of their turns."
+					]
+				},
+				{
+					"name": "Reality Breaker",
+					"entries": [
+						"{@atk mw,rw} {@hit 39} to hit, reach 5 ft. or range 600/1200 ft., one target. {@h}22 ({@damage 4d4 + 12}) piercing damage in melee, or 22 ({@damage 4d4 + 12}) piercing damage at range, plus 34 ({@damage 4d10 + 12}) force damage."
+					]
+				},
+				{
+					"name": "Temporal Shatter {@recharge 5}",
+					"entries": [
+						"The Traveling Merchant reaches into the mind of one creature he can see and wanders through their memories. He then alters the events that took place, or even removes them entirely. The target must make a Wisdom saving throw {@dc 42} or take {@damage 24d12} force damage and completely forgets that memory for 24 hours, or permanently. (The Traveling Merchant's choice.) On a success, the target only takes half damage and retains the memory, though it appears fuzzy for 24 hours.",
+						"For each memory lost in this way, the creature's level (or CR) is reduced by 1. If their level (or CR) is reduced to 0, they die."
+					]
+				},
+				{
+					"name": "Perfect Mimic",
+					"entries": [
+						"The Traveling Merchant creates any number of perfect illusions of himself in unoccupied spaces he can see that last for 1 hour. He may use a bonus action to exert precise control over the illusions, otherwise they imitate his movements perfectly. He can cast spells or attack as though he were in the illusions place. These illusions appear in the minds of each creature and even fools truesight."
+					]
+				},
+				{
+					"name": "Alter Reality {@recharge 5}",
+					"entries": [
+						"The deity can duplicate any spell of 12th level or lower as an action. The duplicated spell has no material or XP components, and the DC of its saving throw (if one is allowed) is 42. The deity also can duplicate a spell with any metamagic feat (so long as the metamagic feat is available to characters of 20th level or lower). The deity can render a magical or supernatural effect permanent. The deity can undo any magical or supernatural effect. The deity can create temporary, nonmagical objects. This works like the Create Object ability, except that the items last one day per rank. The deity also can create permanent nonmagical objects as if using the Create Object ability. The deity can create temporary magic items or creatures. The deity can reshape a landscape, creating any type of terrain the deity can imagine.",
+						"There are also other effects that can take place by the DM's discretion."
+					]
+				},
+				{
+					"name": "Replicate Divinity {@recharge}",
+					"entries": [
+						"The Traveling Merchant can replicate any God or other Divine being's abilities. Their effects and action cost apply as normal, any ability that requires a saving throw has a save DC of 42."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Timestop {@recharge}",
+					"entries": [
+						"When The Traveling Merchant is hit with an attack, prior to being hit he can use his reaction to cast {@spell time stop}."
+					]
+				}
+			],
+			"legendaryActions": 10,
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The Traveling Merchant makes a Reality Breaker attack."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"The Traveling Merchant can teleport to an unoccupied space within half his fly speed."
+					]
+				},
+				{
+					"name": "Innate Spellcasting",
+					"entries": [
+						"The Traveling Merchant casts a spell."
+					]
+				},
+				{
+					"name": "Regenerate",
+					"entries": [
+						"The Traveling Merchant regenerates 150 hit points."
+					]
+				},
+				{
+					"name": "Temporal Curse (Costs 2 Actions)",
+					"entries": [
+						"The Traveling Merchant curses one creature he can see. The creature must make a {@dc 42} Wisdom saving throw, or be shackled by the chains of time.",
+						"The creature is {@condition incapacitated}, their movement speed is 0, and they automatically fail saving throws. Attack rolls have advantage and each attack that hits is considered a critical hit.",
+						"This effect ends at the end of the creature's next turns. After which, for the next minute the creature's speed is cut in half and they can only make one weapon attack per turn. They also can only take an action or bonus action, not both and lose their reactions."
+					]
+				},
+				{
+					"name": "Rewrite (Costs 4 Actions)",
+					"entries": [
+						"The Traveling Merchant forces one creature he can see to reroll one roll (attack, save, damage, etc.) with disadvantage or advantage, The Traveling Merchant’s choice. The new roll replaces the previous roll, reshaping reality to accommodate the change."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"\"Time is irrelevant to those who are not bound by it, and yet you mortals yearn for it. I envy those who can run out of time.\"",
+					"An endless wanderer throughout space and time, a creature not bound by the laws of mortals or gods. He is supposedly the being that represents time, or perhaps even the concept of it.",
+					"His travels allow him to gain an assortment of items from throughout the multiverse and throughout all of time, if it has existed he can get his palms on it. While he could learn whatever he wants at any given time, he prefers to take his time learning about adventurers, learning through mere conversation instead.",
+					"He rewards adventurers with interesting tales with magical items, though the items in question are random."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/sFT2Rny.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/xSZjylB.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP",
+				"XX"
+			],
+			"damageTags": [
+				"O",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"restrained",
+				"stunned"
+			],
+			"conditionInflicted": [
+				"poisoned",
+				"restrained",
+				"grappled"
+			]
+		},
+		{
+			"name": "Cronus, The Imprisoned",
+			"shortName": "Cronus",
+			"isNamedCreature": true,
+			"source": "GodsoftheDawnofWar",
+			"page": 0,
+			"level": 56,
+			"size": "G",
+			"type": {
+				"type": "celestial",
+				"tags": [
+					"elder titan"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 42,
+					"from": [
+						"44 with the Blades of Chaos"
+					]
+				}
+			],
+			"hp": {
+				"formula": "61d100 + 1220",
+				"average": 7320
+			},
+			"speed": {
+				"walk": 120,
+				"fly": {
+					"number": 600,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 69,
+			"dex": 35,
+			"con": 50,
+			"int": 24,
+			"wis": 34,
+			"cha": 32,
+			"save": {
+				"int": "+20",
+				"wis": "+25",
+				"con": "+33",
+				"cha": "+24",
+				"dex": "+25",
+				"str": "+42"
+			},
+			"skill": {
+				"acrobatics": "+38",
+				"athletics": "+55",
+				"survival": "+38",
+				"intimidation": "+37",
+				"religion": "+20",
+				"history": "+20"
+			},
+			"senses": [
+				"truesight 240 ft."
+			],
+			"passive": 22,
+			"resist": [
+				{
+					"resist": [
+						{
+							"special": "all damage"
+						}
+					],
+					"note": "while raging"
+				}
+			],
+			"conditionImmune": [
+				{
+					"special": "all conditions"
+				}
+			],
+			"languages": [
+				"all",
+				"telepathy (no range limit)"
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (8/Day)",
+					"entries": [
+						"If Cronus fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Cronus' weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"If Cronus has at least 1 hit point, he regains 200 hit points at the start of his turn."
+					]
+				},
+				{
+					"name": "Divine Might",
+					"entries": [
+						"A greater god's attacks and effects ignore the resistances and immunities of creatures CR 30 and below. A greater god's attacks and effects targeting creatures of CR 41-50 ignore resistances and treat immunities as resistance (condition immunities provide advantage in lieu of immunity)"
+					]
+				},
+				{
+					"name": "Epic Magic Immunity",
+					"entries": [
+						"Cronus can't be affected or detected by spells of 10th level or lower unless he wishes to be. He has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If Cronus is subjected to an effect that allows him to make a saving throw to only take half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails."
+					]
+				},
+				{
+					"name": "Divine Rage",
+					"entries": [
+						"Cronus goes is always in a relentless rage. He has resistance to all damage while raging and adds a +10 to attack and damage rolls using strength. (Included in attack)"
+					]
+				},
+				{
+					"name": "Blades of Chaos",
+					"entries": [
+						"Cronus has two powerful weapons that can kill even the mightiest of deities.",
+						"Each Blade of Chaos is a +5 Artifact Colossal Scimitar.",
+						"The blades deal an additional {@damage 8d10} fire damage. This damage cannot be reduced and ignores damage resistance and immunity.",
+						"When wielding both blades, you have a +2 bonus to your AC, attack, and damage rolls.",
+						"The Blades of Chaos have a reach of 20 ft, as you have chains that are wrapped around your arms to the blades."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Cronus uses his Divine Presence and then makes six attacks."
+					]
+				},
+				{
+					"name": "Divine Presence",
+					"entries": [
+						"Each creature within 120 ft of Cronus must make a {@dc 32} Wisdom saving throw. On a failed save, they have disadvantage on attack rolls, ability checks, and saving throws made against The Traveling Merchant and in addition, they cannot gain advantage on attack rolls, ability checks, or saving throws against Cronus. These effects end when they stay out of range of this effect for more than 10 minutes. On a successful save, they are immune to this effect for the next hour. If they fail the saving throw by 10 or more, attack rolls that are less than a 20 on the {@dice d20} automatically miss, dealing no damage. Saving throws and ability checks that are less than a 20 on the {@dice d20} automatically fail. A creature can repeat their save at the end of each of their turns."
+					]
+				},
+				{
+					"name": "Blades of Chaos",
+					"entries": [
+						"{@atk mw} {@hit 54} to hit, reach 20 ft., one target. {@h}68 ({@damage 6d8 + 41}) slashing/piercing damage, plus 73 ({@damage 8d10}) fire damage."
+					]
+				},
+				{
+					"name": "Colossal Adamantine Glaive",
+					"entries": [
+						"{@atk mw} {@hit 52} to hit, reach 5 ft., one target. {@h}66 ({@damage 6d8 + 39}) slashing damage"
+					]
+				},
+				{
+					"name": "Alter Reality {@recharge 6}",
+					"entries": [
+						"The deity can duplicate any spell of 12th level or lower as an action. The duplicated spell has no material or XP components, and the DC of its saving throw (if one is allowed) is 32. The deity also can duplicate a spell with any metamagic feat (so long as the metamagic feat is available to characters of 20th level or lower). The deity can render a magical or supernatural effect permanent. The deity can undo any magical or supernatural effect. The deity can create temporary, nonmagical objects. This works like the Create Object ability, except that the items last one day per rank. The deity also can create permanent nonmagical objects as if using the Create Object ability. The deity can create temporary magic items or creatures. The deity can reshape a landscape, creating any type of terrain the deity can imagine.",
+						"There are also other effects that can take place by the DM's discretion."
+					]
+				}
+			],
+			"legendaryActions": 8,
+			"legendary": [
+				{
+					"name": "Overwhelming Attack",
+					"entries": [
+						"Cronus can move up to half his movement, then he makes two Blades of Chaos attacks."
+					]
+				},
+				{
+					"name": "Regenerate",
+					"entries": [
+						"Cronus regenerates 250 hit points."
+					]
+				},
+				{
+					"name": "Unrelenting Fury (Costs 2 Actions)",
+					"entries": [
+						"Cronus makes two Blades of Chaos attacks, then the attack target(s) makes a {@dc 50} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"\"Time is irrelevant to those who are not bound by it, and yet you mortals yearn for it. I envy those who can run out of time.\"",
+					"An endless wanderer throughout space and time, a creature not bound by the laws of mortals or gods. He is supposedly the being that represents time, or perhaps even the concept of it.",
+					"His travels allow him to gain an assortment of items from throughout the multiverse and throughout all of time, if it has existed he can get his palms on it. While he could learn whatever he wants at any given time, he prefers to take his time learning about adventurers, learning through mere conversation instead.",
+					"He rewards adventurers with interesting tales with magical items, though the items in question are random."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/sFT2Rny.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/xSZjylB.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP",
+				"XX"
+			],
+			"damageTags": [
+				"F",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"restrained",
+				"stunned"
+			],
+			"conditionInflicted": [
+				"poisoned",
+				"restrained",
+				"grappled"
+			]
+		},
+		{
+			"name": "Zehir, God of Darkness and Snakes",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "GodsoftheDawnofWar",
+			"size": "G",
+			"type": {
+				"type": "celestial",
+				"tags": [
+					"titan"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 25,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "34d20 + 442",
+				"average": 1082
+			},
+			"speed": {
+				"walk": 60,
+				"fly": 120,
+				"climb": 60,
+				"swim": 60
+			},
+			"str": 34,
+			"dex": 32,
+			"con": 36,
+			"int": 31,
+			"wis": 26,
+			"cha": 30,
+			"save": {
+				"str": "+19",
+				"dex": "+18",
+				"wis": "+15",
+				"cha": "+16",
+				"con": "+20",
+				"int": "+17"
+			},
+			"skill": {
+				"arcana": "+17",
+				"perception": "+22",
+				"religion": "+17",
+				"stealth": "+25",
+				"deception": "+24"
+			},
+			"senses": [
+				"darkvision 240 ft.",
+				"truesight 120 ft."
+			],
+			"passive": 32,
+			"resist": [
+				"force",
+				"necrotic",
+				"psychic",
+				"radiant",
+				"thunder"
+			],
+			"immune": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Infernal",
+				"Celestial"
+			],
+			"cr": "22",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Zehir can innately cast the following spell, his spellcasting ability is Charisma (spell save {@dc 25}):"
+					],
+					"constant": [
+						"{@spell shadow of moil|XGE}"
+					],
+					"will": [
+						"{@spell bestow curse|PHB}",
+						"{@spell blight|PHB}",
+						"{@spell conjure animals|PHB}",
+						"{@spell conjure celestial|PHB}",
+						"{@spell contagion|PHB}",
+						"{@spell control weather|PHB}",
+						"{@spell dark star|EGW}",
+						"{@spell darkvision|PHB}",
+						"{@spell divine word|PHB}",
+						"{@spell harm|PHB}",
+						"{@spell maddening darkness|XGE}",
+						"{@spell remove curse|PHB}",
+						"{@spell storm of vengeance|PHB}",
+						"{@spell true polymorph|PHB}",
+						"{@spell true resurrection|PHB}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Discorporation",
+					"entries": [
+						"When Zehir drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the Towers of Night, and she is unable to take physical form for a time."
+					]
+				},
+				{
+					"name": "Legendary Resistance (5/Day)",
+					"entries": [
+						"If Zehir fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Unless she wishes to be affected, Zehir is immune to spells of 6th level or lower. She has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Zehir's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"Zehir regains 30 hit points at the start of her turn."
+					]
+				},
+				{
+					"name": "Ethereal Jaunt",
+					"entries": [
+						"As a bonus action, Zehir can magically shift from the Material Plane to the Ethereal Plane, or vice versa."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"Zehir doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"Zehir is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Divine Awareness",
+					"entries": [
+						"The Zehir knows if it hears a lie."
+					]
+				},
+				{
+					"name": "Fear Aura",
+					"entries": [
+						"Any creature hostile to the Zehir that starts its turn within 20 feet of the Zehir must make a {@dc 25} Wisdom saving throw, unless the Zehir is {@condition incapacitated}. On a failed save, the creature is {@condition frightened} until the start of its next turn. If a creature's saving throw is successful, the creature is immune to the Zehir's Fear Aura for the next 24 hours."
+					]
+				},
+				{
+					"name": "Divine Might",
+					"entries": [
+						"A greater god's attacks and effects ignore the resistances and immunities of creatures CR 25 and below. A greater god's attacks and effects targeting creatures of CR 26-35 ignore resistances and treat immunities as resistance (condition immunities provide advantage in lieu of immunity)"
+					]
+				},
+				{
+					"name": "Divine Spellcasting",
+					"entries": [
+						"Zehir knows all spells available to clerics, sorcerers, and warlocks and can cast each three times per day at 9th level. Zehir can cast additional spells as indicated for greater gods and as noted bellow in innate spellcasting."
+					]
+				},
+				{
+					"name": "Shroud of the Serpents (Mythic Trait, recharges after a short or long rest)",
+					"entries": [
+						"When Zehir falls to 0 hit points, he doesn't fall {@condition unconscious} or die, he instead regains 800 hit points and summons {@dice 4d8 + 4} Couatls. He then envelops the current plane into magical darkness. This magical darkness cannot be dispelled by any means short of a wish spell cast by a deity or Divine Intervention. While within this darkness, creatures other than Zehir and his couatls cannot receive the benefits of healing.",
+						"If Zehir uses this trait in his domain, he can be killed permanently."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Zehir can use his Divine Presence. He then makes three attacks: two with his bite and one with his tail."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 20 ft., one target. {@h}38 ({@damage 4d12 + 12}) piercing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 25 ft., one target. {@h}22 ({@damage 4d8 + 12}) piercing damage."
+					]
+				},
+				{
+					"name": "Divine Presence",
+					"entries": [
+						"Each creature within 120 ft of Zehir must make a {@dc 22} Wisdom saving throw. On a failed save, they have disadvantage on attack rolls, ability checks, and saving throws made against Zehir and in addition they cannot gain advantage on attack rolls, ability checks, or saving throws against Zehir. These effects end when they stay out of range of this effect for more than 10 minutes. On a successful save, they are immune to this effect for the next hour. If they fail the saving throw by 10 or more, attack rolls that are less than a 20 on the {@dice d20} automatically miss, dealing no damage. Saving throws and ability checks that are less than a 20 on the {@dice d20} automatically fail. A creature can repeat their save at the end of each of their turns."
+					]
+				}
+			],
+			"legendaryActions": 5,
+			"legendary": [
+				{
+					"name": "Divine Regeneration",
+					"entries": [
+						"Zehir regains 50 hit points."
+					]
+				},
+				{
+					"name": "Serpentine's Ferocity",
+					"entries": [
+						"Zehir makes one bite attack and one tail attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"Zehir moves up to half its movement without provoking attacks of opportunity."
+					]
+				},
+				{
+					"name": "Eternal Darkness (Costs 3 Actions)",
+					"entries": [
+						"Zehir casts maddening darkness, centered on itself. This darkness covers the entirety of Zehir's domain if he is in it."
+					]
+				}
+			],
+			"mythicHeader": [
+				"If Zehir's mythic trait is active, for the next hour he can use the following as Legendary Actions:"
+			],
+			"mythic": [
+				{
+					"name": "Absorb Couatl",
+					"entries": [
+						"Zehir can kill one of his couatls to regain hit points equal to the current hit points the target couatl was at currently."
+					]
+				},
+				{
+					"name": "Swarming Attack (Costs 2 Actions)",
+					"entries": [
+						"Zehir makes one bite attack, then each of his couatls makes a bite attack."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Arch-wraith",
+				"source": "BoBH"
+			},
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/nuf3n8o.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/nuf3n8o.png",
+			"traitTags": [
+				"Flyby",
+				"Legendary Resistances",
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"DR",
+				"I"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"incapacitated"
 			],
 			"conditionInflictSpell": [
 				"blinded",
