@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1592511742,
-		"dateLastModified": 1592511742
+		"dateAdded": 1592513212,
+		"dateLastModified": 1592513212
 	},
 	"monster": [
 		{
@@ -180,7 +180,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://i.imgur.com/xSZjylB.png",
+			"tokenUrl": "https://i.imgur.com/gXn3pOY.png",
 			"traitTags": [
 				"Legendary Resistances",
 				"Magic Weapons",
@@ -213,18 +213,12 @@
 				"grappled"
 			],
 			"fluff": {
-				"entries": [
-					"\"Time is irrelevant to those who are not bound by it, and yet you mortals yearn for it. I envy those who can run out of time.\"",
-					"An endless wanderer throughout space and time, a creature not bound by the laws of mortals or gods. He is supposedly the being that represents time, or perhaps even the concept of it.",
-					"His travels allow him to gain an assortment of items from throughout the multiverse and throughout all of time, if it has existed he can get his palms on it. While he could learn whatever he wants at any given time, he prefers to take his time learning about adventurers, learning through mere conversation instead.",
-					"He rewards adventurers with interesting tales with magical items, though the items in question are random."
-				],
 				"images": [
 					{
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/sFT2Rny.jpg"
+							"url": "https://i.imgur.com/gXn3pOY.png"
 						}
 					}
 				]
