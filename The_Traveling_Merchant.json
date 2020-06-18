@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1592504588,
-		"dateLastModified": 1592504588
+		"dateAdded": 1592504845,
+		"dateLastModified": 1592504845
 	},
 	"monster": [
 		{
@@ -160,6 +160,12 @@
 						"As an action, The Traveling Merchant can make an attack action as normal, but with one or multiple attacks he rips open rifts into other planes. Each of these rifts operate as per the Gate spell, and can lead to any plane including the domains of Gods.",
 						"Each time a creature is hit with this dagger, a piece of their soul is damaged as well. A creature hit with this dagger cannot gain the benefits of any healing until they finish a long rest. In addition, a creature reduced to 0 hit points is instantly killed and their soul is destroyed. They cannot be resurrected by any means short of a {@spell wish} spell, and only if The Traveling Merchant allows it.",
 						"A deity or similar being slain by this dagger is destroyed permanently."
+					]
+				},
+				{
+					"name": "Temporal Shift",
+					"entries": [
+						"The Traveling Merchant adds his Charisma modifier to his AC."
 					]
 				}
 			],
