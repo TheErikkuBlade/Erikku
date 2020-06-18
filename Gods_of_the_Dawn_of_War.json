@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1592514359,
-		"dateLastModified": 1592514359
+		"dateAdded": 1592515401,
+		"dateLastModified": 1592515401
 	},
 	"monster": [
 		{
@@ -294,7 +294,18 @@
 					]
 				}
 			],
-			"tokenUrl": "https://i.imgur.com/uBZjvog.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/TV3PTHR.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/TV3PTHR.png",
 			"traitTags": [
 				"Legendary Resistances",
 				"Magic Weapons",
@@ -1821,7 +1832,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://i.imgur.com/IlTODhJ.png",
+			"tokenUrl": "https://i.imgur.com/g7SiJZu.png",
 			"traitTags": [
 				"Legendary Resistances",
 				"Magic Weapons",
@@ -2178,7 +2189,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://i.imgur.com/9iUuEaM.png",
+			"tokenUrl": "https://i.imgur.com/bNsiDmR.png",
 			"traitTags": [
 				"Legendary Resistances",
 				"Magic Weapons",
@@ -2481,7 +2492,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://i.imgur.com/cZPPoqY.png",
+			"tokenUrl": "https://i.imgur.com/wcgggiK.png",
 			"traitTags": [
 				"Legendary Resistances",
 				"Magic Weapons",
