@@ -176,7 +176,7 @@
           {
             "name": "Blood Pool",
             "entries": [
-              "Starting at 1st level, you have a pool of blood that you can use as a buffer when you use your blood manipulation. These are represented by a number of d6s equal to twice your Hemomancer level. You’ll expend these “Blood Dice” to use your hemomancer abilities. Anytime you spend one of your Blood Dice, you roll them and take damage equal to the amount you rolled. ",
+              "Starting at 1st level, you have a pool of blood that you can use as a buffer when you use your blood manipulation. These are represented by a number of d4s equal to twice your Hemomancer level. You’ll expend these “Blood Dice” to use your hemomancer abilities. Anytime you spend one of your Blood Dice, you roll them and take damage equal to the amount you rolled. ",
               "Additionally, as a bonus action you can expend one hit die to replenish 2 Blood Dice. When you do you roll your hit die as if you were restoring hit points during a short rest, but instead you take damage equal to the result.",
               "At higher levels your Blood Dice increases in size, becoming a d6 at 5th level, a d8 at 11th level, and finally a d10 at 17th level."
             ]
