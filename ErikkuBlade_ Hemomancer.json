@@ -338,7 +338,7 @@
                     "type": "entries",
                     "name": "Bloody Vitality",
                     "entries": [
-                      "As an action by spending a blood die you or an ally within 30ft of you can gain an amount of temporary hit points equal to the result. If you give it to an ally you can roll an additional blood die to boost the temporary hit points."
+                      "As an action by spending a hit die you or an ally within 30ft of you can gain an amount of temporary hit points equal to the result. If you give it to an ally you can roll a blood die to boost the temporary hit points by an amount equal to the result."
                     ]
                   },
                   {
