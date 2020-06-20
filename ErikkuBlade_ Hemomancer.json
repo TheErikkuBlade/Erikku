@@ -400,14 +400,14 @@
                     "type": "entries",
                     "name": "Bloody Curse",
                     "entries": [
-                      "As a bonus action choose 1 creature within 60 ft. That creature takes additional necrotic damage equal to your proficiency bonus when you hit them with a Blood Weapon or a Bloody Tendril. In addition, when you reduce that creature to 0 hit points you restore 1 hit die. Also when the cursed creature falls to 0 hit points, as bonus action you can move the curse to another target within 60 ft."
+                      "As a bonus action choose 1 creature within 60 ft. That creature takes additional necrotic damage equal to your proficiency bonus when you hit them with a Blood Weapon or a Bloody Tendril. In addition, when you reduce that creature to 0 hit points you restore 1 blood die. Also when the cursed creature falls to 0 hit points, as bonus action you can move the curse to another target within 60 ft."
                     ]
                   },
                   {
                     "type": "entries",
                     "name": "Bloody Demise",
                     "entries": [
-                      "As an action you can absorb blood from a corpse that has been dead for no longer than 4 hours within 10 ft of you. You gain an amount of Blood Points into your Blood Pool equal to twice their CR."
+                      "As an action you can absorb blood from a corpse that has been dead for no longer than 4 hours within 10 ft of you. You gain an amount of Blood Dice into your Blood Pool equal to their CR. Once you do so, you cannot do so again until you finish a long rest."
                     ]
                   }
                 ]
