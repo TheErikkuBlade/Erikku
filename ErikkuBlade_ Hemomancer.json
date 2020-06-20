@@ -465,7 +465,7 @@
               {
                 "name": "Blood Bending",
                 "entries": [
-                  "Starting at 1st level when you choose this archetype you learn the “Shape Water” cantrip, but instead of being able to shape water, you instead shape blood. At 4th level you learn the Hold Person spell, at 7th level you learn the Hold Monster Spell, and at 9th level you learn the Dominate Person Spell. Each of these spells uses your Wisdom as your Spellcasting Ability. Each spell of 1st level or higher using this feature can only be used once per short or long rest and cost an amount of hit points equal to twice the spell’s level to use. Each spell must be cast at their lowest level."
+                  "Starting at 1st level when you choose this archetype you learn the “Shape Water” cantrip, but instead of being able to shape water, you instead shape blood. At 4th level you learn the Hold Person spell, at 7th level you learn the Hold Monster Spell, and at 9th level you learn the Dominate Person Spell. Each of these spells uses your Wisdom as your Spellcasting Ability. Each spell of 1st level or higher using this feature can only be used once per short or long rest and cost an amount of blood dice per level of the spell. Each spell must be cast at their lowest level."
                 ]
               },
               {
