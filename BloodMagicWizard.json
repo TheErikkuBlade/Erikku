@@ -79,7 +79,7 @@
         "Starting at 2nd level, you have the ability to empower you and your spells with your blood magic. Using your Blood Magic, you can do one of the following :",
         {
           "type": "options",
-          "items": [
+          "entries": [
             {
               "type": "entries",
               "name": "Blood Boost",
