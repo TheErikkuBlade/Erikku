@@ -54,7 +54,11 @@
       "name": "Blood Magic",
       "entries": [
         "Starting at 2nd level, you have a pool of magic that you can call upon at the expense of your vitality. These are represented by a number of d4s equal to your Wizard level. When you spend one of these dice, you roll it and take damage equal to what you rolled. These blood magic dice increase in size as you gain levels in this class, becoming a d6 at 7th level, a d8 at 13th level, and a d10 at 18th level. Your Blood Magic pool replenishes after a long rest.",
-        "Alternatively, you can spend a hit die and roll it as if you were restoring hit points on a short rest, only instead you take damage equal to the roll. Afterwards, you replenish 2 spent Blood Magic dice."
+        "Alternatively, you can spend a hit die and roll it as if you were restoring hit points on a short rest, only instead you take damage equal to the roll. Afterwards, you replenish 2 spent Blood Magic dice.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Blood Magic|Wizard||Blood Magic|BloodMagicWizard|2"
+        }
       ],
       "source": "BloodMagicWizard",
       "page": 112,
@@ -95,6 +99,10 @@
               ]
             }
           ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Blood Magic|Wizard||Blood Magic|BloodMagicWizard|2"
         }
       ],
       "source": "BloodMagicWizard",
@@ -118,7 +126,11 @@
       "header": 2,
       "entries": [
         "Starting at 6th level, your devotion to the dark arts of blood magic gives you a will stronger than most. You have advantage on saving throws against being charmed or frightened.",
-        "In addition, while toying with your mortality you’ve strengthened your body to better take your lust for destruction. You gain 6 hit points, and 1 additional hit point each time you gain a level in this class."
+        "In addition, while toying with your mortality you’ve strengthened your body to better take your lust for destruction. You gain 6 hit points, and 1 additional hit point each time you gain a level in this class.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Blood Magic|Wizard||Blood Magic|BloodMagicWizard|6"
+        }
       ]
     },
     {
@@ -133,7 +145,11 @@
       "header": 2,
       "entries": [
         "Starting at 10th level, you’ve discovered an arcane sigil that allows you to prepare more spells at a given time. Choose a number of wizard spells in your spellbook equal to your Constitution modifier. You always have these spells prepared and they do not count against your total number of prepared spells. You can also cast them without expending a spell slot by spending blood magic dice equal to the spell’s level. Once you cast each of these spells in this way, you cannot do so again until you finish a long rest.",
-        "Additionally, when you use your Arcane Recovery feature, you can spend any number of blood magic dice to increase the total level of spells you can recover for each blood magic die spent. (For example,. at level 10 if you spend 2 blood magic dice you can recover 7 levels worth of spell slots.) You otherwise follow the rules of the feature as normal."
+        "Additionally, when you use your Arcane Recovery feature, you can spend any number of blood magic dice to increase the total level of spells you can recover for each blood magic die spent. (For example,. at level 10 if you spend 2 blood magic dice you can recover 7 levels worth of spell slots.) You otherwise follow the rules of the feature as normal.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Blood Magic|Wizard||Blood Magic|BloodMagicWizard|10"
+        }
       ]
     },
     {
@@ -148,7 +164,11 @@
       "header": 2,
       "entries": [
         "Also at 10th level, when you manifest a Blood Focus using your Blood Manipulation, you can spend an additional 4 blood magic dice to keep the Blood Focus manifested until it is consumed by a spell or dispelled as a bonus action. When you do so, the gold cost of the material increases to 1000 gp.",
-        "If the spell consumes the material component, but it is worth less than 1000 gp, you subtract the difference and your Blood Focus is not consumed. The result becomes your new gold cost. When the gold cost reaches under 100 gp, your blood focus is consumed."
+        "If the spell consumes the material component, but it is worth less than 1000 gp, you subtract the difference and your Blood Focus is not consumed. The result becomes your new gold cost. When the gold cost reaches under 100 gp, your blood focus is consumed.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Blood Magic|Wizard||Blood Magic|BloodMagicWizard|10"
+        }
       ]
     },
     {
@@ -163,7 +183,11 @@
       "header": 2,
       "entries": [
         "Starting at 14th level, your dedication to blood magic has strengthened both your body and mind. You add your Constitution modifier to your Intelligence and Wisdom saving throws. You also become proficient in Constitution saving throws. If you already have proficiency in this saving throw, choose one between Strength or Dexterity.",
-        "In addition, once when you would take damage from one of your Blood Magic features, you can choose to not take damage instead. When you do so, you gain vulnerability to the next damage roll, ignoring any resistances or immunities you would otherwise have. You have a number of uses of this feature equal to your Constitution Modifier, regaining expended uses after a long rest."
+        "In addition, once when you would take damage from one of your Blood Magic features, you can choose to not take damage instead. When you do so, you gain vulnerability to the next damage roll, ignoring any resistances or immunities you would otherwise have. You have a number of uses of this feature equal to your Constitution Modifier, regaining expended uses after a long rest.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Blood Magic|Wizard||Blood Magic|BloodMagicWizard|14"
+        }
       ]
     }
   ]
