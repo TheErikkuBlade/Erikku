@@ -45,11 +45,7 @@
       "subclassSource": "BMWizardSchool",
       "level": 2,
       "entries": [
-        "Shrouded by curiosity and insidious methods, you have sacrificed a portion of your mortality to gain greater arcane power. You’ll do anything to get an edge over your opponents, even at the cost of your own strength.",
-        {
-          "type": "refSubclassFeature",
-          "subclassFeature": "School of Blood Magic|Wizard||School of Blood Magic|BMWizardSchool|2"
-        }
+        "Shrouded by curiosity and insidious methods, you have sacrificed a portion of your mortality to gain greater arcane power. You’ll do anything to get an edge over your opponents, even at the cost of your own strength."
       ]
     },
     {
