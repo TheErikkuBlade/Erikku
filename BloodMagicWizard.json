@@ -17,6 +17,7 @@
   },
   "subclass": [
     {
+      "class": "Wizard",
       "name": "School of Blood Magic",
       "subclassFeatures": [
         [
@@ -121,8 +122,7 @@
         ]
       ],
       "source": "BloodMagicWizard",
-      "shortName": "Blood Magic",
-      "class": "Wizard"
+      "shortName": "Blood Magic"
     }
   ],
   "$schema": "../schema.json"
