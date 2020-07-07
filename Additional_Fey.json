@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1589078720,
-		"dateLastModified": 1589078720
+		"dateAdded": 1594102413,
+		"dateLastModified": 1594102413
 	},
 	"monster": [
 		{
@@ -249,8 +249,7 @@
 				"MW",
 				"RNG",
 				"RW"
-			],
-			"uniqueId": "a6e31347d9f7ec94013f17c716388b09"
+			]
 		},
 		{
 			"name": "Faenix",
@@ -419,8 +418,330 @@
 				"AOE",
 				"MW",
 				"RCH"
+			]
+		},
+		{
+			"name": "Siren",
+			"isNpc": true,
+			"source": "AdditionalFey",
+			"page": "1",
+			"size": "M",
+			"type": "fey",
+			"alignment": [
+				"C",
+				"G",
+				"NY",
+				"E"
 			],
-			"uniqueId": "1840d7d9e89b7b9e696dfe416cdd7007"
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 40",
+				"average": 85
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 50
+			},
+			"str": 15,
+			"dex": 20,
+			"con": 18,
+			"int": 13,
+			"wis": 14,
+			"cha": 20,
+			"skill": {
+				"medicine": "+5",
+				"nature": "+7",
+				"stealth": "+8",
+				"survival": "+5",
+				"athletics": "+5",
+				"perception": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Siren's innate spellcasting ability is Charisma (spell save {@dc 16}). She can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell animal friendship}",
+							"{@spell charm person}",
+							"{@spell enthrall}",
+							"{@spell fog cloud}",
+							"{@spell greater invisibility}",
+							"{@spell polymorph} (self only)",
+							"{@spell suggestion}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"Siren can breathe air and water."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Siren has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage, plus 19 ({@damage 4d6 + 5}) psychic damage while the target is {@condition charmed}."
+					]
+				},
+				{
+					"name": "Stupefying Touch",
+					"entries": [
+						"Siren touches one creature she can see within 5 feet of her. The creature must succeed on a {@dc 16} Intelligence saving throw or take 25 ({@damage 6d6 + 4}) psychic damage and be {@condition stunned} until the start of Siren's next turn."
+					]
+				},
+				{
+					"name": "Luring Song",
+					"entries": [
+						"The siren sings a magical melody. Every humanoid and giant within 300 feet of the siren that can hear the song must succeed on a {@dc 16} Wisdom saving throw or be {@condition charmed} until the song ends. The siren must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the siren is {@condition incapacitated}.",
+						"While {@condition charmed} by the siren, a target is {@condition incapacitated} and ignores the songs of other siren. If the {@condition charmed} target is more than 5 feet away from the siren, the target must move on its turn toward the siren by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the siren, the target can repeat the saving throw. A {@condition charmed} target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it.",
+						"A target that successfully saves is immune to this siren's song for the next 24 hours."
+					]
+				}
+			],
+			"environment": [
+				"feywild",
+				"forest",
+				"swamp",
+				"underwater"
+			],
+			"fluff": {
+				"entries": [
+					"Originally, sirens were what are now known as the harpies. As time went on, the depiction of the sirens evolved into the fey we now know them as. ",
+					"Sirens are fey that are spiteful toward mankind. Their beauty and lustful singing can enchant the hearts of even the strongest men and lure them to the Siren, similarly as the harpies do. When their prey are lured in to their lair, they devour those who are foolish and weak enough to fall for their enchantments. Few return with their lives to tell the tale, and fewer return claiming they had slain the creature."
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/PnzrMbf.png",
+			"traitTags": [
+				"Amphibious",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed",
+				"incapacitated",
+				"stunned"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"invisible"
+			]
+		},
+		{
+			"name": "Winter Walker",
+			"source": "AdditionalFey",
+			"page": "1",
+			"size": "H",
+			"type": "fey",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"Natrual Armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 126,
+				"formula": "12d12 + 48"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 20,
+			"dex": 13,
+			"con": 18,
+			"int": 3,
+			"wis": 9,
+			"cha": 17,
+			"save": {
+				"con": "+7",
+				"cha": "+6"
+			},
+			"skill": {
+				"perception": "+2",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"acid",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"Understands Sylvan but does not speak it"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Freezing Aura",
+					"entries": [
+						"Any creature that starts its turn within 30 feet of the Winter Walker must succeed on a {@dc 15} Constitution saving throw or take 7 ({@damage 2d6}) cold damage and grant the Winter Walker advantage on attack rolls against it until the start of the creature's next turn. The affected creatures also suffers disadvantage on attack rolls and their movement speed is reduced by 10 ft. Creatures with resistance to cold damage have advantage on the saving throw."
+					]
+				},
+				{
+					"name": "Limited Invisibility",
+					"entries": [
+						"While the winter walker is in a blizzard, it is {@condition invisible}. It can still be partially visible but only by creatures with a 15 passive perception or higher, canceling the effects of it's limited invisibility. It appears as a translucent ghost while within this limited invisibility."
+					]
+				},
+				{
+					"name": "Aversion of Fire",
+					"entries": [
+						"If the winter walker takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The nightwalker uses Frostbitten Touch twice, or it uses Frostbitten Touch and Chilling Doom, if available."
+					]
+				},
+				{
+					"name": "Frostbitten Touch",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}17 ({@damage 3d8 + 5}) cold damage. The target must succeed on a {@dc 15} Constitution saving throw or its hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest."
+					]
+				},
+				{
+					"name": "Chilling Doom {@recharge}",
+					"entries": [
+						"The winter walker points at one creature it can see within 300 feet of it. The target must succeed on a {@dc 14} Wisdom saving throw or take 18 ({@damage 3d12}) cold damage and become {@condition frightened} until the end of the winter walker's next turn. While {@condition frightened} in this way, the creature is also {@condition paralyzed}. If a target's saving throw is successful, the target is immune to the winter walker's Chilling Doom for the next 24 hours."
+					]
+				},
+				{
+					"name": "Cold Breath {@recharge 5}",
+					"entries": [
+						"The winter walker exhales an icy blast in a 30-foot cone. Each creature in that area must make a {@dc 15} Constitution saving throw, taking 45 ({@damage 10d8}) cold damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"feywild",
+				"hill",
+				"mountain"
+			],
+			"fluff": {
+				"entries": [
+					"Unknown to most travelers, there is a monster that can only be found during the winter times, where the Feywild and the material plane converges the most.",
+					"The Unseelie Court created a creature bound by a curse that infects other creatures with this same curse. The creature walks aimlessly until the death of winter. If it comes across any travelers, it thoughtlessly attacks. This creature's main drive is to protect the crossroads between the Feywild and the material plane, however it is void of any form of sanity or consciousness. It has no real thoughts, only about the fight and how it will kill its current or next prey.",
+					"When winter comes to an end, the creature fades away. Supposedly, there is a section of the Feywild that is in an endless winter, which is where these Winter Walkers go to wander until the next winter comes.",
+					"As a fail safe, they gave the creature an unnatural weakness to fire in case these monsters decided to turn against them."
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/dA0Xs1I.png",
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"S"
+			],
+			"damageTags": [
+				"C"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed"
+			]
 		}
 	]
 }
