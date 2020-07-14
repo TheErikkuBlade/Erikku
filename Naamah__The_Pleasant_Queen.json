@@ -14,8 +14,8 @@
 				]
 			}
 		],
-		"dateAdded": 1594712702,
-		"dateLastModified": 1594712702
+		"dateAdded": 1594712808,
+		"dateLastModified": 1594712808
 	},
 	"monster": [
 		{
@@ -226,7 +226,7 @@
 			"conditionInflict": [
 				"charmed"
 			],
-			"tokenUrl": "https://noads.5e.tools/img/WFS/Succubus.png?v=1.106.13",
+			"tokenUrl": "https://i.imgur.com/FWns0d6.png",
 			"fluff": {
 				"images": [
 					{
