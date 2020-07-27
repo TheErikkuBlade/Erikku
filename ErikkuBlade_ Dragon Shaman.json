@@ -1,0 +1,1570 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "DS",
+        "abbreviation": "DS",
+        "full": "Dragon Shaman",
+        "authors": [
+          "Erikku Blade"
+        ],
+        "convertedBy": [
+          "CrimtaneCreeper"
+        ],
+        "version": "2.0",
+        "url": "",
+        "targetSchema": "1.0.0"
+      }
+    ]
+  },
+  "class": [
+    {
+      "name": "Dragon Shaman",
+      "source": "DS",
+      "hd": {
+        "number": 1,
+        "faces": 10
+      },
+      "proficiency": [
+        "dex",
+        "wis"
+      ],
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "Draconian Powers",
+            "CR",
+            "Draconian Shape",
+            "Draconian Arts Die",
+            "Draconian Movement"
+          ],
+          "rows": [
+            [
+              0,
+              1,
+              1,
+              "1d4",
+              "+5 ft"
+            ],
+            [
+              2,
+              2,
+              1,
+              "1d4",
+              "+10 ft"
+            ],
+            [
+              2,
+              2,
+              1,
+              "1d4",
+              "+10 ft"
+            ],
+            [
+              2,
+              3,
+              1,
+              "1d4",
+              "+10 ft"
+            ],
+            [
+              3,
+              3,
+              1,
+              "1d6",
+              "+10 ft"
+            ],
+            [
+              3,
+              4,
+              1,
+              "1d6",
+              "+15 ft"
+            ],
+            [
+              3,
+              4,
+              1,
+              "1d6",
+              "+15 ft"
+            ],
+            [
+              4,
+              5,
+              1,
+              "1d6",
+              "+15 ft"
+            ],
+            [
+              4,
+              5,
+              1,
+              "1d6",
+              "+15 ft"
+            ],
+            [
+              4,
+              6,
+              2,
+              "1d6",
+              "+20 ft"
+            ],
+            [
+              5,
+              6,
+              2,
+              "1d8",
+              "+20 ft"
+            ],
+            [
+              5,
+              7,
+              2,
+              "1d8",
+              "+20 ft"
+            ],
+            [
+              5,
+              7,
+              2,
+              "1d8",
+              "+20 ft"
+            ],
+            [
+              6,
+              8,
+              2,
+              "1d8",
+              "+25 ft"
+            ],
+            [
+              6,
+              8,
+              2,
+              "1d8",
+              "+25 ft"
+            ],
+            [
+              6,
+              9,
+              2,
+              "1d8",
+              "+25 ft"
+            ],
+            [
+              7,
+              9,
+              2,
+              "1d10",
+              "+25 ft"
+            ],
+            [
+              7,
+              10,
+              2,
+              "1d10",
+              "+30 ft"
+            ],
+            [
+              7,
+              10,
+              2,
+              "1d10",
+              "+30 ft"
+            ],
+            [
+              8,
+              20,
+              3,
+              "1d10",
+              "+30 ft"
+            ]
+          ]
+        }
+      ],
+      "startingProficiencies": {
+        "armor": [],
+        "weapons": [
+          "simple",
+          "shortswords"
+        ],
+        "tools": [
+          "Choose 1 Artisan's Tools"
+        ],
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "Acrobatics",
+                "Athletics",
+                "History",
+                "Insight",
+                "Intimidation",
+                "Perception",
+                "Religion",
+                "Stealth",
+                "Survival"
+              ],
+              "count": 2
+            }
+          }
+        ]
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) 1 quarterstaff or (b) any simple weapon",
+          "(a) explorer's pack or (b) priest's pack",
+          "(a) 1 set of artisan's tools"
+        ],
+        "goldAlternative": "5d4x10"
+      },
+      "multiclassing": {
+        "requirements": {
+          "wis": 13
+        },
+        "proficienciesGained": {}
+      },
+      "classFeatures": [
+        [
+          {
+            "name": "Draconian Origins",
+            "entries": [
+              "Whether you grew up alone with a dragon, was born from a dragon, or through some sheer coincidence you’ve found a dying dragon who was willing to pass on their latent power to you. Regardless of how your power came to be, your powers vary based on the type of dragon your origin is from. Starting at 1st level, you gain the following features depending on your Origin.",
+              {
+                "type": "options",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "All",
+                    "entries": [
+                      "Draconian Arts: Your practice in the ways of the dragon gives you mastery of combat styles that use unarmed strikes and dragon weapons, which are shortswords and any simple melee weapons that don't have the heavy property.",
+                      "You gain the following benefits while you are unarmed or wielding only dragon weapons and you aren't wearing armor or wielding a shield:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and dragon weapons.",
+                          "You can roll a d4 in place of the normal damage of your unarmed strike or dragon weapon. This die changes as you gain dragon shaman levels, as shown in the Draconian Arts column of the Dragon Shaman table.",
+                          "When you use the Attack action with an unarmed strike or a dragon weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.",
+                          "While not wearing armor or wielding a shield, your armor class equals 13 + your Wisdom modifier.",
+                          "Starting at 1st level, your speed increases by 5 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain dragon shaman levels, as shown in the Dragon Shaman table.",
+                          "You have a Draconian Save DC equal to 8 + your Proficiency bonus + your Wisdom modifier",
+                          "You can speak, read, and write Draconic."
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Red",
+                    "entries": [
+                      "Claws of the Flaming Dragons: There is a fire constantly burning from within you, you can magically harness this power from your soul at any time. ",
+                      "You have resistance to fire damage.",
+                      "Your unarmed strikes and dragon weapons deal an additional amount of fire damage equal to your Draconian Arts die, in addition you can cast the {@spell Produce Flame} cantrip at will. Wisdom is your spellcasting ability for this spell.",
+                      "As an action you can unleash your burning soul in a fiery fury. For 1 minute, your unarmed strikes and dragon weapons deal an additional amount of fire damage equal to your Wisdom modifier. In addition, at the start of each of your turns you gain an amount of temporary hit points equal to your Constitution modifier. (This benefit does not stack with itself.) In addition, a creature who hits with a melee attack against you takes an amount of fire damage equal to your Wisdom modifier. Once this effect ends, you cannot use it again until you complete a long rest.",
+                      "At 3rd level you can cast the {@spell Burning Hands} spell at 2nd level once without expending a spell slot. At 5th level you can cast the {@spell Scorching Ray} spell at 2nd level once without expending a spell slot. Both of these spells use Wisdom as your spellcasting ability and you regain the ability to cast each of them after you complete a short or long rest."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Blue",
+                    "entries": [
+                      "Surging Lightning of the Dragons: You gain the uncanny ability to magically hasten your movements, allowing you to access a well of stamina that you can use in a pinch. ",
+                      "You have resistance to lightning damage. ",
+                      "Your unarmed strikes deal an additional amount of lightning damage equal to your Draconian Arts die. In addition you can cast the {@spell Shocking Grasp} cantrip at will. Wisdom is your spellcasting ability for this spell.",
+                      "As an action, you can enter a state of unbound movement at the cost of your own stamina. For the next minute, your movement does not provoke opportunity attacks and your movement speed is increased by 10 ft. This effect ends early if you are knocked unconscious, incapacitated, or die. After these effects end, you suffer a level of exhaustion that can only be restored after a long rest.",
+                      "At 3rd level, you can cast the {@spell Witch bolt} spell once at 2nd level without expending a spell slot or requiring material components. At 5th level you can cast the {@spell Haste} Spell once without expending a spell slot or requiring material components. Both of these spells use Wisdom as your spellcasting ability and you regain the ability to cast each of them after you complete a short or long rest."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Green",
+                    "entries": [
+                      "Lethal Toxins of the Poisonous Dragons: You have a storage of magical poisons deep within your blood. You can use them to gain the upper hand in combat to make-up for the lack of physical strength.",
+                      "You have resistance to poison damage and have advantage on saving throws against being poisoned.",
+                      "Your unarmed strikes and dragon weapons deal an additional amount of poison damage equal to your Draconian Arts die. In addition you can cast the {@spell Poison Spray} cantrip at will. Wisdom is your spellcasting ability for this spell.",
+                      "When you hit with an unarmed strike or dragon weapon, you can have that creature make a Constitution saving throw against your Draconian Save DC. On a failed save the target is poisoned for 1 minute. At the end of each of its turns, a creature poisoned in this way can repeat its saving throw ending the effect on a success. While poisoned in this way, the creature suffers from one of the following effects of your choosing, in addition to the poisoned condition:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "The creature suffers a -2 penalty to AC.",
+                          "The creature can only make one attack using the attack action per round.",
+                          "The creature’s speed is reduced by 10 ft.",
+                          "The creature takes poison damage at the start of each of its turns equal to your Wisdom modifier. A creature cannot be reduced to 0 hit points by this effect."
+                        ]
+                      },
+                      "At 3rd level you can cast the {@spell Ray of Sickness} spell at 2nd level once without expending a spell slot. At 5th level you can cast the {@spell Protection from Poison} spell at 2nd level once without expending a spell slot. Both of these spells use Wisdom as your spellcasting ability and you regain the ability to cast each of them after you complete a short or long rest."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Black",
+                    "entries": [
+                      "Burning Acid of the Swamp Dragons: You have studied the marshy terrain of the swamps and compared it to other areas of living. Your training here has given you a general knowledge of traversing through difficult terrain.",
+                      "You have resistance to acid damage.",
+                      "Your unarmed strikes and dragon weapons deal an additional amount of acid damage equal to your Draconian Arts die. In addition you can cast the {@spell Acid Splash} cantrip at will. Wisdom is your spellcasting ability for this spell.",
+                      "You ignore difficult terrain and have advantage on ability checks and saving throws made to resist hazards found in the wild, such as a snare trap placed by a hunter or a quicksand trap found in the jungles.",
+                      "At 3rd level you can cast the {@spell Entangle} spell at 2nd level once without expending a spell slot. At 5th level you can cast the {@spell Melf’s Acid Arrow} spell at 2nd level once without expending a spell slot or requiring material components. Both of these spells use Wisdom as your spellcasting ability and you regain the ability to cast each of them after you complete a short or long rest."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "White",
+                    "entries": [
+                      "Chilling Aura of the Frozen Dragons: You are cold both in heart and spirit, your presence is detested by many and your morales are the most feral of anyone else.",
+                      "You have resistance to cold damage.",
+                      "Your unarmed strikes and dragon weapons deal an additional amount of cold damage equal to your Draconian Arts die. In addition you can cast the {@spell Frostbite|XGE} cantrip at will. Wisdom is your spellcasting ability for this spell.",
+                      "When you deal cold damage to a creature, that creature makes a Constitution saving throw against your draconian save dc. On a failed save, that creature’s speed is reduced by 10 ft. In addition, that creature’s skin begins to freeze rapidly making it unable to regain hit points until the effect ends. The effect ends after 1 minute, or until restored by a {@spell Lesser Restoration} spell. If the creature is hit again by an attack that benefits from your Draconian Origin and is already afflicted with this effect, the effect’s remaining time increases by 1 round.",
+                      "At 3rd level you can cast the {@spell Armor of Agathys} spell at 2nd level once without expending a spell slot or requiring material components. At 5th level you can cast the {@spell Snilloc's Snowball Swarm} spell at 2nd level once without expending a spell slot or requiring material components. Both of these spells use Wisdom as your spellcasting ability and you regain the ability to cast each of them after you complete a short or long rest."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Copper",
+                    "entries": [
+                      "Corroding Acid of the Trickster Dragons: Inside you is a potent acid capable of breaking down basic metals. In a fight you are most dangerous, outside of combat you are a convenience. Either way, you are full of tricks and surprises for both your enemies and your allies.",
+                      "You have resistance to acid damage. You gain immunity at 10th level.",
+                      "Your unarmed strikes and dragon weapons deal an additional amount of acid damage equal to your Draconian Arts die.",
+                      "When you deal acid damage to a creature, that creature makes a Dexterity saving throw against your Draconian Save DC. On a failed save, the creature’s AC and attack rolls receive a -2 penalty and attacks made with that weapon are at disadvantage. ",
+                      "You gain proficiency in the Deception and Performance skills. At 10th level you add double your proficiency bonus to these skills."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Bronze",
+                    "entries": [
+                      "Unstoppable Force of the Noble Dragons: You have an ultimate holy power that stems from your unyielding fighting spirit. You fight for what is just, for all that is holy and good. You never back down from a fight against villains, and never quit even when your back is to the wall.",
+                      "You have resistance to lightning damage. You gain immunity at 10th level.",
+                      "Your unarmed strikes and dragon weapons deal an additional amount of lightning damage equal to your Draconian Arts die.",
+                      "As an action on your turn you can become a relentless force of justice for 1 minute. These effects ends early if you end it as a bonus action or die. While in this form you have the following benefits:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "You deal an additional amount of force damage equal to your Wisdom modifier. ",
+                          "You have advantage on ability checks and saving throws made to resist being knocked prone, pushed, or pulled from an opposing creature. ",
+                          "Each time you hit a creature using an unarmed strike or a dragon weapon, they have to make a Strength saving throw against your Draconian Save DC, or be pushed back a number of feet equal to 5 x your Wisdom modifier. If they fail the save by 5 or more, they are knocked prone.",
+                          "You have advantage on death saves. In addition, if you have three successful death saves, you leap up and return to your feet at 1 hit point."
+                        ]
+                      },
+                      "You gain proficiency in the Athletics and Religion skills. At 10th level you add double your proficiency bonus to these skills."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Brass",
+                    "entries": [
+                      "Charming Presence of the Talkative Dragons: You are extremely talkative despite your hermit-like lifestyle. Though you may not be very good at it all the time, you will always have your moments.",
+                      "You have resistance to fire damage. You gain immunity at 10th level.",
+                      "Your unarmed strikes or dragon weapons deal an additional amount of fire damage equal to your Draconian Arts die.",
+                      "As an action, you can attempt to charm a creature you have spoken to for at least 1 minute by using flattery accompanied by a hint of magic. The target makes a Charisma saving throw against your Draconian Save DC, being charmed by you for 1 hour on a failed save, or becoming immune to this effect for the next 24 hours on a success. If the creature succeeds, they know you attempted to charm them, but not in a magical sense. It is more akin to the failed attempt of flattery or flirting. ",
+                      "In addition, you have learned how to magically communicate in a way that is comprehensible to any creature that can speak a language and you can gain a general understanding of what they're saying. Also, you are always under the effects of the Speak with Animals spell. You can speak, read, and write one additional language and becoming fluent in a language takes half as much time for you.",
+                      "You gain proficiency in the Persuasion and Nature skills. At 10th level you add double your proficiency bonus to these skills."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Silver",
+                    "entries": [
+                      "Honor of the Mountain-born Dragons: You are bound by an honorable oath and drawn by the deeds of others, you strive for justice but temper your power with the wisdom of peace. You can show the utmost mercy to your foes, or you can strike with the might of the mighty Dragons of the mountains.",
+                      "You have resistance to cold damage. You gain immunity at 10th level.",
+                      "Your unarmed strikes and dragon weapons deal an additional amount of cold damage equal to your Draconian Arts die.",
+                      "As a bonus action on your turn you can either empower your strikes, or grant yourself a healing boon for 1 minute. Depending on what you choose to do, you can gain one of the following benefits and after you use them once, you cannot use them again until you complete a short or long rest:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "As an action, you can touch a willing creature and magically restore 1d6 + your Wisdom Modifier hit points. This has no effect on undead or constructs.",
+                          "Your unarmed strikes or dragon weapons become magical for the purposes of overcoming non-magical resistances. In addition you gain a +1 bonus to attack and damage rolls made with them."
+                        ]
+                      },
+                      "You gain proficiency in Insight and Medicine. At 10th level you add double your proficiency bonus to these skills."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Gold",
+                    "entries": [
+                      "Knowledge of the Wizardly Dragons: You have undergone long and rigorous studies. History and lore intrigues you. There is not much unknown knowledge to you that has been available to you throughout your life. You are studious, prestigious, and a prodigy amongst men.",
+                      "You have resistance to fire damage. You gain immunity at 10th level.",
+                      "Your unarmed strikes and dragon weapons you deal an additional amount of fire damage equal to your Draconian Arts die.",
+                      "As an action on your turn you can grant yourself an uncanny knowledge for 1 hour. For the next hour you can recall anything that you can see within that hour. In addition, you have advantage on all Intelligence checks while under the effects of this feature. Once the benefits of this feature ends, you cannot use it again until you finish a short or long rest. In addition, you gain two cantrips and one 1st level spell from the Wizard spellcasting list. Once you cast the spell, you cannot do so again until you complete a long rest. Wisdom is your spellcasting ability for these spells.",
+                      "You gain proficiency in the Arcana and History skills. At 10th level you add double your proficiency bonus to these skills."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Draconian Shape",
+            "entries": [
+              "Harnessing the draconic powers that dwell within you, you can transform your shape to resemble a more draconic figure. As opposed to other Dragon Warriors and Dragon Mages, you have mastered the art of transforming into dragons, and can remain in these draconic forms far longer than others.",
+              "As an action on your turn, you magically transform into a dragon of CR equal to or less than 2. The CR increases based on your level as shown in the Dragon Shaman Table under the “CR” Category. Your transformation can alter the appearance of the creature you transform into whatever you wish, within reason. Such as changing the color to correspond to your origin, or adding special patterns that will make you unique to other dragons. You have a number of uses of your Draconian Shape feature as shown in the Dragon Shaman Table, regaining all expended uses of this feature after a short rest or long rest.",
+              "You can stay in a draconian shape for a number of hours equal to half your dragon shaman level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.",
+              "While you are transformed, the following rules apply:",
+              {
+                "type": "list",
+                "items": [
+                  "Any elemental damage dealt as part of the dragon’s attacks and elemental resistances is replaced with the damage type corresponding to your Draconian Arts die.",
+                  "Your game statistics are replaced by the statistics of the dragon, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.",
+                  "When you transform, you assume the dragon's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in dragon form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked unconscious.\nYou can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your dragon form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as call lightning, that you've already cast.",
+                  "You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as tremorsense, unless your new form also has that sense.",
+                  "You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.",
+                  "Until you reach 5th level, any flying speed your form would have would be replaced with your choice of a climbing or a swimming speed. If you already had one of the two speeds, you replace it with the new one."
+                ]
+              },
+              "Alternatively, following the same rules as above with the exception of retaining your creature shape and size, you can transform into a hybrid form retaining the use of your equipment, but still gaining the features of the creature you transform into. This form resembles a typical Dragon Warrior."
+            ]
+          },
+          {
+            "name": "Draconian Archetype",
+            "entries": [
+              "The dragon shaman has three different paths that you can take. The Path of the Wildling, The Path of the Ancients, The Path of the Warrior; these three paths define who you are, how you fight or defend, and where exactly your limits lie. Were you born in the wild, perhaps your ancestors were great and powerful Wyrms, or maybe you have learned to hone your powers and have broken past your limits time and time again."
+            ],
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Draconian Powers",
+            "entries": [
+              "Also at 2nd level you learn the ancient secrets of dragons. You know how they can fly, shoot fire - lighting - acid - even frost out of their mouths. You start off with 2 Draconian Powers and gain more as shown in the Dragon Shaman table. Some Draconian Powers are locked away by prerequisites that must be met before they obtain any of these sacred powers such as level and Draconian Origins. You can exchange a Draconian Power for others every time you level up."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Draconian Soul",
+            "entries": [
+              "Starting at 3rd level, you have a special soul of a long forgotten dragon. This soul gives you a unique power special to you. Choose one of the following souls.",
+              {
+                "type": "options",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Soul of the Truth",
+                    "entries": [
+                      "You have advantage on all Wisdom (Insight) checks made to detect if someone is lying. In addition, you cannot suffer disadvantage on Wisdom (Insight) checks by any means short of a spell of 5th level or higher that would block divination magic. ",
+                      "At 10th level, you can always detect when someone is telling a lie."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Soul of the Unseen",
+                    "entries": [
+                      "You can use an action to turn invisible for up to 1 hour. Your invisibility ends early if you spend an action or bonus action to attack, cast a spell, or make physical contact with another creature.",
+                      "At 10th level, you can remain invisible even if you attack, cast a spell, or make physical contact with another creature. Doing so reduces the time to 1 minute. If you have 1 minute or less time left when you use one of those actions, you immediately turn visible."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Soul of the Gifted",
+                    "entries": [
+                      "Whenever you roll a 1 on the d20 when making an attack roll, ability check, or saving throw, you can spend your reaction to re-roll that die, but you must use the new result, even if it is another 1.",
+                      "At 10th level, once per turn you can use this ability as a free action."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Soul of the Cursed One",
+                    "entries": [
+                      "As a bonus action, you can place a curse on a creature within 60 ft of you. This curse reduces the target’s AC by 2. In addition, choose an ability score. The target creature has disadvantage on ability checks and saving throws involving the chosen ability score.",
+                      "At 10th level, in addition to the following effects, whenever you roll a 20 on the d20 when you roll for an attack roll on the cursed target, you deal the maximum amount of damage possible with the attack."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Soul of the Trickster",
+                    "entries": [
+                      "As a bonus action on your turn, you can take the dash, disengage, or use an object action. ",
+                      "At 10th level, you can also take the dodge action as a bonus action."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a feat."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Extra Attack",
+            "entries": [
+              "Starting at 5th level, when you take the attack action on your turn you can make an additional weapon attack."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Draconian Roar",
+            "entries": [
+              "Starting at 6th level you can unleash a mighty roar to strike fear into your enemies. As an action on your turn, you can force each creature that can both see and hear you within 60 feet of you to make a Wisdom saving throw against your Draconian Save DC. On a failed save, each creature is frightened. On a success, the creature is immune to your roar for the next 24 hours. ",
+              "Immediately after being frightened in this way, each creature is knocked prone and must use their action to dash away from you. If there is nowhere to run, the creature may take the dodge action. ",
+              "At the end of each affected creature’s turns, they can repeat their saving throw, ending the effect on a success."
+            ]
+          },
+          {
+            "name": "Draconian Archetype Feature",
+            "entries": [
+              "At 6th level, gain a feature from your chosen Draconian Archetype"
+            ],
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Evasion",
+            "entries": [
+              "At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a feat."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Draconian Flight",
+            "entries": [
+              "At 9th level, you gain a flying speed equal to twice your Draconian Movement if you did not already have one. If you already had a flying speed, it increases by an amount equal to your Draconian Movement. (This combines on top of the speed increase already provided by your Draconian Movement.)"
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 10th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a feat."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Extra Attack (x2)",
+            "entries": [
+              "At 11th level, Gain another additional attack"
+            ]
+          },
+          {
+            "name": "Draconian Archetype Feature",
+            "entries": [
+              "At 11th level, gain a feature from your chosen Draconian Archetype"
+            ],
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a feat."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Draconian Might",
+            "entries": [
+              "At 13th level, your mastery over your powers have allowed you to persevere even in the toughest of times. You are immune to disease and the poisoned condition. In addition, you no longer suffer the effects of difficult terrain involving extreme weather."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Draconian Age",
+            "entries": [
+              "At 14th level, your dragon-like abilities have allowed you a timeless body and an increased lifespan. You suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, however. In addition, you no longer need food or water.",
+              "In addition, the draconic magic that you wield causes you to age more slowly. For every 100 years that pass, your body ages only 1 year."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Relentless Draconian",
+            "entries": [
+              "At 15th level, your body has become relentless and enduring, capable of taking the most intense of attacks. You add half of your proficiency bonus (rounded up) to all saving throws that do not already add it."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a feat."
+            ]
+          },
+          {
+            "name": "Draconian Archetype Feature",
+            "entries": [
+              "At 16th level, gain a feature from your chosen Draconian Archetype"
+            ],
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Extra Attack (x3)",
+            "entries": [
+              "At 17th level, Gain another additional attack"
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Draconian Master",
+            "entries": [
+              "At 18th level, you can ignore the verbal and somatic components of your spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your Draconian Shape.",
+              "In addition, whenever you roll for initiative when you have no uses of your Draconian Shape, you regain 1 usage."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a feat."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Draconian Archetype Feature",
+            "entries": [
+              "At 20th level, gain a feature from your chosen Draconian Archetype"
+            ],
+            "gainSubclassFeature": true
+          }
+        ]
+      ],
+      "subclassTitle": "Draconian Archetype",
+      "subclasses": [
+        {
+          "name": "Path of the Wildling",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Path of the Wildling",
+                "entries": [
+                  "You were born in the wild, raised by the wilderness and nature itself. Along this path, you have learned that you possess a power to bend and control the nature around you, causing great changes to the terrain around where you call home."
+                ]
+              },
+              {
+                "name": "Terraforming Presence",
+                "entries": [
+                  "Starting at 1st level, as an action on your turn, you can cause the area around you to shift and turn, transmogrifying the ground beneath you for 1 minute. You create a 10 ft radius cylinder, centered on you, of difficult terrain. The cylinder moves with you, and you are immune to the effects of this difficult terrain. In addition, you can choose up to a number of creatures equal to your Wisdom modifier to be immune to these effects as well. Depending on the damage type of your Draconian Arts die, one of the following effects becomes active, the effects ending when the difficult terrain returns to normal. You have a number of uses for this feature equal to your Wisdom Modifier, and regain all expended uses after a long rest.",
+                  {
+                    "type": "options",
+                    "entries": [
+                      {
+                        "type": "entries",
+                        "name": "Fire",
+                        "entries": [
+                          "Plumes of lava rise from the ground and the ground beneath you becomes volcanic-like in appearance. As a bonus action on your turn, you can make a ranged spell attack using Wisdom as your spellcasting ability against a creature you can see within 60 ft of your difficult terrain. On hit, the target takes 2d6 fire damage and is on fire. At the start of each of the creatures' turns they take 5 points of fire damage. That creature, or another creature within 5 feet, can use an action to smother out the flames, ending the effect."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Cold",
+                        "entries": [
+                          "The ground beneath you freezes solid and becomes icy terrain. As part of the same action the turn you use your Terraforming Presence, and as an action on all subsequent turns thereafter, you can impose a Constitution saving throw against your Draconian Save DC on each creature suffering the effects of your difficult terrain. On a failed save, the creature takes 2d6 cold damage and is incapacitated until the end of your next turn as frost coils around their body, incasing them in ice. On a success, the creature takes no damage and is not incapacitated. "
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Lightning",
+                        "entries": [
+                          "A heavy lightning storm brews around you. As a bonus action on each of your turns, you can launch a bolt of lightning toward each creature suffering the effects of your difficult terrain. Each creature makes a Dexterity saving throw against your Draconian Save DC. On a failed save, they take 2d6 lightning damage, or half as much on a success. At the start of each of their turns, each creature suffering the effects of your difficult terrain must make a Constitution saving throw against your Draconian Save DC, or be blinded until the end of your next turn on a failed save."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Acid",
+                        "entries": [
+                          "The ground beneath you becomes squishy, soft, and damp. As a bonus action, you can cause the moisture from beneath the ground to rise and lash it out on creatures suffering from your difficult terrain. They make a Dexterity saving throw against your Draconian Save DC, taking 2d6 acid damage on a failed save and their AC decreases by 2 until the end of your next turn, or no damage on a success and does not have their AC reduced."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Poison",
+                        "entries": [
+                          "Earthy plants, brambles, and vines rise from the ground around you. As a bonus action, you can cause plants to sprout and release a noxious gas against creatures suffering from your difficult terrain. They make a Constitution saving throw against your Draconian Save DC, or take 2d6 poison damage and become poisoned on a failed save, or they take no damage and are not poisoned on a success."
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Superior Terraforming",
+                "entries": [
+                  "Starting at 6th level, your Terraforming Presence’s range increases by 10 ft., in addition the damage dealt by your difficult terrain effects increases by 1d6."
+                ]
+              },
+              {
+                "name": "Natural Respite",
+                "entries": [
+                  "Also at 6th level, when you complete a long rest, you can end the effects of one disease or condition afflicting you. In addition, you regain all expended hit dice at the end of a long rest and gain an amount of temporary hit points equal to your Wisdom modifier. You can only gain these benefits if you complete your long rest outdoors."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Beastly Shape",
+                "entries": [
+                  "Starting at 11th level, you can expend a usage of your Draconian Shape to cast the Polymorph spell without expending a spell slot or requiring material components, but you can only target yourself. Wisdom is your Spellcasting Ability for this spell. The beast you transform into also counts as a dragon."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Wild Nature's Release",
+                "entries": [
+                  "Starting at 16th level, your connection to nature allows you to push yourself in order to protect it. While  transformed by your Draconian Shape, you can enter a relentless rage to strike down any creature who would dare challenge you in the game “Survival of the Fittest”. ",
+                  "While in your Wild Nature’s Release, you have advantage on all Strength ability checks. In addition, you have resistance to all damage except force, psychic, and necrotic damage dealt  by your unarmed strike, dragon weapons, or your Terraforming Presence gains a bonus equal to your Wisdom Modifier. ",
+                  "Your Wild Nature’s Release ends after 1 minute, if you end it early as a bonus action, if you are incapacitated, if you die, if your Draconian Shape ends, or if you end your turn not hostile toward a creature."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Warrior of the Beast",
+                "entries": [
+                  "Starting at level 20, when you use the Beastly Shape feature you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours.",
+                  "In addition, your Polymorph form does not require concentration to maintain the form and you can cast spells in your beast form as you retain the most basic ability to speak. You can also remain in your beast form indefinitely, unless you are dropped to 0 hit points or die.",
+                  "Also, your Polymorph form retains the benefits of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as tremorsense, unless your new form also has that sense."
+                ]
+              }
+            ]
+          ],
+          "source": "DS",
+          "shortName": "Path of the Wildling"
+        },
+        {
+          "name": "Path of the Ancients",
+          "subclassFeatures": [
+            [
+              {
+                "name": "The Path of the Ancients",
+                "entries": [
+                  "Your ancestry stems back to ancient times, dragons of old encompass your past, and you can call forth their ancient might to aid you on your journeys."
+                ]
+              },
+              {
+                "name": "Ancestral Ally",
+                "entries": [
+                  "Starting at 1st level, as an action, you can expend a usage of your Draconian Shape to instead summon a dragon rather than transform. The CR of dragon you can summon follows the same CR progression and Any elemental damage dealt as part of the dragon’s attacks and elemental resistances is replaced with the damage type corresponding to your Draconian Arts die. Regardless of the dragon you summon it can speak, read, and write the same languages as you do. They have an intelligence of 20 and have proficiency in Arcana and History skills, in addition to any skills they already possess.",
+                  "Their form is spirit like in appearance, opaque and almost see through. They also gain the Incorporeal Movement feature. (see the wraith stat block for reference.) The creature has very vague memories of anything outside its personal life, however what it knew in its past is flawless. If you were to summon a different creature using this feature, it is still the same dragon, just an altered form of it.",
+                  "The Ancestral Ally follows right after your initiative in combat, and you can mentally command it no action required. (Remember, thoughts are faster than spoken words.) The Ancestral Ally loses any legendary actions and legendary resistances that it would otherwise have.",
+                  "When the Ancestral Ally is dropped to 0 hit points, it disappears and you cannot summon it again until you complete a short or long rest."
+                ]
+              },
+              {
+                "name": "Bonus Proficiencies",
+                "entries": [
+                  "Also at 1st level, you gain proficiency in Animal Handling and Survival."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Ancient Kinship",
+                "entries": [
+                  "Starting at 6th level, your bond between you and your Ancestral Ally deepens as you get used to each other’s presence and your ideals become one. ",
+                  "Your Ancestral Ally becomes immune to being charmed. In addition, you have advantage on saving throws against being charmed. ",
+                  "Your Ancestral Ally can also spend an action to end any one of the following conditions to either you, or itself : blinded, charmed, deafened, frightened, or poisoned. It can only do so a number of times equal to your Wisdom Modifier, and regains expended uses after a long rest."
+                ]
+              },
+              {
+                "name": "Ancestral Empowerment",
+                "entries": [
+                  "Also starting at 6th level, you can combine with your summoned Ancestral Ally, your powers converging and becoming one. You begin to transform into a spiritual warrior. As an action for the next minute you gain the following benefits while transformed :",
+                  {
+                    "type": "list",
+                    "items": [
+                      "You gain the Incorporeal Movement feature. (see the wraith stat block for reference.)",
+                      "You gain a flying speed equal to your Ancestral Ally’s, if they had one.",
+                      "As a bonus action, you can gain advantage on any ability checks and attack rolls.",
+                      "If the Ancestral Ally had any additional features; such as magic resistance, spellcasting, breath weapons, etc., you gain them as well.",
+                      "You gain an amount of temporary hit points equal to the Ancestral Ally’s current hit points.",
+                      "You have resistance to slashing, piercing, and bludgeoning from non-magical attacks; your choice of fire, cold, lightning, acid, or poison damage."
+                    ]
+                  },
+                  "If you would lose all the temporary hit points provided by this feature, the effects end early and your Ancestral Ally disappears and cannot be summoned again until after you complete a long rest. You can also end the effects early as a bonus action, after which, or after the duration ends, they separate from you and their current hit points become equal to the temporary hit points you had remaining. Once separated, you lose any remaining temporary hit points.",
+                  "Regardless of how, once the effects end you cannot use this ability until you complete a long rest."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Ancestral Strikes",
+                "entries": [
+                  "Starting at 11th level, both you and your Ancestral Ally deals an additional 3d6 of force damage to your melee attacks. In addition, your attacks count as magical for the purposes of overcoming non-magical resistances. You can only deal this force damage once per turn."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Ancestral Recovery",
+                "entries": [
+                  "Beginning at 16th level, your Ancestral Ally gains a regeneration feature. At the start of each of their turns, they regain an amount of hit points equal to your Wisdom Modifier, as long as they have at least 1 hit point.",
+                  "When you use the Ancestral Empowerment, you also gain this regeneration feature.",
+                  "A creature benefiting from this feature loses its benefits if they are hit by an attack that deals necrotic damage until the end of their next turn."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Ancestral Bond",
+                "entries": [
+                  "At 20th level, your bond between your Ancestral Ally and you becomes unrivaled. While within 30 ft of each other, you both gain a +2 bonus to AC. You also gain this benefit when you use your Ancestral Empowerment.",
+                  "In addition, while within 30 ft of each other you both have a bonus to saving throws equal to your Wisdom Modifier. ",
+                  "If you were to die while within 60 ft. of your Ancestral Ally, the Ancestral Ally can restore you to life by sacrificing its own spirit, severing your bond with the Ancestor. The Ancestral Ally can also do this so long as it has been less than 1 hour after you died.",
+                  "To gain a new Ancestral Ally, it will take an 8 hour ritual of concentration (as if you were concentrating on a spell) to find a new Ancestor to call upon. After which, you instantly develop a bond with that Ancestor, as it gains the memories of your previous ally from your own mind.",
+                  "You can only do so a number of times equal to your Wisdom Modifier, as that is how many Ancestors you can call upon in your lifetime. Attempting to find more will result in your soul getting lost in the Astral Plane, leaving your body behind incapacitated. "
+                ]
+              },
+              {
+                "name": "Astral Calling",
+                "entries": [
+                  "Also at 20th level, you can cast the Astral Projection spell, but only targeting yourself, once without expending a spell slot or requiring material components. Once you do so you cannot do so again until you complete a long rest."
+                ]
+              }
+            ]
+          ],
+          "source": "DS",
+          "shortName": "Path of the Ancients"
+        },
+        {
+          "name": "Path of the Warrior",
+          "subclassFeatures": [
+            [
+              {
+                "name": "The Path of the Warrior",
+                "entries": [
+                  "A genius on the battlefield, mastery with all kinds of weaponry. You are vastly more trained in martial combat than any other Shaman. "
+                ]
+              },
+              {
+                "name": "Bonus Proficiencies",
+                "entries": [
+                  "Starting at 1st level, You have proficiency in all martial weapons."
+                ]
+              },
+              {
+                "name": "Martial Training",
+                "entries": [
+                  "Also at 1st level, you can use martial weapons as draconian weapons, so long as they lack the Special property. In addition, when you engage in two-weapon fighting, you can use any martial weapon as a light weapon, so long as it lacks the heavy and two-handed properties."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Draconian Enchantments",
+                "entries": [
+                  "At 6th level, you’re able to harness your draconic powers into your dragon weapons. Your dragon weapons adopt a draconic appearance, becoming scaly and rough to the touch. ",
+                  "You have a list of enchantments that you can imbue into your weapons as shown below. You can spend a 1 hour ritual to imbue a single weapon with as many enchantments equal to one fourth your dragon shaman level (rounded up). Some enchantments are only available at later levels as described below. If you attempt to enchant another weapon, your previously enchanted weapon loses all of its enchantments. ",
+                  {
+                    "type": "options",
+                    "entries": [
+                      {
+                        "type": "entries",
+                        "name": "Arcane Weapon",
+                        "entries": [
+                          "Your weapon becomes an arcane focus for the purposes of casting somatic component spells. In addition, if it was not already magical they count as magical for the purposes of overcoming non-magical resistances."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Blade of the Elementals",
+                        "entries": [
+                          "You change the slashing, piercing, and bludgeoning damage type on the weapon to the damage associated by your Draconian Arts die. In addition, you can use your Wisdom modifier in place of strength or dexterity for your damage rolls using this weapon."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Enchantment of Returning",
+                        "entries": [
+                          "Your weapon gains the thrown property if it did not already have one. If it did not have the property, its thrown range becomes 20ft/40ft. After you throw the weapon, hit or miss the weapon flies back into your hand."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Enchantment of Sentience",
+                        "entries": [
+                          "You call forth an ancient spirit to inhabit the weapon. Your weapon becomes sentient and has an Intelligence, Wisdom, and Charisma scores equal to your own. It can communicate to you, or anyone wielding the weapon telepathically. Its alignment and intentions are determined in secret by the DM. If this enchantment is lost, the next time it is imbued into a weapon it uses the same spirit as before, unless the spirit was otherwise destroyed.",
+                          "The spirit tears into the minds of the creature it impacts, allowing you to gain insights to the creature’s strengths and weaknesses. Whenever you hit a creature using this sentient weapon, you learn one of the following traits: if it has any damage resistances or immunities, if it has any damage vulnerabilities, if it’s immune to any conditions, or how many hit points it has. If the creature is immune to being charmed or if it is under an effect that blocks divination magic, this has no effect. Once you learn a trait, you cannot do so again for 1d3 rounds."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Enhanced Weapon",
+                        "entries": [
+                          "Your weapon becomes magical for the purposes of overcoming magical resistances. In addition, they gain a +1 bonus to attack and damage rolls. At 10th level, this bonus becomes +2 and at 17th level it becomes +3."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Life Draining Poison",
+                        "entries": [
+                          "When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra amount of necrotic damage equal to your Wisdom Modifier if it isn't a construct or an undead. You also gain the same amount of temporary hit points."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Elemental Overflow (Prerequisite 10th level)",
+                        "entries": [
+                          "Once per round, you can gain an additional amount of damage using this weapon equal to a number of your draconian arts die times your Wisdom modifier. Doing so drains a lot of stamina. After the damage calculation, you lose an amount of hit points equal to half of the damage dealt by this Enchantment."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Flying Weapon (Prerequisite 10th level)",
+                        "entries": [
+                          "Your weapon can hover off the ground, and you can mentally control the weapon. It gains a flying speed of 50 feet, but can only move as you mentally command it, no action required. The weapon falls to the ground if it moves more than 100 ft away from you."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Weapon of the Vengeful Dragon (Prerequisite 10th level)",
+                        "entries": [
+                          "Your weapon becomes infused with a chaotic spirit. Each time you are dealt damage you gain a Vengeance Stack point. You can have a number of these points equal to your Dragon Shaman level. You can expend any number of stack points to deal an extra 2 points of damage to any weapon attack made with a dragon weapon.",
+                          "When you spend stacks using this feature, you make a Wisdom Save against your Draconian Save DC plus the amount of stack points spent. On a failed save, you become enraged as if you were under the effects of the Enemies Abound spell.",
+                          "At the end of each of your turns while you have stack points, you make a Wisdom saving throw against your Draconian Save DC, with a bonus to you the DC equal to your number of acquired stack points. On a failed save, you are under the effects of the enemies abound spell, to which you make another Wisdom save at the end of each of your turns, ending the effect on a success."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Weapon of the Medusa Dragon (Prerequisite 16th level)",
+                        "entries": [
+                          "When you attack a creature with this weapon and roll a 20 on the attack roll, the creature must make a Constitution saving throw against your Draconian Save DC in addition to suffering the attack's normal effects. On a failed save, the creature is restrained and must make another Constitution saving throw at the end of each of its turns. If it successfully saves against this effect three times, the effect ends. If it fails its saves three times, it is turned to stone and subjected to the petrified condition for 1 hour.",
+                          "A creature is immune to this effect if it is immune to damage of the weapon's type, does not have a body made of flesh, or has legendary actions."
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Conjure Draconic Weapon",
+                "entries": [
+                  "At 11th level, you’ve learned how to summon forth a weapon when you are unarmed. As an action, you can call forth power from within to create a temporary solid weapon for 10 minutes. The weapon can be any simple or martial weapon that lacks the special property and is considered magical for the purposes of overcoming magical resistances. When you conjure this weapon, you can choose to end any enchantments on a previous weapon you have enchanted and grant those same enchantments to the weapon you conjured. If you did not have a previously enchanted weapon, you can give the conjured weapon any 1 enchantment.",
+                  "When the duration ends, your conjured weapon is destroyed. You have a number of uses of this feature equal to your Wisdom modifier, regaining all expended uses after a short or long rest."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Dragon’s Fighting Spirit",
+                "entries": [
+                  "Starting at 16th level, you’ve become exceptionally relentless on the battlefield. As a bonus action on your turn, you can gain advantage on your first attack roll provided you did not have disadvantage. When you do so, you gain a number of temporary hit points equal to your Dragon Shaman level. ",
+                  "You have a number of uses of this feature equal to your proficiency bonus, regaining all expended uses after a long rest."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Conjure Greater Draconic Weapon",
+                "entries": [
+                  "At 20th level, when you use your Conjure Draconic Weapon feature it no longer has a duration, and can remain conjured for an indefinite amount of time. This conjured weapon can be enchanted as any ordinary weapon could be, and regardless of the enchantment you choose it has a magic bonus of +1. (The Enhanced Weapon Enchantment replaces this bonus.)",
+                  "In addition, this weapon can have any one of the following special properties, you can choose to replace this property during a long rest:",
+                  {
+                    "type": "options",
+                    "entries": [
+                      {
+                        "type": "entries",
+                        "name": "Magical Greed",
+                        "entries": [
+                          "When you would kill a creature using this weapon, you can magically steal one random treasure off the creature provided it has any. If the creature had nothing of value, you instead magically receive a gemstone worth 100 gp by severing its soul from the afterlife and transforming it into a valuable treasure. (If said creature were to be resurrected, the gemstone shatters and the soul is retrieved by the source resurrecting them.)"
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Magical Swiftness",
+                        "entries": [
+                          "The blade becomes exceptionally light to the touch, allowing you to swing it at breakneck speeds. When you engage in two-weapon fighting using this weapon, you can make an additional attack using this weapon."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Impaling Critical",
+                        "entries": [
+                          "This weapon is exceptionally powerful, imbued with the very might of a Dragon’s powerful force. When you roll damage, treat any 1 on the damage dice as a 2, in addition when you roll a 20 on the d20, you add an additional damage die."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Ethereal Bane",
+                        "entries": [
+                          "Provided you can see the creature, you can attack a creature on the ethereal plane using this weapon. Once, you can cast the See Invisibility spell using this weapon as the arcane focus for it. You regain the ability to cast this spell again after a long rest."
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "DS",
+          "shortName": "Path of the Warrior"
+        }
+      ],
+      "fluff": []
+    }
+  ],
+  "optionalfeature": [
+    {
+      "source": "DS",
+      "name": "Sight of the Land and Seas",
+      "entries": [
+        "You gain a tremorsense of 60 feet."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Draconian Claws and Fangs",
+      "entries": [
+        "You gain 2 new additional forms of unarmed strikes. You have claws that, on top of your unarmed strike damage, gain an additional 1d6 slashing damage, and fangs that deal an additional 1d6 piercing damage. "
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "All Knowing Eyes",
+      "entries": [
+        "You can cast Identify at will without expending a spell slot or requiring a material component, you also do not need to touch the item to identify it."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Terrifying Glare",
+      "entries": [
+        "You gain proficiency in Intimidation and have advantage on Intimidation checks. If you already have proficiency in Intimidation, you add double your proficiency bonus instead. "
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Dragonsong",
+      "entries": [
+        "You have advantage on performance and acrobatics checks. You gain proficiency in two musical instruments of your choice. ",
+        "As a bonus action you can evoke the power of your Dragonsong for 1 minute. While active, your Dragonsong gives a +2 bonus to your AC and Dexterity Saving throws. You cannot use your Dragonsong again until you finish a long rest."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Deadly Veracity",
+      "entries": [
+        "If you move 20 ft towards a creature and make a melee weapon attack against that creature, you add an additional 1d6 damage of the weapon’s type and they make a strength saving throw DC = 8 + your proficiency bonus + your strength or dexterity modifier. On a failed save, they are knocked prone."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 8,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Minor Draconian Senses",
+      "entries": [
+        "You gain 10 ft of blindsight and 60 ft of darkvision if you don’t have it already. You cannot discern color while using your darkvision, only shades of gray."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Eyes of the Magi Drakes",
+      "entries": [
+        "You can cast detect magic at will without material, somatic, or verbal components or spending a spell slot."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Draconian Breath Weapon",
+      "entries": [
+        "Depending on the Draconian Origin you picked you gain a breath weapon that does 4d6 damage. The number of damage dice increases by 2 at 5th level, and then again at 10th, once more at 15th, and one last time at 20th level. You have a number of uses of this Draconian Power equal to half your Constitution Modifier (rounded down, minimum of 1) and regain all uses of it after a long rest. (Look at the Dragonborn Ancestry to determine the damage type). At 5th level the breath weapon increases to a range of a 30 foot cone or line depending on the type of dragon, 60 feet at 11th level, and 90 feet at 17th. The save DC for this power is 8 + Proficiency Bonus + Constitution."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Draconian Rage",
+      "entries": [
+        "As a bonus action on your turn you can enter a relentless rage for 1 minute. While raging you have resistance to non-magical slashing, piercing, and bludgeoning damage. In addition you receive a + 2 to attack and damage rolls. ",
+        "You can choose to make your attacks at advantage but attacks made against you have advantage as well. Your rage ends early once you fall unconscious, are incapacitated, or die."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Gift of the Sea Dragon",
+      "entries": [
+        "You can breathe underwater as you do air. In addition, attacks made underwater are made normally as if you were on land."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Requires Gold, Green, Bronze, White, or Black Draconian Origins",
+            "entrySummary": "Requires Gold, Green, Bronze, White, or Black Draconian Origins"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Magma Walk",
+      "entries": [
+        "You no longer suffer difficult terrain from natural phenomenons on volcanoes, or anywhere where magma or lava is impeding movement. You can also walk on magma or lava without suffering damage and swim through it using a swimming speed if you have one or use half your movement. (You are not immune to fire damage, but you can traverse in hot areas to no difficulty) You can do so for 10 minutes without taking damage."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Requires Gold, Brass, or Red Draconian Origins",
+            "entrySummary": "Requires Gold, Brass, or Red Draconian Origins"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Sense Treasure",
+      "entries": [
+        "You can detect whether or not gold or magical items are within 60ft of you, but not how much or where specifically. (not gold pieces, more like bars or large sums of gold.) "
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Acidic Shield",
+      "entries": [
+        "You no longer suffer from difficult terrain or negative effects from terrain impeded by acid. Also you can swim in acid using your swimming speed or half your movement. (You are not immune to acid damage, but you can traverse in acidic areas to no difficulty) You can do so for 10 minutes without taking damage."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Requires Black or Copper Draconian Origins",
+            "entrySummary": "Requires Black or Copper Draconian Origins"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Draconic Wings",
+      "entries": [
+        "You grow a pair of wings that allows you to fly. You gain a flying speed equal to your walking speed."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 8,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Mystical Insight",
+      "entries": [
+        "You have advantage on Wisdom (Insight) checks, in addition as an action you can make a Wisdom (Insight) check opposed against an opposing creature’s Charisma (Deception) check. On a success, you can determine whether the creature is evil, good, or neutral and their creature type."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 8,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Moderate Draconian Senses",
+      "entries": [
+        "You gain 30 ft of  blindsight and 120 ft of darkvision if you don’t have it already. You can also discern color while using your darkvision."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 8,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Minor Draconian Shapechanger",
+      "entries": [
+        "You can cast Disguise Self and Alter Self at will without concentration or material components or spending a spell slot. Alternatively you can cast polymorph at will without spending a spell slot, but it does require concentration. Once you cast one of these spells, you cannot cast that spell again until you have finished a short or long rest."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 8,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Draconian Shapechanger",
+      "entries": [
+        "You magically polymorph into a humanoid or beast that has a challenge rating no higher than half your own level. You revert to your true form if you die or if you fall unconscious or incapacitated. Any equipment you are wearing or carrying is absorbed or borne by the new form (your choice). In the new form, you retain your alignment, hit points, Hit Dice, ability to speak, proficiencies, class features, and Intelligence, Wisdom, and Charisma scores, as well as this action. Your statistics and capabilities are otherwise replaced by those of the new form, except any class features of that form. You can use this feature a number of times equal to half your Charisma Modifier. Reverting back to normal does not expend a usage."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 10,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          },
+          "otherSummary": {
+            "entry": "Requires Bronze, Silver, and Gold Draconian Origins",
+            "entrySummary": "Requires Bronze, Silver, and Gold Draconian Origins"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Knowledge of the Ancient Ones",
+      "entries": [
+        "You gain proficiency in any one Intelligence skill of your choosing and you add half your proficiency bonus to Intelligence Saving Throws (rounded down). If you already have proficiency in all Intelligence related skills, choose one to gain expertise in. Once, you can gain advantage on any Intelligence check, regaining the ability to do so after a short or long rest. You also cannot have another “Ancient Ones” Draconian Power."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 10,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Wisdom of the Ancient Ones",
+      "entries": [
+        "You gain proficiency in any one Wisdom skill of your choosing, and you add half your proficiency bonus to Wisdom Saving Throws. If you already have proficiency in all Wisdom related skills, choose one to gain expertise in. Once, you can gain advantage on any Wisdom check, regaining the ability to do so after a short or long rest. You also cannot have another “Ancient Ones” Draconian Power."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 10,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Strength of the Ancient Ones",
+      "entries": [
+        "You gain proficiency in Athletics and add half your proficiency bonus to Strength Saving Throws. If you already have proficiency in athletics, you gain expertise. Once, you can gain advantage on any Strength check, regaining the ability to do so after a short or long rest. Your carrying capacity is now tripled. You also cannot have another “Ancient Ones” Draconian Power."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 10,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Dexterity of the Ancient Ones",
+      "entries": [
+        "You gain proficiency in any one Dexterity skill of your choosing and you add half your proficiency bonus to Dexterity Saving Throws. If you already have proficiency in all Dexterity related skills, you choose one to gain expertise in. Once, you can gain advantage on any Dexterity check, regaining the ability to do so after a short or long rest. Your movement speed increases by 10 ft. You also cannot have another “Ancient Ones” Draconian Power."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 10,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Charisma of the Ancient Ones",
+      "entries": [
+        "You gain proficiency in any one Charisma skill and you add a +2 bonus to your Charisma saving throws. If you already have proficiency in all Charisma related skills, choose one to gain expertise in. Once, you can gain advantage on any Charisma check, regaining the ability to do so after a short or long rest. You also cannot have another “Ancient Ones” Draconian Power."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 10,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Endurance of the Ancient Ones",
+      "entries": [
+        "You gain proficiency in Death Saving throws. You can no longer be intoxicated, poisoned, nor diseased. Once, if you were to drop to 0 or less HP but not outright killed, you can drop to 1 instead. You regain the ability to do so after a long rest. You also cannot have another “Ancient Ones” Draconian Power."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 10,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Hyper Draconian Senses",
+      "entries": [
+        "You gain 60 ft of  blindsight and 120 ft of darkvision if you don’t have it already. You can also discern color while using your darkvision. You can now also see normally in Magical Darkness."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 12,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Shadow Draconian",
+      "entries": [
+        "You gain advantage on stealth checks, while in dim light or darkness, you have resistance to all damage that isn’t force, psychic, or radiant. You can take the Hide action as a bonus action. Any damage dealt by your Draconian Origins or other Dragon Warrior Features (such as Draconian Powers) becomes necrotic damage. You have immunity to necrotic damage but lose the immunity from your Draconian Origin. You cannot choose Radiant Draconian or Ethereal Draconian while having this power."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 12,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Radiant Draconian",
+      "entries": [
+        "As an action you can dispel any magical darkness. You can do this a number of times equal to your charisma modifier. Any damage dealt by your Draconian Origins or other Dragon Warrior Features (such as Draconian Powers) becomes radiant damage. As an action you can touch another creature. The target magically regains 4d8 + your charisma modifier hit points and is freed from any curse, disease, poison, blindness, or deafness. You can do this up to a number of times equal to half your charisma modifier. You regain the uses of both of those abilities after a long rest. You have immunity to radiant damage but lose the immunity from your Draconian Origin. You cannot choose Shadow Draconian or Ethereal Draconian while having this power."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 12,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Ethereal Draconian",
+      "entries": [
+        "You can see into the Ethereal Plane up to 120 feet. You can cast the Etherealness and Planeshift Spells without using a spell slot a number of times equal to your charisma modifier. (Both count for the expended uses.) You regain all uses of this after a long rest. Any damage dealt by your Draconian Origins or other Dragon Warrior Features (such as Draconian Powers) becomes Force damage, but only while on the Ethereal Plane. Your attacks always count as magical for the purposes of overcoming magic resistances but only on the Ethereal Plane. You gain resistance to force damage and retain your other immunities. You cannot choose Shadow Draconian or Radiant Draconian while having this power. (Note to GM : Feel free to disapprove if this does not fit in your campaign.)"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 14,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Improved Flight",
+      "entries": [
+        "Your ability to fly has greatly improved since you started, and now you can rival the speed of most dragons. Your flying speed increases by 30 ft."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 14,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Frightful Presence",
+      "entries": [
+        "Each creature of your choice that is within 120 ft. of you and aware of you must succeed on a Wisdom Saving Throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to your Frightful Presence for the next 24 hours."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 16,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Coming of Age",
+      "entries": [
+        "Your maximum CR for your Draconian Shape feature increases by 4."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 17,
+            "class": {
+              "name": "Dragon Shaman"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Abberant Dragon",
+      "entries": [
+        "You can replace your Draconian Arts damage type with psychic damage. This choice can be made before you roll damage. In addition, you gain resistance to psychic damage and as a bonus action you can establish a telepathic link to one creature you can see within 30 feet of you. This telepathic link allows you to communicate freely telepathically for up to twice the amount you could normally speak in the span of 6 seconds. ",
+        "You are given two Warlock Spell Slots, see the Warlock’s “Pact Magic” feature PHB pg 107. Choose from two Eldritch Invocations (you must meet the prerequisites). You also gain the Eldritch Blast and one additional cantrip from the Warlock Spellcasting List. You also gain 4 spells from the Warlock Spellcasting List. These spells must be of a level of which you’d be able to cast as a 6th level Warlock.",
+        "As you gain Dragon Shaman levels, or if you choose this Draconian Power at a later level, you can replace the spells you know with other spells from the same spellcasting list. In addition, you learn 1 warlock spell for each dragon shaman level above 6th. You gain additional Warlock Spell Slot at 11th level, and another one at 17th level. You also gain an additional Eldritch Invocation at these given levels.",
+        "Your appearance also changes. Your body might have a coating of viscous slime, tough hide, scales, perhaps you have an invisible barrier or any other weird aberrant things your sick mind can come up with. As a result, this gives you an increase to your armor class equal to half your Intelligence modifier. (Rounded down to a minimum of 1)"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Dragon Shaman"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Draconian Familiar",
+      "entries": [
+        "You can conjure a tiny dragon to keep you company. You can ritual cast the “Find Familiar” spell without requiring material components, but you can only summon a Pseudodragon with this feature. The Pseudodragon has the “Familiar” feature when summoned in this way."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DS",
+      "name": "Greater Draconian Familiar",
+      "entries": [
+        "You can conjure a tiny dragon to keep you company. You can ritual cast the “Find Familiar” spell without requiring material components, but you can only summon a Pseudodragon or a Faerie Dragon with this feature. The Pseudodragon or Faerie Dragon has the “Familiar” feature when summoned in this way."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 11,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    }
+  ]
+}
