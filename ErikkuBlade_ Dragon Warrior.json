@@ -168,102 +168,99 @@
           {
             "name": "Draconian Origins",
             "entries": [
-              [
-                "Beginning at 1st Level you choose one chromatic or metallic dragon; this color dragon will be where your power comes from. You gain features at certain levels depending on this color. In addition you gain a Spellcasting List depending on the color chosen. You are also able to speak, read, and write Draconic. \n(There are some origins that require a saving throw, the dc for them is 8 + Proficiency + Charisma modifier.)\n",
-                {
-                  "type": "options",
-                  "entries": [
-                    {
-                      "type": "entries",
-                      "name": "Red : Hot Body!",
-                      "entries": [
-                        "You gain resistance to fire damage, at 11th level this becomes immunity. As a bonus action, you magically wreathe yourself in swirling fire, as your eyes glow like hot coals. For 1 minute, you gain the following benefits:",
-                        "You shed bright light in a 30-foot radius and dim light for an additional 30 feet.",
-                        "Any creature takes fire damage equal to your Charisma modifier if it hits you with a melee attack from within 5 feet of you or if it touches you.",
-                        "Whenever you roll fire damage on your turn, the roll gains a bonus to equal to your Charisma modifier.",
-                        "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest."
-                      ]
-                    },
-                    {
-                      "type": "entries",
-                      "name": "Blue : Shocking Outcome!",
-                      "entries": [
-                        "You gain resistance to lightning damage, at 11th level this becomes immunity. As a bonus action if you did not take the attack action this turn, you can shoot an arcane bolt of lightning from your hands. This bolt of lightning is 5 ft wide and 50 ft long. Each creature within range makes a dexterity saving throw and takes a number of d6 lightning damage equal to your Dragon Warrior level, or half as much on a success.  After you use this feature, you cannot take the attack action on your turn.",
-                        "You have a number of uses of this feature equal to your Charisma Modifier, regaining all expended uses after a long rest."
-                      ]
-                    },
-                    {
-                      "type": "entries",
-                      "name": "Green : Toxic Personality!",
-                      "entries": [
-                        "You gain resistance to poison damage and advantage to saving throws against being poisoned, at 11th level both of these become immunities. As a bonus action,  you can seep some of your own blood into a vial, making a vial of poison worth at least 150 gp. At 5th level you can make poisons worth at least 300 gp, at 11th level 600 gp, and at 17th level 1200 gp. These poisons are generally more potent than ordinary ones, so their save DC is equal to 8 + your proficiency bonus + your Charisma modifier.",
-                        "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest."
-                      ]
-                    },
-                    {
-                      "type": "entries",
-                      "name": "Black : Acidic Solution!",
-                      "entries": [
-                        "You gain resistance to acid damage, at 11th level this becomes immunity. As an expert when it comes to traversing through difficult terrain, you’ve become so akin to it that you can serve as an excellent scout. You do not suffer the effects of non-magical difficult terrain and have advantage on ability checks and saving throws against magical difficult terrain",
-                        "In addition, you can create a powerful acid to which you can use to hinder your enemies. As a bonus action, choose a creature within 60 ft of you. Make a ranged spell attack using Charisma as your spellcasting ability. On hit, the target suffers a -2 penalty to their AC and weapon attack rolls for the next minute. A creature can only suffer this penalty once and cannot suffer it again until the effect ends. You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.\n"
-                      ]
-                    },
-                    {
-                      "type": "entries",
-                      "name": "White : Cold Shoulder!",
-                      "entries": [
-                        "You gain resistance to cold damage, at 11th level this becomes immunity. As a bonus action you can create a blizzard surrounding you in a 20 ft radius sphere for 1 minute. Each creature, other than yourself, within range takes a number of d6 cold damage equal to half your dragon warrior level (rounded down to a minimum of 1) and must make a constitution saving throw or suffer the effects of difficult terrain and have disadvantage on attack rolls and saving throws while within your blizzard.",
-                        "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest."
-                      ]
-                    },
-                    {
-                      "type": "entries",
-                      "name": "Copper : You’re Too Slow!",
-                      "entries": [
-                        "You gain resistance to acid damage, at 11th level this becomes immunity. In addition, you can hurl spits of acid that can slow your enemies in their tracks. As a bonus action you can choose a creature within 60 ft of you. Make a ranged spell attack using charisma as your spellcasting ability modifier. On hit, the target’s speed becomes halved and can only make 1 weapon attack per round for the next minute.",
-                        "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest."
-                      ]
-                    },
-                    {
-                      "type": "entries",
-                      "name": "Bronze : Stay Away!",
-                      "entries": [
-                        "You gain resistance to lightning damage, at 11th level this becomes immunity. In addition, you can unleash a shockwave of energy and repel nearby enemies. As a bonus action, each creature within 5 ft of you makes a strength saving throw. On a failed save, they are pushed 20 ft backward and take a number of d6 lightning damage equal to half your dragon warrior level (rounded down minimum of 1) and are knocked prone, or half as much damage and are not pushed back or knocked prone on a success. If all creatures fail their save, you can immediately take the dash action as part of this bonus action.",
-                        "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest."
-                      ]
-                    },
-                    {
-                      "type": "entries",
-                      "name": "Brass : Hot Stuff!",
-                      "entries": [
-                        "You gain resistance to fire damage, at 11th level this becomes immunity. In addition, you can give yourself a charming aroma to confuse your enemies and make friends easier. As a bonus action on your turn, you can activate your aroma for 1 minute. Each hostile creature within 15ft that has a sense of smell has to make a wisdom saving throw, dc = 8 + proficiency + your charisma modifier. On a failed save, they have disadvantage on attack rolls made against you. ",
-                        "In addition, you gain advantage on all charisma checks against creatures that have a sense of smell and are within 15 ft of you. Undead, creatures that are immune to being charmed are immune to both of these effects. You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest."
-                      ]
-                    },
-                    {
-                      "type": "entries",
-                      "name": "Silver : Winter’s Veil!",
-                      "entries": [
-                        "You gain resistance to cold damage, at 11th level this becomes immunity. In addition, you can make a layer of thick ice armor surrounding you, making you tougher. As a bonus action, you can gain a number of d6 temporary hit points equal to half your dragon warrior level. (Rounded down to a minimum of 1) While you have these temporary hit points, you have resistance to all damage except fire, but have vulnerability to fire damage. ",
-                        "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest."
-                      ]
-                    },
-                    {
-                      "type": "entries",
-                      "name": "Gold : You’re a Wizard Harry!",
-                      "entries": [
-                        "Gold : You’re a Wizard Harry!",
-                        "You gain resistance to fire damage, at 11th level this becomes immunity. In addition, you have studied the arcane long enough to understand it to a basic degree. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.",
-                        "Cantrips. You learn three cantrips of your choice from the wizard spell list. You learn another wizard cantrip of your choice at 10th level.",
-                        "Spell Slots. You have a number of spell slots equal to your intelligence modifier. These spell slots come back after a long rest. Each spell slot is a 1st level slot, and increases by 1 level every 4 levels after 1st.You regain all expended spell slots when you finish a long rest.",
-                        "Spells Known of 1st-Level and Higher. You know three 1st-level wizard spells of your choice. You gain an additional spell known every 2 levels you take in this class.",
-                        "Spellcasting Ability. Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.Spell save DC = 8 + your proficiency bonus + your Intelligence modifierSpell attack modifier = your proficiency bonus + your Intelligence modifier",
-                        "You can also replace your proficiency with charisma saving throws to intelligence saving throws instead."
-                      ]
-                    }
-                  ]
-                }
-              ]
+              "Beginning at 1st Level you choose one chromatic or metallic dragon; this color dragon will be where your power comes from. You gain features at certain levels depending on this color. In addition you gain a Spellcasting List depending on the color chosen. You are also able to speak, read, and write Draconic. \n(There are some origins that require a saving throw, the dc for them is 8 + Proficiency + Charisma modifier.)\n",
+              {
+                "type": "options",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Red : Hot Body!",
+                    "entries": [
+                      "You gain resistance to fire damage, at 11th level this becomes immunity. As a bonus action, you magically wreathe yourself in swirling fire, as your eyes glow like hot coals. For 1 minute, you gain the following benefits:",
+                      "You shed bright light in a 30-foot radius and dim light for an additional 30 feet.",
+                      "Any creature takes fire damage equal to your Charisma modifier if it hits you with a melee attack from within 5 feet of you or if it touches you.",
+                      "Whenever you roll fire damage on your turn, the roll gains a bonus to equal to your Charisma modifier.",
+                      "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Blue : Shocking Outcome!",
+                    "entries": [
+                      "You gain resistance to lightning damage, at 11th level this becomes immunity. As a bonus action if you did not take the attack action this turn, you can shoot an arcane bolt of lightning from your hands. This bolt of lightning is 5 ft wide and 50 ft long. Each creature within range makes a dexterity saving throw and takes a number of d6 lightning damage equal to your Dragon Warrior level, or half as much on a success.  After you use this feature, you cannot take the attack action on your turn.",
+                      "You have a number of uses of this feature equal to your Charisma Modifier, regaining all expended uses after a long rest."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Green : Toxic Personality!",
+                    "entries": [
+                      "You gain resistance to poison damage and advantage to saving throws against being poisoned, at 11th level both of these become immunities. As a bonus action,  you can seep some of your own blood into a vial, making a vial of poison worth at least 150 gp. At 5th level you can make poisons worth at least 300 gp, at 11th level 600 gp, and at 17th level 1200 gp. These poisons are generally more potent than ordinary ones, so their save DC is equal to 8 + your proficiency bonus + your Charisma modifier.",
+                      "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Black : Acidic Solution!",
+                    "entries": [
+                      "You gain resistance to acid damage, at 11th level this becomes immunity. As an expert when it comes to traversing through difficult terrain, you’ve become so akin to it that you can serve as an excellent scout. You do not suffer the effects of non-magical difficult terrain and have advantage on ability checks and saving throws against magical difficult terrain",
+                      "In addition, you can create a powerful acid to which you can use to hinder your enemies. As a bonus action, choose a creature within 60 ft of you. Make a ranged spell attack using Charisma as your spellcasting ability. On hit, the target suffers a -2 penalty to their AC and weapon attack rolls for the next minute. A creature can only suffer this penalty once and cannot suffer it again until the effect ends. You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.\n"
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "White : Cold Shoulder!",
+                    "entries": [
+                      "You gain resistance to cold damage, at 11th level this becomes immunity. As a bonus action you can create a blizzard surrounding you in a 20 ft radius sphere for 1 minute. Each creature, other than yourself, within range takes a number of d6 cold damage equal to half your dragon warrior level (rounded down to a minimum of 1) and must make a constitution saving throw or suffer the effects of difficult terrain and have disadvantage on attack rolls and saving throws while within your blizzard.",
+                      "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Copper : You’re Too Slow!",
+                    "entries": [
+                      "You gain resistance to acid damage, at 11th level this becomes immunity. In addition, you can hurl spits of acid that can slow your enemies in their tracks. As a bonus action you can choose a creature within 60 ft of you. Make a ranged spell attack using charisma as your spellcasting ability modifier. On hit, the target’s speed becomes halved and can only make 1 weapon attack per round for the next minute.",
+                      "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Bronze : Stay Away!",
+                    "entries": [
+                      "You gain resistance to lightning damage, at 11th level this becomes immunity. In addition, you can unleash a shockwave of energy and repel nearby enemies. As a bonus action, each creature within 5 ft of you makes a strength saving throw. On a failed save, they are pushed 20 ft backward and take a number of d6 lightning damage equal to half your dragon warrior level (rounded down minimum of 1) and are knocked prone, or half as much damage and are not pushed back or knocked prone on a success. If all creatures fail their save, you can immediately take the dash action as part of this bonus action.",
+                      "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Brass : Hot Stuff!",
+                    "entries": [
+                      "You gain resistance to fire damage, at 11th level this becomes immunity. In addition, you can give yourself a charming aroma to confuse your enemies and make friends easier. As a bonus action on your turn, you can activate your aroma for 1 minute. Each hostile creature within 15ft that has a sense of smell has to make a wisdom saving throw, dc = 8 + proficiency + your charisma modifier. On a failed save, they have disadvantage on attack rolls made against you. ",
+                      "In addition, you gain advantage on all charisma checks against creatures that have a sense of smell and are within 15 ft of you. Undead, creatures that are immune to being charmed are immune to both of these effects. You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Silver : Winter’s Veil!",
+                    "entries": [
+                      "You gain resistance to cold damage, at 11th level this becomes immunity. In addition, you can make a layer of thick ice armor surrounding you, making you tougher. As a bonus action, you can gain a number of d6 temporary hit points equal to half your dragon warrior level. (Rounded down to a minimum of 1) While you have these temporary hit points, you have resistance to all damage except fire, but have vulnerability to fire damage. ",
+                      "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Gold : You’re a Wizard Harry!",
+                    "entries": [
+                      "You gain resistance to fire damage, at 11th level this becomes immunity. In addition, you have studied the arcane long enough to understand it to a basic degree. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.",
+                      "Cantrips. You learn three cantrips of your choice from the wizard spell list. You learn another wizard cantrip of your choice at 10th level.",
+                      "Spell Slots. You have a number of spell slots equal to your intelligence modifier. These spell slots come back after a long rest. Each spell slot is a 1st level slot, and increases by 1 level every 4 levels after 1st.You regain all expended spell slots when you finish a long rest.",
+                      "Spells Known of 1st-Level and Higher. You know three 1st-level wizard spells of your choice. You gain an additional spell known every 2 levels you take in this class.",
+                      "Spellcasting Ability. Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.Spell save DC = 8 + your proficiency bonus + your Intelligence modifierSpell attack modifier = your proficiency bonus + your Intelligence modifier",
+                      "You can also replace your proficiency with charisma saving throws to intelligence saving throws instead."
+                    ]
+                  }
+                ]
+              }
             ]
           },
           {
@@ -332,12 +329,32 @@
             "name": "Draconian Archetype",
             "entries": [
               "Beginning at 3rd level you have begun to better understand your powers and have decided to go down a path to better a specific field of this newfound power. There are three paths, Summoner, Invoker, Weapon Master. Each path has their own unique properties to them, but each of them is just as deadly as the other.",
-              "Summoner",
-              "Summoners have decided to devote their powers more so to asking for aid from spiritual manifestations of their draconic origins. This allows them to summon forth terrifying creatures of destruction in their stead to wreak havoc on their enemies. Summoners can be the most dangerous of Dragon Warriors.",
-              "Invoker",
-              "Invokers have harnessed the powers that dwell within them, their bodies becoming more and more dragon-like as they unlock more powers. As an invoker you focus less on physical capabilities and more so on spellcasting. ",
-              "Weapon Master",
-              "The Weapon Master is, well, self explanatory. Rather than focusing on magic or the power of friendship you have decided to walk the path of brute force. Through physical exercise and training in your spare time you have honed your skills to be physically stronger and faster than all the rest. Your blade is an extension of your arm and your bow can end a battle before it even begins."
+              {
+                "type": "options",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Summoner",
+                    "entries": [
+                      "Summoners have decided to devote their powers more so to asking for aid from spiritual manifestations of their draconic origins. This allows them to summon forth terrifying creatures of destruction in their stead to wreak havoc on their enemies. Summoners can be the most dangerous of Dragon Warriors."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Invoker",
+                    "entries": [
+                      "Invokers have harnessed the powers that dwell within them, their bodies becoming more and more dragon-like as they unlock more powers. As an invoker you focus less on physical capabilities and more so on spellcasting. "
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Weapon Master",
+                    "entries": [
+                      "The Weapon Master is, well, self explanatory. Rather than focusing on magic or the power of friendship you have decided to walk the path of brute force. Through physical exercise and training in your spare time you have honed your skills to be physically stronger and faster than all the rest. Your blade is an extension of your arm and your bow can end a battle before it even begins."
+                    ]
+                  }
+                ]
+              }
             ]
           },
           {
@@ -1275,7 +1292,7 @@
       "source": "DW",
       "name": "Draconian Claws and Fangs",
       "entries": [
-        "You gain 2 new additional forms of unarmed strikes. You have claws that, on top of your unarmed strike damage, gain an additional 1d6 slashing damage, and fangs that deal an additional 1d6 piercing damage. When you reach 5th level your unarmed strikes count as magical for the purposes of overcoming magic resistances."
+        "You gain 2 new additional forms of unarmed strikes. You have claws that, on top of your unarmed strike damage, gain an additional 1d6 slashing damage, and fangs that deal an additional 1d6 piercing damage. "
       ],
       "featureType": "Draconian Powers"
     },
@@ -1342,7 +1359,7 @@
       "source": "DW",
       "name": "Draconian Breath Weapon",
       "entries": [
-        "Depending on the Draconian Origin you picked you gain a breath weapon that does 4d8 damage. The number of damage dice increases by 2 at 5th level, and then again at 10th, once more at 15th, and one last time at 20th level. You have a number of uses of this Draconian Power equal to half your Constitution Modifier (rounded down, minimum of 1) and regain all uses of it after a long rest. (Look at the Dragonborn Ancestry to determine the damage type). At 5th level the breath weapon increases to a range of a 30 foot cone or line depending on the type of dragon, 60 feet at 11th level, and 90 feet at 17th. The save DC for this power is 8 + Proficiency Bonus + Constitution."
+        "Depending on the Draconian Origin you picked you gain a breath weapon that does 4d6 damage. The number of damage dice increases by 2 at 5th level, and then again at 10th, once more at 15th, and one last time at 20th level. You have a number of uses of this Draconian Power equal to half your Constitution Modifier (rounded down, minimum of 1) and regain all uses of it after a long rest. (Look at the Dragonborn Ancestry to determine the damage type). At 5th level the breath weapon increases to a range of a 30 foot cone or line depending on the type of dragon, 60 feet at 11th level, and 90 feet at 17th. The save DC for this power is 8 + Proficiency Bonus + Constitution."
       ],
       "featureType": "Draconian Powers"
     },
@@ -1350,7 +1367,7 @@
       "source": "DW",
       "name": "Draconian Rage",
       "entries": [
-        "As a bonus action on your turn you can enter a relentless rage for 1 minute. While raging you have resistance to non-magical slashing, piercing, and bludgeoning damage. In addition you receive a + 2 to attack and damage rolls. ",
+        "As a bonus action on your turn you can enter a relentless rage for 1 minute. While raging you have resistance to non-magical slashing, piercing, and bludgeoning damage. In addition you receive a + 2 to attack and damage rolls.",
         "You can choose to make your attacks at advantage but attacks made against you have advantage as well. Your rage ends early once you fall unconscious, are incapacitated, or die."
       ],
       "featureType": "Draconian Powers"
@@ -1413,27 +1430,9 @@
     },
     {
       "source": "DW",
-      "name": "Moderate Flight",
+      "name": "Draconic Wings",
       "entries": [
-        "You gain a flying speed equal to 30 ft."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 6,
-            "class": {
-              "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
-            }
-          }
-        }
-      ],
-      "featureType": "Draconian Powers"
-    },
-    {
-      "source": "DW",
-      "name": "Tongue of Dragons",
-      "entries": [
-        "You can speak any language so long as it has linguistic meaning and you have heard someone speak it before. You can comprehend any language spoken to you, but only as a rough translation, GM’s discretion."
+        "You grow a pair of wings that allows you to fly. You gain a flying speed equal to your walking speed."
       ],
       "prerequisite": [
         {
@@ -1487,7 +1486,7 @@
       "source": "DW",
       "name": "Minor Draconian Shapechanger",
       "entries": [
-        "You can cast Disguise Self and Alter Self at will without concentration or material components or spending a spell slot. Alternatively you can cast polymorph at will without spending a spell slot, but it does require concentration."
+        "You can cast Disguise Self and Alter Self at will without concentration or material components or spending a spell slot. Alternatively you can cast polymorph at will without spending a spell slot, but it does require concentration. Once you cast one of these spells, you cannot cast that spell again until you have finished a short or long rest."
       ],
       "prerequisite": [
         {
@@ -1527,7 +1526,7 @@
       "source": "DW",
       "name": "Knowledge of the Ancient Ones",
       "entries": [
-        "You gain proficiency in Arcana, History, Religion, and Intelligence Saving Throws. You also have advantage on Intelligence Checks. You also cannot have another “Ancient Ones” Draconian Power."
+        "You gain proficiency in any one Intelligence skill of your choosing and you add half your proficiency bonus to Intelligence Saving Throws (rounded down). If you already have proficiency in all Intelligence related skills, choose one to gain expertise in. Once, you can gain advantage on any Intelligence check, regaining the ability to do so after a short or long rest. You also cannot have another “Ancient Ones” Draconian Power."
       ],
       "prerequisite": [
         {
@@ -1545,7 +1544,7 @@
       "source": "DW",
       "name": "Wisdom of the Ancient Ones",
       "entries": [
-        "You gain proficiency in Insight, Survival, Medicine, and Wisdom Saving Throws. You also have advantage on Wisdom Checks. You also cannot have another “Ancient Ones” Draconian Power."
+        "You gain proficiency in any one Wisdom skill of your choosing, and you add half your proficiency bonus to Wisdom Saving Throws. If you already have proficiency in all Wisdom related skills, choose one to gain expertise in. Once, you can gain advantage on any Wisdom check, regaining the ability to do so after a short or long rest. You also cannot have another “Ancient Ones” Draconian Power."
       ],
       "prerequisite": [
         {
@@ -1563,7 +1562,7 @@
       "source": "DW",
       "name": "Strength of the Ancient Ones",
       "entries": [
-        "You gain proficiency in Athletics and Strength Saving Throws. You also have advantage on Strength Checks. Also whenever you make a grapple check you can move using your full movement instead of half. You can now carry triple the amount of weight before being encumbered. You also cannot have another “Ancient Ones” Draconian Power."
+        "You gain proficiency in Athletics and add half your proficiency bonus to Strength Saving Throws. If you already have proficiency in athletics, you gain expertise. Once, you can gain advantage on any Strength check, regaining the ability to do so after a short or long rest. Your carrying capacity is now tripled. You also cannot have another “Ancient Ones” Draconian Power."
       ],
       "prerequisite": [
         {
@@ -1581,7 +1580,7 @@
       "source": "DW",
       "name": "Speed of the Ancient Ones",
       "entries": [
-        "You gain proficiency in Acrobatics, Stealth, Sleight of Hand, and Dexterity Saving Throws. You also gain advantage on Dexterity Checks. All of your movement speeds gain an additional 10 ft. You also cannot have another “Ancient Ones” Draconian Power."
+        "You gain proficiency in any one Dexterity skill of your choosing and you add half your proficiency bonus to Dexterity Saving Throws. If you already have proficiency in all Dexterity related skills, you choose one to gain expertise in. Once, you can gain advantage on any Dexterity check, regaining the ability to do so after a short or long rest. Your movement speed increases by 10 ft. You also cannot have another “Ancient Ones” Draconian Power."
       ],
       "prerequisite": [
         {
@@ -1597,9 +1596,9 @@
     },
     {
       "source": "DW",
-      "name": "Charm of the Ancient Ones",
+      "name": "Charisma of the Ancient Ones",
       "entries": [
-        "You gain proficiency in Persuasion, Deception, Performance, and add double your proficiency bonus to Charisma Saving Throws. You also gain advantage on Charisma Checks. You also cannot have another “Ancient Ones” Draconian Power."
+        "You gain proficiency in any one Charisma skill and you add a +2 bonus to your Charisma saving throws. If you already have proficiency in all Charisma related skills, choose one to gain expertise in. Once, you can gain advantage on any Charisma check, regaining the ability to do so after a short or long rest. You also cannot have another “Ancient Ones” Draconian Power."
       ],
       "prerequisite": [
         {
@@ -1617,7 +1616,7 @@
       "source": "DW",
       "name": "Endurance of the Ancient Ones",
       "entries": [
-        "You add double your proficiency to Constitution Saving Throws and gain proficiency in Death Saving Throws. You can no longer be intoxicated, poisoned, nor diseased. Once per long rest if you were to drop to 0 or less HP but not outright killed, you can drop to 1 instead. You also cannot have another “Ancient Ones” Draconian Power"
+        "You gain proficiency in Death Saving throws. You can no longer be intoxicated, poisoned, nor diseased. Once, if you were to drop to 0 or less HP but not outright killed, you can drop to 1 instead. You regain the ability to do so after a long rest. You also cannot have another “Ancient Ones” Draconian Power."
       ],
       "prerequisite": [
         {
@@ -1705,9 +1704,9 @@
     },
     {
       "source": "DW",
-      "name": "Hyperflight",
+      "name": "Improved Flight",
       "entries": [
-        "You have a flying speed of 60 ft."
+        "Your ability to fly has greatly improved since you started, and now you can rival the speed of most dragons. Your flying speed increases by 30 ft."
       ],
       "prerequisite": [
         {
@@ -2135,45 +2134,6 @@
           "otherSummary": {
             "entry": "Requires Weapon Master Archetype",
             "entrySummary": "Requires Weapon Master Archetype"
-          }
-        }
-      ],
-      "featureType": "Draconian Powers"
-    },
-    {
-      "source": "DW",
-      "name": "Coming of Age",
-      "entries": [
-        "Your maximum CR for your Draconian Shape feature increases by 4."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 17,
-            "class": {
-              "name": "Dragon Shaman"
-            }
-          }
-        }
-      ],
-      "featureType": "Draconian Powers"
-    },
-    {
-      "source": "DW",
-      "name": "Abberant Dragon",
-      "entries": [
-        "You can replace your Draconian Arts damage type with psychic damage. This choice can be made before you roll damage. In addition, you gain resistance to psychic damage and as a bonus action you can establish a telepathic link to one creature you can see within 30 feet of you. This telepathic link allows you to communicate freely telepathically for up to twice the amount you could normally speak in the span of 6 seconds. ",
-        "You are given two Warlock Spell Slots, see the Warlock’s “Pact Magic” feature PHB pg 107. Choose from two Eldritch Invocations (you must meet the prerequisites). You also gain the Eldritch Blast and one additional cantrip from the Warlock Spellcasting List. You also gain 4 spells from the Warlock Spellcasting List. These spells must be of a level of which you’d be able to cast as a 6th level Warlock.",
-        "As you gain Dragon Shaman levels, or if you choose this Draconian Power at a later level, you can replace the spells you know with other spells from the same spellcasting list. In addition, you learn 1 warlock spell for each dragon shaman level above 6th. You gain additional Warlock Spell Slot at 11th level, and another one at 17th level. You also gain an additional Eldritch Invocation at these given levels.",
-        "Your appearance also changes. Your body might have a coating of viscous slime, tough hide, scales, perhaps you have an invisible barrier or any other weird aberrant things your sick mind can come up with. As a result, this gives you an increase to your armor class equal to half your Intelligence modifier. (Rounded down to a minimum of 1)"
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 6,
-            "class": {
-              "name": "Dragon Shaman"
-            }
           }
         }
       ],
