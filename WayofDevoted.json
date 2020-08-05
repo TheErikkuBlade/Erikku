@@ -233,10 +233,10 @@
         }
       ],
       "subclassFeatures": [
-        "Monastic Domain|Monk|Way of the Devoted|WayofDevoted|3",
-        "Divine Enlightenment|Monk|Way of the Devoted|WayofDevoted|6",
-        "Divine Restoration|Monk|Way of the Devoted|WayofDevoted|11",
-        "Awakened Divinity|Monk|Way of the Devoted|WayofDevoted|17"
+        "Monastic Domain|Monk|Devoted|WayofDevoted|3",
+        "Divine Enlightenment|Monk|Devoted|WayofDevoted|6",
+        "Divine Restoration|Monk|Devoted|WayofDevoted|11",
+        "Awakened Divinity|Monk|Devoted|WayofDevoted|17"
       ],
       "source": "WayofDevoted",
       "shortName": "Devoted",
