@@ -1,5 +1,4 @@
 {
-  "$schema": "../schema.json",
   "_meta": {
     "sources": [
       {
@@ -10,7 +9,8 @@
           "Erikku Blade"
         ],
         "version": "1.0",
-        "url": ""
+        "url": "",
+        "targetSchema": "1.0.0"
       }
     ],
     "dateAdded": 1589613177,
@@ -19,14 +19,7 @@
   "subclass": [
     {
       "name": "Way of the Devoted",
-      "subclassFeatures": [
-        "Way of the Devoted|Monk|Way of the Devoted|WayofDevoted|3",
-        "Devoted Spellcasting|Monk|Way of the Devoted|WayofDevoted|3",
-        "Monastic Domain|Monk|Way of the Devoted|WayofDevoted|3",
-        "Divine Enlightenment|Monk|Way of the Devoted|WayofDevoted|6",
-        "Divine Restoration|Monk|Way of the Devoted|WayofDevoted|11",
-        "Awakened Divinity|Monk|Way of the Devoted|WayofDevoted|17"
-      ],
+      "subclassTitle": "Monastic Tradition",
       "subclassTableGroups": [
         {
           "subclasses": [
@@ -239,10 +232,16 @@
           ]
         }
       ],
+      "subclassFeatures": [
+        "Monastic Domain|Monk|Way of the Devoted|WayofDevoted|3",
+        "Divine Enlightenment|Monk|Way of the Devoted|WayofDevoted|6",
+        "Divine Restoration|Monk|Way of the Devoted|WayofDevoted|11",
+        "Awakened Divinity|Monk|Way of the Devoted|WayofDevoted|17"
+      ],
+      "source": "WayofDevoted",
+      "shortName": "Devoted",
       "className": "Monk",
       "classSource": "PHB",
-      "shortName": "Devoted",
-      "source": "WayofDevoted",
       "subclassFeature": [
         {
           "name": "Way of the Devoted",
@@ -254,7 +253,15 @@
           "subclassSource": "WayofDevoted",
           "level": 3,
           "entries": [
-            "Some monastic icons are gods, their monasteries doubling as a church for other followers. Much like clerics, these monks can call upon powers from their deity by using ki. Devoted Monks typically follow under the Order or Life domains, but you can flavor your monk however you wish."
+            "Some monastic icons are gods, their monasteries doubling as a church for other followers. Much like clerics, these monks can call upon powers from their deity by using ki. Devoted Monks typically follow under the Order or Life domains, but you can flavor your monk however you wish.",
+            {
+              "type": "refSubclassFeature",
+              "subclassFeature": "Devoted Spellcasting|Monk|Way of the Devoted|WayofDevoted|3"
+            },
+            {
+              "type": "refSubclassFeature",
+              "subclassFeature": "Monastic Domain|Monk|Way of the Devoted|WayofDevoted|3"
+            }
           ]
         },
         {
