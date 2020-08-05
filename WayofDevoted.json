@@ -265,6 +265,7 @@
           ]
         },
         {
+          "type": "entries",
           "name": "Devoted Spellcasting",
           "source": "WayofDevoted",
           "page": 76,
@@ -336,6 +337,7 @@
           ]
         },
         {
+          "type": "entries",
           "name": "Monastic Domain",
           "source": "WayofDevoted",
           "page": 76,
@@ -430,6 +432,7 @@
           ]
         },
         {
+          "type": "entries",
           "name": "Divine Enlightenment",
           "source": "WayofDevoted",
           "page": 76,
@@ -447,6 +450,7 @@
           ]
         },
         {
+          "type": "entries",
           "name": "Divine Restoration",
           "source": "WayofDevoted",
           "page": 76,
@@ -461,6 +465,7 @@
           ]
         },
         {
+          "type": "entries",
           "name": "Awakened Divinity",
           "source": "WayofDevoted",
           "page": 76,
