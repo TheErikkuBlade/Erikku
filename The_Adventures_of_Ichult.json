@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1591187839,
-		"dateLastModified": 1591187839
+		"dateAdded": 1597316488,
+		"dateLastModified": 1597316488
 	},
 	"monster": [
 		{
@@ -1367,6 +1367,730 @@
 			],
 			"miscTags": [
 				"MW"
+			]
+		},
+		{
+			"name": "Queen Lia Elvenwood",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "TheAdventuresofIchult",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"high-elf"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"{@item robe of the archmagi}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d8 + 34",
+				"average": 170
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 22,
+			"con": 15,
+			"int": 20,
+			"wis": 18,
+			"cha": 24,
+			"save": {
+				"wis": "+10",
+				"cha": "+15",
+				"con": "+8",
+				"dex": "+12"
+			},
+			"skill": {
+				"arcana": "+17",
+				"history": "+17",
+				"persuasion": "+13",
+				"religion": "+17",
+				"perception": "+10",
+				"medicine": "+10"
+			},
+			"senses": [
+				"truesight 60 ft."
+			],
+			"passive": 20,
+			"resist": [
+				{
+					"special": "damage from spells"
+				}
+			],
+			"conditionImmune": [
+				"blinded",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"Celestial",
+				"Common",
+				"Draconic",
+				"Druidic",
+				"Elvish",
+				"Primordial",
+				"Sylvan"
+			],
+			"cr": "17",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Lia is a 20th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks) She can cast {@spell cure wounds} and {@spell prayer of healing} at will and has the following spells prepared:"
+					],
+					"will": [
+						"{@spell cure wounds}",
+						"{@spell prayer of healing}"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell guidance}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell mending}",
+								"{@spell sacred flame}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell detect magic}",
+								"{@spell guiding bolt}",
+								"{@spell healing word}",
+								"{@spell sanctuary}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell calm emotions}",
+								"{@spell detect thoughts}",
+								"{@spell healing spirit|XGE}",
+								"{@spell misty step}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell aura of vitality}",
+								"{@spell beacon of hope}",
+								"{@spell daylight}",
+								"{@spell mass healing word}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell death ward}",
+								"{@spell sickening radiance|XGE}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell mass cure wounds}",
+								"{@spell reincarnate}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell heal}",
+								"{@spell otherworldly form|UA2020SpellsAndMagicTattoos}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell divine word}",
+								"{@spell teleport}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell holy aura}",
+								"{@spell sunburst}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell gate}",
+								"{@spell mass heal}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Lia has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Lia fails a saving throw, she can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Royal Longbow",
+					"entries": [
+						"{@atk rw} {@hit 12} to hit, range 150/600 ft., one target. {@h}10 ({@damage 1d8 + 6}) piercing damage, plus 15 ({@damage 2d8}) radiant damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cast a Spell",
+					"entries": [
+						"Lia casts a spell of 3rd level or lower with a casting time of 1 action."
+					]
+				},
+				{
+					"name": "Cast a spell (Costs 2 Actions)",
+					"entries": [
+						"Lia casts a spell of 6th level or lower with a casting time of 1 action."
+					]
+				},
+				{
+					"name": "Healing Halo (Costs 3 Actions)",
+					"entries": [
+						"Lia creates a magical halo that she uses to heal nearby creatures. Creatures within 60 ft of her restores {@dice 10d10} hit points and gains 10 temporary hit points."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Lia Elvenwood is the current ruling queen of the wood elves. She has been ruling for roughly the past 1500 years and has been alive for over 2000 years. It is said that she has immortality as she is not of druidic origins, though she has made excellent relationships with the nearby druids."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/originals/27/30/ad/2730adc677d4e006e239329647415038.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/7uUwLCv.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"DR",
+				"DU",
+				"E",
+				"P",
+				"S"
+			],
+			"damageTags": [
+				"P",
+				"R"
+			],
+			"miscTags": [
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Royal Elven Knight",
+			"source": "TheAdventuresofIchult",
+			"page": 347,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"{@item plate armor +3|dmg}"
+					]
+				}
+			],
+			"hp": {
+				"average": 102,
+				"formula": "12d8 + 48"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 20,
+			"con": 18,
+			"int": 14,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"con": "+8",
+				"wis": "+7"
+			},
+			"skill": {
+				"history": "+6",
+				"stealth": "+9",
+				"perception": "+7",
+				"arcana": "+6",
+				"religion": "+10",
+				"insight": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Royal Knight's spellcasting ability is Charisma (spell save {@dc 16}). They can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell bless}",
+							"{@spell command}",
+							"{@spell compelled duel}",
+							"{@spell heroism}"
+						],
+						"1e": [
+							"{@spell find steed}",
+							"{@spell misty step}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"The knight has advantage on saving throws against being {@condition frightened}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The knight makes two melee or ranged attacks."
+					]
+				},
+				{
+					"name": "Elven Longsword +1",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 6}) slashing damage, or 10 ({@damage 1d10 + 6}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Heavy Crossbow +1",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 100/400 ft., one target. {@h}12 ({@damage 1d10 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Leadership (Recharges after a Short or Long Rest)",
+					"entries": [
+						"For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is {@condition incapacitated}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The knight adds 2 to its AC against one melee attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/M6ZBOio.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/knight.mp3?v=1.110.1"
+			},
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Sylvestoral Vellyian",
+			"source": "TheAdventuresofIchult",
+			"page": 347,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"{@item plate armor +3|dmg}"
+					]
+				}
+			],
+			"hp": {
+				"average": 102,
+				"formula": "12d8 + 48"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 20,
+			"con": 18,
+			"int": 14,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"con": "+8",
+				"wis": "+7"
+			},
+			"skill": {
+				"history": "+6",
+				"stealth": "+9",
+				"perception": "+7",
+				"arcana": "+6",
+				"religion": "+10",
+				"insight": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Royal Knight's spellcasting ability is Charisma (spell save {@dc 16}). They can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell bless}",
+							"{@spell command}",
+							"{@spell compelled duel}",
+							"{@spell heroism}"
+						],
+						"1e": [
+							"{@spell find steed}",
+							"{@spell misty step}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"The knight has advantage on saving throws against being {@condition frightened}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The knight makes two melee or ranged attacks."
+					]
+				},
+				{
+					"name": "Elven Longsword +1",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 6}) slashing damage, or 10 ({@damage 1d10 + 6}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Heavy Crossbow +1",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 100/400 ft., one target. {@h}12 ({@damage 1d10 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Leadership (Recharges after a Short or Long Rest)",
+					"entries": [
+						"For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is {@condition incapacitated}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The knight adds 2 to its AC against one melee attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/PK34SpY.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/knight.mp3?v=1.110.1"
+			},
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Iko Sunshi",
+			"source": "TheAdventuresofIchult",
+			"page": 56,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dragonborn"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item studded leather armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 195,
+				"formula": "26d8 + 78"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 19,
+			"con": 16,
+			"int": 17,
+			"wis": 12,
+			"cha": 15,
+			"save": {
+				"str": "+9",
+				"dex": "+8",
+				"con": "+7"
+			},
+			"skill": {
+				"athletics": "+13",
+				"intimidation": "+6",
+				"history": "+11",
+				"perception": "+9",
+				"persuasion": "+10"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 19,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"The half-dragon has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the half-dragon hits with it (included in the attack)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The half-dragon makes three melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d12 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 9} to hit, reach 5 ft. and range 20/60 ft., one target. {@h} ({@damage 1d6 + 5}) piercing damage, or ({@damage 1d8 + 5}) piercing damage if used with two hands to make a melee attack."
+					]
+				},
+				{
+					"name": "Shield Bash",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}17 ({@damage 1d4 + 5}) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 17} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Fire Breath {@recharge 5}",
+					"entries": [
+						"The half-dragon exhales fire in a 15-foot cone. Each creature in that area must make a {@dc 15} Dexterity saving throw, taking 52 ({@damage 15d6}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The half-dragon adds 3 to its AC against one melee attack that would hit it. To do so, the half-dragon must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.redd.it/gxiimifu4is21.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/VxaGTtt.png",
+			"traitTags": [
+				"Brute"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"prone"
 			]
 		}
 	]
