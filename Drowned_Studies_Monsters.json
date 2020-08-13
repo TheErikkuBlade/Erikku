@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1589360468,
-		"dateLastModified": 1589360468
+		"dateAdded": 1597301052,
+		"dateLastModified": 1597301052
 	},
 	"monster": [
 		{
@@ -227,8 +227,7 @@
 				"MW",
 				"RW",
 				"THW"
-			],
-			"uniqueId": "b86f6982715e23a6fdf71b800990dc8d"
+			]
 		},
 		{
 			"name": "Littash",
@@ -419,8 +418,7 @@
 				"MW",
 				"RNG",
 				"RW"
-			],
-			"uniqueId": "1612dac1155e59a29dadf096860a6962"
+			]
 		},
 		{
 			"name": "Orc Juggernaut (possessed by Dybbuk)",
@@ -597,8 +595,228 @@
 			"conditionInflictSpell": [
 				"blinded",
 				"prone"
+			]
+		},
+		{
+			"name": "Adam Hiroshi (Revenant)",
+			"shortName": "Adam",
+			"source": "DrownedStudiesMonsters",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"N"
 			],
-			"uniqueId": "1c0e8f3844ec6e359aeec2bc7041c824"
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 136,
+				"formula": "16d8 + 64"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 10,
+			"con": 18,
+			"int": 12,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"str": "+8",
+				"con": "+7",
+				"wis": "+6",
+				"cha": "+7"
+			},
+			"skill": {
+				"athletics": "+8",
+				"history": "+4",
+				"insight": "+6",
+				"perception": "+6",
+				"religion": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"necrotic",
+				"psychic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Giant"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Adam's spellcasting ability is Charisma (spell save {@dc 15}, +7 to hit). Adam can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell hellish rebuke}",
+							"{@spell inflict wounds}",
+							"{@spell searing smite}"
+						],
+						"1e": [
+							"{@spell crown of madness}",
+							"{@spell darkness}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The revenant regains 10 hit points at the start of its turn. If the revenant takes fire or radiant damage, this trait doesn't function at the start of the revenant's next turn. The revenant's body is destroyed only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"When the revenant's body is destroyed, its soul lingers. After 24 hours, the soul inhabits and animates another humanoid corpse on the same plane of existence and regains all its hit points. While the soul is bodiless, a {@spell wish} spell can be used to force the soul to go to the afterlife and not return."
+					]
+				},
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The revenant is immune to effects that turn undead."
+					]
+				},
+				{
+					"name": "Vengeful Tracker",
+					"entries": [
+						"The revenant knows the distance to and direction of any creature against which it seeks revenge, even if the creature and the revenant are on different planes of existence. If the creature being tracked by the revenant dies, the revenant knows."
+					]
+				},
+				{
+					"name": "Channel Divinity (1/rest)",
+					"entries": [
+						"Adam can use one of the following Channel Divinity options, once used he cannot use another one again until his finishes a short or long rest:",
+						"Oathbreaker Channel Divinity: Control Undead",
+						"As an action, the paladin targets one undead creature he or she can see within 30 feet of him or her. The target must make a Wisdom saving throw. On a failed save, the target must obey the paladin's commands for the next 24 hours, or until the paladin uses this Channel Divinity option again. An undead whose challenge rating is equal to or greater than the paladin's level is immune to this effect.",
+						"Oathbreaker Channel Divinity: Dreadful Aspect",
+						"As an action, the paladin channels the darkest emotions and focuses them into a burst of magical menace. Each creature of the paladin's choice within 30 feet of the paladin must make a Wisdom saving throw if it can see the paladin. On a failed save, the target is {@condition frightened} of the paladin for 1 minute. If a creature {@condition frightened} by this effect ends its turn more than 30 feet away from the paladin, it can attempt another Wisdom saving throw to end the effect on it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The revenant makes two melee attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage, or 10 ({@damage 1d10 + 5}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Fist",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 5}) bludgeoning damage. If the target is a creature against which the revenant has sworn vengeance, the target takes an extra 14 ({@damage 4d6}) bludgeoning damage. Instead of dealing damage, the revenant can grapple the target (escape {@dc 15}) provided the target is Large or smaller."
+					]
+				},
+				{
+					"name": "Vengeful Glare",
+					"entries": [
+						"The revenant targets one creature it can see within 30 feet of it and against which it has sworn vengeance. The target must make a {@dc 15} Wisdom saving throw. On a failure, the target is {@condition paralyzed} until the revenant deals damage to it, or until the end of the revenant's next turn. When the paralysis ends, the target is {@condition frightened} of the revenant for 1 minute. The {@condition frightened} target can repeat the saving throw at the end of each of its turns, with disadvantage if it can see the revenant, ending the {@condition frightened} condition on itself on a success."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Revenants with Spells and Weapons",
+					"entries": [
+						"Revenants that were spellcasters before they died might retain some or all of their spellcasting capabilities. Similarly, revenants that wore armor and wielded weapons in life might continue to do so."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"desert",
+				"forest",
+				"hill",
+				"swamp",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					"Adam Hiroshi, a human blacksmith who at a young age could forge any kind of weapon, armor, or shield. Adam was named after his father’s favorite material to work with, Adamantine. His father, Joseph, was a renowned blacksmith and his craft was unrivaled by any dwarf or elf. Due to his reputation, wealth and influence, Joseph gave Adam the best workshop gold could buy. Adam spent many of his early years in life honing his skills, so that one day he could craft a weapon that would impress even his own father. Joseph was a harsh mentor for Adam, always telling his son what was wrong with his work rather than what he liked about it. Despite this harsh criticism, Adam kept forging hoping that one day he would get a different result. One day, Joseph stopped coming into Adam’s workshop. Adam was surprised, he usually came in to watch him work every day, no matter how young, old, sick, or busy he was. He never traveled, not without his son; not since his wife, Adam’s mother, was killed on an expedition when he was six. ",
+					"Adam's father had attempted to reforge an artifact, the Hammer of Creation. In his many years of trying, he eventually lost the will to live and perished as years were shaved off his life after every failed attempt.",
+					"Adam was left heartbroken at the loss of his father, and though he was left to finish the hammer, he never did. He cursed the hammer for taking his father, and left it to forge his own desires. He worked day and night, crafting the most powerful weapon in the world. A mighty sword that could vanquish any foe, one that would grant the user unbelievable strength. With the aid of Moradin, through constant prayer, he had finally done it. Three years after his father’s death he had finally made the weapon. Why Moradin helped is unknown. Could it have been his respect to his father, and repayment for the grief his death brought? Could it have been the reward for ambition? Who knows, not even Adam does. He presented the weapon to an adventurer who had heard about the weapon and offered a large amount of coin, claiming 10,000 platinum. Sought with greed, and still in his younger naive years, he presented the weapon to the adventurer, only to have it stolen out of his hands and struck by his own blade. Leaving him wounded to near death, even with a non-lethal strike. Why his life was spared was also unknown, but the adventurer left him, smiling evilly as he massacred his hometown, and proceeded to go from town-to-town reeking havoc everywhere he went."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/IvF59U0.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/9CyUufT.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/revenant.mp3?v=1.110.1"
+			},
+			"traitTags": [
+				"Regeneration",
+				"Rejuvenation",
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"GI"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed"
+			]
 		}
 	]
 }
