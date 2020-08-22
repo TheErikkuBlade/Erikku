@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1598076564,
-		"dateLastModified": 1598076564
+		"dateAdded": 1598081504,
+		"dateLastModified": 1598081504
 	},
 	"monster": [
 		{
@@ -2305,10 +2305,6 @@
 				]
 			},
 			"tokenUrl": "https://i.imgur.com/ks10XDl.png",
-			"soundClip": {
-				"type": "external",
-				"url": "https://noads.5e.tools/audio/bestiary/empyrean.mp3?v=1.110.1"
-			},
 			"traitTags": [
 				"Legendary Resistances",
 				"Magic Weapons"
@@ -2337,6 +2333,167 @@
 			],
 			"conditionInflictSpell": [
 				"prone"
+			]
+		},
+		{
+			"name": "Richie, The Magitech Inventor",
+			"shortName": "Richie",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "TheAdventuresofIchult",
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"ratfolk"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"Magitech Gear"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d6 + 44",
+				"average": 82
+			},
+			"speed": {
+				"walk": {
+					"number": 30,
+					"condition": "(60ft when using Travel Mode)"
+				},
+				"fly": {
+					"number": 30,
+					"condition": "when using Flight Mode"
+				},
+				"canHover": false,
+				"swim": {
+					"number": 30,
+					"condition": "When using Marine Mode"
+				}
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 18,
+			"int": 24,
+			"wis": 18,
+			"cha": 14,
+			"save": {
+				"str": "+5",
+				"dex": "+9",
+				"int": "+13",
+				"con": "+10"
+			},
+			"skill": {
+				"perception": "+10",
+				"stealth": "+9",
+				"investigation": "+13",
+				"arcana": "+13",
+				"history": "+13"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 20,
+			"languages": [
+				"Common",
+				"Undercommon",
+				"Halfling",
+				"Dwarvish"
+			],
+			"cr": "17",
+			"trait": [
+				{
+					"name": "Tandem Tactician",
+					"entries": [
+						"Richie can use the help action as a bonus action.",
+						"When he uses the Help action to aid an ally in attacking a creature, increase the range of the Help action by 10 feet. Additionally, you can help two allies targeting the same creature within range when you use the Help action this way."
+					]
+				},
+				{
+					"name": "Quick Tinkerer",
+					"entries": [
+						"Richie can use an artisans tool as a bonus action to repair objects retaining to that tool. For the purposes of restoring hit points to objects or constructs, they regain {@dice 3d10} hit points."
+					]
+				},
+				{
+					"name": "Magitech Energy: (200/200)",
+					"entries": [
+						"Richie can use his Magitech Energy in the following ways as a bonus action:",
+						"2 Points: Use the dodge action, stabilize a dying ally, or make a single weapon attack using a Magitech Weapon.",
+						"5 Points: Add {@damage 1d10} force damage to a weapon attack made with a magitech weapon or switch gear modes.",
+						"10 Points: Generate a powerful Magitech Gadget using your automatic workstation. Choose either Elemental Magnus, Healing Doughnut, or Huge Impactinator 9000.",
+						"20 Points: Release outward a powerful energy pulse centered on himself, knocking medium creatures back 5 ft and dealing {@damage 3d10} force damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Magitech Shotgun",
+					"entries": [
+						"{@atk rw} {@hit 16} to hit, unlimited range, one target. {@h}12 ({@damage 2d8 + 1d10 + 6}) radiant damage."
+					]
+				},
+				{
+					"name": "Magitech Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 1d10 + 6}) force damage."
+					]
+				},
+				{
+					"name": "Elemental Magnus",
+					"entries": [
+						"You hurl a grenade filled with chaotic energy at space within 60 feet. Each creature takes {@damage 10d8} damage. Use the first {@dice d8}. The number rolled on that die determines the attack's damage type. (1. Acid, 2. Cold, 3. Fire, 4. Force, 5. Lightning, 6. Poison, 7. Psychic, 8. Thunder)"
+					]
+				},
+				{
+					"name": "Healing Doughnut",
+					"entries": [
+						"You release outward a band of healing energy that disperses wildly. Each creature within 30 ft of you regains {@dice 5d8 + 7} hit points."
+					]
+				},
+				{
+					"name": "Huge Impactinator 9000",
+					"entries": [
+						"You hurl a giant fist with rockets propelling it forward at high speeds. It rushes forward in a 200 ft long and 5 ft wide straight line. Each creature and object within range takes {@dice 3d10 + 7} points of bludgeoning damage and an additional {@damage 1d10} force damage for every 10 ft the fist traveled. The fist can also go through walls as tough as stone and creates a 5 ft by 5ft hole where it passed through, but travels at half it's normal distance for each wall it passes through."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://pbs.twimg.com/media/Dd6tAofV0AA0gVo?format=jpg&name=small"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/2jaunbG.png",
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"H",
+				"U"
+			],
+			"damageTags": [
+				"O",
+				"R"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
 			]
 		}
 	]
