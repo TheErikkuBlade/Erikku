@@ -176,7 +176,7 @@
           {
             "name": "Blood Pool",
             "entries": [
-              "Starting at 1st level, you have a pool of blood that you can use as a buffer when you use your blood manipulation. These are represented by a number of d4s equal to twice your Hemomancer level. You’ll expend these “Blood Dice” to use your hemomancer abilities. Anytime you spend one of your Blood Dice, you roll them and take damage equal to the amount you rolled. ",
+              "Starting at 1st level, you have a pool of blood magic that you can use as a buffer when you use your blood manipulation. These are represented by a number of d4s equal to your Hemomancer level. You’ll expend these “Blood Dice” to use your hemomancer abilities. Anytime you spend one of your Blood Dice, you roll them and take damage equal to the amount you rolled. ",
               "Additionally, as a bonus action you can expend one hit die to replenish 2 Blood Dice. When you do you roll your hit die as if you were restoring hit points during a short rest, but instead you take damage equal to the result.",
               "At higher levels your Blood Dice increases in size, becoming a d6 at 5th level, a d8 at 11th level, and finally a d10 at 17th level."
             ]
@@ -192,14 +192,14 @@
                     "type": "entries",
                     "name": "Blood Forge",
                     "entries": [
-                      "Whenever you roll initiative (or as a bonus action on your turn) you can spend one of your blood dice and manifest a weapon made of your own blood. This blood weapon can be any simple weapon that lacks the “special” property. The weapon uses your Blood Dice size to determine its damage die. You can spend an additional Blood Die to increase the damage dice by 1. This weapon remains manifested for 1 hour, until you take a short or long rest, or you can dismiss it as a bonus action. You can use your wisdom modifier for the attack and damage rolls for this weapon instead of Strength or Dexterity. For every hour after you manifested this weapon,  you can spend an additional blood die and roll it to keep it manifested. At any time while your blood weapon is manifested, you can use a bonus action to reforge the weapon into a different one, without spending Blood Dice."
+                      "Whenever you roll initiative (or as a bonus action on your turn) you can spend one of your blood dice and manifest a weapon made of your own blood. This blood weapon can be any simple weapon that lacks the “special” property. The weapon uses your Blood Dice size to determine its damage die and you can either use the weapon’s damage type or necrotic damage. In addition, as part of the forging you create up to 10 pieces of ammunition for any ranged weapons. You can spend an additional Blood Die to increase the damage dice by 1. This weapon remains manifested for 1 hour, until you take a short or long rest, or you can dismiss it as a bonus action. You can use your wisdom modifier for the attack and damage rolls for this weapon instead of Strength or Dexterity. For every hour after you manifested this weapon,  you can spend an additional blood die and roll it to keep it manifested. At any time while your blood weapon is manifested, you can use a bonus action to reforge the weapon into a different one, without spending Blood Dice."
                     ]
                   },
                   {
                     "type": "entries",
                     "name": "Bloody Tendrils",
                     "entries": [
-                      "As a bonus action you spend a number of Blood Dice up to your Wisdom Modifier and can create a number of tendrils of blood equal to the amount of Blood Dice spent. Each tendril has a number of hit points equal to your Hemomancer level. Whenever you would take damage, as a reaction one of your tendrils can become a target for the attack, taking the damage for itself. When a tendril drops to 0 hit points it is destroyed. Each of these tendrils deals necrotic damage equal to the size of your blood die and has a reach of 10 ft. When you take the attack action, you can forgo your weapon attack to instead attack with your Tendrils, making 1 attack for each tendril you have when you take the attack action. Your Bloody Tendrils count as simple weapons and use your wisdom modifier to hit but does not add it to damage rolls. On a successful hit the target is grappled, Escape DC equals your Hemomancer Save DC. Once you have summoned your Bloody Tendrils you cannot do so again until you complete a short or long rest. Alternatively, you can spend and roll a hit die to regain a usage of your Bloody Tendrils, taking damage equal to what you rolled."
+                      "As a bonus action you spend a number of Blood Dice up to your Proficiency Bonus and can create a number of tendrils of blood equal to the amount of Blood Dice spent. Each of these tendrils deals necrotic damage equal to your blood die and has a reach of 10 ft. When you take the attack action, you can forgo your weapon attack to instead attack with your Tendrils, making 1 attack for each tendril you have when you take the attack action. Your Bloody Tendrils count as simple weapons and use your wisdom modifier to hit but does not add it to the damage. On a successful hit the target makes an opposed check against your Hemomancer Save DC or be grappled, the escape DC equals your Hemomancer Save DC. Once you have summoned your Bloody Tendrils you cannot do so again until you complete a short or long rest. Alternatively, you can spend and roll a hit die to regain a usage of your Bloody Tendrils, taking damage equal to what you rolled."
                     ]
                   },
                   {
@@ -231,7 +231,7 @@
           {
             "name": "Bloody Restoration",
             "entries": [
-              "Starting at 2nd level, you gain the uncanny ability to heal after short instances of time. You restore half of your hit point maximum after a short rest, in addition when you spend a hit die to restore hit points you double the result. "
+              "Starting at 2nd level, you gain the uncanny ability to heal after short instances of time. You restore one fourth of your hit point maximum after a short rest (rounded down), in addition when you spend a hit die to restore hit points you double the result."
             ]
           }
         ],
@@ -250,7 +250,7 @@
                   "When you deal damage to a creature using a Blood Weapon or a Bloody Tendril you replenish 1 Blood Die."
                 ]
               },
-              "Your Blood Bath remains active so long as you take damage, make an attack roll, or prolong it as a bonus action. If by the end of your turn you do not do any of the following, your Blood Bath ends. Once your Blood Bath ends you cannot enter a Blood Bath again until you have finished a short or long rest. You gain an additional use of your Blood Bath at 9th and 15th levels."
+              "Your Blood Bath remains active so long as you make an attack roll or prolong it as a bonus action. If by the end of your turn you do not do any of the following, your Blood Bath ends. Once your Blood Bath ends you cannot enter a Blood Bath again until you have finished a short or long rest. You gain an additional use of your Blood Bath at 9th and 15th levels."
             ]
           }
         ],
@@ -275,7 +275,7 @@
                     "type": "entries",
                     "name": "Blood Transmutation"
                   },
-                  "As an action by spending a blood die, you can transmute up to 4 ounces of blood into 4 ounces of any of the following liquids : Water, Oil, Ale, Beer, Vinegar, Wine, Basic poison, Acid, Honey, Mayonnaise. You can transmute it into other basic liquids under the GM’s discretion."
+                  "As an action by spending a blood die, you can transmute up to 4 ounces of your blood into 4 ounces of any of the following liquids : Water, Oil, Ale, Beer, Vinegar, Wine, Basic poison, Acid, Honey, Mayonnaise. You can transmute it into other basic liquids under the GM’s discretion."
                 ]
               },
               {
@@ -283,9 +283,9 @@
                 "entries": [
                   {
                     "type": "entries",
-                    "name": "Blood Transmutation"
+                    "name": "Blood Rush"
                   },
-                  "As an action by spending a blood die, you can transmute up to 4 ounces of blood into 4 ounces of any of the following liquids : Water, Oil, Ale, Beer, Vinegar, Wine, Basic poison, Acid, Honey, Mayonnaise. You can transmute it into other basic liquids under the GM’s discretion."
+                  "As a bonus action you can spend a blood die, when you do so you can take the dash or disengage actions as a bonus action for as many rounds equal to what you rolled. You can also dash or disengage the turn you use this feature."
                 ]
               }
             ]
@@ -322,7 +322,9 @@
           {
             "name": "Blood Magic",
             "entries": [
-              "Starting at 10th level you gain the capabilities to cast magic through your control over blood. Pick three cantrips from the Wizard’s Spell list, you can now cast those cantrips using Wisdom as your Spellcasting Ability. Pick two 1st, 2nd, and 3rd level spells each from the Wizard’s Spell List. You can cast each of these spells, using Wisdom as your Spellcasting Ability, by spending a Blood Die per level of the spell. Once you have cast a spell using this feature you cannot cast that spell again until you have finished a short or long rest. You pick 2 additional spells of 1st, 2nd, 3rd, or 4th levels at 16th level."
+              "Starting at 10th level you gain the capabilities to cast magic through your control over blood. Pick three cantrips from the Wizard’s Spell list, you can now cast those cantrips using Wisdom as your Spellcasting Ability. You have 6 spells known from the Wizard’s Spell List, the maximum level spell you can learn is 3rd. You can cast each of these spells, using Wisdom as your Spellcasting Ability, by spending Blood Dice equal to the level of the spell and you can cast these spells at higher levels by spending 1 blood die per level above the original level of the spell, to a maximum of 3rd level. You do not require costly material components for the spell if it requires one, otherwise you follow all the general rules for spellcasting.",
+              "Once you have cast a spell using this feature you cannot cast that spell again until you have finished a short or long rest. ",
+              "You learn 2 additional spells at 16th level and you can learn and cast spells up to 4th level. Each time you gain a level in this class, you can replace a spell learned with a different spell from the same list."
             ]
           }
         ],
@@ -383,7 +385,7 @@
           {
             "name": "Strong Blooded",
             "entries": [
-              "At 15th level choose Strength or Dexterity, you add half your Proficiency Bonus to Ability Checks and Saving Throws using the chosen ability score. In addition, you have advantage on Death Saves."
+              "At 15th level choose Strength or Dexterity, you add half your proficiency bonus to ability checks and saving throws using the chosen ability score. In addition you add your proficiency bonus to Death Saving throws."
             ]
           }
         ],
@@ -442,7 +444,8 @@
                 "type": "list",
                 "items": [
                   "When you would take damage from a Hemomancer feature, you can choose to take no damage instead. You can do this a number of times equal to your Constitution Modifier. ",
-                  "When you roll initiative you regain an amount of Blood Dice equal to your Wisdom Modifier. You can use your Blood Bath an unlimited amount of times. ",
+                  "When you roll initiative you regain an amount of Blood Dice equal to your Wisdom Modifier.",
+                  "You can use your Blood Bath an unlimited amount of times.",
                   "Choose 1 of your Blood Magic spells. You can cast that spell at its lowest level at will an unlimited amount of times."
                 ]
               }
@@ -465,7 +468,7 @@
               {
                 "name": "Blood Bending",
                 "entries": [
-                  "Starting at 1st level when you choose this archetype you learn the “Shape Water” cantrip, but instead of being able to shape water, you instead shape blood. At 4th level you learn the Hold Person spell, at 7th level you learn the Hold Monster Spell, and at 9th level you learn the Dominate Person Spell. Each of these spells uses your Wisdom as your Spellcasting Ability. Each spell of 1st level or higher using this feature can only be used once per short or long rest and cost an amount of blood dice per level of the spell. Each spell must be cast at their lowest level."
+                  "At 1st level, as an action you can spend a blood die and attempt to lock up a creature’s movements using your innate control over blood. Choose a creature no larger than one size larger than yourself within 60 ft of you, that target must make a Constitution saving throw against your Hemomancer Save DC. On a failed save, that creature is {@condition stunned} until the end of its next turn. This feature has no effect on aberrations, constructs, elementals, ooze, plants, or undead."
                 ]
               },
               {
@@ -492,12 +495,6 @@
                     ]
                   }
                 ]
-              },
-              {
-                "name": "Enhanced Blood Pool",
-                "entries": [
-                  "Also starting at 1st level, your blood pool maximum is doubled. In addition you regain half of your blood dice (rounded up) after a short rest."
-                ]
               }
             ],
             [
@@ -506,23 +503,60 @@
                 "entries": [
                   "Starting at 6th level, you can target a number of allies within 60 ft of you (not including yourself) equal to your Wisdom Modifier. You can expend 2 Blood Dice to grant them temporary hit points equal to the amount you rolled. In addition they gain advantage on their next saving throw. This feature is added to your “Blood Manipulation” feature."
                 ]
+              },
+              {
+                "name": "Blood Control",
+                "entries": [
+                  "Also at 6th level, your ability to bend the blood in your enemies has allowed you to take control of their movements. As part of your action when you use your Blood Bending, you can puppeteer them on a whim. On their turn, you can force them to do any combination of the following so long as they would have the actions to do so ignoring the stunned condition they suffered:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "Use their action to take the attack action on a target of your choosing. Attacks made against their allies or themselves have disadvantage.",
+                      "Use half their movement to move to an unoccupied space that you can see within that range. You can use their action to dash as part of this movement.",
+                      "Use their action to attempt to grapple a creature, using your Hemomancer Save DC as the opposing check for the creature.",
+                      "Using their action for an improvised action.",
+                      "Use half their movement to drop prone, or stand up if they were already prone.",
+                      "Use their Free Item Interaction.",
+                      "Use their Action to doff their shield."
+                    ]
+                  }
+                ]
               }
             ],
             [
               {
-                "name": "Adrenaline Rush",
+                "name": "Additional Blood Magic",
                 "entries": [
-                  "Starting at 14th level, as an action by spending 8 Blood Dice you and a number of allies within 60 ft of you equal to your Wisdom Modifier gain the following benefits:",
+                  "At 14th level, the following spells are added to your spell list for your Blood Magic feature and do not count against your total known spells:",
                   {
-                    "type": "list",
-                    "items": [
-                      "They have advantage on their ability checks, attack rolls, and saving throws.",
-                      "They gain a number of temporary hit points equal to your Hemomancer level. ",
-                      "Their movement speed is increased by 10 ft and they can take the dash action as a bonus action. ",
-                      "They gain an additional action that they can only use to make 1 weapon attack, disengage, dodge, or use an object. "
+                    "type": "table",
+                    "caption": "Blood Bender Spells",
+                    "colLabels": [
+                      "Spell Level",
+                      "Spells"
+                    ],
+                    "rows": [
+                      [
+                        "1st",
+                        "Command, Cure Wounds"
+                      ],
+                      [
+                        "2nd",
+                        "Crown of Madness, Hold Person"
+                      ],
+                      [
+                        "3rd",
+                        "Enemies Abound, Life Transference"
+                      ]
                     ]
-                  },
-                  "These benefits last for 1 minute, afterwards everyone who benefited from this ability suffers 1 level of exhaustion. In addition, you take an amount of damage equal to twice your Hemomancer level. Once you use this feature you cannot do so again until you finish a short or long rest."
+                  }
+                ]
+              },
+              {
+                "name": "Blood Puppet",
+                "entries": [
+                  "Also at 14th level, your ability to magically control other creatures has become so potent it is almost second nature. When you use your Blood Control feature, they can instead be influenced by the Dominate Monster spell using the spell’s effects instead. If they are immune to being charmed, you instead use the Blood Control feature as per normal.",
+                  "You can only use this feature once, regaining the ability to do so again after a long rest."
                 ]
               }
             ],
@@ -552,7 +586,7 @@
               {
                 "name": "Blood Invocation",
                 "entries": [
-                  "Starting at 1st level when you take this archetype you can cast the Blade Ward cantrip as a bonus action. At 4th level you can cast the Enhance Ability spell but only on yourself. At 7th level you can cast the Death Ward spell but only on yourself, and at 9th level you can cast the Negative Energy Flood spell. Each of these spells uses your Wisdom Modifier. Each spell of 1st level or higher using this feature can only be used once per short rest or long rest and cost a blood die per level of the spell. Each spell must be cast at their lowest level."
+                  "When you use your Blood Forge, you can instead infuse your blood magic into a weapon you are holding, that weapon becomes a Blood Weapon as per your blood forge feature, however it instead deals damage equal to the normal damage of the weapon plus necrotic damage equal to your blood die. You can spend an additional blood die to boost the damage by an additional die."
                 ]
               },
               {
@@ -564,9 +598,9 @@
                     "entries": [
                       {
                         "type": "entries",
-                        "name": "Blood Enhancement",
+                        "name": "Blood Boost",
                         "entries": [
-                          "As a bonus action by spending 2 blood dice you can make your Strength and Dexterity scores equal to your Wisdom Score. If they are equal to or greater than your Wisdom Score this feature provides no benefit. This benefit lasts for a number of rounds equal to your Wisdom Modifier. Once this effect ends you suffer 1 level of exhaustion."
+                          "When you make an ability check, attack roll, or saving throw, you can spend a blood die and add what you rolled to the result."
                         ]
                       },
                       {
@@ -581,10 +615,9 @@
                 ]
               },
               {
-                "name": "Enhanced Vitality",
+                "name": "Blood Reserve",
                 "entries": [
-                  "Also starting at 1st level, you gain 1 additional hit point and 1 more each time you gain a Hemomancer level. In addition, anytime you restore hit points using potions or other magical means, you regain additional hit points equal to your Hemomancer level.",
-                  "You have a seperate pool of temporary hit points that can only be used for the cost of your Hemomancer features. You have a number of temporary hit points in this pool equal to your twice your Hemomancer level. This is known as your “Blood Reserve”. Your Blood Reserve is replenished after a long rest. If your Blood Reserve is reduced to 0, you suffer a level of exhaustion. This level of exhaustion can only be restored after completing a long rest."
+                  "Also at 1st level, you have a magical reserve that has a pool of hit points that can only be used for the cost of your Hemomancer features. Your Blood Reserve has a number of hit points equal to half your Hemomancer level plus your Constitution modifier (to a minimum of 1). Your Blood Reserve is replenished after a long rest or whenever you deal necrotic damage the reserve regains 1 hit point."
                 ]
               }
             ],
@@ -598,6 +631,34 @@
             ],
             [
               {
+                "name": "Additional Blood Magic",
+                "entries": [
+                  "At 14th level, the following spells are added to your spell list for your Blood Magic feature and do not count against your total known spells:",
+                  {
+                    "type": "table",
+                    "caption": "Blood Invoker Spells",
+                    "colLabels": [
+                      "Spell Level",
+                      "Spells"
+                    ],
+                    "rows": [
+                      [
+                        "1st",
+                        "Arms of Hadar, Bane"
+                      ],
+                      [
+                        "2nd",
+                        "Enhance Ability, Magic Weapon"
+                      ],
+                      [
+                        "3rd",
+                        "Bestow Curse, Hunger of Hadar"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Improved Blood Arts",
                 "entries": [
                   "At 14th level your Blood Weapons and Bloody Tendrils become faster and deadlier. Whenever you take the attack action you can make up to two attacks with your blood weapons instead of one. In addition, your blood weapons and bloody tendrils score a critical hit on a 19 or 20."
@@ -608,7 +669,7 @@
               {
                 "name": "Blood Rage",
                 "entries": [
-                  "Starting at 18th level when you use your Blood Bath, you can lash out at nearby creatures. You can spend any number of Blood Dice, each creature within 10 ft of you must make a Dexterity saving throw against your Hemomancer Save DC. On a failed save, they take necrotic damage equal to what you rolled and are knocked prone. On a success they take half damage and are not knocked prone. Then, for a number of rounds equal to the number of blood dice spent, you deal the maximum possible damage to creatures with your weapon attacks."
+                  "Starting at 18th level when you use your Blood Bath, you can lash out at nearby creatures. When you take the attack action, before you attack you can spend any number of Blood Dice, each creature within 10 ft of you must make a Dexterity saving throw against your Hemomancer Save DC. On a failed save, they take necrotic damage equal to what you rolled and are knocked prone. On a success they take half damage and are not knocked prone. Then, until the end of your next turn you deal the maximum possible damage to creatures with your weapon attacks."
                 ]
               }
             ]
@@ -697,6 +758,34 @@
             ],
             [
               {
+                "name": "Additional Blood Magic",
+                "entries": [
+                  "At 14th level, the following spells are added to your spell list for your Blood Magic feature and do not count against your total known spells:",
+                  {
+                    "type": "table",
+                    "caption": "Lycanthropy Spells",
+                    "colLabels": [
+                      "Spell Level",
+                      "Spells"
+                    ],
+                    "rows": [
+                      [
+                        "1st",
+                        "Animal Friendship, Beast Bond"
+                      ],
+                      [
+                        "2nd",
+                        "Alter Self, Beast Sense"
+                      ],
+                      [
+                        "3rd",
+                        "Conjure Animals, Fear"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Dark Howl",
                 "entries": [
                   "Starting at 14th level, as an action while in your Lycan form you can let out a howling roar. Each creature that can hear you must make a Constitution Saving Throw against your Hemomancer Save DC. On a failed save they take 4d10 thunder damage and are stunned for 1d4 rounds. On a successful save they take half as much damage and are not stunned. You gain 1 blood die for each creature that took damage from this effect."
@@ -761,12 +850,137 @@
           ],
           "source": "HM",
           "shortName": "Lycanthropy"
+        },
+        {
+          "name": "Vampirism",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Vampirism",
+                "entries": [
+                  "A cloaked man walks through the night, hides his face from the blinding sunlight, he gave his humanity to walk amongst the dead and achieved the immortality humanity has always sought after. He cared not for the cost, nor the lives he took. He merely watched as the pile of corpses grew and grew. His slow descent into insanity, one cannot call him a man any longer. He has befallen to a mere monster who lurks in the cold, dark, rainy night."
+                ]
+              },
+              {
+                "name": "Vampiric Nature",
+                "entries": [
+                  "Starting at 1st level, you have begun to strip away your humanity in order to gain great power. Your creature type becomes both humanoid and undead and you no longer need to breathe. You also have a darkvision out to a range of 60 ft if you did not already have it.",
+                  "In addition, at the start of each of your turns you regain 1 hit point provided you already had at least 1 hit point. You do not gain this benefit if you take any amount of radiant or fire damage, or if you are in direct sunlight.",
+                  "You have a special bite attack that deals 1d6 piercing damage and uses your Strength or Dexterity modifiers to hit and to damage. You can spend a blood die when you hit with your bite to deal an extra amount of necrotic damage equal to what you rolled. You can only use this bite attack on a willing creature, or on a creature you are grappling if they are within 5ft of you.",
+                  "You also have the following weaknesses, but as an action you can spend a blood die to subside one of them. You can only subside one weakness at a time:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "You gain a vulnerability to sunlight, giving you disadvantage on attack rolls and ability checks while in direct sunlight.",
+                      "You can't enter a residence without an invitation from one of the occupants.",
+                      "You have vulnerability to radiant damage from holy water.",
+                      "You have vulnerability to piercing damage, which nullifies and immunities or resistances to it from other sources."
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Vampiric Charm",
+                "entries": [
+                  "Also at 1st level, you can target one humanoid you can see within 30 ft. If they can see you, the target must succeed on a Wisdom saving throw against your Hemomancer Save DC or be charmed by you. The charmed target regards you as a trusted friend to be heeded and protected. Although the target isn't under your control, it takes your requests or actions in the most favorable way it can. It is also a willing target for your bite attack.",
+                  "Each time you or your companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 8 hours or until you’re killed, on a different plane of existence than the target, or take a bonus action to end the effect.",
+                  "When your Vampiric Charm ends, the target knows it was charmed, but does not recall anything it did whilst charmed or the one who charmed it. It instead remembers a cold dark feeling and then nothingness.",
+                  "You have a number of uses of this feature equal to your Proficiency Bonus, regaining all expended uses after a long rest."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Vampiric Shapechanger",
+                "entries": [
+                  "Starting at 6th level, you can use an action to polymorph into a Tiny bat or a Medium cloud of mist. You count as a Shapechanger for the purposes of certain spell or magical effects.",
+                  "While in bat form, you can't speak, your walking speed is 5 feet, and you have a flying speed of 30 feet. Your statistics, other than your size and speed, are unchanged. Anything you are wearing or carrying either transforms with you or you can have them drop to the ground beneath you. When your items transform with you, they merge with your new form becoming unusable. You revert to your true form if you die.",
+                  "While in mist form, you can't take any actions, speak, or manipulate objects. You are weightless, have a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. Anything you are wearing or carrying either transforms with you or you can have them drop to the ground beneath you. When your items transform with you, they merge with your new form becoming unusable. In addition, if air can pass through a space, you can do so without squeezing, and you can't pass through water. You have advantage on Strength, Dexterity, and Constitution saving throws, and are immune to all nonmagical damage, except radiant damage from holy water.",
+                  "Each of your forms lasts for an hour, after which you revert to your true form. You can also end them as a bonus action on your turn. You can use this feature a number of times equal to your Wisdom modifier, regaining all expended uses after a long rest."
+                ]
+              },
+              {
+                "name": "Vampiric Coffin",
+                "entries": [
+                  "Also at 6th level, you have an extra dimensional resting place that is always with you. You can carry a tiny mundane container, such as a tiny replica coffin, or a full-sized object of similar nature as a doorway to this resting place. As an action, you can magically teleport into this demiplane so long as the object is on your person or leave it as a bonus action. Whenever you take a long rest, you can do so in this resting place. When you do so, you can regain all of your hit dice instead of half at the end of your long rest and you receive an amount of temporary hit points equal to your Hemomancer level.",
+                  "You can invite a number of creatures up to your Wisdom modifier into your resting place, creatures who are charmed by you are not included in the maximum number of creatures you can have in your resting place. Creatures who rest in your Coffin gain the same benefits as you do.",
+                  "When you use this feature, your gateway object remains in the material plane. If it is ever destroyed, or when you leave your resting place, you and each creature inside your resting place reappear in unoccupied adjacent spaces within 5ft of the destroyed object, or the nearest unoccupied adjacent spaces if one is not within 5 ft.",
+                  "Your resting place can take any appearance you like, so long as it fits within a 30 ft by 30 ft cube.",
+                  "Creatures cannot remain in your resting place if you are not there, unless you grant them permission to do so. You always know if there is a creature inside of your resting place, and you always know the exact location of the object you use for your resting place."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Additional Blood Magic",
+                "entries": [
+                  "At 14th level, the following spells are added to your spell list for your Blood Magic feature and do not count against your total known spells:",
+                  {
+                    "type": "table",
+                    "caption": "Vampirism Spells",
+                    "colLabels": [
+                      "Spell Level",
+                      "Spells"
+                    ],
+                    "rows": [
+                      [
+                        "1st",
+                        "Cause Fear, Charm Person"
+                      ],
+                      [
+                        "2nd",
+                        "Blur, Invisibility"
+                      ],
+                      [
+                        "3rd",
+                        "Speak with Dead, Vampiric Touch"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Greater Vampirism",
+                "entries": [
+                  "At 14th level, you have matured into a full vampire, and have gained a stronger understanding of your abilities. You gain the following improvements:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "Your regeneration now regenerates 2 hit points instead of 1 while you have at least 1 hit point.",
+                      "You can subside an additional weakness from your Vampiric Nature.",
+                      "You gain resistance to necrotic damage.",
+                      "Your darkvision range increases by 60 ft.",
+                      "Your Vampiric Charm now lasts for 24 hours instead of 8."
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Vampire Spawn",
+                "entries": [
+                  "Also at 14th level, when you kill a humanoid using your bite, you can raise that creature for a short time. That creature becomes a Vampire Spawn and uses its stat block. The vampire spawn remains for an amount of days equal to your Wisdom modifier, or until it is reduced to 0 hit points. When it is reduced to 0 hit points, it is destroyed along with any non-magical items it was wearing or carrying. You can only have 1 vampire spawn at a time. You can also subside one of the vampire spawn’s Vampire Weaknesses if you only subside one of your own."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "True Vampirism",
+                "entries": [
+                  "At 18th level, your creature type is no longer humanoid, and only counts as undead. You no longer need to drink or eat and you are immune to poison damage and being poisoned. You no longer suffer the effects of old age and cannot be aged magically.",
+                  "In addition, you gain 1 Legendary Resistance per day, which can be used to automatically succeed a saving throw if you were to fail one.",
+                  "You can use your Vampiric Charm and your Vampiric Shapechanger an unlimited amount of times."
+                ]
+              }
+            ]
+          ],
+          "source": "HM",
+          "shortName": "Vampirism"
         }
       ],
       "fluff": [
         {
           "entries": [
-            "As a Hemomancer, there are 3 different paths you can choose to walk. You can use your abilities to manipulate blood to heal your allies and enhance their abilities, you can alter your own blood and make yourself more powerful, or perhaps you gained your powers after committing yourself to take on the Lycanthropy curse and in doing so you’ve torn away your humanity to become something far greater."
+            "Shattered pieces of what remains of his humanity, his sacrifices his own vitality to conjure powerful weapons of destruction made from his own blood. Ripping and tearing his foes to pieces, absorbing their own essence into his being. With a maniacle grin, he chuckles in the face of blood and death, knowing full well he is on borrowed time."
           ],
           "name": "Hemomancer",
           "type": "section"
@@ -787,7 +1001,7 @@
       "source": "HM",
       "name": "Death Grip",
       "entries": [
-        "Whenever you hit with an attack using your Bloody Tendrils, the target becomes grappled. While grappled in this way, instead of making an attack roll (except the turn it was grappled) your attack automatically hits the target when using a Bloody Tendril. You can use this feature once per round."
+        "Whenever you grapple a creature using a bloody tendril, you can spend a blood die to deal an extra amount of bludgeoning damage equal to the amount you rolled. In addition, they take that damage at the end of every turn they are grappled by that tendril."
       ],
       "featureType": "BloodDisciplines"
     },
@@ -992,7 +1206,7 @@
       "prerequisite": [
         {
           "level": {
-            "level": 8,
+            "level": 11,
             "class": {
               "name": "Hemomancer"
             }
@@ -1059,7 +1273,7 @@
       "source": "HM",
       "name": "Bloody Ambush",
       "entries": [
-        "When you have advantage to hit on a creature, or you attack a creature that is suprised, the target takes an additional 5d6 damage and is stunned until the end of their next turn. You can only gain the benefits of this feature once per round."
+        "You can stealth as a bonus action on your turn, in addition you can move using your full movement and stealth at the same time without imposing disadvantage on your stealth check. When you deal damage to a creature(s) that cannot see you, you deal an additional 4d6 damage."
       ],
       "prerequisite": [
         {
