@@ -11,7 +11,7 @@
         "convertedBy": [
           "CrimtaneCreeper"
         ],
-        "version": "1.0",
+        "version": "2.2",
         "url": "",
         "targetSchema": "1.0.0"
       }
@@ -206,7 +206,7 @@
                     "type": "entries",
                     "name": "Blood Barrier",
                     "entries": [
-                      "As a reaction on your turn, you can spend 2 of your blood dice to add your Wisdom Modifier to your AC and take no damage from the Magic Missile spell. This benefit lasts until the start of your next turn."
+                      "As a reaction on your turn, you can spend 2 of your blood dice to add your Wisdom Modifier to your AC and take no damage from the Magic Missile spell. This benefit lasts until the start of your next turn. You cannot cast the shield spell while your blood barrier is active."
                     ]
                   }
                 ]
@@ -437,7 +437,7 @@
         ],
         [
           {
-            "name": "Blood Control",
+            "name": "Blood Mastery",
             "entries": [
               "At 20th level, you have attained the ultimate control over your Blood Manipulation. You gain the following abilities as a result:",
               {
@@ -446,7 +446,7 @@
                   "When you would take damage from a Hemomancer feature, you can choose to take no damage instead. You can do this a number of times equal to your Constitution Modifier. ",
                   "When you roll initiative you regain an amount of Blood Dice equal to your Wisdom Modifier.",
                   "You can use your Blood Bath an unlimited amount of times.",
-                  "Choose 1 of your Blood Magic spells. You can cast that spell at its lowest level at will an unlimited amount of times."
+                  "Choose 1 of your 1st or 2nd level Blood Magic spells. You can cast that spell at its lowest level at will an unlimited amount of times."
                 ]
               }
             ]
@@ -607,7 +607,7 @@
                         "type": "entries",
                         "name": "Blood Rite",
                         "entries": [
-                          "As a bonus action on your turn by spending 1 blood die you can call upon the powers of the elements. Choose fire, cold, lightning, radiant, or necrotic damage. Your weapon attacks deal an additional amount of damage of the chosen type equal to the size of your blood die for up to 1 minute. You can end this effect early as a bonus action. You can boost the power of this rite by spending an additional blood die and additional damage die. Once you boost the power of this rite, you cannot do so again until you finish a short or long rest."
+                          "As a bonus action on your turn by spending 1 blood die you can call upon the powers of the elements. Choose fire, cold, lightning, radiant, or necrotic damage. Your weapon attacks deal an additional amount of damage of the chosen type equal to the size of your blood die for up to 1 minute. You can change the damage type of your rite as a bonus action, but you can only have one rite active at a time. You can end this effect early as a bonus action. You can boost the power of this rite for an extra damage die by spending an additional blood die. Once you boost the power of this rite, you cannot do so again until you finish a short or long rest."
                         ]
                       }
                     ]
@@ -874,7 +874,7 @@
                       "You gain a vulnerability to sunlight, giving you disadvantage on attack rolls and ability checks while in direct sunlight.",
                       "You can't enter a residence without an invitation from one of the occupants.",
                       "You have vulnerability to radiant damage from holy water.",
-                      "You have vulnerability to piercing damage, which nullifies and immunities or resistances to it from other sources."
+                      "You have vulnerability to piercing damage, which nullifies any immunities or resistances to it from other sources."
                     ]
                   }
                 ]
