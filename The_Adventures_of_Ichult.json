@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1598142112,
-		"dateLastModified": 1598142112
+		"dateAdded": 1598555176,
+		"dateLastModified": 1598555176
 	},
 	"monster": [
 		{
@@ -3486,6 +3486,883 @@
 				"MW",
 				"RNG",
 				"RW"
+			]
+		},
+		{
+			"name": "Petra Long",
+			"shortName": "Petra",
+			"isNpc": true,
+			"source": "TheAdventuresofIchult",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				17,
+				{
+					"ac": 19,
+					"condition": "with Agile Parry",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 16",
+				"average": 52
+			},
+			"speed": {
+				"walk": 45
+			},
+			"str": 20,
+			"dex": 19,
+			"con": 14,
+			"int": 9,
+			"wis": 16,
+			"cha": 8,
+			"save": {
+				"dex": "+7",
+				"str": "+8"
+			},
+			"skill": {
+				"acrobatics": "+7",
+				"athletics": "+8",
+				"perception": "+6",
+				"intimidation": "+5"
+			},
+			"senses": [
+				"blindsight 10 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Unarmored Defense",
+					"entries": [
+						"While the monk is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+					]
+				},
+				{
+					"name": "Unarmored Movement",
+					"entries": [
+						"While the monk is wearing no armor and wielding no shield, its walking speed increases by 15 feet (included in its speed)."
+					]
+				},
+				{
+					"name": "Stunning Strike (3/Day)",
+					"entries": [
+						"When the monk hits with a melee weapon attack, they can force the creature to make a Constitution saving throw {@dc 14} or be {@condition stunned}."
+					]
+				},
+				{
+					"name": "Flurry of Blows (3/Day)",
+					"entries": [
+						"The monk can make two additional Unarmed Strikes as a bonus action."
+					]
+				},
+				{
+					"name": "Patient Defense (2/Day)",
+					"entries": [
+						"The monk takes the dodge action as a bonus action."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The monk's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Slow Fall",
+					"entries": [
+						"The monk reduces all fall damage by 40 points."
+					]
+				},
+				{
+					"name": "Agile Parry",
+					"entries": [
+						"Whenever the monk makes a melee weapon attack with their spear, they add a +2 to their AC."
+					]
+				},
+				{
+					"name": "Crusher",
+					"entries": [
+						"When the monk scores a critical hit with their unarmed strike, they have advantage on all weapon attacks until the end of its turn.",
+						"In addition, whenever they hit a creature no larger than itself with an unarmed strike, they can move that creature 5 ft."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The monk makes two melee attacks."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage, or 14 ({@damage 2d8 + 5}) bludgeoning damage if used with both hands."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The monk adds 2 to its AC against one melee or ranged weapon attack that would hit it. To do so, the monk must see the attacker."
+					]
+				},
+				{
+					"name": "Deflect Missiles",
+					"entries": [
+						"If the monk is hit with a ranged weapon attack, they can reduce the damage by {@dice 1d10 + 12}. If they reduce it to zero, they can make a ranged attack using that ammunition at a range of 20/60."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/FppTX3c.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/kmtkBK3.png",
+			"traitTags": [
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"stunned"
+			]
+		},
+		{
+			"name": "Alice Levourne",
+			"shortName": "Alice",
+			"isNpc": true,
+			"source": "TheAdventuresofIchult",
+			"size": "M",
+			"type": {
+				"type": "fey",
+				"tags": [
+					"high elf"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "9d8",
+				"average": 40
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 16,
+			"con": 10,
+			"int": 19,
+			"wis": 12,
+			"cha": 18,
+			"save": {
+				"int": "+7",
+				"wis": "+4"
+			},
+			"skill": {
+				"arcana": "+7",
+				"history": "+7",
+				"perception": "+4",
+				"performance": "+7",
+				"persuasion": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The enchanter is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The enchanter has the following wizard spells prepared:"
+					],
+					"footerEntries": [
+						"*Enchantment spell of 1st level or higher"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell friends}",
+								"{@spell mage hand}",
+								"{@spell message}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell charm person}*",
+								"{@spell mage armor}",
+								"{@spell magic missile}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell hold person}*",
+								"{@spell invisibility}",
+								"{@spell suggestion}*"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell fireball}",
+								"{@spell haste}",
+								"{@spell tongues}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell dominate beast}*",
+								"{@spell stoneskin}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell hold monster}*"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Alice has advantage on saving throws against being {@condition charmed}, and magic can't put the alice to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Instinctive Charm (Recharges after the Enchanter Casts an Enchantment Spell of 1st level or Higher)",
+					"entries": [
+						"The enchanter tries to magically divert an attack made against it, provided that the attacker is within 30 feet of it and visible to it. The enchanter must decide to do so before the attack hits or misses.",
+						"The attacker must make a {@dc 14} Wisdom saving throw. On a failed save, the attacker targets the creature closest to it, other than the enchanter or itself. If multiple creatures are closest, the attacker chooses which one to target."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/vJaiSbe.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/PsYzlRb.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/enchanter.mp3?v=1.110.1"
+			},
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Earendil Vanaris",
+			"shortName": "Earendil",
+			"isNpc": true,
+			"source": "TheAdventuresofIchult",
+			"size": "M",
+			"type": {
+				"type": "fey",
+				"tags": [
+					"high elf"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item +1 leather armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d8 + 9",
+				"average": 49
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 20,
+			"con": 12,
+			"int": 18,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"con": "+4",
+				"wis": "+5"
+			},
+			"skill": {
+				"history": "+7",
+				"perception": "+5",
+				"arcana": "+7",
+				"acrobatics": "+8",
+				"persuasion": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Noble Knight's spellcasting ability is Intelligence (spell save {@dc 14}). They can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell command}",
+							"{@spell compelled duel}",
+							"{@spell searing smite}",
+							"{@spell thunderous smite}"
+						],
+						"1e": [
+							"{@spell branding smite}",
+							"{@spell find steed}",
+							"{@spell misty step}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"The knight has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The royal elven knight has advantage on saving throws against being {@condition charmed}, and magic can't put the royal elven knight to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The knight makes two melee or ranged attacks."
+					]
+				},
+				{
+					"name": "Elven Longsword +1",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 6}) slashing damage, or 9 ({@damage 1d10 + 6}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Heavy Crossbow +1",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 100/400 ft., one target. {@h}9 ({@damage 1d10 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Leadership (Recharges after a Short or Long Rest)",
+					"entries": [
+						"For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is {@condition incapacitated}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The knight adds 2 to its AC against one melee attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/W08SEIY.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/knight.mp3?v=1.110.1"
+			},
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Yavanna Vanaris",
+			"shortName": "Petra",
+			"isNpc": true,
+			"source": "TheAdventuresofIchult",
+			"size": "M",
+			"type": {
+				"type": "fey",
+				"tags": [
+					"wood elf"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"formula": "7d8 + 7",
+				"average": 38
+			},
+			"speed": {
+				"walk": 45
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 12,
+			"int": 11,
+			"wis": 18,
+			"cha": 14,
+			"save": {
+				"dex": "+7",
+				"str": "+3"
+			},
+			"skill": {
+				"perception": "+7",
+				"religion": "+3",
+				"history": "+3",
+				"insight": "+7",
+				"persuasion": "+5"
+			},
+			"senses": [
+				"blindsight 10 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Unarmored Defense",
+					"entries": [
+						"While the monk is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+					]
+				},
+				{
+					"name": "Unarmored Movement",
+					"entries": [
+						"While the monk is wearing no armor and wielding no shield, its walking speed increases by 10 feet (included in its speed)."
+					]
+				},
+				{
+					"name": "Stunning Strike (1/Day)",
+					"entries": [
+						"When the monk hits with a melee weapon attack, they can force the creature to make a Constitution saving throw {@dc 13} or be {@condition stunned}."
+					]
+				},
+				{
+					"name": "Flurry of Blows (2/Day)",
+					"entries": [
+						"The monk can make two additional Unarmed Strikes as a bonus action."
+					]
+				},
+				{
+					"name": "Patient Defense (2/Day)",
+					"entries": [
+						"The monk takes the dodge action as a bonus action."
+					]
+				},
+				{
+					"name": "Slow Fall",
+					"entries": [
+						"The monk reduces all fall damage by 25 points."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The monk has advantage on saving throws against being {@condition charmed}, and magic can't put the petra to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The monk makes two melee attacks."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d6 + 4}) bludgeoning damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Deflect Missiles",
+					"entries": [
+						"If the monk is hit with a ranged weapon attack, they can reduce the damage by {@dice 1d10 + 9}. If they reduce it to zero, they can make a ranged attack using that ammunition at a range of 20/60."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/YwoRfyk.png",
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"stunned"
+			]
+		},
+		{
+			"name": "Kyo Osamu",
+			"isNpc": true,
+			"source": "TheAdventuresofIchult",
+			"size": "M",
+			"type": {
+				"type": "fey",
+				"tags": [
+					"high elf"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"{@item robe of the archmagi}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d8 + 16",
+				"average": 88
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 22,
+			"con": 12,
+			"int": 24,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"int": "+12",
+				"wis": "+8",
+				"con": "+6",
+				"dex": "+11"
+			},
+			"skill": {
+				"arcana": "+17",
+				"history": "+17",
+				"perception": "+8",
+				"performance": "+9",
+				"persuasion": "+9",
+				"investigation": "+17"
+			},
+			"passive": 18,
+			"resist": [
+				{
+					"special": "damage from spells"
+				}
+			],
+			"languages": [
+				"any six languages"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The archmage is a 20th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). The archmage can cast {@spell gift of alacrity|EGW} and {@spell fortune's favor|EGW} at will and has the following wizard spells prepared:"
+					],
+					"footerEntries": [
+						"*The archmage casts these spells on itself before combat."
+					],
+					"will": [
+						"{@spell fortune's favor|EGW}",
+						"{@spell gift of alacrity|EGW}"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand}",
+								"{@spell mind sliver|UA2020PsionicOptionsRevisited}",
+								"{@spell prestidigitation}",
+								"{@spell sapping sting|EGW}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell find familiar}",
+								"{@spell identify}",
+								"{@spell magic missile}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell detect thoughts}",
+								"{@spell mirror image}",
+								"{@spell misty step}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fly}",
+								"{@spell pulse wave|EGW}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell fire shield}",
+								"{@spell greater invisibility}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell scrying}",
+								"{@spell temporal shunt|EGW}",
+								"{@spell wall of force}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell disintegrate}",
+								"{@spell Tenser's transformation|XGE}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell teleport}",
+								"{@spell tether essence|EGW}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell mind blank}*",
+								"{@spell reality break|EGW}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell time ravage|EGW}",
+								"{@spell time stop}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The archmage has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Kyo Osamu has advantage on saving throws against being {@condition charmed}, and magic can't put the kyo osamu to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Elven Longsword +2",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) slashing damage, or ({@damage 2d10 + 6}) slashing damage if used with both hands, plus ({@damage 2d12}) force damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/crf337S.png",
+			"traitTags": [
+				"Fey Ancestry",
+				"Magic Resistance"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW"
 			]
 		}
 	]
