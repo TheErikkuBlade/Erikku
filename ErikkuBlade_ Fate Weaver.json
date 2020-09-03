@@ -11,7 +11,7 @@
         "convertedBy": [
           "CrimtaneCreeper"
         ],
-        "version": "1.0",
+        "version": "2.1",
         "url": "https://www.dmsguild.com/product/303804/The-Fate-Weaver",
         "targetSchema": "1.0.0"
       }
@@ -468,22 +468,22 @@
           {
             "name": "Fate Weaving",
             "entries": [
-              "Beginning at 1st level, you have the ability to bend fate around you. You have a pool of dice that you can use to grant you or your allies the ability to avoid danger. You have a number of d4s in this pool equal to your Fate Weaver level. These are known as “Fate Dice” . As a bonus action on your turn you can spend a die and roll it. Choose a willing creature that you can see within 60 feet. That creature gains a number of temporary hit points equal to the result, is granted the fate die, and gains one of the following benefits for 1 minute:",
+              "Beginning at 1st level, you have the ability to bend fate around you. You have a pool of dice that you can use to grant you or your allies the ability to avoid danger. You have two fate dice, and gain an additional fate die as shown on the table for your level. Each fate die is a d4.  You can use your reaction to spend one of these fate dice and use one of the following effects:",
               {
                 "type": "list",
                 "items": [
-                  "The creature can add the Fate Die to one ability check or saving throw.",
-                  "The creature can add or subtract the Fate Die to one attack roll from either themselves or a hostile creature targeting them.",
-                  "The creature can use the bonus action to roll a Fate Die to restore hit points equal to what they roll.",
-                  "Once one of the following effects is used, the creature loses the fate die. You regain expended Fate Dice after a long rest. At higher levels your Fate dice increase in size, becoming a d6 at level 5, a d8 at level 10, a d10 at level 15, and a d12 at level 20."
+                  "Choose a creature within 30 ft of you, that creature can roll the fate die and add the result to one ability check, attack roll, or saving throw they made. This can be done before or after knowing the result, but before the outcome is determined.",
+                  "When an enemy would hit you or a creature within 30ft of you with an attack roll, you can roll the fate die and subtract the result from the attack, potentially changing the outcome.",
+                  "Choose a creature within 60 ft of you, that creature can roll the fate die and add the result as temporary hit points. These temporary hit points can stack with other instances of temporary hit points, but are always subtracted first."
                 ]
-              }
+              },
+              "You regain spent fate dice after a long rest. At higher levels your fate dice increase in size, becoming a d6 at 5th level, a d8 at 10th, a d10 at 15th, and a d12 at 20th."
             ]
           },
           {
             "name": "Divination Deck",
             "entries": [
-              "A divination deck consists of 24 blank cards. A divination deck can be used during times of respite. (Outside of combat; during a short or long rest. This action counts as light activity.) Using a divination deck you perform a 10 minute ritual and call upon the voices of fate to guide you. When using a Divination Deck, ask a question. You can predict very vague messages through the divination deck, these messages can be forewarnings of upcoming events. These messages can be as vague as the DM desires. After the question is asked, roll the Divination Deck tool using Charisma. A roll of 9 or lower automatically fails, and the card you draw is blank. A roll of 10 or higher the roll is successful and you receive a vague answer to the question. The message appears on the blank card in a language of your choosing that you can read. The message can only be 50 words or less. The message remains visible on the card for up to 10 minutes, or until you dispel it. If you want a more specific answer to the question, ask the question again and roll once more. The DC is determined by the DM, however some questions cannot be answered by the deck, DM’s discretion.",
+              "A divination deck consists of 24 blank cards. A divination deck can be used during times of respite. (Outside of combat; during a short or long rest. This action counts as light activity.) Using a divination deck you perform a 10 minute ritual and call upon the voices of fate to guide you. When using a Divination Deck, ask a question. You can predict very vague messages through the divination deck, these messages can be forewarnings of upcoming events. These messages can be as vague as the DM desires. After the question is asked, roll the Divination Deck tool using Charisma. A roll of 11 or lower automatically fails, and the card you draw is blank. A roll of 12 or higher the roll is successful and you receive a vague answer to the question. The message appears on the blank card in a language of your choosing that you can read. The message can only be 50 words or less. The message remains visible on the card for up to 10 minutes, or until you dispel it. If you want a more specific answer to the question, ask the question again and roll once more. The DC is determined by the DM, however some questions cannot be answered by the deck, DM’s discretion.",
               "A divination deck is usually pawned off as a cheap toy in shops, being worth only 1 sp. Most shopkeepers will not purchase one from a player as it is of little interest. Finding one should not be difficult however."
             ]
           },
@@ -499,14 +499,16 @@
           {
             "name": "Boon of Fate",
             "entries": [
-              "Starting at 2nd level, you gain the ability to change the fates of those around you. As an action on your turn by spending a 1st level spell slot you can give a willing creature within 15 ft of you a Boon of Fate for one hour. Whenever a creature with a Boon of Fate makes an attack roll, ability check, or saving throw, they can expend their Boon of Fate to roll an additional d20 and choose the highest or lowest result of their choice.",
-              "When you gain higher level spell slots, you can expend those to give a number of creatures equal to the spell slot’s level a Boon of Fate. A creature can only have one Boon of Fate at a time."
+              "Starting at 2nd level, you gain the ability to change the fates of those around you. As an action on your turn by spending a 1st level spell slot you can give a willing creature within 15 ft of you a Boon of Fate for one hour. Whenever a creature with a Boon of Fate makes an attack roll, ability check, or saving throw, they can spend their Boon of Fate to roll an additional d20 and choose the highest or lowest result of their choice. ",
+              "When you gain higher level spell slots, you can expend those to give a number of creatures equal to the spell slot’s level a Boon of Fate. A creature can only have one Boon of Fate at a time. Also, whenever you cast the {@spell Fortune’s Favor spell|EGW}, you can ignore the material cost of the spell. Once you do so, you cannot do so again until you complete a long rest.",
+              "You have a number of uses of this feature equal to your proficiency bonus, and regain all expended uses after a long rest."
             ]
           },
           {
             "name": "Divination Dice",
             "entries": [
-              "Starting at 2nd level your powers to control and predict fate itself begins to blossom. You gain the ability to predict the future of events, or maybe even manipulate them in certain instances of time. Whenever you complete a long rest you roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn. Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls. When you reach 10th level the amount of dice you roll increases to three, and at 20th level it increases to four."
+              "Starting at 2nd level your powers to control and predict fate itself begins to blossom. You gain the ability to predict the future of events, or maybe even manipulate them in certain instances of time. Whenever you complete a long rest you roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn. Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls.",
+              "When you reach 10th level the amount of dice you roll increases to three, and at 20th level it increases to four."
             ]
           }
         ],
@@ -516,7 +518,8 @@
             "entries": [
               "Some were born with magic, some were born to have magic, some were born to master magic, the Fate Weaver was born with all of these traits.",
               "Starting at 3rd level, you gain the uncanny ability to manipulate the spell slots that you possess. As a bonus action on your turn, by expending a spell slot of 2nd level or higher you can convert that spell slot into a number of lower level spell slots equal to the spell slot’s level. You can distribute the spell slots as you wish. For example, if you are a 5th level Fate Weaver and you expend a 3rd level spell slot, you can either make three 1st level spell slots or you can make one 2nd level and one 1st level spell slot. You cannot create more spell slots than the maximum amount you can normally possess.",
-              "Alternatively you can convert two spell slots of 8th level or lower into a higher level spell. For example, you can take two 1st level spell slots to make one 2nd level, or one 2nd level and one 1st level spell slots to make one 3rd level spell slot. You cannot create a spell slot level higher than what you have access to."
+              "Alternatively you can convert two spell slots of 8th level or lower into a higher level spell. For example, you can take two 1st level spell slots to make one 2nd level, or one 2nd level and one 1st level spell slots to make one 3rd level spell slot. You cannot create a spell slot level higher than what you have access to.",
+              "You have a number of uses of this feature equal to your Charisma modifier, regaining all expended uses after a long rest."
             ]
           }
         ],
@@ -533,7 +536,7 @@
           {
             "name": "Fateful Rest",
             "entries": [
-              "Starting at 5th level you regain half of your expended Fate Dice at the end of a short rest."
+              "Starting at 5th level you regain half of your expended fate dice at the end of a short rest. You can only do so once, regaining the ability to do so again after a long rest."
             ]
           }
         ],
@@ -567,7 +570,7 @@
           {
             "name": "Boon of Healing",
             "entries": [
-              "Starting at 9th level, when you would heal a creature with a 1st level spell or higher you regain a number of hit points equal to the spell slot’s level + your Charisma Modifier."
+              "Starting at 9th level, when you would heal a creature with a 1st level spell or higher you regain a number of hit points equal to the spell slot’s level + your Charisma Modifier. You only gain this benefit once per round."
             ]
           }
         ],
@@ -816,7 +819,7 @@
             ]
           ],
           "source": "FW",
-          "shortName": "Aspect of the Sun",
+          "shortName": "The Sun",
           "subclassSpells": [
             "Bless",
             "Heroism",
@@ -826,8 +829,8 @@
             "Daylight",
             "Aura of Life",
             "Aura of Purity",
-            "Dawn",
-            "Holy Weapon"
+            "Dawn|XGE",
+            "Holy Weapon|XGE"
           ]
         },
         {
@@ -840,8 +843,7 @@
               {
                 "name": "Healing Light",
                 "entries": [
-                  "Starting at 1st level, whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to your charisma modifier + half the spell's level (rounded down to a minimum of 1).",
-                  "Also at 1st level you can touch a creature and spend a Fate Die to cure that creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, stunned, or poisoned."
+                  "Starting at 1st level, whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to your charisma modifier + half the spell's level (rounded down to a minimum of 1)."
                 ]
               },
               {
@@ -915,52 +917,50 @@
             ]
           ],
           "source": "FW",
-          "shortName": "Aspect of the Moon",
+          "shortName": "The Moon",
           "subclassSpells": [
-            "Healing Word",
-            "Shield of Faith",
-            "Healing Spirit",
-            "Moonbeam",
-            "Beacon of Hope",
-            "Mass Healing Word",
-            "Control Water",
-            "Death Ward",
-            "Greater Restoration",
-            "Mass Cure Wounds"
+            "Healing Word|PHB",
+            "Shield of Faith|PHB",
+            "Healing Spirit|XGE",
+            "Moonbeam|PHB",
+            "Beacon of Hope|PHB",
+            "Mass Healing Word|PHB",
+            "Control Water|PHB",
+            "Death Ward|PHB",
+            "Greater Restoration|PHB",
+            "Mass Cure Wounds|PHB"
           ]
         },
         {
-          "name": "Aspect of Twilight",
+          "name": "Aspect of the Skull",
           "entries": [
-            "Good fortunes, bad fortunes, it’s all the same to you. Light and darkness is meant to be in perfect balance, and you are that balance. Good, Evil, Chaotic, Lawful, such ideas are merely that, ideas. You are the true order of things, you are the true balance of nature. There are those who wish to tip the scales of that balance. You exist to correct it, by any means necessary."
+            "Some fortunes are not as fortunate as one would like, sometimes you get the worst possible outcome. Death however, becomes an opportunity for you. When your enemies fall to your deadly might, you can weave their death to your advantages. Before, the gods were in charge of those who've died, now you too can influence their fate."
           ],
           "subclassFeatures": [
             [
               {
-                "name": "Bonus Proficiencies",
-                "entries": [
-                  "Starting at 1st level, you gain proficiency in simple weapons, martial weapons, light armor, medium armor, and shields."
-                ]
-              },
-              {
                 "name": "Dead by Night, Rise by Dawn",
                 "entries": [
-                  "Starting at 1st level, you can alter the fate of a creature that has recently fallen. You choose one corpse you can see that has been dead for no longer than 24 hours. At the end of a long rest, as long as the corpse has been within 60 feet of you, it rises from death and becomes your servant. Its creature type becomes undead and its hit point maximum is half of what it had originally in life, but otherwise keeps its original statistics. While it is in this undead state, it can receive no healing from any source, even if it would otherwise affect undead. It follows your commands to the best of its abilities, even if it would lead to its own demise. The creature remains in this undead state for a number of days equal to your charisma modifier, after which it becomes a corpse again. You cannot use this feature on a corpse more than once."
+                  "Starting at 1st level, you can alter the fate of a creature that has recently fallen. You choose one corpse you can see that has been dead for no longer than 24 hours. At the end of a long rest, as long as the corpse has remained within 60 feet of you for the duration of the long rest, it rises from death and becomes your servant. The creature rises as an Avatar of Death, which you control, and it takes an appearance similar to that creature. You count as the summoner of this Avatar of Death and it loses its truesight and its armor class is 14 plus your proficiency bonus instead of its own armor class. It follows your commands to the best of its abilities, even if it would lead to its own demise. The Avatar of Death remains summoned until you dismiss it as an action, it is reduced to 0 hit points, or until a number of days pass equal to your Charisma modifier.",
+                  "The Avatar of Death recalls the memories of the creature used for its summoning, but is reluctant to share any significant secret held by that creature, like the location of treasury and how to infiltrate it for example. You can, however, persuade the Avatar of Death to reveal that secret by succeeding on a DC 20 Charisma (Persuasion) check. On a failed check, the Avatar of Death refuses to reveal that secret, and you cannot attempt to persuade it again until the next dawn. Any attempt to do so will be ignored by the Avatar of Death. On a success, it reveals the secret in full detail and it must answer honestly.",
+                  "You can otherwise ask any number of questions to the Avatar of Death about that creature who was used for its summoning and it must answer honestly, unless it is a significant secret as mentioned above."
                 ]
               },
               {
-                "name": "Withering Smite",
+                "name": "Withering Scythe",
                 "entries": [
-                  "Also starting at 1st level, by spending a fate die you can enchant your weapon with it. You can tear into their souls and change their fate by the tip of your blade, arrow, or other weapon in preference. Your weapon attacks gain a bonus to the damage roll equal to your fate die. The bonus damage dealt by this feature is necrotic damage. On a successful hit, the target must pass a Constitution saving throw against your Spell Save DC. On a failed save, the creature cannot receive the benefits of healing until the start of your next turn. Once the target takes necrotic damage by this effect you lose the fate die and the weapon returns to normal."
+                  "Also starting at 1st level, whenever you roll initiative or as a bonus action on your turn, you can spend a fate die to conjure a weapon of necrotic energy for one minute. You are proficient with this weapon and it counts as magical for the purposes of overcoming non-magical resistances. It’s damage die is equal to your fate die and you use your Charisma modifier for its attack and damage rolls instead of Strength or Dexterity. On a successful hit, the target must pass a Constitution saving throw against your Spell Save DC or the creature cannot receive the benefits of healing until the start of your next turn.",
+                  "The weapon generally takes the form of a Scythe, but you can choose the appearance of the weapon so long as it remains functional for its intended use.",
+                  "The weapon is considered a martial melee weapon for the purposes of classifying it and has the versatile property. For the purposes of the versatile property, the damage die used when holding it with two hands is one size larger than your fate die. Ex. 1d4 becomes 1d6, 1d6 becomes 1d8, etc."
                 ]
               },
               {
-                "name": "Aspect of Twilight Spells",
+                "name": "Aspect of the Skull Spells",
                 "entries": [
                   "At each indicated Fate Weaver level, add the listed spells to your spells prepared. They do not count towards your limit.",
                   {
                     "type": "table",
-                    "caption": "Aspect of the Moon",
+                    "caption": "Aspect of the Skull",
                     "colLabels": [
                       "Fate Weaver Level",
                       "Spells"
@@ -995,48 +995,269 @@
               {
                 "name": "Shatter Fate",
                 "entries": [
-                  "Starting at 6th level when a creature would hit you with a weapon attack, by spending a fate die you can spend your reaction to make the attack potentially miss instead. You reduce the attack roll by an amount equal to what you roll on the fate die. If the attack misses, the attacker feels a deep pain in their chest as necrotic energy fills their body. The target must make a Wisdom saving throw against your Spell Save DC. On a failed save, the creature is stunned until the end of your next turn. Once a creature is stunned in this way, they cannot be stunned in that way again until they complete a short or long rest"
+                  "Starting at 6th level, when you would use your Fate Weaving feature to change the outcome of an attack targeted on you or an ally and the attack misses, the attacker feels a deep pain in their chest as necrotic energy fills their body. The target must make a Wisdom saving throw against your Spell Save DC. On a failed save, the creature is stunned until the end of your next turn. Once a creature is stunned in this way, they cannot be stunned in that way again until they complete a short or long rest."
                 ]
               }
             ],
             [
               {
-                "name": "Shroud into Twilight",
+                "name": "Return of the Skull Keeper",
                 "entries": [
-                  "Starting at 10th level you can emerge yourself into a constant state of light and darkness. You can cast the Darkness and Daylight spells a number of times equal to your Charisma modifier without having to expend a spell slot or provide material components. In addition, you can choose any number of creatures to be immune to both of the spells’ effects."
+                  "Starting at 10th level, you can use your control over death to conjure a powerful servant. As an action, by spending 3 fate dice you summon an Avatar of Death following its stat block accordingly. When the Avatar of Death is summoned, it resembles a creature you have previously killed, so long as they are still dead. The creature it resembles is your choice. The Avatar of Death remains for 1 minute or until it is reduced to 0 hit points, after which it vanishes."
                 ]
               }
             ],
             [
               {
-                "name": "Boon of Twilight",
+                "name": "Boon of the Skull",
                 "entries": [
-                  "Starting at 14th level you can imbue your weapon with even greater power than before. When you use Withering Smite you can spend an amount of fate dice to add to the damage roll up to your proficiency bonus. In addition, you have resistance to necrotic damage."
+                  "Starting at 14th level you can imbue your weapon with even greater power than before. When you summon your Withering Scythe, you can spend an additional fate die to add another damage die to the weapon. In addition, you have resistance to necrotic damage and do not need to eat, drink, or breathe."
                 ]
               }
             ],
             [
               {
-                "name": "Weaver of Twilight",
+                "name": "Weaver of the Skull",
                 "entries": [
-                  "At 18th level, you have done your duty as a protector of balance. To survive this long is both a blessing, and a curse. Afterall, all things must be balanced. You no longer suffer the effects of old age and you cannot be aged magically. You can still die of old age, however your lifespan has been expanded. For each year you had left, and each year you had lived, you now gain 10 years of life. In addition, as a bonus action by spending a Fate Die you can inflict a curse to a creature that you can see within 60 ft of you. That creature receives a penalty to their AC equal to what you roll. This curse remains until the creature dies. A remove curse spell of 5th level or higher, or a Greater Restoration spell can remove its effects."
+                  "At 18th level, you no longer suffer the effects of old age and you cannot be aged magically. You can still die of old age, however your lifespan has been expanded. For each year you had left, and each year you had lived, you now gain 10 years of life. In addition, as a bonus action by spending a fate die you can inflict a curse to a creature that you can see within 60 ft of you. Roll the fate die, that creature receives a penalty to their AC equal to what you roll. This curse remains until the creature dies. A remove curse spell of 5th level or higher, or a Greater Restoration spell can remove its effects."
                 ]
               }
             ]
           ],
           "source": "FW",
-          "shortName": "Aspect of Twilight",
+          "shortName": "The Skull",
           "subclassSpells": [
             "Hex",
             "Inflict Wounds",
             "Blindness/Deafness",
-            "Shadow Blade",
+            "Shadow Blade|XGE",
             "Animate Dead",
             "Speak with Dead",
             "Blight",
-            "Shadow of Moil",
+            "Shadow of Moil|XGE",
             "Hallow",
-            "Negative Energy Flood"
+            "Negative Energy Flood|XGE"
+          ]
+        },
+        {
+          "name": "Aspect of The Jester",
+          "entries": [
+            "Filled with joy, laughter, and energy. Dancing across the battlefield with elegance and glee, skipping along the city streets with a smile. You take risks and usually expect reward, blind to your own shortcomings. But most of all, you entertain those around you with your extrovert nature."
+          ],
+          "subclassFeatures": [
+            [
+              {
+                "name": "Bonus Proficiencies",
+                "entries": [
+                  "At 1st level, you gain proficiency in rapiers, one musical instrument of your choice, and your choice of either Performance or a set of artisan tools of your choosing."
+                ]
+              },
+              {
+                "name": "Elusive Jester",
+                "entries": [
+                  "Beginning at 1st level when you choose this subclass, you know just what to say to get yourself out of a mess you more than likely got yourself into. When you make a Charisma (Persuasion) or Charisma (Deception) check, you can treat a d20 roll of 9 or lower as a 10 by spending a fate die. When you do so, you then roll that fate die and add it to the total."
+                ]
+              },
+              {
+                "name": "Aspect of The Jester Spells",
+                "entries": [
+                  "At each indicated Fate Weaver level, add the listed spells to your spells prepared. They do not count towards your limit.",
+                  {
+                    "type": "table",
+                    "caption": "Aspect of The Jester",
+                    "colLabels": [
+                      "Fate Weaver Level",
+                      "Spells"
+                    ],
+                    "rows": [
+                      [
+                        "1st",
+                        "Expeditious Retreat, Tasha's Hideous Laughter"
+                      ],
+                      [
+                        "3rd",
+                        "Enthrall, Pyrotechnics"
+                      ],
+                      [
+                        "5th",
+                        "Enemies Abound, Hypnotic Pattern"
+                      ],
+                      [
+                        "7th",
+                        "Freedom of Movement, Polymorph"
+                      ],
+                      [
+                        "9th",
+                        "Far Step, Geas"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Inspiring Performance",
+                "entries": [
+                  "At 6th level, you’ve become an inspiring performer that manages to put a smile on creatures at just the right time and boost their confidence in their own abilities. If you spend at least 10 minutes making an artistic performance, you can grant a number of creatures equal to your Charisma modifier temporary hit points equal to your level.",
+                  "In addition, for the next 8 hours, creatures who benefited from this feature have advantage on saving throws against being charmed or frightened.",
+                  "Once you use this feature, you cannot do so again until you finish a short or long rest."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Skillful Jester",
+                "entries": [
+                  "At 10th level, you have always kept your mind open to trying new things and can pick up skills on the fly. When you finish a long rest, choose any one skill of which you are not proficient in. You add half of your proficiency bonus to any ability checks using that skill until you next finish a long rest, after which you can choose the same skill or a different skill to gain this benefit."
+                ]
+              },
+              {
+                "name": "Expertise",
+                "entries": [
+                  "Also at 10th level, choose two of your skill or tool proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. At 18th level, you choose two more of your skill or tool proficiencies to gain this benefit."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Boon of the Jester",
+                "entries": [
+                  "At 14th level, you take unnecessary risks to get what you want or maybe just to have fun. As a reaction whenever you make an attack roll, ability check, or saving throw you can choose to roll at disadvantage instead by spending a fate die. You cannot benefit from any advantages when you do so. Also, you roll the fate die and add it to the roll. If you succeed, you automatically receive the best outcome of the result treating the d20 roll as a 20. On a failure, you automatically receive the worst possible outcome, treating the d20 roll as a 1 and doubling any damage dealt to you as a result if you were to take any. ",
+                  "You have a number of uses of this feature equal to your Charisma modifier, regaining all expended uses after a long rest."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Jester of the Weave",
+                "entries": [
+                  "At 18th level, your ability to enthrall others with your performance becomes legendary. Whenever you make a Charisma (Performance) check, or an ability check using an artisan’s tools, you can spend 2 fate dice to automatically treat the d20 roll as a 20. You must choose to do this before the roll.",
+                  "You have a number of uses of this feature equal to your Charisma modifier, regaining all expended uses after a long rest."
+                ]
+              }
+            ]
+          ],
+          "source": "FW",
+          "shortName": "The Jester",
+          "subclassSpells": [
+            "Expeditious Retreat",
+            "Tasha's Hideous Laughter",
+            "Enthrall",
+            "Pyrotechnics|XGE",
+            "Enemies Abound|XGE",
+            "Hypnotic Pattern",
+            "Freedom of Movement",
+            "Polymorph",
+            "Far Step|XGE",
+            "Geas"
+          ]
+        },
+        {
+          "name": "Aspect of The Star",
+          "entries": [
+            "Gracious and inspiring, kind and hopeful for a better future. You imbue others with inspiration and aim to ensue hope onto others. Calling upon the power of the stars and what lies beyond, the power of hope is truly unrivaled, and your hope is stronger than most."
+          ],
+          "subclassFeatures": [
+            [
+              {
+                "name": "Starlight Companion",
+                "entries": [
+                  "Starting at 1st level, you summon an extraplanar ally to aid you on your travels and keep you company. Use the “{@monster Starlight Companion|FW}” stat block for the purposes of this ally. You can summon this ally a number of times equal to your Charisma modifier, and they remain summoned until you dispel them as an action, they are reduced to 0 hit points, or if you are incapacitated. It uses your proficiency bonus rather than its own."
+                ]
+              },
+              {
+                "name": "Shooting Stars",
+                "entries": [
+                  "Also at 1st level, when you and a number of creatures equal to your Charisma modifier take a long rest, as part of that rest you can bend the course of fate to make shooting stars appear in the sky equal to the number of creatures benefiting from this feature. When the chosen creatures see these shooting stars they gain a single point of luck, as per the lucky feat. This point of luck lasts for 8 hours, and is consumed if it goes unused. A creature can only gain a single point of luck from this feature, and cannot gain any additional points until that point is consumed."
+                ]
+              },
+              {
+                "name": "Aspect of The Star Spells",
+                "entries": [
+                  "At each indicated Fate Weaver level, add the listed spells to your spells prepared. They do not count towards your limit.",
+                  {
+                    "type": "table",
+                    "caption": "Aspect of the Star",
+                    "colLabels": [
+                      "Fate Weaver Level",
+                      "Spells"
+                    ],
+                    "rows": [
+                      [
+                        "1st",
+                        "Create or Destroy Water, Cure Wounds"
+                      ],
+                      [
+                        "3rd",
+                        "Enhance Ability, Lesser Restoration"
+                      ],
+                      [
+                        "5th",
+                        "Aura of Vitality, Water Walk"
+                      ],
+                      [
+                        "7th",
+                        "Conjure Minor Elementals, Conjure Woodland Beings"
+                      ],
+                      [
+                        "9th",
+                        "Contact Other Plane, Greater Restoration"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Nourishing Rest",
+                "entries": [
+                  "Starting at 6th level, when you use your Shooting Stars feature you can wish upon the stars to keep you and your party refreshed and nourished for the day. You ritual cast the spell Create Food and Water, and any food and water that isn’t consumed at the end of the rest vanishes."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Cleansing Touch",
+                "entries": [
+                  "At 10th level, your touch gains a certain healing property. As an action, you can touch a creature and spend a fate die to remove a disease or poison from them. You can use this cleansing touch a number of times equal to your Charisma modifier, regaining all expended uses after a long rest."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Boon of the Star",
+                "entries": [
+                  "Starting at 14th level, when you cast a spell that requires a form of diamonds for a material component, costly or otherwise, you can instead spend a fate die for every 100 gp the diamond is worth to use in place of that material component.",
+                  "In addition, you are immune to disease and poison."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Weaver of the Star",
+                "entries": [
+                  "Starting at 18th level, when you use your Shooting Stars feature, each creature that benefits from it is cured of all disease and poisons. In addition, at the end of the long rest they gain a number of temporary hit points equal to your level. ",
+                  "In addition, when you summon your Starlight Companion you gain Inspiration, see page 125 of the Player’s Handbook for the Inspiration rules.",
+                  "Also, when you use your Nourishing Rest feature, you can instead cast the Heroes’ Feast without requiring material components."
+                ]
+              }
+            ]
+          ],
+          "source": "FW",
+          "shortName": "The Star",
+          "subclassSpells": [
+            "Create or Destroy Water",
+            "Cure Wounds",
+            "Enhance Ability",
+            "Lesser Restoration",
+            "Aura of Vitality",
+            "Water Walk",
+            "Conjure Minor Elementals",
+            "Conjure Woodland Beings",
+            "Contact Other Plane",
+            "Greater Restoration"
           ]
         }
       ],
@@ -1088,294 +1309,224 @@
         }
       ],
       "classSpells": [
-        "Blade Ward",
-        {
-          "name": "Create Bonfire",
-          "source": "XGE"
-        },
-        "Dancing Lights",
-        {
-          "name": "Encode Thoughts",
-          "source": "GGR"
-        },
-        "Druidcraft",
-        "Friends",
-        "Guidance",
-        "Light",
-        {
-          "name": "Magic Stone",
-          "source": "XGE"
-        },
-        "Mending",
-        "Message",
-        {
-          "name": "Mind Sliver",
-          "source": "UA"
-        },
-        "Minor Illusion",
-        "Prestidigitation",
-        "Produce Flame",
-        "Resistance",
-        "Sacred Flame",
-        {
-          "name": "Sapping Sting",
-          "source": "EGW"
-        },
-        "Spare the Dying",
-        "Thaumaturgy",
-        "True Strike",
-        {
-          "name": "Virtue",
-          "source": "UA"
-        },
-        {
-          "name": "Word of Radiance",
-          "source": "XGE"
-        },
-        {
-          "name": "Absorb Elements",
-          "source": "XGE"
-        },
-        "Alarm",
-        "Bane",
-        {
-          "name": "Beast Bond",
-          "source": "XGE"
-        },
-        "Bless",
-        {
-          "name": "Cause Fear",
-          "source": "XGE"
-        },
-        {
-          "name": "Ceremony",
-          "source": "XGE"
-        },
-        "Charm Person",
-        "Command",
-        "Comprehend Languages",
-        "Create or Destroy Water",
-        "Cure Wounds",
-        "Detect Evil and Good",
-        "Detect Magic",
-        "Detect Poison and Disease",
-        "Dissonant Whispers",
-        {
-          "name": "Distort Value",
-          "source": "AI"
-        },
-        "Divine Favor",
-        "Expeditions Retreat",
-        "False Life",
-        "Feather Fall",
-        "Find Familiar",
-        {
-          "name": "Gift of Alacrity",
-          "source": "EGW"
-        },
-        "Guiding Bolt",
-        {
-          "name": "Guiding Hand",
-          "source": "UA"
-        },
-        {
-          "name": "Healing Elixir",
-          "source": "UA"
-        },
-        "Healing Word",
-        "Hunter's Mark",
-        "Identify",
-        "Illusory Script",
-        "Jump",
-        "Longstrider",
-        "Mage Armor",
-        "Protection from Evil and Good",
-        "Sanctuary",
-        "Shield",
-        "Shield of Faith",
-        "Silent Image",
-        "Sleep",
-        "Speak with Animals",
-        {
-          "name": "Sudden Awakening",
-          "source": "UA"
-        },
-        "Tenser's Floating Disk",
-        {
-          "name": "Unearthly Chorus",
-          "source": "UA"
-        },
-        "Unseen Servant",
-        {
-          "name": "Wild Cunning",
-          "source": "UA"
-        },
-        "Aid",
-        "Animal Messenger",
-        "Augury",
-        "Beast Sense",
-        "Blindness/Deafness",
-        "Blur",
-        "Calm Emotions",
-        "Continual Flame",
-        "Darkness",
-        "Darkvision",
-        "Detect Thoughts",
-        "Enhance Ability",
-        "Find Steed",
-        "Find Traps",
-        {
-          "name": "Find Vehicle",
-          "source": "UA"
-        },
-        "Gentle Repose",
-        "Healing Spirit",
-        "Hold Person",
-        "Invisibility",
-        "Knock",
-        "Lesser Restoration",
-        "Levitate",
-        "Locate Animals or Plants",
-        "Locate Object",
-        "Magic Weapon",
-        "Mind Spike",
-        "Mirror Image",
-        "Misty Step",
-        "Nystul's Magic Aura",
-        "Pass without Trace",
-        "Phantasmal Force",
-        "Prayer of Healing",
-        "Pyrotechnics",
-        "See Invisibility",
-        "Silence",
-        "Skywrite",
-        "Spiritual Weapon",
-        "Suggestion",
-        "Warding Bond",
-        "Warding Wind",
-        "Zone of Truth",
-        "Beacon of Hope",
-        "Blink",
-        "Catnap",
-        "Clairvoyance",
-        "Counterspell",
-        "Create Food and Water",
-        "Dispel Magic",
-        "Elemental Weapon",
-        "Fast Friends",
-        "Fear",
-        "Feign Death",
-        "Fly",
-        "Galder's Tower",
-        "Glyph of Warding",
-        "Haste",
-        "Hypnotic Pattern",
-        "Incite Greed",
-        "Magic Circle",
-        "Major Image",
-        "Mass Healing Word",
-        "Motivational Speech",
-        "Nondetection",
-        "Phantom Steed",
-        "Protection from Energy",
-        "Remove Curse",
-        "Revivify",
-        "Sending",
-        "Slow",
-        "Spirit Guardians",
-        "Tiny Servant",
-        "Tongues",
-        "Water Breathing",
-        "Water Walking",
-        "Arcane Eye",
-        "Banishment",
-        "Confusion",
-        "Death Ward",
-        "Dimension Door",
-        "Divination",
-        "Elemental Bane",
-        "Find Greater Steed",
-        "Freedom of Movement",
-        "Greater Invisibility",
-        "Guardian of Faith",
-        "Locate Creature",
-        "Otiluke's Resilient Sphere",
-        "Sickening Radiance",
-        "Stone SHape",
-        "Antilife Shell",
-        "Circle of Power",
-        "Commune",
-        "Commune with Nature",
-        "Contact other Plane",
-        "Control Winds",
-        "Creation",
-        "Dawn",
-        "Dispel Evil and Good",
-        "Far Step",
-        "Greater Restoration",
-        "Hallow",
-        "Greater Restoration",
-        "Hallow",
-        "Hold Monster",
-        "Legend Lore",
-        "Mass Cure Wounds",
-        "Mislead",
-        "Modify Memory",
-        "Passwall",
-        "Planar Binding",
-        "Raise Dead",
-        "Reincarnate",
-        "Scrying",
-        "Seeming",
-        "Skill Empowerment",
-        "Telekinesis",
-        "Teleportation Circle",
-        "Wall of Force",
-        "Wall of Light",
-        "Arcane Gate",
-        "Blade Barrier",
-        "Find the Path",
-        "Forbiddance",
-        "Globe of Invulnerability",
-        "Heal",
-        "Heroes' Feast",
-        "Investiture of WInd",
-        "Magic Jar",
-        "Move Earth",
-        "Planar Ally",
-        "Sunbeam",
-        "Tenser's Transformation",
-        "True Seeing",
-        "Word of Recall",
-        "Conjure Celestial",
-        "Divine Word",
-        "Etherealness",
-        "Mordenkainen's Magnificent Mansion",
-        "Plane Shift",
-        "Prismatic Spray",
-        "Project Image",
-        "Regenerate",
-        "Resurrection",
-        "Reverse Gravity",
-        "Sequester",
-        "Teleport",
-        "Whirlwind",
-        "Control Weather",
-        "Demiplane",
-        "Glibness",
-        "Holy Aura",
-        "Mind Blank",
-        "Power Word Stun",
-        "Sunburst",
-        "Telepathy",
-        "Astral Projection",
-        "Foresight",
-        "Gate",
-        "Imprisonment",
-        "Invulnerability",
-        "Mass Heal",
-        "Power Word Heal",
-        "Prismatic Wall"
+        "Blade Ward|PHB",
+        "Create Bonfire|XGE",
+        "Dancing Lights|PHB",
+        "Druidcraft|PHB",
+        "Friends|PHB",
+        "Guidance|PHB",
+        "Light|PHB",
+        "Magic Stone|XGE",
+        "Mending|PHB",
+        "Message|PHB",
+        "Minor Illusion|PHB",
+        "Prestidigitation|PHB",
+        "Resistance|PHB",
+        "Sacred Flame|PHB",
+        "Sapping Sting|EGW",
+        "Spare the Dying|PHB",
+        "Thaumaturgy|PHB",
+        "True Strike|PHB",
+        "Word of Radiance|XGE",
+        "Absorb Elements|XGE",
+        "Alarm|PHB",
+        "Bane|PHB",
+        "Beast Bond|XGE",
+        "Bless|PHB",
+        "Ceremony|XGE",
+        "Charm Person|PHB",
+        "Comprehend Languages|PHB",
+        "Create or Destroy Water|PHB",
+        "Cure Wounds|PHB",
+        "Detect Evil and Good|PHB ",
+        "Detect Magic|PHB",
+        "Detect Poison and Disease|PHB",
+        "Dissonant Whispers|PHB",
+        "Distort Value|AI",
+        "Divine Favor|PHB",
+        "False Life|PHB",
+        "Feather Fall|PHB",
+        "Find Familiar|PHB",
+        "Gift of Alacrity|EGW",
+        "Guiding Bolt|PHB",
+        "Healing Word|PHB",
+        "Hunter’s Mark|PHB",
+        "Identify|PHB",
+        "Illusory Script|PHB",
+        "Jump|PHB",
+        "Longstrider|PHB",
+        "Mage Armor|PHB",
+        "Magnify Gravity|EGW",
+        "Protection from Evil and Good|PHB",
+        "Sanctuary|PHB",
+        "Shield|PHB",
+        "Shield of Faith|PHB",
+        "Silent Image|PHB",
+        "Sleep|PHB",
+        "Speak with Animals|PHB",
+        "Tenser's Floating Disk|PHB",
+        "Aid|PHB",
+        "Animal Messenger|PHB",
+        "Beast Sense|PHB",
+        "Blindness/Deafness|PHB",
+        "Calm Emotions|PHB",
+        "Darkness|PHB",
+        "Darkvision|PHB",
+        "Detect Thoughts|PHB",
+        "Enhance Ability|PHB",
+        "Find Steed|PHB",
+        "Find Traps|PHB",
+        "Fortune's Favor|EGW",
+        "Gentle Repose|PHB",
+        "Healing Spirit|XGE",
+        "Hold Person|PHB",
+        "Immovable Object|EGW",
+        "Invisibility|PHB",
+        "Knock|PHB",
+        "Lesser Restoration|PHB",
+        "Levitate|PHB",
+        "Locate Animals or Plants|PHB",
+        "Locate Object|PHB",
+        "Magic Weapon|PHB",
+        "Mind Spike|XGE",
+        "Mirror Image|PHB",
+        "Misty Step|PHB",
+        "Nystul's Magic Aura|PHB",
+        "Pass without Trace|PHB",
+        "Phantasmal Force|PHB",
+        "Prayer of Healing|PHB",
+        "See Invisibility|PHB",
+        "Silence|PHB",
+        "Skywrite|XGE",
+        "Spiritual Weapon|PHB",
+        "Suggestion|PHB",
+        "Warding Bond|PHB",
+        "Warding Wind|XGE",
+        "Wristpocket|EGW",
+        "Zone of Truth|PHB",
+        "Beacon of Hope|PHB",
+        "Blink|PHB",
+        "Catnap|XGE",
+        "Clairvoyance|PHB",
+        "Counterspell|PHB",
+        "Create Food and Water|PHB",
+        "Dispel Magic|PHB",
+        "Fast Friends|AI",
+        "Fear|PHB",
+        "Feign Death|PHB",
+        "Fly|PHB",
+        "Galder's Tower|LLK",
+        "Glyph of Warding|PHB",
+        "Haste|PHB",
+        "Hypnotic Pattern|PHB",
+        "Incite Greed|AI",
+        "Magic Circle|PHB",
+        "Major Image|PHB",
+        "Mass Healing Word|PHB",
+        "Motivational Speech|AI",
+        "Nondetection|PHB",
+        "Phantom Steed|PHB",
+        "Protection from Energy|PHB",
+        "Pulse Wave|EGW",
+        "Remove Curse|PHB",
+        "Revivify|PHB",
+        "Sending|PHB",
+        "Slow|PHB",
+        "Spirit Guardians|PHB",
+        "Tiny Servant|XGE",
+        "Tongues|PHB",
+        "Water Breathing|PHB",
+        "Water Walking|PHB",
+        "Arcane Eye|PHB",
+        "Banishment|PHB",
+        "Confusion|PHB",
+        "Death Ward|PHB",
+        "Dimension Door|PHB",
+        "Divination|PHB",
+        "Elemental Bane|XGE",
+        "Find Greater Steed|XGE",
+        "Freedom of Movement|PHB",
+        "Gravity Sinkhole|EGW",
+        "Greater Invisibility|PHB",
+        "Guardian of Faith|PHB",
+        "Locate Creature|PHB",
+        "Otiluke’s Resilient Sphere|PHB",
+        "Stone Shape|PHB",
+        "Antilife Shell|PHB",
+        "Circle of Power|PHB",
+        "Commune|PHB",
+        "Commune with Nature|PHB",
+        "Contact other Plane|PHB",
+        "Creation|PHB",
+        "Dispel Evil and Good|PHB",
+        "Far Step|XGE",
+        "Greater Restoration|PHB",
+        "Hallow|PHB",
+        "Hold Monster|PHB",
+        "Legend Lore|PHB",
+        "Mass Cure Wounds|PHB",
+        "Mislead|PHB",
+        "Modify Memory|PHB",
+        "Passwall|PHB",
+        "Planar Binding|PHB",
+        "Raise Dead|PHB",
+        "Reincarnate|PHB",
+        "Scrying|PHB",
+        "Seeming|PHB",
+        "Skill Empowerment|XGE",
+        "Telekinesis|PHB",
+        "Teleportation Circle|PHB",
+        "Temporal Shunt|EGW",
+        "Wall of Force|PHB",
+        "Wall of Light|XGE",
+        "Arcane Gate|PHB",
+        "Blade Barrier|PHB",
+        "Find the Path|PHB",
+        "Forbiddance|PHB",
+        "Globe of Invulnerability|PHB",
+        "Gravity Fissure|EGW",
+        "Heal|PHB",
+        "Heroes' Feast|PHB",
+        "Investiture of Wind|XGE",
+        "Magic Jar|PHB",
+        "Planar Ally|PHB",
+        "True Seeing|PHB",
+        "Word of Recall|PHB",
+        "Conjure Celestial|PHB",
+        "Divine Word|PHB",
+        "Etherealness|PHB",
+        "Mordenkainen's Magnificent Mansion|PHB",
+        "Plane Shift|PHB",
+        "Prismatic Spray|PHB",
+        "Project Image|PHB",
+        "Regenerate|PHB",
+        "Resurrection|PHB",
+        "Reverse Gravity|PHB",
+        "Sequester|PHB",
+        "Teleport|PHB",
+        "Tether Essence|EGW",
+        "Control Weather|PHB",
+        "Dark Star|EGW",
+        "Demiplane|PHB",
+        "Glibness|PHB",
+        "Holy Aura|PHB",
+        "Mind Blank|PHB",
+        "Power Word Stun|PHB",
+        "Reality Break|EGW",
+        "Telepathy|PHB",
+        "Astral Projection|PHB",
+        "Foresight|PHB",
+        "Gate|PHB",
+        "Imprisonment|PHB",
+        "Invulnerability|XGE",
+        "Mass Heal|PHB",
+        "Power Word Heal|PHB",
+        "Prismatic Wall|PHB",
+        "Ravenous Void|EGW",
+        "Time Ravage|EGW",
+        "Time Stop|PHB",
+        "True Resurrection|PHB",
+        "Wish|PHB"
       ]
     }
   ]
