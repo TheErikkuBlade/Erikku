@@ -500,7 +500,7 @@
             "name": "Boon of Fate",
             "entries": [
               "Starting at 2nd level, you gain the ability to change the fates of those around you. As an action on your turn by spending a 1st level spell slot you can give a willing creature within 15 ft of you a Boon of Fate for one hour. Whenever a creature with a Boon of Fate makes an attack roll, ability check, or saving throw, they can spend their Boon of Fate to roll an additional d20 and choose the highest or lowest result of their choice. ",
-              "When you gain higher level spell slots, you can expend those to give a number of creatures equal to the spell slot’s level a Boon of Fate. A creature can only have one Boon of Fate at a time. Also, whenever you cast the {@spell Fortune’s Favor spell|EGW}, you can ignore the material cost of the spell. Once you do so, you cannot do so again until you complete a long rest.",
+              "When you gain higher level spell slots, you can expend those to give a number of creatures equal to the spell slot’s level a Boon of Fate. A creature can only have one Boon of Fate at a time. Also, whenever you cast the {@spell Fortune’s Favor|EGW} spell, you can ignore the material cost of the spell. Once you do so, you cannot do so again until you complete a long rest.",
               "You have a number of uses of this feature equal to your proficiency bonus, and regain all expended uses after a long rest."
             ]
           },
