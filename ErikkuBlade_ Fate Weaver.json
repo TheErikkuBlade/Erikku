@@ -408,94 +408,92 @@
       },
       "classFeatures": [
         [
-          [
-            {
-              "name": "Spellcasting",
-              "entries": [
-                "Born with an innate ability to manipulate the weave and the magic that follows, you can cast spells and bend fate to your whim. See chapter 10 of the Player’s Handbook for the general rules of spellcasting",
-                {
-                  "type": "entries",
-                  "name": "Cantrips",
-                  "entries": [
-                    "At 1st level, you know three cantrips of your choice from the Fate Weaver spell list. You learn additional Fate Weaver cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Fate Weaver table"
-                  ]
-                },
-                {
-                  "type": "entries",
-                  "name": "Preparing and Casting Spells",
-                  "entries": [
-                    "The Fate Weaver table shows how many spell slots you have to cast your Fate Weaver spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-                    "You prepare the list of Fate Weaver spells that are available for you to cast, choosing from the Fate Weaver spell list. When you do so, choose a number of Fate Weaver spells equal to your Charisma modifier + your Fate Weaver level (minimum of one spell). The spells must be of a level for which you have spell slots.",
-                    "For example, if you are a 3rd-level Fate Weaver, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells. You can change your list of prepared spells when you finish a long rest. Preparing a new list of Fate Weaver spells requires time spent in meditation: at least 1 minute per spell level for each spell on your list."
-                  ]
-                },
-                {
-                  "type": "entries",
-                  "name": "Spellcasting Ability",
-                  "entries": [
-                    "Charisma is your spellcasting ability for your Fate Weaver spells. The power of your spells comes from your innate ability to bend the weave, granted to you by the Goddess of Magic at birth. You use your Charisma whenever a Fate Weaver spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Fate Weaver spell you cast and when making an attack roll with one.",
-                    {
-                      "type": "abilityDc",
-                      "name": "Spell",
-                      "attributes": [
-                        "cha"
-                      ]
-                    },
-                    {
-                      "type": "abilityAttackMod",
-                      "name": "Spell",
-                      "attributes": [
-                        "cha"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "entries",
-                  "name": "Ritual Casting",
-                  "entries": [
-                    "You can cast a Fate Weaver spell as a ritual if that spell has the ritual tag and you have the spell prepared."
-                  ]
-                },
-                {
-                  "type": "entries",
-                  "name": "Spellcasting Focus",
-                  "entries": [
-                    "You can use a Divination Deck (found above) as a spellcasting focus for your Fate Weaver spells."
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Fate Weaving",
-              "entries": [
-                "Beginning at 1st level, you have the ability to bend fate around you. You have a pool of dice that you can use to grant you or your allies the ability to avoid danger. You have two fate dice, and gain an additional fate die as shown on the table for your level. Each fate die is a d4.  You can use your reaction to spend one of these fate dice and use one of the following effects:",
-                {
-                  "type": "list",
-                  "items": [
-                    "Choose a creature within 30 ft of you, that creature can roll the fate die and add the result to one ability check, attack roll, or saving throw they made. This can be done before or after knowing the result, but before the outcome is determined.",
-                    "When an enemy would hit you or a creature within 30ft of you with an attack roll, you can roll the fate die and subtract the result from the attack, potentially changing the outcome.",
-                    "Choose a creature within 60 ft of you, that creature can roll the fate die and add the result as temporary hit points. These temporary hit points can stack with other instances of temporary hit points, but are always subtracted first."
-                  ]
-                },
-                "You regain spent fate dice after a long rest. At higher levels your fate dice increase in size, becoming a d6 at 5th level, a d8 at 10th, a d10 at 15th, and a d12 at 20th."
-              ]
-            },
-            {
-              "name": "Divination Deck",
-              "entries": [
-                "A divination deck consists of 24 blank cards. A divination deck can be used during times of respite. (Outside of combat; during a short or long rest. This action counts as light activity.) Using a divination deck you perform a 10 minute ritual and call upon the voices of fate to guide you. When using a Divination Deck, ask a question. You can predict very vague messages through the divination deck, these messages can be forewarnings of upcoming events. These messages can be as vague as the DM desires. After the question is asked, roll the Divination Deck tool using Charisma. A roll of 11 or lower automatically fails, and the card you draw is blank. A roll of 12 or higher the roll is successful and you receive a vague answer to the question. The message appears on the blank card in a language of your choosing that you can read. The message can only be 50 words or less. The message remains visible on the card for up to 10 minutes, or until you dispel it. If you want a more specific answer to the question, ask the question again and roll once more. The DC is determined by the DM, however some questions cannot be answered by the deck, DM’s discretion.",
-                "A divination deck is usually pawned off as a cheap toy in shops, being worth only 1 sp. Most shopkeepers will not purchase one from a player as it is of little interest. Finding one should not be difficult however."
-              ]
-            },
-            {
-              "name": "Aspect of Fate Feature",
-              "entries": [
-                "At 1st level, you gain a feature from your chosen Aspect of Fate"
-              ],
-              "gainSubclassFeature": true
-            }
-          ]
+          {
+            "name": "Spellcasting",
+            "entries": [
+              "Born with an innate ability to manipulate the weave and the magic that follows, you can cast spells and bend fate to your whim. See chapter 10 of the Player’s Handbook for the general rules of spellcasting",
+              {
+                "type": "entries",
+                "name": "Cantrips",
+                "entries": [
+                  "At 1st level, you know three cantrips of your choice from the Fate Weaver spell list. You learn additional Fate Weaver cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Fate Weaver table"
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Preparing and Casting Spells",
+                "entries": [
+                  "The Fate Weaver table shows how many spell slots you have to cast your Fate Weaver spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+                  "You prepare the list of Fate Weaver spells that are available for you to cast, choosing from the Fate Weaver spell list. When you do so, choose a number of Fate Weaver spells equal to your Charisma modifier + your Fate Weaver level (minimum of one spell). The spells must be of a level for which you have spell slots.",
+                  "For example, if you are a 3rd-level Fate Weaver, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells. You can change your list of prepared spells when you finish a long rest. Preparing a new list of Fate Weaver spells requires time spent in meditation: at least 1 minute per spell level for each spell on your list."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Spellcasting Ability",
+                "entries": [
+                  "Charisma is your spellcasting ability for your Fate Weaver spells. The power of your spells comes from your innate ability to bend the weave, granted to you by the Goddess of Magic at birth. You use your Charisma whenever a Fate Weaver spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Fate Weaver spell you cast and when making an attack roll with one.",
+                  {
+                    "type": "abilityDc",
+                    "name": "Spell",
+                    "attributes": [
+                      "cha"
+                    ]
+                  },
+                  {
+                    "type": "abilityAttackMod",
+                    "name": "Spell",
+                    "attributes": [
+                      "cha"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Ritual Casting",
+                "entries": [
+                  "You can cast a Fate Weaver spell as a ritual if that spell has the ritual tag and you have the spell prepared."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Spellcasting Focus",
+                "entries": [
+                  "You can use a Divination Deck (found above) as a spellcasting focus for your Fate Weaver spells."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Fate Weaving",
+            "entries": [
+              "Beginning at 1st level, you have the ability to bend fate around you. You have a pool of dice that you can use to grant you or your allies the ability to avoid danger. You have two fate dice, and gain an additional fate die as shown on the table for your level. Each fate die is a d4.  You can use your reaction to spend one of these fate dice and use one of the following effects:",
+              {
+                "type": "list",
+                "items": [
+                  "Choose a creature within 30 ft of you, that creature can roll the fate die and add the result to one ability check, attack roll, or saving throw they made. This can be done before or after knowing the result, but before the outcome is determined.",
+                  "When an enemy would hit you or a creature within 30ft of you with an attack roll, you can roll the fate die and subtract the result from the attack, potentially changing the outcome.",
+                  "Choose a creature within 60 ft of you, that creature can roll the fate die and add the result as temporary hit points. These temporary hit points can stack with other instances of temporary hit points, but are always subtracted first."
+                ]
+              },
+              "You regain spent fate dice after a long rest. At higher levels your fate dice increase in size, becoming a d6 at 5th level, a d8 at 10th, a d10 at 15th, and a d12 at 20th."
+            ]
+          },
+          {
+            "name": "Divination Deck",
+            "entries": [
+              "A divination deck consists of 24 blank cards. A divination deck can be used during times of respite. (Outside of combat; during a short or long rest. This action counts as light activity.) Using a divination deck you perform a 10 minute ritual and call upon the voices of fate to guide you. When using a Divination Deck, ask a question. You can predict very vague messages through the divination deck, these messages can be forewarnings of upcoming events. These messages can be as vague as the DM desires. After the question is asked, roll the Divination Deck tool using Charisma. A roll of 11 or lower automatically fails, and the card you draw is blank. A roll of 12 or higher the roll is successful and you receive a vague answer to the question. The message appears on the blank card in a language of your choosing that you can read. The message can only be 50 words or less. The message remains visible on the card for up to 10 minutes, or until you dispel it. If you want a more specific answer to the question, ask the question again and roll once more. The DC is determined by the DM, however some questions cannot be answered by the deck, DM’s discretion.",
+              "A divination deck is usually pawned off as a cheap toy in shops, being worth only 1 sp. Most shopkeepers will not purchase one from a player as it is of little interest. Finding one should not be difficult however."
+            ]
+          },
+          {
+            "name": "Aspect of Fate Feature",
+            "entries": [
+              "At 1st level, you gain a feature from your chosen Aspect of Fate"
+            ],
+            "gainSubclassFeature": true
+          }
         ],
         [
           {
@@ -709,11 +707,14 @@
       "subclasses": [
         {
           "name": "Aspect of the Sun",
-          "entries": [
-            "The Aspect of the Sun is normally bright and cheerful. You are a beacon of inspiration to your allies, and a friend to most. You choose not to harm those who do you no wrong and wish to empower your allies with the riches of the Sun. Your favorite fortunes are those of love and compassion, a bright future and a better tomorrow. You praise the Sun for all the nourishment it provides, and bless it for the light it donates. Only you can rival the shining Sun."
-          ],
           "subclassFeatures": [
             [
+              {
+                "name": "Aspect of the Sun",
+                "entries": [
+                  "The Aspect of the Sun is normally bright and cheerful. You are a beacon of inspiration to your allies, and a friend to most. You choose not to harm those who do you no wrong and wish to empower your allies with the riches of the Sun. Your favorite fortunes are those of love and compassion, a bright future and a better tomorrow. You praise the Sun for all the nourishment it provides, and bless it for the light it donates. Only you can rival the shining Sun."
+                ]
+              },
               {
                 "name": "Aspect of the Sun Spells",
                 "entries": [
@@ -837,11 +838,14 @@
         },
         {
           "name": "Aspect of the Moon",
-          "entries": [
-            "You are normally calm and serene. You chose to walk down the path not of violence, not of bloodshed, but of healing. You are the calming sound of the ocean tides, you are the moonlight that heals wounds as weakened ones rest. People look up to you as your presence is soft and calming."
-          ],
           "subclassFeatures": [
             [
+              {
+                "name": "Aspect of the Moon",
+                "entries": [
+                  "You are normally calm and serene. You chose to walk down the path not of violence, not of bloodshed, but of healing. You are the calming sound of the ocean tides, you are the moonlight that heals wounds as weakened ones rest. People look up to you as your presence is soft and calming."
+                ]
+              },
               {
                 "name": "Healing Light",
                 "entries": [
@@ -935,11 +939,14 @@
         },
         {
           "name": "Aspect of the Skull",
-          "entries": [
-            "Some fortunes are not as fortunate as one would like, sometimes you get the worst possible outcome. Death however, becomes an opportunity for you. When your enemies fall to your deadly might, you can weave their death to your advantages. Before, the gods were in charge of those who've died, now you too can influence their fate."
-          ],
           "subclassFeatures": [
             [
+              {
+                "name": "Aspect of the Skull",
+                "entries": [
+                  "Some fortunes are not as fortunate as one would like, sometimes you get the worst possible outcome. Death however, becomes an opportunity for you. When your enemies fall to your deadly might, you can weave their death to your advantages. Before, the gods were in charge of those who've died, now you too can influence their fate."
+                ]
+              },
               {
                 "name": "Dead by Night, Rise by Dawn",
                 "entries": [
@@ -1043,11 +1050,14 @@
         },
         {
           "name": "Aspect of The Jester",
-          "entries": [
-            "Filled with joy, laughter, and energy. Dancing across the battlefield with elegance and glee, skipping along the city streets with a smile. You take risks and usually expect reward, blind to your own shortcomings. But most of all, you entertain those around you with your extrovert nature."
-          ],
           "subclassFeatures": [
             [
+              {
+                "name": "Aspect of The Jester",
+                "entries": [
+                  "Filled with joy, laughter, and energy. Dancing across the battlefield with elegance and glee, skipping along the city streets with a smile. You take risks and usually expect reward, blind to your own shortcomings. But most of all, you entertain those around you with your extrovert nature."
+                ]
+              },
               {
                 "name": "Bonus Proficiencies",
                 "entries": [
@@ -1157,11 +1167,14 @@
         },
         {
           "name": "Aspect of The Star",
-          "entries": [
-            "Gracious and inspiring, kind and hopeful for a better future. You imbue others with inspiration and aim to ensue hope onto others. Calling upon the power of the stars and what lies beyond, the power of hope is truly unrivaled, and your hope is stronger than most."
-          ],
           "subclassFeatures": [
             [
+              {
+                "name": "Aspect of The Star",
+                "entries": [
+                  "Gracious and inspiring, kind and hopeful for a better future. You imbue others with inspiration and aim to ensue hope onto others. Calling upon the power of the stars and what lies beyond, the power of hope is truly unrivaled, and your hope is stronger than most."
+                ]
+              },
               {
                 "name": "Starlight Companion",
                 "entries": [
