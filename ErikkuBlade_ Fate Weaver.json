@@ -408,111 +408,111 @@
       },
       "classFeatures": [
         [
-          {
-            "name": "Spellcasting",
-            "entries": [
-              "Born with an innate ability to manipulate the weave and the magic that follows, you can cast spells and bend fate to your whim. See chapter 10 of the Player’s Handbook for the general rules of spellcasting",
-              {
-                "type": "entries",
-                "name": "Cantrips",
-                "entries": [
-                  "At 1st level, you know three cantrips of your choice from the Fate Weaver spell list. You learn additional Fate Weaver cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Fate Weaver table"
-                ]
-              },
-              {
-                "type": "entries",
-                "name": "Preparing and Casting Spells",
-                "entries": [
-                  "The Fate Weaver table shows how many spell slots you have to cast your Fate Weaver spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-                  "You prepare the list of Fate Weaver spells that are available for you to cast, choosing from the Fate Weaver spell list. When you do so, choose a number of Fate Weaver spells equal to your Charisma modifier + your Fate Weaver level (minimum of one spell). The spells must be of a level for which you have spell slots.",
-                  "For example, if you are a 3rd-level Fate Weaver, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells. You can change your list of prepared spells when you finish a long rest. Preparing a new list of Fate Weaver spells requires time spent in meditation: at least 1 minute per spell level for each spell on your list."
-                ]
-              },
-              {
-                "type": "entries",
-                "name": "Spellcasting Ability",
-                "entries": [
-                  "Charisma is your spellcasting ability for your Fate Weaver spells. The power of your spells comes from your innate ability to bend the weave, granted to you by the Goddess of Magic at birth. You use your Charisma whenever a Fate Weaver spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Fate Weaver spell you cast and when making an attack roll with one.",
-                  {
-                    "type": "abilityDc",
-                    "name": "Spell",
-                    "attributes": [
-                      "cha"
-                    ]
-                  },
-                  {
-                    "type": "abilityAttackMod",
-                    "name": "Spell",
-                    "attributes": [
-                      "cha"
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "entries",
-                "name": "Ritual Casting",
-                "entries": [
-                  "You can cast a Fate Weaver spell as a ritual if that spell has the ritual tag and you have the spell prepared."
-                ]
-              },
-              {
-                "type": "entries",
-                "name": "Spellcasting Focus",
-                "entries": [
-                  "You can use a Divination Deck (found above) as a spellcasting focus for your Fate Weaver spells."
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Fate Weaving",
-            "entries": [
-              "Beginning at 1st level, you have the ability to bend fate around you. You have a pool of dice that you can use to grant you or your allies the ability to avoid danger. You have two fate dice, and gain an additional fate die as shown on the table for your level. Each fate die is a d4.  You can use your reaction to spend one of these fate dice and use one of the following effects:",
-              {
-                "type": "list",
-                "items": [
-                  "Choose a creature within 30 ft of you, that creature can roll the fate die and add the result to one ability check, attack roll, or saving throw they made. This can be done before or after knowing the result, but before the outcome is determined.",
-                  "When an enemy would hit you or a creature within 30ft of you with an attack roll, you can roll the fate die and subtract the result from the attack, potentially changing the outcome.",
-                  "Choose a creature within 60 ft of you, that creature can roll the fate die and add the result as temporary hit points. These temporary hit points can stack with other instances of temporary hit points, but are always subtracted first."
-                ]
-              },
-              "You regain spent fate dice after a long rest. At higher levels your fate dice increase in size, becoming a d6 at 5th level, a d8 at 10th, a d10 at 15th, and a d12 at 20th."
-            ]
-          },
-          {
-            "name": "Divination Deck",
-            "entries": [
-              "A divination deck consists of 24 blank cards. A divination deck can be used during times of respite. (Outside of combat; during a short or long rest. This action counts as light activity.) Using a divination deck you perform a 10 minute ritual and call upon the voices of fate to guide you. When using a Divination Deck, ask a question. You can predict very vague messages through the divination deck, these messages can be forewarnings of upcoming events. These messages can be as vague as the DM desires. After the question is asked, roll the Divination Deck tool using Charisma. A roll of 11 or lower automatically fails, and the card you draw is blank. A roll of 12 or higher the roll is successful and you receive a vague answer to the question. The message appears on the blank card in a language of your choosing that you can read. The message can only be 50 words or less. The message remains visible on the card for up to 10 minutes, or until you dispel it. If you want a more specific answer to the question, ask the question again and roll once more. The DC is determined by the DM, however some questions cannot be answered by the deck, DM’s discretion.",
-              "A divination deck is usually pawned off as a cheap toy in shops, being worth only 1 sp. Most shopkeepers will not purchase one from a player as it is of little interest. Finding one should not be difficult however."
-            ]
-          },
-          {
-            "name": "Aspect of Fate Feature",
-            "entries": [
-              "At 1st level, you gain a feature from your chosen Aspect of Fate"
-            ],
-            "gainSubclassFeature": true
-          }
-        ],
-        [
-          {
-            "name": "Boon of Fate",
-            "entries": [
-              "Starting at 2nd level, you gain the ability to change the fates of those around you. As an action on your turn by spending a 1st level spell slot you can give a willing creature within 15 ft of you a Boon of Fate for one hour. Whenever a creature with a Boon of Fate makes an attack roll, ability check, or saving throw, they can spend their Boon of Fate to roll an additional d20 and choose the highest or lowest result of their choice. ",
-              "When you gain higher level spell slots, you can expend those to give a number of creatures equal to the spell slot’s level a Boon of Fate. A creature can only have one Boon of Fate at a time. Also, whenever you cast the {@spell Fortune's Favor|EGW} spell, you can ignore the material cost of the spell. Once you do so, you cannot do so again until you complete a long rest.",
-              "You have a number of uses of this feature equal to your proficiency bonus, and regain all expended uses after a long rest."
-            ]
-          },
-          {
-            "name": "Divination Dice",
-            "entries": [
-              "Starting at 2nd level your powers to control and predict fate itself begins to blossom. You gain the ability to predict the future of events, or maybe even manipulate them in certain instances of time. Whenever you complete a long rest you roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn. Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls.",
-              "When you reach 10th level the amount of dice you roll increases to three, and at 20th level it increases to four."
-            ]
-          }
-        ],
-        [
+          [
+            {
+              "name": "Spellcasting",
+              "entries": [
+                "Born with an innate ability to manipulate the weave and the magic that follows, you can cast spells and bend fate to your whim. See chapter 10 of the Player’s Handbook for the general rules of spellcasting",
+                {
+                  "type": "entries",
+                  "name": "Cantrips",
+                  "entries": [
+                    "At 1st level, you know three cantrips of your choice from the Fate Weaver spell list. You learn additional Fate Weaver cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Fate Weaver table"
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Preparing and Casting Spells",
+                  "entries": [
+                    "The Fate Weaver table shows how many spell slots you have to cast your Fate Weaver spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+                    "You prepare the list of Fate Weaver spells that are available for you to cast, choosing from the Fate Weaver spell list. When you do so, choose a number of Fate Weaver spells equal to your Charisma modifier + your Fate Weaver level (minimum of one spell). The spells must be of a level for which you have spell slots.",
+                    "For example, if you are a 3rd-level Fate Weaver, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells. You can change your list of prepared spells when you finish a long rest. Preparing a new list of Fate Weaver spells requires time spent in meditation: at least 1 minute per spell level for each spell on your list."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Spellcasting Ability",
+                  "entries": [
+                    "Charisma is your spellcasting ability for your Fate Weaver spells. The power of your spells comes from your innate ability to bend the weave, granted to you by the Goddess of Magic at birth. You use your Charisma whenever a Fate Weaver spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Fate Weaver spell you cast and when making an attack roll with one.",
+                    {
+                      "type": "abilityDc",
+                      "name": "Spell",
+                      "attributes": [
+                        "cha"
+                      ]
+                    },
+                    {
+                      "type": "abilityAttackMod",
+                      "name": "Spell",
+                      "attributes": [
+                        "cha"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Ritual Casting",
+                  "entries": [
+                    "You can cast a Fate Weaver spell as a ritual if that spell has the ritual tag and you have the spell prepared."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Spellcasting Focus",
+                  "entries": [
+                    "You can use a Divination Deck (found above) as a spellcasting focus for your Fate Weaver spells."
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fate Weaving",
+              "entries": [
+                "Beginning at 1st level, you have the ability to bend fate around you. You have a pool of dice that you can use to grant you or your allies the ability to avoid danger. You have two fate dice, and gain an additional fate die as shown on the table for your level. Each fate die is a d4.  You can use your reaction to spend one of these fate dice and use one of the following effects:",
+                {
+                  "type": "list",
+                  "items": [
+                    "Choose a creature within 30 ft of you, that creature can roll the fate die and add the result to one ability check, attack roll, or saving throw they made. This can be done before or after knowing the result, but before the outcome is determined.",
+                    "When an enemy would hit you or a creature within 30ft of you with an attack roll, you can roll the fate die and subtract the result from the attack, potentially changing the outcome.",
+                    "Choose a creature within 60 ft of you, that creature can roll the fate die and add the result as temporary hit points. These temporary hit points can stack with other instances of temporary hit points, but are always subtracted first."
+                  ]
+                },
+                "You regain spent fate dice after a long rest. At higher levels your fate dice increase in size, becoming a d6 at 5th level, a d8 at 10th, a d10 at 15th, and a d12 at 20th."
+              ]
+            },
+            {
+              "name": "Divination Deck",
+              "entries": [
+                "A divination deck consists of 24 blank cards. A divination deck can be used during times of respite. (Outside of combat; during a short or long rest. This action counts as light activity.) Using a divination deck you perform a 10 minute ritual and call upon the voices of fate to guide you. When using a Divination Deck, ask a question. You can predict very vague messages through the divination deck, these messages can be forewarnings of upcoming events. These messages can be as vague as the DM desires. After the question is asked, roll the Divination Deck tool using Charisma. A roll of 11 or lower automatically fails, and the card you draw is blank. A roll of 12 or higher the roll is successful and you receive a vague answer to the question. The message appears on the blank card in a language of your choosing that you can read. The message can only be 50 words or less. The message remains visible on the card for up to 10 minutes, or until you dispel it. If you want a more specific answer to the question, ask the question again and roll once more. The DC is determined by the DM, however some questions cannot be answered by the deck, DM’s discretion.",
+                "A divination deck is usually pawned off as a cheap toy in shops, being worth only 1 sp. Most shopkeepers will not purchase one from a player as it is of little interest. Finding one should not be difficult however."
+              ]
+            },
+            {
+              "name": "Aspect of Fate Feature",
+              "entries": [
+                "At 1st level, you gain a feature from your chosen Aspect of Fate"
+              ],
+              "gainSubclassFeature": true
+            }
+          ],
+          [
+            {
+              "name": "Boon of Fate",
+              "entries": [
+                "Starting at 2nd level, you gain the ability to change the fates of those around you. As an action on your turn by spending a 1st level spell slot you can give a willing creature within 15 ft of you a Boon of Fate for one hour. Whenever a creature with a Boon of Fate makes an attack roll, ability check, or saving throw, they can spend their Boon of Fate to roll an additional d20 and choose the highest or lowest result of their choice. ",
+                "When you gain higher level spell slots, you can expend those to give a number of creatures equal to the spell slot’s level a Boon of Fate. A creature can only have one Boon of Fate at a time. Also, whenever you cast the {@spell Fortune's Favor|EGW} spell, you can ignore the material cost of the spell. Once you do so, you cannot do so again until you complete a long rest.",
+                "You have a number of uses of this feature equal to your proficiency bonus, and regain all expended uses after a long rest."
+              ]
+            },
+            {
+              "name": "Divination Dice",
+              "entries": [
+                "Starting at 2nd level your powers to control and predict fate itself begins to blossom. You gain the ability to predict the future of events, or maybe even manipulate them in certain instances of time. Whenever you complete a long rest you roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn. Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls.",
+                "When you reach 10th level the amount of dice you roll increases to three, and at 20th level it increases to four."
+              ]
+            }
+          ],
           {
             "name": "Spell Weaving",
             "entries": [
@@ -1163,7 +1163,7 @@
               {
                 "name": "Starlight Companion",
                 "entries": [
-                  "Starting at 1st level, you summon an extraplanar ally to aid you on your travels and keep you company. Use the “{@monster Starlight Companion|FW}” stat block for the purposes of this ally. You can summon this ally a number of times equal to your Charisma modifier, and they remain summoned until you dispel them as an action, they are reduced to 0 hit points, or if you are incapacitated. It uses your proficiency bonus rather than its own."
+                  "Starting at 1st level, you summon an extraplanar ally to aid you on your travels and keep you company. Use the {@monster Starlight Companion|FW} stat block for the purposes of this ally. You can summon this ally a number of times equal to your Charisma modifier, and they remain summoned until you dispel them as an action, they are reduced to 0 hit points, or if you are incapacitated. It uses your proficiency bonus rather than its own."
                 ]
               },
               {
