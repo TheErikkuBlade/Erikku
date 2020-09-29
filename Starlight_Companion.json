@@ -1,0 +1,117 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FW",
+				"abbreviation": "FW",
+				"full": "Fate Weaver",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": [
+					"CrimtaneCreeper"
+				],
+				"version": "2.1",
+				"url": "https://www.dmsguild.com/product/303804/The-Fate-Weaver",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1601409769,
+		"dateLastModified": 1601409769
+	},
+	"monster": [
+		{
+			"name": "Starlight Companion",
+			"size": "S",
+			"type": "celestial",
+			"source": "FW",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"special": "See below"
+				}
+			],
+			"hp": {
+				"special": "See below"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 12,
+			"dex": 15,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 15,
+			"passive": 11,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"understands Celestial",
+				"and the languages of its creator",
+				"but can't speak"
+			],
+			"languageTags": [
+				"CE",
+				"CS"
+			],
+			"save": {
+				"wis": "+1",
+				"cha": "+2",
+				"int": "+0"
+			},
+			"trait": [
+				{
+					"name": "Companion's Bond",
+					"entries": [
+						"The Starlight Companion cannot be {@condition charmed} by creatures other than its summoner. The Starlight Companion has a number of hit points equal to the level of its summoner, plus its proficiency bonus, plus its Constitution modifier. Its AC is 12 plus its proficiency bonus."
+					]
+				},
+				{
+					"name": "Companion's Tether",
+					"entries": [
+						"The Starlight Companion can be no further than 60 ft away from its summoner, or it begins to lose hit points. It loses 5 hit points if it starts its turn more than 60 ft away from its summoner. If it is reduced to 0 hit points in this manner, it is destroyed. While the Starlight Companion is within 30 ft of its summoner, both the summoner and the companion regains 1 hit point, so long as one of them has half of their remaining hit points or less. Whenever a spell or magical effect that lasts longer than one round is cast on its Summoner, the Starlight Companion shares the same magical effect."
+					]
+				},
+				{
+					"name": "Aura of Hope",
+					"entries": [
+						"The Starlight Companion emits a shining aura of light that can restore ailments and bolster nearby creatures with bravery and hope. At the start of the Starlight Companion's turn, each creature it chooses within 10 ft of it gains temporary hit points equal to its proficiency bonus. In addition, until the end of that creature's next turn, they have advantage on saving throws against being {@condition frightened} and when they regain hit points they regain the maximum possible result. The aura can also shine bright light out to a radius of 10 ft, and dim light for an additional 10 ft. In addition, if a creature within this aura has a disease or one of the following conditions: {@condition blinded}, {@condition deafened}, or {@condition poisoned}, the Starlight Companion can subside one of them while that creature remains within the aura. If that creature ever leaves the aura, the condition and its effects return as normal."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bless (1/rest)",
+					"entries": [
+						"The Starlight Companion casts {@spell bless} as a 1st level spell. Its summoner becomes an automatic target of the spell, and the other two targets must be creatures friendly to its summoner. Once this spell is cast in this way, it cannot be cast again until its summoner completes a short or long rest even if a new Starlight Companion is summoned."
+					]
+				},
+				{
+					"name": "Starlight Slam",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) radiant damage."
+					]
+				}
+			],
+			"damageTags": [
+				"R"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}
