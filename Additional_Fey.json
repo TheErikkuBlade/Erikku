@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1594102413,
-		"dateLastModified": 1594102413
+		"dateAdded": 1602104385,
+		"dateLastModified": 1602104385
 	},
 	"monster": [
 		{
@@ -741,6 +741,439 @@
 			"conditionInflict": [
 				"frightened",
 				"paralyzed"
+			]
+		},
+		{
+			"name": "Archfey",
+			"source": "AdditionalFey",
+			"size": "L",
+			"type": "fey",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"Natural Armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d10 + 100",
+				"average": 210
+			},
+			"speed": {
+				"walk": 40,
+				"fly": {
+					"number": 60,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 20,
+			"dex": 24,
+			"con": 20,
+			"int": 19,
+			"wis": 22,
+			"cha": 25,
+			"save": {
+				"con": "+10",
+				"wis": "+11",
+				"cha": "+12"
+			},
+			"skill": {
+				"arcana": "+9",
+				"deception": "+12",
+				"history": "+9",
+				"perception": "+11"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"truesight 120 ft."
+			],
+			"passive": 21,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				{
+					"resist": [
+						{
+							"special": "and damage from spells"
+						}
+					]
+				}
+			],
+			"immune": [
+				"poison",
+				"psychic",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from  non-magical damage"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed"
+			],
+			"languages": [
+				"Common",
+				"Sylvan",
+				"and three others"
+			],
+			"cr": "16",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Archfey is an 18th level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 20}, +12 to hit with spell attacks). The Archfey has the following spells prepared, from the Druid and Warlock spell lists. The Archfey can cast these spells without requiring material components."
+					],
+					"will": [
+						"{@spell conjure fey}",
+						"{@spell locate animals or plants}",
+						"{@spell plant growth}"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell eldritch blast}",
+								"{@spell guidance}",
+								"{@spell shillelagh}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell absorb elements|XGE}",
+								"{@spell cure wounds}",
+								"{@spell faerie fire}",
+								"{@spell healing word}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell augury}",
+								"{@spell enhance ability}",
+								"{@spell flaming sphere}",
+								"{@spell lesser restoration}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell call lightning}",
+								"{@spell conjure animals}",
+								"{@spell counterspell}",
+								"{@spell wind wall}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell confusion}",
+								"{@spell conjure minor elementals}",
+								"{@spell conjure woodland beings}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell commune with nature}",
+								"{@spell cone of cold}",
+								"{@spell conjure elemental}",
+								"{@spell greater restoration}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell druid grove|XGE}",
+								"{@spell heal}",
+								"{@spell transport via plants}",
+								"{@spell wind walk}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell fire storm}",
+								"{@spell power word pain|XGE}",
+								"{@spell regenerate}",
+								"{@spell whirlwind|XGE}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell control weather}",
+								"{@spell demiplane}",
+								"{@spell earthquake}",
+								"{@spell power word stun}"
+							],
+							"slots": 0
+						},
+						"9": {
+							"spells": [
+								"{@spell gate}",
+								"{@spell imprisonment}",
+								"{@spell shapechange}",
+								"{@spell true resurrection}"
+							],
+							"slots": 0
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Otherworldly Spell Versatility {@recharge 5}",
+					"entries": [
+						"If the Archfey so chooses, they can use a bonus action on their turn to exchange one spell they have prepared with another one from the Druid and Warlock spell lists."
+					]
+				},
+				{
+					"name": "Tree Stride",
+					"entries": [
+						"Once on their turn, the archfey can use 10 feet of movement to step magically into one living tree within reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger."
+					]
+				},
+				{
+					"name": "Speak with Beasts and Plants",
+					"entries": [
+						"The archfey can communicate with beasts and plants as if they shared a language."
+					]
+				},
+				{
+					"name": "Superior Invisibility",
+					"entries": [
+						"As a bonus action, the archfey can magically turn {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the archfey wears or carries is {@condition invisible} with it."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the archfey fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cantrip",
+					"entries": [
+						"The Archfey casts a cantrip."
+					]
+				},
+				{
+					"name": "Conjure Fey (costs 2 Actions)",
+					"entries": [
+						"As the Archfey, he can summon other Sylvan creatures to fight alongside him in combat or to aid in any myriad of tasks. The creatures he can summon include Blink Dogs, Satyrs, Green and Sea Hags, Faerie Dragons, Pixies, Sprites and Dryads. These summons have the same Charisma and Dexterity as the Archfey, while all other stats remain the same."
+					]
+				},
+				{
+					"name": "Reversal (costs 3 Actions)",
+					"entries": [
+						"Until the Archfey’s next turn, all incoming attacks, spells, and magical effects have the chance to backfire and cause damage to the creature who initially targeted the Archfey. Roll a {@dice d100}: anything below a 50 backfires upon said creature and above 50 the attack carries through as normal. A backfired attack or effect makes the source of said attack or effect the centered target of it. If a saving throw is required, they must make it as if they were the target of the effect."
+					]
+				}
+			],
+			"environment": [
+				"feywild",
+				"forest",
+				"grassland",
+				"swamp",
+				"underwater"
+			],
+			"fluff": {
+				"entries": [
+					"“You dare set foot in my court, desecrating this place we Fair Folk find sacred no matter what walk of life we choose. You will wish that your toes had never stepped here in the first place.” – Archfey Nuada the Silver-Handed",
+					"It is known that the fey are strange, miraculous beings, but their power is dwarfed by that of the Archfey. In the eyes of sylvan beings, none compare in their mastery of the arcane and of trickery. They keep grudges for what seems like eternity, and will not let up on the chase for something even if it means watching from a distance their prey weaken and diminish. Always with a other-worldly grace to them, they look similar to elves but have wings that take the form of either ones belonging to insects like dragonflys or birds. Some even have wings resembling those of dragons and demons.",
+					"For all of their power, they seldom travel out of the world of Faerie, and due to this they enlist Warlocks to serve them in whatever way they wish. Some seek ever-growing knowledge while others wish to spread mischief and chaos wherever they go. They grant great power: power that makes  their servants fear if they should ever fail their patron or even dare to go against their will."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "http://bagelscampaigns.wdfiles.com/local--files/archfey/pfrost-squeen.jpeg"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/criticalrole/images/a/ad/Artagan-by-David-Rodrigues.jpg/revision/latest?cb=20161213041735"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://lh3.googleusercontent.com/proxy/GLPRHMV-2GqqCfzV9gaj4TVLTyydRGwBU94DBeW6ORrg6HJzuVTmfZwG2P6PS3Cpb7F6kKUWt4cURsoPKhJQXFuWNcymo1zThsDCO2smgw=w1200-h630-p-k-no-nu"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/MZ3RjPf.png",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"languageTags": [
+				"C",
+				"S"
+			],
+			"spellcastingTags": [
+				"CD",
+				"CL"
+			]
+		},
+		{
+			"name": "Swarm of Death Butterflies",
+			"source": "AdditionalFey",
+			"page": 338,
+			"size": "L",
+			"type": {
+				"type": "beast",
+				"swarmSize": "T"
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8",
+				"average": 36
+			},
+			"speed": {
+				"walk": 5,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 3,
+			"dex": 15,
+			"con": 10,
+			"int": 1,
+			"wis": 12,
+			"cha": 8,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
+			],
+			"languages": [
+				"Bitch do I speak"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Swarm",
+					"entries": [
+						"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points."
+					]
+				},
+				{
+					"name": "Poisonous Bites",
+					"entries": [
+						"A creature that is hit by the swarm of butterflies must make a dc 13 constitution saving throw or be {@condition poisoned} for 1 hour. If a creature spends their action doing nothing, at the end of their turn they can repeat their save, ending the condition on a success."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bites",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 0 ft., one target in the swarm's space. {@h}10 ({@damage 4d4}) piercing damage, or 5 ({@damage 2d4}) piercing damage if the swarm has half of its hit points or fewer."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"swamp",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"name": "Swarm of Insects",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "inset",
+										"name": "The Nature of Swarms",
+										"entries": [
+											"The swarms presented here aren't ordinary or benign assemblies of little creatures. They form as a result of some sinister or unwholesome influence. A vampire can summon swarms of bats and rats from the darkest corners of the night, while the very presence of a mummy lord can cause scarab beetles to boil up from the sand-filled depths of its tomb. A hag might have the power to turn swarms of ravens against her enemies, while a yuan-ti abomination might have swarms of poisonous snakes slithering in its wake. Even druids can't charm these swarms, and their aggressiveness is borderline unnatural."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/zFslE6I.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/swarm-of-insects.mp3?v=1.113.0"
+			},
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"poisoned"
 			]
 		}
 	]
