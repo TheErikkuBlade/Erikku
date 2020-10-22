@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1598555176,
-		"dateLastModified": 1598555176
+		"dateAdded": 1603398921,
+		"dateLastModified": 1603398921
 	},
 	"monster": [
 		{
@@ -4363,6 +4363,1105 @@
 			],
 			"miscTags": [
 				"MW"
+			]
+		},
+		{
+			"name": "Thyrogog, The Bone Crusher",
+			"shortName": "Thyrogog",
+			"source": "TheAdventuresofIchult",
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor and shield"
+					]
+				}
+			],
+			"hp": {
+				"formula": "21d10 + 105",
+				"average": 220
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 20,
+			"dex": 19,
+			"con": 20,
+			"int": 6,
+			"wis": 16,
+			"cha": 9,
+			"save": {
+				"str": "+9",
+				"con": "+9"
+			},
+			"skill": {
+				"perception": "+11",
+				"intimidation": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 21,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "when raging"
+				}
+			],
+			"languages": [
+				"Abyssal",
+				"Common"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the minotaur moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 22 ({@damage 5d8}) piercing damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Labyrinthine Recall",
+					"entries": [
+						"The minotaur can perfectly recall any path it has traveled."
+					]
+				},
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, the minotaur can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				},
+				{
+					"name": "Rampage",
+					"entries": [
+						"When Thyrogog reduces a creature to 0 hit points with a melee attack on its turn, the thyrogog can take a bonus action to move up to half its speed and make another attack."
+					]
+				},
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the thyrogog can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Brave",
+					"entries": [
+						"Thyrogog has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when Thyrogog hits with it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Thyrogog makes three melee attacks."
+					]
+				},
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}36 ({@damage 3d8 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}18 ({@damage 3d8 + 5}) slashing damage, or 21 ({@damage 3d10 + 5}) slashing damage if used with both hands."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"tokenUrl": "https://i.imgur.com/AWuAVDT.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/minotaur.mp3?v=1.110.1"
+			},
+			"traitTags": [
+				"Aggressive",
+				"Brute",
+				"Charge",
+				"Rampage",
+				"Reckless"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Shady",
+			"source": "TheAdventuresofIchult",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item robe of the archmagi}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 14",
+				"average": 77
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 21,
+			"dex": 16,
+			"con": 12,
+			"int": 18,
+			"wis": 12,
+			"cha": 20,
+			"save": {
+				"int": "+8",
+				"wis": "+5"
+			},
+			"skill": {
+				"arcana": "+8",
+				"history": "+8",
+				"persuasion": "+9",
+				"perception": "+9",
+				"insight": "+9",
+				"deception": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 19,
+			"languages": [
+				"Celestial",
+				"Common",
+				"Draconic",
+				"Elvish"
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The mage is an 11th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The mage has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell arcane lock}",
+								"{@spell misty step}",
+								"{@spell suggestion}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell fireball}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell greater invisibility}",
+								"{@spell Mordenkainen's private sanctum}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell cone of cold}",
+								"{@spell teleportation circle}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell disintegrate}",
+								"{@spell guards and wards}"
+							],
+							"slots": 1
+						}
+					},
+					"daily": {
+						"3e": [
+							"{@spell wish}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Shady is attuned to a Belt of Fire Giant Strength, a gray Robe of the Archmagi, and a Ring of Invisibility."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Wonderous Magical Rapier",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 6}) piercing damage, plus 9 ({@damage 2d8}) force damage."
+					]
+				},
+				{
+					"name": "Wonderous Magical Revolver (reload after 6 shots)",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 40/120 ft., one target. {@h}15 ({@damage 2d8 + 6}) piercing damage, plus 9 ({@damage 2d8}) force damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"fluff": {
+				"type": "entries",
+				"entries": [
+					"Shady is a merchant who sells all kinds of magical items. Some may be cursed, some aren't, you never know what you could buy from this guy. He always seems to have just what you need though, it's almost scary.",
+					"When you purchase a magical item from Shady's shop, there is a 10% chance the item will be cursed. Roll a d10, on a 1 the item becomes cursed. The likelyhood of the item being cursed increases by an additional 10% for each rarity tier above common. In order for an item to be cursed, it must also require attunement and every cursed item dissallows a creature attuned with it from willingly ending their attunement and they have a strong desire to keep the item on their person at all times.",
+					"If the item is cursed, roll a d8 or choose one of the following curses:",
+					{
+						"type": "inset",
+						"name": "Magical Curses",
+						"entries": [
+							{
+								"type": "table",
+								"colLabels": [
+									"d8",
+									"Curse"
+								],
+								"colStyles": [
+									"col-2 text-center",
+									"col-5"
+								],
+								"rows": [
+									[
+										1,
+										"The first time you touch a gem or piece of jewelry while attuned to this item, the value of the gem or jewelry is reduced by half."
+									],
+									[
+										2,
+										"While attuned to this item, your movement speed is reduced by 5 ft."
+									],
+									[
+										3,
+										"While attuned to this item, you begin to feel less emotion toward most things. Your alignment becomes neutral."
+									],
+									[
+										4,
+										"While attuned to the item, you emit a sour stench noticeable from up to 10 feet away."
+									],
+									[
+										5,
+										"While attuned to this item, taking a short rest requires twice the amount of time for you."
+									],
+									[
+										6,
+										"While you are attuned to the item, your flaw is amplified in a way determined by the DM."
+									],
+									[
+										7,
+										"While you are attuned to the item, you cannot taste nor can you get intoxicated. You are also immune to being poisoned."
+									],
+									[
+										8,
+										"While you are attuned to the item, you have a permanent reduction to your AC. Your AC is reduced by 1 until your attunement ends."
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/jH6oSVs.png",
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"DR",
+				"E"
+			],
+			"damageTags": [
+				"O",
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Elshenor, the Aberrant Ruler",
+			"source": "TheAdventuresofIchult",
+			"page": 13,
+			"size": "L",
+			"type": "aberration",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "18d10 + 36",
+				"average": 216
+			},
+			"speed": {
+				"walk": 10,
+				"swim": 40
+			},
+			"str": 21,
+			"dex": 9,
+			"con": 15,
+			"int": 18,
+			"wis": 15,
+			"cha": 18,
+			"save": {
+				"con": "+6",
+				"int": "+8",
+				"wis": "+6"
+			},
+			"skill": {
+				"history": "+12",
+				"perception": "+10"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 20,
+			"languages": [
+				"Deep Speech",
+				"telepathy 120 ft."
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Psionic Spellcasting",
+					"headerEntries": [
+						"The aboleth has innate psionics in the form of spellcasting. Intelligence is the aboleth's spellcasting ability (DC: 16, +8 to hit with spells) and can cast the following spells without requiring material components:"
+					],
+					"will": [
+						"{@spell clairvoyance}",
+						"{@spell detect thoughts}",
+						"{@spell levitate}",
+						"{@spell mage hand}",
+						"{@spell mind sliver|TCE}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell dominate monster}",
+							"{@spell mind spike|XGE}",
+							"{@spell phantasmal force}",
+							"{@spell plane shift} (self only)",
+							"{@spell see invisibility}",
+							"{@spell telekinesis}"
+						],
+						"1e": [
+							"{@spell confusion}",
+							"{@spell fear}",
+							"{@spell psychic scream|XGE}",
+							"{@spell scrying}",
+							"{@spell teleport}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The aboleth can breathe air and water."
+					]
+				},
+				{
+					"name": "Mucous Cloud",
+					"entries": [
+						"While underwater, the aboleth is surrounded by transformative mucus. A creature that touches the aboleth or that hits it with a melee attack while within 5 feet of it must make a {@dc 14} Constitution saving throw. On a failure, the creature is diseased for {@dice 1d4} hours. The diseased creature can breathe only underwater."
+					]
+				},
+				{
+					"name": "Probing Telepathy",
+					"entries": [
+						"If a creature communicates telepathically with the aboleth, the aboleth learns the creature's greatest desires if the aboleth can see the creature."
+					]
+				},
+				{
+					"name": "Aberrant Ground",
+					"entries": [
+						"The ground in a 10-foot radius around the aboleth is moist difficult terrain and has tiny grasping tentacles. Each creature that starts its turn in that area must succeed on a {@dc 10} Strength saving throw or have its speed reduced to 0 until the start of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The aboleth makes three tentacle attacks."
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 14} Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature's skin becomes translucent and slimy, the creature can't regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 ({@damage 1d12}) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}15 ({@damage 3d6 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Enslave (3/Day)",
+					"entries": [
+						"The aboleth targets one creature it can see within 30 feet of it. The target must succeed on a {@dc 16} Wisdom saving throw or be magically {@condition charmed} by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The {@condition charmed} target is under the aboleth's control and can't take reactions, and the aboleth and the target can communicate telepathically with each other over any distance.",
+						"Whenever the {@condition charmed} target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the aboleth.",
+						"A creature {@condition charmed} by the aboleth for more than 10 days does not repeat its save when it takes damage."
+					]
+				},
+				{
+					"name": "Psychic Tentacles",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d8 + 5}) psychic damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The aboleth makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Swipe",
+					"entries": [
+						"The aboleth makes one tail attack."
+					]
+				},
+				{
+					"name": "Psychic Drain (Costs 2 Actions)",
+					"entries": [
+						"One creature {@condition charmed} by the aboleth takes 10 ({@damage 3d6}) psychic damage, and the aboleth regains hit points equal to the damage the creature takes."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Aboleth",
+				"source": "MM"
+			},
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"name": "Aboleth",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Before the coming of the gods, aboleths lurked in primordial oceans and underground lakes. They reached out with their minds and seized control of the burgeoning life-forms of the mortal realm, making those creatures their slaves. Their dominance made them like gods. Then the true gods appeared, smashing the aboleths' empire and freeing their slaves. Aboleths have never forgotten.",
+									{
+										"name": "Eternal Memories",
+										"type": "entries",
+										"entries": [
+											"Aboleths have flawless memories. They pass on their knowledge and experience from generation to generation. Thus, the injury of their defeat by the gods remains perfectly preserved in their minds.",
+											"Aboleths' minds are treasure troves of ancient lore, recalling moments from prehistory with perfect clarity. They plot patiently and intricately across eons. Few creatures can conceive of the extent of an aboleth's plan.",
+											{
+												"name": "Gods in the Lake",
+												"entries": [
+													" Aboleths dwell in watery environments, including ocean abysses, deep lakes, and the Elemental Plane of Water. In these domains and the lands that adjoin them, aboleths are like gods, demanding worship and obedience from their subjects. When they consume other creatures, aboleths add the knowledge and experiences of their prey to their eternal memories. Aboleths use their telepathic powers to read the minds of creatures and know their desires. An aboleth uses this knowledge to gain a creature's loyalty, promising to fulfill such wants in exchange for obedience. Within its lair, the aboleth can further use its powers to override senses, granting creatures, such as its followers, the illusion of promised rewards."
+												],
+												"type": "entries"
+											}
+										]
+									},
+									{
+										"name": "Enemies of the Gods",
+										"type": "entries",
+										"entries": [
+											"The aboleths' fall from power is written in stark clarity on their flawless memories, for aboleths never truly die. If an aboleth's body is destroyed, its spirit returns to the Elemental Plane of Water, where a new body coalesces for it over days or months.",
+											"Ultimately, aboleths dream of overthrowing the gods and regaining control of the world. Aboleths have had untold eons to plot and to prepare their plans for perfect execution."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "An Aboleth's Lair",
+										"entries": [
+											"Aboleths lair in subterranean lakes or the rocky depths of the ocean, often surrounded by the ruins of an ancient, fallen aboleth city. An aboleth spends most of its existence underwater, surfacing occasionally to treat with visitors or deranged worshipers."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Lair Actions",
+								"entries": [
+									"When fighting inside its lair, an aboleth can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the aboleth takes a lair action to cause one of the following effects:",
+									{
+										"type": "list",
+										"items": [
+											"The aboleth casts {@spell phantasmal force} (no components required) on any number of creatures it can see within 60 feet of it. While maintaining concentration on this effect, the aboleth can't take other lair actions. If a target succeeds on the saving throw or if the effect ends for it, the target is immune to the aboleth's phantasmal force lair action for the next 24 hours, although such a creature can choose to be affected.",
+											"Pools of water within 90 feet of the aboleth surge outward in a grasping tide. Any creature on the ground within 20 feet of such a pool must succeed on a {@dc 14} Strength saving throw or be pulled up to 20 feet into the water and knocked {@condition prone}. The aboleth can't use this lair action again until it has used a different one.",
+											"Water in the aboleth's lair magically becomes a conduit for the creature's rage. The aboleth can target any number of creatures it can see in such water within 90 feet of it. A target must succeed on a {@dc 14} Wisdom saving throw or take 7 ({@damage 2d6}) psychic damage. The aboleth can't use this lair action again until it has used a different one."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Regional Effects",
+								"entries": [
+									"The region containing an aboleth's lair is warped by the creature's presence, which creates one or more of the following effects:",
+									{
+										"type": "list",
+										"items": [
+											"Underground surfaces within 1 mile of the aboleth's lair are slimy and wet and are difficult terrain.",
+											"Water sources within 1 mile of the lair are supernaturally fouled. Enemies of the aboleth that drink such water vomit it within minutes.",
+											"As an action, the aboleth can create an illusory image of itself within 1 mile of the lair. The copy can appear at any location the aboleth has seen before or in any location a creature {@condition charmed} by the aboleth can currently see. Once created, the image lasts for as long as the aboleth maintains concentration, as if concentrating on a spell. Although the image is intangible, it looks, sounds, and can move like the aboleth. The aboleth can sense, speak, and use telepathy from the image's position as if present at that position. If the image takes any damage, it disappears."
+										]
+									},
+									"If the aboleth dies, the first two effects fade over the course of {@dice 3d10} days."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Aboleth.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Aboleth.png?v=1.113.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/aboleth.mp3?v=1.113.0"
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"languageTags": [
+				"DS",
+				"TP"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"conditionInflictLegendary": [
+				"prone"
+			]
+		},
+		{
+			"name": "Enslaved Servant",
+			"source": "TheAdventuresofIchult",
+			"page": 229,
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d8 + 10",
+				"average": 32
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 14,
+			"int": 8,
+			"wis": 8,
+			"cha": 8,
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 9,
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"frightened",
+				"paralyzed"
+			],
+			"languages": [
+				"Common",
+				"Deep Speech"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"senseTags": [
+				"B"
+			],
+			"languageTags": [
+				"C",
+				"DS"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Dead King, Julius",
+			"isNamedCreature": true,
+			"source": "TheAdventuresofIchult",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"{@item robe of the archmagi}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "34d8 + 170",
+				"average": 323
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 60,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 26,
+			"dex": 18,
+			"con": 20,
+			"int": 24,
+			"wis": 16,
+			"cha": 22,
+			"save": {
+				"dex": "+11",
+				"wis": "+10",
+				"cha": "+13",
+				"int": "+14",
+				"con": "+12"
+			},
+			"skill": {
+				"arcana": "+21",
+				"history": "+21",
+				"religion": "+14",
+				"perception": "+10",
+				"insight": "+10"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 20,
+			"resist": [
+				"cold",
+				"lightning",
+				"necrotic"
+			],
+			"immune": [
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical attacks"
+				}
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Deep Speech",
+				"Draconic",
+				"Giant",
+				"Infernal"
+			],
+			"cr": "24",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The lich's spellcasting ability is Intelligence (spell save {@dc 24}, +16 to hit with spell attacks). The lich can cast the following spells:"
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell animate dead}",
+						"{@spell blight}",
+						"{@spell burning hands} (5th level)",
+						"{@spell cone of cold}",
+						"{@spell counterspell}",
+						"{@spell disguise self}",
+						"{@spell dispel magic}",
+						"{@spell eldritch blast} (four rays)",
+						"{@spell fireball} (5th level)",
+						"{@spell frost fingers|IDRotF} (5th level)",
+						"{@spell greater invisibility}",
+						"{@spell lightning bolt} (5th level)",
+						"{@spell mage hand}",
+						"{@spell magic circle}",
+						"{@spell scorching ray} (5th level)",
+						"{@spell staggering smite}",
+						"{@spell teleportation circle}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell blade of disaster|IDRotF}",
+							"{@spell create magen|IDRotF}",
+							"{@spell create undead}",
+							"{@spell delayed blast fireball}",
+							"{@spell disintegrate} (9th level)",
+							"{@spell dominate monster}",
+							"{@spell finger of death}",
+							"{@spell gate}",
+							"{@spell invulnerability|XGE}",
+							"{@spell meteor swarm}",
+							"{@spell planar ally}",
+							"{@spell planar binding}",
+							"{@spell plane shift}",
+							"{@spell power word kill}",
+							"{@spell shapechange}",
+							"{@spell teleport}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Unless the lich wishes it, he is unaffected by spells of 3rd level or lower. He has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Marshal Undead",
+					"entries": [
+						"Unless the death knight is {@condition incapacitated}, it and undead creatures of its choice within 60 feet of it have advantage on saving throws against features that turn undead."
+					]
+				},
+				{
+					"name": "Rejuvenation (Lich)",
+					"entries": [
+						"If it has a phylactery, a destroyed dead king, julius gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If the dead king, julius is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Epic Magic",
+					"entries": [
+						"The lich has powerful magic that makes it harder for creatures to dispel or counter it. Any creature who attempts to dispel or counterspell his spells must make a {@dc 21} Wisdom saving throw. On a failed save, the spell fails and the spell slot is wasted. On a success, the spell applies as normal."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"The lich doesn't require air, food, drink, or sleep."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Julius has attuned to various artifacts and legendary items. He has the following items on his person when he awakens: {@item Staff of the magi|dmg}, {@item robe of the archmagi|dmg}, {@item Book of Vile Darkness|dmg}"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The death knight makes three greatsword attacks."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 5}) slashing damage plus 18 ({@damage 4d8}) necrotic damage."
+					]
+				},
+				{
+					"name": "Hellfire Orb (1/Day)",
+					"entries": [
+						"The death knight hurls a magical ball of fire that explodes at a point it can see within 120 feet of it. Each creature in a 20-foot-radius sphere centered on that point must make a {@dc 22} Dexterity saving throw. The sphere spreads around corners. A creature takes 35 ({@damage 10d6}) fire damage and 35 ({@damage 10d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Royal Decree {@recharge 5}",
+					"entries": [
+						"The dead king utters a powerful word with magical prowess. Each creature within 60 ft of him must make a {@dc 22} Wisdom saving throw or be {@condition stunned}. While {@condition stunned}, the target takes {@damage 1d6} psychic damage and slowly begins to lose the will to fight. The target repeats its saving throw at the end of its turn, and on three consecutive failed saves they cannot willingly make an attack or cast a spell on the dead king until the next dawn."
+					]
+				},
+				{
+					"name": "11th level Epic Spell: Create Lichdom (1/day)",
+					"entries": [
+						"The lich touches one creature and shares its phylactery with them. That creature becomes a lich, but can only its Rejuvination property once. After it uses this property, if it dies again it remains dead unless the Dead King Julius wishes them to return."
+					]
+				},
+				{
+					"name": "10th level Epic Spell: Summon Tarrasque",
+					"entries": [
+						"The lich summons The Tarrasque{@monsters The Tarrasque|OGOFW}, it follows the commands of the lich as closely as possible, but it is under no compulsion to do so at all times."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The death knight adds 6 to its AC against one melee attack that would hit it. To do so, the death knight must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Spell",
+					"entries": [
+						"The lich uses one of its at will spells."
+					]
+				},
+				{
+					"name": "Disrupt Life",
+					"entries": [
+						"Each non-undead creature within 20 feet of the lich must make a {@dc 22} Constitution saving throw against this magic, taking 21 ({@damage 6d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Energy Drain (Costs 2 Actions)",
+					"entries": [
+						"Each creature with in 30 feet of the lich must make a {@dc 22} Constitution saving throw. On a failed save, the creature's hit point maximum is magically reduced by 10 ({@dice 3d6}). If a creature's hit point maximum is reduced to 0 by this effect, the creature dies. A creature's hit point maximum can be restored with the greater restoration spell or similar magic."
+					]
+				},
+				{
+					"name": "Vile Curse (Costs 3 Actions)",
+					"entries": [
+						"The lich targets one creature it can see within 30 feet of it. The target must succeed on a {@dc 22} Wisdom saving throw or be magically cursed. Until the curse ends, the target has disadvantage on attack rolls and saving throws. The target can repeat the saving throw at the end of each of its turns, ending the curse on a success."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Long forgotten to time, Ichult was once a powerful prosperous land. Home to one of the strongest kingdoms, but now all that prominence was lost to time.",
+					"In a great war long ago, the entire world battled itself to claim rulership of all the kingdoms. Magic was a powerful tool in this war, but the old ways were used by the old king Julius. No one knew where or how he obtained these dark arts, but legend has it that he retreated from the war to preserve himself, and sank his castle deep underwater.",
+					"About 1500 years have passed since that war, and now that the castle has risen again, the return of the old king is soon upon us. He's been resting for over a thousand years, so he may be nowhere near his prime, but it is rumored that he was indeed immortal in age.",
+					"The Immortal Lich",
+					"\"Meteors rained from the green eldritch skies, as cities would fall at his very utterings. Even the flying cities filled with powerful mages feared him. Few existed that could stand in proximity of this mighty warrior of chaos and destruction without losing their very soul to this lich's phylactery.  .\"",
+					"Fear Amongst Nations",
+					"\"When he was in power, it is said those who made allies in the war did so because of him. Every nation was struck with fear, and few even dared to attack during the war. He was close to winning the war, but Ishland had united, and that had finally struck fear into him. The elves, the dwarves, and even the humans. Alone they were nothing, together they were a force to be reckoned with. And reckoned with, the king did not.\"",
+					"Cruelty of a Tyrant",
+					"\"I've never seen someone so evil to the very bone... This was no man, he was a monster. Those he didn't kill, he enslaved. He ruled a small country, might as well have been an island... Nobody even knows where he came from, but everyone knew why he wanted to rule.\"",
+					"The Retreat of the Mad King",
+					"\"Everyone was so happy to see the rotten bastard retreat. Though, I don't blame him. The combined forces of Ishland would be too much for any country. Of course, that didn't last long. They went back to fighting after the king fled. Funny how alliances can end so quickly when the true threat is gone... I wonder if they will ever ally again, or if they'll just destroy each other.\"",
+					"Slayer of the Divine:",
+					"\"Even the gods feared this king, they sent many clerics and paladins to their doom in efforts to fell this lich. They say he was once within reach of godhood, but was foiled by some adventurers long ago. That new queen of Eastern Ishland... she is a force to be reckoned with. Though most of the other adventurers didn't survive the fight, the queen was able to flee. Maybe it was those adventurers that gave her the opening she needed.\"",
+					"Bringer of Chaos:",
+					"\"He turned kingdoms to ash, brought warriors to their knees, and champions cowering in fear. Some say he was going to be what brought about the rapture, the beginning of the end. He made several artifacts of war, and even managed to kill a god. He was unmatched by any known creature, and even had an Ancient Dracolich at his beckon call.\"",
+					"The Heroes of the Lands:",
+					"\"During these times, there were five legendary heroes that attempted to slay the immortal king. Though they failed in their efforts to kill him, they managed to stop his desires to become a god, which would take many years to try and replicate the means to do so. These heroes were were Ragnarok a Wood Elf Sorcerer, Excalibur a Human Paladin, Yumiko a Tiefling Ranger, Kotone an Aasimar Bard, and Iryoku a Dwarf Barbarian. Together with the Queen of Eastern Ishland, they bravely fought against this impossible foe. Many of them gave their lives in this fight, and only the queen was known to escape. It is unknown if the others had, and the powerful weapons they wielded were lost. No one knows of their whereabouts, or if they even still exist.\"",
+					"Forgotten Magic",
+					"\"Some say that this Lich had untold magic, even beyond what was originally thought to be capable. The epic magic used to make our floating cities pales in comparison to the dark secrets he has. No wonder the mighty heroes fell at the wake of his magic.\""
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdna.artstation.com/p/assets/images/images/016/342/642/large/pandet-bootkyo-10-2.jpg?1551808230"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/wOWuv8u.png",
+			"traitTags": [
+				"Rejuvenation"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"DR",
+				"DS",
+				"GI",
+				"I"
+			],
+			"damageTags": [
+				"F",
+				"N",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"conditionInflictSpell": [
+				"incapacitated",
+				"paralyzed",
+				"prone"
 			]
 		}
 	]
