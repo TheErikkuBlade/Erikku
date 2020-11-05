@@ -1274,6 +1274,138 @@
             "Contact Other Plane",
             "Greater Restoration"
           ]
+        },
+        {
+          "name": "Aspect of The Phoenix",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Aspect of The Phoenix",
+                "entries": [
+                  "Your power draws from the immortal flame that fuels the legendary phoenix. You or your ancestors perhaps rendered a phoenix a great service, or you were born in its presence. Whatever the cause, a shard of the phoenix's power dwells within you.",
+                  "That power is a mixed blessing. Like the mythical creature, you can invoke fiery energy and gain the ability to cheat death itself. This power comes at a cost. The fire within you seethes, demanding to be unleashed. You sometimes find yourself absentmindedly feeding fires. You can't bear to allow a fire to sputter out. You feel most comfortable while holding a lit torch or sitting in front of a campfire.",
+                  "More importantly, this gift comes with no special protection from fire. You are as vulnerable as any other creature to fiery magic, including your own. Those of this aspect can use their powers to pull themselves back from the brink of death, and all too often their own, rash nature or reliance on destructive magic is what puts them there in the first place."
+                ]
+              },
+              {
+                "name": "Ignite",
+                "entries": [
+                  "At 1st level, you gain the ability to start fires with a touch. You learn the Produce Flame cantrip and it doesn’t count against your total known cantrips. If you already have this cantrip, you can choose a different cantrip from the Fate Weaver spellcasting list. ",
+                  "Additionally, as an action, you can magically ignite a flammable object you touch with your hand—an object such as a torch, a piece of tinder, or the hem of drapes.",
+                  "When you do so, the object takes an amount of fire damage equal to your charisma modifier, and takes the same amount at the start of your turns thereafter."
+                ]
+              },
+              {
+                "name": "Mantle of the Phoenix",
+                "entries": [
+                  "Starting at 1st level, you can unleash the phoenix fire that blazes within you.",
+                  "As a bonus action by spending a fate die, you magically wreathe yourself in swirling fire, as your eyes glow like hot coals. For 1 minute you gain the following benefits and you can spend another fate die as a bonus action to prolong your Mantle of the Phoenix for an additional minute:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "You shed bright light in a 30-foot radius and dim light for an additional 30 feet.",
+                      "Any creature takes fire damage equal to your Charisma modifier if it hits you with a melee attack from within 5 feet of you or if it touches you.",
+                      "Whenever you roll fire damage on your turn, the roll gains a bonus to equal to your Charisma modifier."
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Aspect of The Phoenix Spells",
+                "entries": [
+                  "At each indicated Fate Weaver level, add the listed spells to your spells prepared. They do not count towards your limit.",
+                  {
+                    "type": "table",
+                    "caption": "Aspect of the Star",
+                    "colLabels": [
+                      "Fate Weaver Level",
+                      "Spells"
+                    ],
+                    "rows": [
+                      [
+                        "1st",
+                        "Burning Hands, Faerie Fire"
+                      ],
+                      [
+                        "3rd",
+                        "Continual Flame, Scorching Ray"
+                      ],
+                      [
+                        "5th",
+                        "Fireball, Fly"
+                      ],
+                      [
+                        "7th",
+                        "Fire Shield, Wall of Fire"
+                      ],
+                      [
+                        "9th",
+                        "Circle of Power, Immolation"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Fiery Rebirth",
+                "entries": [
+                  "Starting at 6th level, the fiery energy within you grows restless and vengeful. In the face of defeat, it surges outward to preserve you in a fiery roar.",
+                  "If you are reduced to 0 hit points, you can use your reaction to draw on the spark of the phoenix. You are instead reduced to 1 hit point, and each creature within 10 feet of you takes fire damage equal to half your fate weaver level + your Charisma modifier.",
+                  "If you use this feature while under the effects of your Mantle of the Phoenix, this feature instead deals fire damage equal to your fate weaver level + double your Charisma modifier, and your Mantle of the Phoenix immediately ends.",
+                  "You have a number of uses of this feature equal to your proficiency bonus, and regain all expended uses after a long rest."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Fueling the Fire",
+                "entries": [
+                  "Starting at 10th level, if your Mantle of the Phoenix would end, as a reaction you can spend a hit die as if you were regaining hit points during a short rest. Instead of healing, you instead take damage equal to what you roll. This damage cannot be reduced by any means.",
+                  "When you use this feature, your body becomes scorched with burn marks dark as coals. When your Mantle of the Phoenix ends, you gain a level of exhaustion for each time you use this feature that can only be removed when you finish a long rest."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Boon of the Phoenix",
+                "entries": [
+                  "At 14th level, you learn the Fire Storm and Investiture of Flame spells and they do not count against your total number of prepared spells. When you cast either of these spells, you instantly enter your Mantle of the Phoenix no action required and without spending a fate die."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Form of the Phoenix",
+                "entries": [
+                  "At 18th level, you finally master the spark of fire that dances within you. While under the effect of your Mantle of Phoenix feature, you gain additional benefits:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "You have a flying speed of 40 feet and can hover.",
+                      "You have immunity to fire and radiant damage; and resistance to slashing, piercing, and bludgeoning damage from non-magical attacks.",
+                      "If you use your Fiery Rebirth, that feature deals an extra 20 fire damage to each creature."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "FW",
+          "shortName": "The Phoenix",
+          "subclassSpells": [
+            "Burning Hands",
+            "Faerie Fire",
+            "Continual Flame",
+            "Scorching Ray",
+            "Fireball",
+            "Fly",
+            "Fire Shield",
+            "Wall of Fire",
+            "Circle of Power",
+            "Immolation"
+          ]
         }
       ],
       "fluff": [
