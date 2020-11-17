@@ -1362,7 +1362,7 @@
               {
                 "name": "Fueling the Fire",
                 "entries": [
-                  "Starting at 10th level, if your Mantle of the Phoenix would end, as a reaction you can spend a hit die as if you were regaining hit points during a short rest. Instead of healing, you instead take damage equal to what you roll. This damage cannot be reduced by any means.",
+                  "Starting at 10th level, if your Mantle of the Phoenix would end, as a reaction you can spend a hit die as if you were regaining hit points during a short rest. Instead of healing, you instead take damage equal to what you roll, and the duration of your mantle increases by 1 minute. This damage cannot be reduced by any means.",
                   "When you use this feature, your body becomes scorched with burn marks dark as coals. When your Mantle of the Phoenix ends, you gain a level of exhaustion for each time you use this feature that can only be removed when you finish a long rest."
                 ]
               }
@@ -1405,6 +1405,197 @@
             "Wall of Fire",
             "Circle of Power",
             "Immolation"
+          ]
+        },
+        {
+          "name": "Aspect of The Phoenix",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Aspect of The Void",
+                "entries": [
+                  "On occasion, your divination drifts off to an endless expanse of nothingness. When your divination fails, you find yourself staring into the abyss while the abyss stares back into you. This is what brings you true excitement, because it also brings you true fear.",
+                  "Mere words cannot describe the creatures that exist in this plane, or rather, don’t exist? Aberrations tossed aside, sealed away by the gods. Only you can see them, and they can only see you. What is the meaning of this connection, why is this happening? Was this fated to happen, or did your desire for more will it to happen?"
+                ]
+              },
+              {
+                "name": "Empty Fortune",
+                "entries": [
+                  "Starting at 1st level, you can briefly predict an outcome and force it into existence. This outcome is usually disinteresting, obvious, and completely mundane.",
+                  "Whenever a creature would roll an ability check, attack roll, or saving throw, as a reaction you can spend a fate die to automatically treat the roll as a 10 on the d20. You must choose to do so before the roll is made, or before the roll is known.",
+                  "You have a number of uses of this feature equal to your proficiency bonus, regaining spent uses after a long rest."
+                ]
+              },
+              {
+                "name": "Disastrous Fortune",
+                "entries": [
+                  "Also at 1st level, whenever a creature within 10 ft of you rolls a 1 on the d20 for an ability check, attack roll, or saving throw they feel overwhelmed with anguish and self doubt.",
+                  "That creature takes 1d10 force damage and at the start of its next turn it must pass a Wisdom saving throw against your spell save DC. On a failed save, they spend their action sulking in their failure, and their turn ends.",
+                  "The damage of this feature increases by 1d10 when you reach 5th, 11th, and 17th levels in this class."
+                ]
+              },
+              {
+                "name": "Aspect of The Void Spells",
+                "entries": [
+                  "At each indicated Fate Weaver level, add the listed spells to your spells prepared. They do not count towards your limit.",
+                  {
+                    "type": "table",
+                    "caption": "Aspect of the Star",
+                    "colLabels": [
+                      "Fate Weaver Level",
+                      "Spells"
+                    ],
+                    "rows": [
+                      [
+                        "1st",
+                        "Arms of Hadar, Dissonant Whispers"
+                      ],
+                      [
+                        "3rd",
+                        "Darkness, Phantasmal Force"
+                      ],
+                      [
+                        "5th",
+                        "Blink, Hunger of Hadar"
+                      ],
+                      [
+                        "7th",
+                        "Banishment, Dimension Door"
+                      ],
+                      [
+                        "9th",
+                        "Dream, Temporal Shunt"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Call to the Void",
+                "entries": [
+                  "Starting at 6th level, when you fall to 0 hit points, you can spend a spell slot of any level to reach out to a being from the void. They assume your body and it continues to fight on in your stead. ",
+                  "Your body remains at 0 hit points but continues to stand. You can move and take actions as normal, however you still make death saving throws at the start of your turn. Your body remains active until you either pass or fail 3 death saves, after which your body either dies after 3 failed death saves, or falls unconscious after 3 successful death saves. If you take damage while in this state, you automatically gain one failed death save.",
+                  "Toying with death comes at a cost, when this state ends you gain 1 level of exhaustion. Each consecutive use after the first temporarily damages your soul. The next time you use this feature after the first, you spend a hit die and reduce your hit point maximum by an amount equal to what you rolled. This reduction cannot be restored until after you’ve completed a long rest, after which you regain any hit points lost as a result of this feature. If this feature would reduce your hit point maximum to 0, you die and cannot be restored to life by any means short of a wish spell.",
+                  "At the end of each of your turns, you make a Wisdom saving throw against your spell save DC, on a failed save the creature of the void becomes one step closer to taking over your being. If you fail this saving throw 3 times, you gain a personality trait that would correspond to that being. Work with the DM on the specifics of this trait, or roll on the following table: ",
+                  {
+                    "type": "table",
+                    "caption": "Creatures of the Void Personality Traits:",
+                    "colLabels": [
+                      "d12",
+                      "Personality Trait"
+                    ],
+                    "rows": [
+                      [
+                        1,
+                        "You like to ramble and repeat some of the things you say, incessantly "
+                      ],
+                      [
+                        2,
+                        "Everything has the right to be set free, no one has the right to imprison others, for any reason."
+                      ],
+                      [
+                        3,
+                        "You’re constantly hungry and never satisfied with any amount of food."
+                      ],
+                      [
+                        4,
+                        "Death is a mercy to fools who stand in your way, afterall, they don’t have to serve an eternity in the void, so they’re the lucky ones."
+                      ],
+                      [
+                        5,
+                        "Why bother with matters that don’t affect me? Too much effort for something that I don’t get anything in return."
+                      ],
+                      [
+                        6,
+                        "The gods should pay for their past crimes against me, and never trust a deity. They just take advantage of you and throw you away when they’re done with you."
+                      ],
+                      [
+                        7,
+                        "Why can't anyone see that abomination, it's literally standing next to them"
+                      ],
+                      [
+                        8,
+                        "Sometimes I just go completely blank for a moment. "
+                      ],
+                      [
+                        9,
+                        "I like to keep secrets, after all even if I tell the truth would they even believe me. "
+                      ],
+                      [
+                        10,
+                        "I can't help but continue to talk, the silence is even worse than all the voices. "
+                      ],
+                      [
+                        11,
+                        "Sometimes I unexpectedly say things to people when I'm trying to talk to the void."
+                      ],
+                      [
+                        12,
+                        "I believe the void is watching me even now."
+                      ]
+                    ]
+                  },
+                  "If you accumulate 6 or more personality traits, you begin to lose any semblance of yourself that remains. The being from the void attempts to fully take over your body as you’ve allowed it passage into this world and its thirst for freedom becomes overwhelming.",
+                  "When you next complete a long rest, you awaken in an empty, black space, infinite in expanse. Before you, a shadowy gray spirit of the being from the void hovers in front of you, and demands you to do battle with it in a clash of wills. You are alone in this fight, and the creature uses the Avatar of Death for its stat block, treating you as its summoner, only instead of only having half of your hit points, it has the same amount of hit points as you do.",
+                  "If you decline, the being takes over your body. Effectively, the DM controls your character. If you accept this battle, you cannot leave the realm until you have defeated the spirit.",
+                  "If you win the fight, you lose all the personality traits you had gained, and the creature of the void obeys you without question going forward, no longer requiring you to make Wisdom saving throws when you use the Call to the Void feature.",
+                  "If you lose the fight, you die, and the creature takes over your body. Your mind then goes into the being’s original body and you are trapped in the void where it once was prisoner."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Empty Fate",
+                "entries": [
+                  "Starting at 10th level, when you have no uses of your fate dice remaining you gain the following benefits, as you’re at your peak when you have nothing left:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "You can hover up to 10 ft above the ground. You can ascend or descend as part of your movement without spending any additional movement.",
+                      "Whenever you take damage, as a reaction you can reduce that damage to 0 as a reaction as you send that damage to the empty void. You can do so a number of times equal to your proficiency bonus, regaining spent uses after a long rest.",
+                      "You and your equipment being worn become weightless, giving you advantage on ability checks and saving throws made to avoid or escape being grappled or restrained. Objects as large or larger than you do not gain this benefit."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Boon of The Void",
+                "entries": [
+                  "At 14th level, whenever you fall to 0 hit points, instead of using your Call to the Void feature, you can instead send your body to an extradimensional space for 1 minute. While there, your body remains in stasis and is stable until it leaves that space. ",
+                  "A 5 ft diameter black circular portal is left occupying the space you were in previously. A creature cannot enter the portal unless it passes an Intelligence (Arcana) check against your spell save DC. If it enters the portal, it appears next to your unconscious body. If you take damage, you gain one failed death save. When you accumulate 3 failed death saves, you die.",
+                  "If you die while in this space, your body and any other creature inside the space appears within 5 ft of the portal back in the original plane it was spawned in.",
+                  "This space resembles The Void, as it is an infinite black space, but is merely an illusion of it."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Weaver of The Void",
+                "entries": [
+                  "Your commitment to the unknown has granted you untold powers, and the ability to imprison those who are most deserving of it. At 18th level, you learn the Imprisonment and Ravenous Void spells and they do not count against your total number of prepared spells.",
+                  "When you cast either spell, you do not require material components. For the purposes of the spell, The Void itself counts as the material used for Imprisonment and if you successfully imprison a creature, they are sent to the void and cannot escape.",
+                  "The casting time of both spells becomes an action if they weren’t already, however you can only cast either spell in this manner once, regaining the ability to do so after a long rest."
+                ]
+              }
+            ]
+          ],
+          "source": "FW",
+          "shortName": "The Void",
+          "subclassSpells": [
+            "Arms of Hadar",
+            "Dissonant Whispers",
+            "Darkness",
+            "Phantasmal Force",
+            "Blink",
+            "Hunger of Hadar",
+            "Banishment",
+            "Dimension Door",
+            "Dream",
+            "Temporal Shunt"
           ]
         }
       ],
