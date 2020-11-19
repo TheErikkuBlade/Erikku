@@ -1,0 +1,291 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "DivinesBookofSpells",
+				"abbreviation": "DBoS",
+				"full": "Divine's Book of Spells",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": [
+					"Erikku Blade"
+				]
+			}
+		],
+		"dateAdded": 1605824210,
+		"dateLastModified": 1605824210
+	},
+	"spell": [
+		{
+			"name": "Divine's Fiery Grasp",
+			"source": "DivinesBookofSpells",
+			"page": 218,
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You envelop a creature in range that you can see within a coiling of fire. That creature makes a Constitution saving throw, taking  {@damage 5d10} fire damage and is {@condition restrained} on a failed save, or half as much and is not {@condition restrained} on a successful one. The spell ends early if the creature succeeded its saving throw.",
+				"A creature {@condition restrained} by this spell takes an additional {@damage 1d10} fire damage at the start of its turns. The creature {@condition restrained} by this spell can attempt to end the spell by making a successful Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC."
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"abilityCheck": [
+				"strength"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Fate Weaver",
+						"source": "FW"
+					}
+				]
+			}
+		},
+		{
+			"name": "Divine's Fiery Chains",
+			"source": "DivinesBookofSpells",
+			"page": 221,
+			"level": 6,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You launch outward a chain of fire that wraps around a target of your choice that you can see within range. Three additional chains then leap from that target to as many as three other targets, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the chains.",
+				"A target must make a Dexterity saving throw. The target takes {@damage 10d6} fire damage and is {@condition restrained} on a failed save, or half as much damage on a successful one.",
+				"A {@condition restrained} creature takes {@damage 2d6} fire damage at the start of its turns and can attempt to break out of the chains by making a successful Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 7th level or higher, one additional chain leaps from the first target to another target for each slot level above 6th."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Fate Weaver",
+						"source": "FW"
+					}
+				]
+			}
+		},
+		{
+			"name": "Divine's Flames of Life",
+			"source": "DivinesBookofSpells",
+			"page": 258,
+			"level": 6,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A wave of fiery energy washes out from a point centered on yourself. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to {@dice 2d8} + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
+				"In addition, each creature you choose other than those you healed takes fire damage equal to the amount healed."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the healing increases by {@scaledice 2d8|5-9|1d8} for each slot level above 5th."
+					]
+				}
+			],
+			"miscTags": [
+				"HL"
+			],
+			"areaTags": [
+				"MT",
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Fate Weaver",
+						"source": "FW"
+					}
+				]
+			}
+		},
+		{
+			"name": "Divine's Fiery Familiar",
+			"source": "DivinesBookofSpells",
+			"page": 240,
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier",
+					"cost": 1000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You gain the service of a familiar, a fiery wisp that takes an animal form you choose: {@creature bat}, {@creature cat}, {@creature crab}, {@creature frog} (toad), {@creature hawk}, {@creature lizard}, {@creature octopus}, {@creature owl}, {@creature poisonous snake}, fish ({@creature quipper}), {@creature rat}, {@creature raven}, {@creature sea horse}, {@creature spider}, or {@creature weasel}. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a fey or elemental (your choice) instead of a beast.",
+				"{@note Additional {@filter animal form choices|bestiary|Miscellaneous=Familiar} may be available at the DM's discretion.}",
+				"Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can't attack, but it can take other actions as normal.",
+				"When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again.",
+				"While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are {@condition deafened||deaf} and {@condition blinded||blind} with regard to your own senses.",
+				"As an action, you can temporarily dismiss your familiar. It disappears into a pocket dimension where it awaits your summons. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you.",
+				"You can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.",
+				"You can have your familiar explode out in a burst of fire, causing it to be destroyed. Each creature within 5 ft of it must make a Dexterity saving throw or take {@damage 1d10} fire damage. ",
+				"Finally, when you cast a spell that deals fire damage, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll."
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"PRM",
+				"SGT",
+				"SMN"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Fate Weaver",
+						"source": "FW"
+					}
+				]
+			}
+		}
+	]
+}
