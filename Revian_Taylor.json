@@ -1,0 +1,143 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Wildmount-FrozenSick",
+				"abbreviation": "WFS",
+				"full": "Wildmount - Frozen Sick",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": [
+					"Erikku Blade"
+				]
+			}
+		],
+		"dateAdded": 1607545243,
+		"dateLastModified": 1607545243
+	},
+	"monster": [
+		{
+			"name": "Revian Taylor",
+			"source": "Wildmount-FrozenSick",
+			"level": 3,
+			"size": "M",
+			"type": "humanoid",
+			"ac": [
+				11
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 24
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 14,
+			"int": 18,
+			"wis": 13,
+			"cha": 14,
+			"skill": {
+				"investigation": "+6",
+				"arcana": "+6",
+				"history": "+6"
+			},
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Draconic",
+				"Giant"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The sidekick gains the ability to cast spells. Your spellcasting ability is Intelligence. (If the creature already has the Spellcasting trait, this feature replaces that trait.) Choose the Spellcaster's role: Mage, Healer, or Prodigy. This choice determines the spell list and spellcasting ability used by the sidekick, as shown on the Spellcasting table."
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand}",
+								"{@spell fire bolt}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell burning hands}",
+								"{@spell detect magic}",
+								"{@spell identify}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, or 4 ({@damage 1d8}) bludgeoning damage if used with two hands."
+					]
+				}
+			],
+			"altArt": [
+				{
+					"name": "Spellcaster (Healer)",
+					"source": "ESK"
+				}
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"DR",
+				"GI"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"save": {
+				"int": "+6"
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"trait": [
+				{
+					"name": "Keen Mind",
+					"entries": [
+						"Revian has a mind that can track time, direction, and detail with uncanny precision. He always knows which way is north, the number of hours left before the next sunrise or sunset, and can accurately recall anything he has seen or heard within the past month."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"tokenUrl": "https://i.imgur.com/PoHEqzP.png",
+			"fluff": {
+				"entries": [
+					"An educated up and coming scholar from the Cobalt Soul. He seeks to join the adventurers to study the looming threat of the new monstrosities up close.",
+					"He has a personal choice of fire magic due to his pyromantic past."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/9jTY1he.jpg"
+						}
+					}
+				]
+			}
+		}
+	]
+}
