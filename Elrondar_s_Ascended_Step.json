@@ -1,0 +1,70 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ElrondarsHeritage",
+				"abbreviation": "EH",
+				"full": "Elrondar's Heritage",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": [
+					"Erikku Blade"
+				]
+			}
+		],
+		"dateAdded": 1611817369,
+		"dateLastModified": 1611817369
+	},
+	"spell": [
+		{
+			"name": "Elrondar's Ascended Step",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Magical winds coil around your feet lifting you from the ground. You gain a magical flying speed equal to your walking speed and can hover, but you can only ascend up to 5 feet above the ground. If you are shoved or otherwise suffer an effect that would knock you {@condition prone}, you are still {@condition prone} even when airborne.",
+				"This form of flight isn't perfect and is more of an extra lift into the air. As such if you are falling from 10 ft or higher, you still hit the ground but any damage from the fall you take is halved.",
+				"When the spell ends, you safely descend to the ground so long as you were no higher than 5 feet off the ground.",
+				"The spell ends early if you attack or cast a spell."
+			],
+			"source": "ElrondarsHeritage",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"meta": {
+				"ritual": true
+			}
+		}
+	]
+}
