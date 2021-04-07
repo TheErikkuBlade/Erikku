@@ -729,6 +729,110 @@
             "Boon of The Void|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|14",
             "Weaver of The Void|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|18"
           ]
+        },
+        {
+          "name": "Aspect of The Knight",
+          "shortName": "The Knight",
+          "source": "FateWeaverJan2021",
+          "page": 14,
+          "subclassSpells": [
+            "Sanctuary",
+            "Shield",
+            "Find Steed",
+            "Warding Bond",
+            "Protection from Energy",
+            "Spirit Guardians",
+            {
+              "name": "Find Greater Steed",
+              "source": "XGE"
+            },
+            "Guardian of Faith",
+            "Destructive Wave",
+            "Wall of Force"
+          ],
+          "subclassFeatures": [
+            "Aspect of The Knight|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|1",
+            "Boon of Protection|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|6",
+            "Extra Attack|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|6",
+            "Obligation of The Bold and The Brave|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|10",
+            "Boon of The Knight|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|14",
+            "Knight of the Weave|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|18"
+          ]
+        },
+        {
+          "name": "Aspect of The Balance",
+          "shortName": "The Balance",
+          "source": "FateWeaverJan2021",
+          "page": 15,
+          "subclassSpells": [
+            "Detect Evil and Good",
+            "Detect Magic",
+            "Detect Thoughts",
+            "See Invisibility",
+            "Counterspell",
+            "Dispel Magic",
+            "Arcane Eye",
+            {
+              "name": "Elemental Bane",
+              "source": "XGE"
+            },
+            "Dispel Evil and Good",
+            "Scrying"
+          ],
+          "subclassFeatures": [
+            "Aspect of The Balance|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|1",
+            "Detriment of Chaos|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|6",
+            "Balance of Replenishment|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|10",
+            "Boon of Balance|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|14",
+            "Balance of the Weave|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|18"
+          ]
+        }
+      ],
+      "fluff": [
+        {
+          "name": "Fate Weaver",
+          "type": "section",
+          "entries": [
+            "A cloaked woman with a deck of cards predicting your lover, a half-elf with glowing blue eyes dodging and dancing throughout the battle field effortlessly with uncanny foresight, and keeps her allies alive with the power of the moon's healing light.",
+            "A man with hair glowing brighter than a freshly lit torch, the aasimar empowers his allies with courage, strength, and the vigor they need to win the fight in their blight. And with his light, there shall be no monster to hide in the dead of night. May all evil fear their might.",
+            "At the dawn of day and the dusk of night, a tiefling mage travels with a hooded withered figure. By his side, risen from their last fight, a devil of unknown might at the beckon call of this mortal. Bound to his every desire, no matter how cruel.",
+            "Whatever aspect of fate they choose to walk with, fate weavers have a special tie The Weave and the magic that comes from it. It is a large of part of their being, whether they know it or not. A fate weaver should never be alone though, do not mistake their special power to make them unstoppable. A fate weaver is the perfect person to have alongside you in a fight, but don't count on them to handle themselves on their own. When making a fate weaver, it's important to consider what your allies are capable of and try to aim for abilities that may improve where they're weak, or even empower what they already have. Work with your team, not for yourself.",
+            {
+              "type": "entries",
+              "name": "Connection to Magic",
+              "entries": [
+                "Fate weavers are not just like any other wizard who can draw power from the weave, or a cleric who receives their power from a divine entity. Fate weavers are more akin to sorcerers in that their magic stems directly from the weave itself, but on an even greater scale. Fate weavers are often the children of the weave and their magic is as raw as it comes. Mystra, the goddess of magic, alongside The Raven Queen, the goddess of death and fate, are like 'god mothers' to these children of the weave. ",
+                "Despite their direct connection to the weave, many fate weavers have trouble learning magic outside of healing, divination, and abjuration magic. Not impossible, but difficult - especially with evocation magic outside of healing. Some of the most deadly spells are outside the reach of most fate weavers, but they do gain access to the most powerful spell any mortal can cast if they make it to that point.",
+                "Fate weavers toy with the designs of most gods, including that of Mystra and The Raven Queen. Often, they relish the challenge of such a thing. Playing with fate, testing their luck against the worst odds imagineable. "
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Origins and Introductions",
+              "entries": [
+                "Fate weavers can come from almost any point of origin, as often times their unique abilities are a gift from the gods themselves. The weave has no favortism on whom receieves its boon.",
+                "Often though, their families are powerful mages as they draw forth the weave's power the most In doing so, their offspring becomes a sort of magnet for the weave, but not always.",
+                "It is also entirely possible for Mystra or The Raven Queen to choose specific individuals to be born with this power, or even obtain it later on in their travels.",
+                "It may be more fun to introduce your character as a traveling seer, or a fortune teller if you will, telling the fortunes of what's to come. Work with your DM on how you go about this, but also remember that keeping things simple is usually best for everyone."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Creating a Fate Weaver",
+              "entries": [
+                "As you make your Fate Weaver, think about how they came about their powers, whether it was by birth or some supernatural gift from a divine entity. Who taught you how to cast magic and why you chose to pursue it. You can base your character's personality on your chosen Aspect, or come up with something on your own.",
+                "Consider why you travel, are you seeking answers to a question you cannot find out through divination? Are you seeking a traveling party to aid and keep alive? Perhaps you thought it best to learn how to better yourself on a self-searching journey?",
+                "Fate Weavers are commonly of good or neutral alignments, but by nature alone the fate weaver can decide their own path. ",
+                {
+                  "type": "entries",
+                  "name": "Quick Build",
+                  "entries": [
+                    "You can make a fate weaver quickly by following these suggestions. First, make Charisma your highest ability score, followed by your Wisdom. Second, choose the {@background sage} background. Third, choose the {@spell guidance}, {@spell prestidigitation}, and {@spell sacred flame} cantrips, along with {@spell mage armor}, {@spell shield}, {@spell healing word}, and {@spell guiding bolt} spells."
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "cantripProgression": [
@@ -753,7 +857,6 @@
         5,
         5
       ],
-      "fluff": [],
       "page": 1,
       "classSpells": [
         "Blade Ward",
@@ -1150,7 +1253,7 @@
       "classSource": "FateWeaverJan2021",
       "level": 1,
       "entries": [
-        "Each Fate Weaver chosen by the Goddess of Magic is granted a certain aspect that can change the course of battle. The Aspect of the Sun empowers allies with greater power and enhanced abilities. The Aspect of the Moon heals allies and grants them moments of Respite. The Aspect of Twilight brings a timely end to those who dare harm their allies."
+        "Each Fate Weaver chosen by the Goddess of Magic is granted a certain aspect that can change the course of battle. Each of the various Aspects of Fate are loosely inspired by tarot cards and the infamous {@item Deck of Many Things|dmg}."
       ],
       "page": 1
     },
@@ -1344,7 +1447,7 @@
       "level": 15,
       "entries": [
         "You draw power from the infinite wellspring of magic, granting you the knowledge, wisdom, or cunning needed to learn magic you otherwise could not learn.",
-        "Beginning at 15th level, you gain two additional spells that you can prepare from any spell list. These spells do not have to be Fate Weaver spells and can come from any spellcasting list. These spells are always prepared and do not count against your total number of prepared spells.",
+        "Beginning at 15th level, you learn two additional spells that you can choose from any spell list. These spells do not have to be Fate Weaver spells and can come from any spellcasting list. These spells are always prepared and do not count against your total number of prepared spells.",
         "At 20th level, you can prepare an additional two spells from any spellcasting list, these spells are always prepared and do not count toward your total number of spells prepared."
       ],
       "page": 6
@@ -1731,7 +1834,7 @@
     {
       "name": "Boon of the Phoenix",
       "entries": [
-        "At 14th level, you learn the {@spell fire storm and {@spell Investiture of Flame|XGE} spells and they do not count against your total number of prepared spells. When you cast either of these spells, you instantly enter your Mantle of the Phoenix no action required and without spending a fate die."
+        "At 14th level, you learn the {@spell fire storm} and {@spell investiture of flame|XGE} spells and they do not count against your total number of prepared spells. When you cast either of these spells, you instantly enter your Mantle of the Phoenix no action required and without spending a fate die."
       ],
       "source": "FateWeaverJan2021",
       "className": "Fate Weaver",
@@ -2552,6 +2655,305 @@
         "When you cast either spell, you do not require material components. For the purposes of the spell, The Void itself counts as the material used for Imprisonment and if you successfully imprison a creature, they are sent to the void and cannot escape.",
         "The casting time of both spells becomes an action if they weren’t already, however you can only cast either spell in this manner once, regaining the ability to do so after a long rest."
       ]
+    },
+    {
+      "name": "Aspect of The Knight",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Knight",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 1,
+      "entries": [
+        "As someone who can bend the very fabric of reality to your whim, you hold a great power. With that great power comes an even greater responsibility, a responsibility to protect those around you and alter their fates to more promising ones. You’re a protective soul who likes to shelter your allies from harm behind a shield of protection.",
+        "At each indicated Fate Weaver level, add the listed spells to your spells prepared. They do not count towards your limit.",
+        {
+          "type": "table",
+          "caption": "Aspect Spells",
+          "colLabels": [
+            "Fate Weaver Level",
+            "Spells"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "1st",
+              "{@spell sanctuary}, {@spell shield}"
+            ],
+            [
+              "3rd",
+              "{@spell find steed}, {@spell warding bond}"
+            ],
+            [
+              "5th",
+              "{@spell protection from energy}, {@spell spirit guardians}"
+            ],
+            [
+              "7th",
+              "{@spell find greater steed|XGE}, {@spell guardian of faith}"
+            ],
+            [
+              "9th",
+              "{@spell destructive wave}, {@spell wall of force}"
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Bonus Proficiencies|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Mystical Combat|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|1"
+        }
+      ],
+      "page": 14
+    },
+    {
+      "name": "Bonus Proficiencies",
+      "entries": [
+        "{@i 1st-level Knight Feature}",
+        "You gain proficiency with light armor, medium armor, and shields. In addition, you gain proficiency in one of the following skills: acrobatics, athletics, perception, or survival."
+      ],
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Knight",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 1,
+      "header": 1,
+      "page": 14
+    },
+    {
+      "name": "Mystical Combat",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Knight",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "{@i 1st-level Knight Feature}",
+        "In addition to your magic, you’ve learned to wield certain weapons using your magical ability. During a short or long rest you can perform a 1-hour ritual and bond yourself with a singular weapon. You gain proficiency in that weapon if you did not already have it and you can use your spellcasting ability for its attack and damage rolls rather than Strength or Dexterity. You can also use that weapon as a spellcasting focus.",
+        "Your bond with that weapon breaks if you are not within 120 ft of it for any longer than 1 hour, if you die, or if your weapon is destroyed.",
+        "Typically, the way you’d roleplay using this feature is by having your weapon allow you to see the immediate movements of your enemies, allowing you to follow their movements and attack, however feel free to work with your DM on how you want to roleplay this feature."
+      ],
+      "page": 14
+    },
+    {
+      "name": "Boon of Protection",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Knight",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 6,
+      "entries": [
+        "{@i 6th-level Knight Feature}",
+        "You can use your magic to protect nearby allies with a magical barrier to absorb incoming damage. Whenever you use your Boon of Fate feature, the affected creatures gain temporary hit points equal to 5 times the spell slot level used.",
+        "In addition, you can expend one of your Divination Dice to grant one creature you can see within 30 ft of you temporary hit points equal to the number on the divination die. Once you do so, you cannot do so again until you finish a short or long rest."
+      ],
+      "page": 14,
+      "header": 2
+    },
+    {
+      "name": "Extra Attack",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Knight",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 6,
+      "entries": [
+        "{@i 6th-level Knight Feature}",
+        "You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can cast one of your cantrips in place of one of those attacks."
+      ],
+      "page": 14,
+      "header": 2
+    },
+    {
+      "name": "Obligation of The Bold and The Brave",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Knight",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 10,
+      "entries": [
+        "{@i 10th-level Knight Feature}",
+        "You can use your action to touch a creature and end one effect that is causing them to be charmed or frightened. You have a number of uses of this feature equal to your charisma modifier and regain all expended uses after a long rest."
+      ],
+      "page": 14,
+      "header": 2
+    },
+    {
+      "name": "Boon of the Knight",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Knight",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 14,
+      "entries": [
+        "{@i 14th-level Knight Feature}",
+        "You are immune to being charmed or frightened. In addition, whenever you magically bond with a weapon using your Mystical Combat feature, it becomes a magical weapon if it was not one already and gains a +1 bonus to attack and damage rolls. This bonus does not apply if it already had a magical bonus.",
+        "As a bonus action, you can magically call your bonded weapon so long as it is on the same plane of existence as you. If it is not on the same plane of existence as you, it takes an action to call it."
+      ],
+      "page": 14,
+      "header": 2
+    },
+    {
+      "name": "Knight of the Weave",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Knight",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 18,
+      "entries": [
+        "{@i 18th-level Knight Feature}",
+        "Reaching the pinnacle of your powers, you can now harness that magical might into protective energies far beyond what you could make previously. Whenever you cast a spell you create a magical ward that has a number of hit points equal to 5 times the level of the spell slot used. Whenever you or a creature within 30 ft of you takes damage, you can choose to subtract the damage from the ward’s hit points instead. Using this feature on a creature other than yourself costs a reaction. If the damage reduces the ward to 0 hit points, you take any remaining damage, even if it is intended for another creature and the ward is destroyed.",
+        "You can only have one of these magical wards at any given time, however if you would cast a spell and the ward that would have been created would have more hit points, you can choose to destroy your previous ward and create the new one.",
+        "Alternatively, you can expend one use of your divination dice and create a magical ward without having to cast a spell. Doing so takes an action and the number of hit points it has is equal to the number on the divination die. Once you create a magical ward using a divination die, you cannot do so again until you finish a short or long rest."
+      ],
+      "page": 14,
+      "header": 2
+    },
+    {
+      "name": "Aspect of The Balance",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Balance",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 1,
+      "entries": [
+        "Rather than fight the inevitable, you bring about it. You takeaway the unbalancing factors of fate and bring back the natural order of it. You are a true believer that fate is nothing more than the inescapable reality of what is to come. As such, you balance out all things that would interfere with that. Your visions are the outcome that is meant to happen, and your goal is to ensure it does. Any alteration to that fate is against the natural order, of which you have to correct.",
+        "At each indicated Fate Weaver level, add the listed spells to your spells prepared. They do not count towards your limit.",
+        {
+          "type": "table",
+          "caption": "Aspect Spells",
+          "colLabels": [
+            "Fate Weaver Level",
+            "Spells"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "1st",
+              "{@spell detect evil and good}, {@spell detect magic}"
+            ],
+            [
+              "3rd",
+              "{@spell detect thoughts}, {@spell see invisibility}"
+            ],
+            [
+              "5th",
+              "{@spell counterspell}, {@spell dispel magic}"
+            ],
+            [
+              "7th",
+              "{@spell arcane eye}, {@spell elemental bane|XGE}"
+            ],
+            [
+              "9th",
+              "{@spell dispel evil and good}, {@spell scrying}"
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Balance the Scales of Fate|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|1"
+        }
+      ],
+      "page": 15
+    },
+    {
+      "name": "Balance the Scales of Fate",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Balance",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 1,
+      "entries": [
+        "{@i 1st-level Balance Feature}",
+        "You use your ability to manipulate fate to readjust the balance of all things. As a reaction you can turn an advantage or disadvantage roll of a creature within 30 ft of you into a normal roll. That creature must use that result, and cannot change that result with a feature like Lucky or other similar ability.",
+        "You have a number of uses of this feature equal to your proficiency bonus, and regain all expended uses after a long rest."
+      ],
+      "header": 1,
+      "page": 15
+    },
+    {
+      "name": "Detriment of Chaos",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Balance",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 6,
+      "entries": [
+        "{@i 6th-level Balance Feature}",
+        "Whenever you would be hit by an attack that had advantage or disadvantage, as a reaction you can reduce that damage by half.",
+        "Alternatively, whenever you would have advantage or disadvantage on a saving throw against a spell or effect that would deal damage, you can spend a reaction to make it a normal roll and take half damage from it if you fail, or no damage if you succeed. You must use that result, and cannot change that result with a feature like Lucky or other similar ability.",
+        "You have a number of uses of this feature equal to your proficiency bonus, regaining all expended uses after a long rest."
+      ],
+      "page": 14,
+      "header": 2
+    },
+    {
+      "name": "Balance of Replenishment",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Balance",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 10,
+      "entries": [
+        "{@i 10th-level Balance Feature}",
+        "Whenever you make an advantage roll you had into a normal one using one of your Aspect of Balance features, you can regain one expended fate die. You can do so a number of times equal to your Charisma modifier, regaining all spent uses after a long rest."
+      ],
+      "page": 15,
+      "header": 2
+    },
+    {
+      "name": "Boon of Balance",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Balance",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 14,
+      "entries": [
+        "{@i 14th-level Balance Feature}",
+        "Whenever you roll without advantage or disadvantage with an attack, saving throw, or ability check you make with a weapon, spell, skill, or tool you add your proficiency bonus to, you can expend a spell slot to gain a bonus to the roll equal to 1 + the level of the spell slot spent. You can only do so a number of times equal to your proficiency bonus, regaining all expended uses after a long rest.",
+        "Alternatively, you can expend a use of your Fateful Divination to add a +4 bonus to the roll. You can only do so once, and regain the ability to do so after a long rest."
+      ],
+      "page": 15,
+      "header": 2
+    },
+    {
+      "name": "Balance of the Weave",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Balance",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 18,
+      "entries": [
+        "{@i 18th-level Balance Feature}",
+        "Whenever you fail an ability check, attack roll, or saving throw after expending a use of your fate dice, you can regain that spent fate die.",
+        "In addition, whenever you change a roll from advantage or disadvantage to a normal roll, you can roll a fate die and regain a number of hit points equal to the number rolled. Rolling a fate die in this way does not expend a use of it."
+      ],
+      "page": 15,
+      "header": 2
     }
   ]
 }
